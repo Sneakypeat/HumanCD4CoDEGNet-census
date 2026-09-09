@@ -1,0 +1,42 @@
+{
+  "analysis_id": "kinetics_8hr_sign_states",
+  "analysis_status": "POST_HOC_EXPLORATORY",
+  "authoritative_persisted_test_input": {
+    "column": "lost_minus_gained_exact_fraction",
+    "decode": "Python fractions.Fraction followed by one float conversion",
+    "note": "Use this exact rational vector to reproduce the paired Wilcoxon test; the decimal lost_minus_gained_fraction column is descriptive only.",
+    "path": "results_data/kinetics/kinetics_8hr_sign_states.paired_regulators.tsv"
+  },
+  "commit_marker": "results_data/kinetics/kinetics_8hr_sign_states.manifest.json",
+  "determinism": "The source hash is pinned; rows and keys are sorted; gzip mtime is zero; no timestamps or random operations enter any artifact.",
+  "input": {
+    "path": "results_data/kinetics/kinetics_8hr_edges.csv.gz",
+    "sha256": "5b7c0a46dfa14b5b597ad1210efecb0fedb3d9538a11f568c8e967135846ad8d",
+    "size_bytes": 10082319
+  },
+  "outputs": {
+    "paired_regulators_tsv": {
+      "path": "results_data/kinetics/kinetics_8hr_sign_states.paired_regulators.tsv",
+      "rows": 75,
+      "sha256": "a8bc41f6745335396fdd51726011533b558f3a7ced452b67fd878174c97ec3ba",
+      "size_bytes": 4930
+    },
+    "sign_states_csv_gz": {
+      "path": "results_data/kinetics/kinetics_8hr_sign_states.csv.gz",
+      "rows": 4377,
+      "sha256": "9d34bdb23acdc1a1556854bea0e148a8f1945fb5dfe14c41ad5162a4cd11c222",
+      "size_bytes": 278142
+    },
+    "summary_json": {
+      "path": "results_data/kinetics/kinetics_8hr_sign_states.summary.json",
+      "sha256": "af034de06b5b0de8a414e8f8bd3c692377de5faa8a3d7899b6db83d0f2a70a9a",
+      "size_bytes": 3880
+    }
+  },
+  "schema_version": "kinetics-8hr-sign-states-manifest-v1",
+  "script": {
+    "path": "scripts/kinetics_8hr_sign_states.py",
+    "sha256": "68639d57de496a8039e120b77f9ad9e1d75850174a9f11a454095244a669b83e",
+    "size_bytes": 24526
+  }
+}

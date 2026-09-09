@@ -1,0 +1,131 @@
+{
+  "seed": 20260812,
+  "n_perm": 5000,
+  "D1_conditional_on_target_sign_composition": {
+    "_design": "within-TARGET permutation of which edges are reversing; the target's resting knockdown-effect sign composition among its both-significant trans edges and its reversal count are both held fixed. regulator reversal margins are not simultaneously fixed, so this tests target-associated concordance rather than a causal target contribution.",
+    "min_rev_2": {
+      "n_targets": 910,
+      "n_unanimous_observed": 631,
+      "n_edges": 13443,
+      "n_reversing": 2708,
+      "observed": 0.6934,
+      "null_mean": 0.4668,
+      "null_q025": 0.4396,
+      "null_q975": 0.4945,
+      "weak_null_mean_same_targets": 0.3818,
+      "excess": 0.2266,
+      "z": 15.84,
+      "p": 0.0002
+    },
+    "min_rev_3": {
+      "n_targets": 413,
+      "n_unanimous_observed": 279,
+      "n_edges": 7083,
+      "n_reversing": 1714,
+      "observed": 0.6755,
+      "null_mean": 0.331,
+      "null_q025": 0.293,
+      "null_q975": 0.368,
+      "weak_null_mean_same_targets": 0.2319,
+      "excess": 0.3445,
+      "z": 17.84,
+      "p": 0.0002
+    },
+    "min_rev_4": {
+      "n_targets": 205,
+      "n_unanimous_observed": 143,
+      "n_edges": 3851,
+      "n_reversing": 1090,
+      "observed": 0.6976,
+      "null_mean": 0.254,
+      "null_q025": 0.2098,
+      "null_q975": 0.3024,
+      "weak_null_mean_same_targets": 0.1651,
+      "excess": 0.4435,
+      "z": 19.31,
+      "p": 0.0002
+    }
+  },
+  "D2_held_out_donors": {
+    "_join_check": {
+      "canonical_file": "results_data/holdout/holdout_donors_edges.csv.gz",
+      "n_rows": 72768,
+      "key": [
+        "regulator_id",
+        "target_id",
+        "split",
+        "fold"
+      ],
+      "key_unique": true,
+      "identity_and_signs_colocated": true
+    },
+    "_design": "one record per regulator-target edge within each directional donor fold; training reversal must reproduce in the held-out pair; direction is the held-out resting sign; folds are not pooled",
+    "_verdict": "underpowered: only two of six directional folds retain at least 15 targets with >=2 distinct reproduced reversal edges; no external replication claim is made",
+    "fold_1": {
+      "insufficient": true,
+      "n_targets": 7,
+      "n_reversing_edges": 15,
+      "fold": "CE0006864_CE0008162->CE0008678_CE0010866",
+      "n_unique_reproduced_edges": 60
+    },
+    "fold_2": {
+      "insufficient": true,
+      "n_targets": 7,
+      "n_reversing_edges": 20,
+      "fold": "CE0006864_CE0008678->CE0008162_CE0010866",
+      "n_unique_reproduced_edges": 61
+    },
+    "fold_3": {
+      "n_targets": 17,
+      "n_reversing_edges": 42,
+      "observed": 0.9412,
+      "null_mean": 0.8312,
+      "excess": 0.11,
+      "z": 4.99,
+      "p": 0.014,
+      "fold": "CE0006864_CE0010866->CE0008162_CE0008678",
+      "n_unique_reproduced_edges": 84
+    },
+    "fold_4": {
+      "n_targets": 17,
+      "n_reversing_edges": 42,
+      "observed": 0.9412,
+      "null_mean": 0.8318,
+      "excess": 0.1094,
+      "z": 4.73,
+      "p": 0.0172,
+      "fold": "CE0008162_CE0008678->CE0006864_CE0010866",
+      "n_unique_reproduced_edges": 84
+    },
+    "fold_5": {
+      "insufficient": true,
+      "n_targets": 7,
+      "n_reversing_edges": 20,
+      "fold": "CE0008162_CE0010866->CE0006864_CE0008678",
+      "n_unique_reproduced_edges": 61
+    },
+    "fold_6": {
+      "insufficient": true,
+      "n_targets": 7,
+      "n_reversing_edges": 15,
+      "fold": "CE0008678_CE0010866->CE0006864_CE0008162",
+      "n_unique_reproduced_edges": 60
+    }
+  },
+  "D3_arce_independent": {
+    "_design": "one record per regulator-target edge within each Arce assay; restricted to our reversing edges that also reverse in Arce; direction is read from Arce's own resting effect; assays are not pooled",
+    "_verdict": "underpowered: neither assay retains 15 targets with >=2 distinct Arce-reversing edges; no independent target-direction replication claim is made",
+    "bulk": {
+      "insufficient": true,
+      "n_targets": 0,
+      "n_reversing_edges": 0,
+      "n_unique_arce_reversing_edges": 45
+    },
+    "perturbseq": {
+      "insufficient": true,
+      "n_targets": 2,
+      "n_reversing_edges": 4,
+      "n_unique_arce_reversing_edges": 116
+    }
+  }
+}

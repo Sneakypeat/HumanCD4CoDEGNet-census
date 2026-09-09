@@ -1,0 +1,56 @@
+{
+  "approval": {
+    "approved_by_user": true,
+    "approved_route": "proportionate_four_step_closure",
+    "does_not_convert_failed_audit_to_pass": true,
+    "does_not_claim_raw_spool_capture": true,
+    "long_audit_rerun_required": false,
+    "scientific_checks_waived": false,
+    "separate_final_custody_closure_required": true
+  },
+  "claim_boundary": "Job 417626 is not a PASS, and no raw Slurm spool capture is claimed. This exception covers only expired live scheduler-control evidence; it does not waive analytical checks, authorize a mechanistic claim, or establish any biological result.",
+  "failed_primary_audit": {
+    "biological_values_emitted": false,
+    "elapsed": "05:23:15",
+    "exit_code": "2:0",
+    "failure_gate": "Slurm control record unavailable",
+    "failure_occurred_at_identical_final_scheduler_recheck": true,
+    "first_scheduler_and_stored_wrapper_gate_passed_before_table_read": true,
+    "job_id": "417626",
+    "job_name": "rshape51_postaudit",
+    "report_emitted": false,
+    "report_path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/post_gather_audits/v5_1_full_20260814_r1_job417604_r1/post_gather_custody_audit_v5_1.json",
+    "state": "FAILED",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 201,
+    "stdout_sha256": "83e17629b7df4864f36efd84efedd60a9e003395b962324f9aff83709db8ea6b",
+    "substantive_checks_and_output_lock_reached_before_failure": true,
+    "validator_path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/audit_tools/v5_1_full_20260814_r1/post_gather_validator_v5_1.py",
+    "validator_sha256": "8fe0457771b8f1c78347dcece8f728164a56c8f0fba80c186ccd02ac041e88b1",
+    "wrapper_path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/audit_tools/v5_1_full_20260814_r1/08_post_gather_audit_v5_1.sbatch",
+    "wrapper_sha256": "644e078c779fb15839547a7802077d9b4b72adac71268f6aa7c26adcfad242a0"
+  },
+  "generated_at_utc": "2026-08-15T21:51:58Z",
+  "operational_exception": {
+    "durable_sacct_record_available": true,
+    "final_live_scontrol_record_available": false,
+    "raw_slurm_batch_payload_persisted": false,
+    "scope": "expired_live_slurm_control_and_raw_spool_only",
+    "sealed_submission_wrapper_bytes": 3740,
+    "sealed_submission_wrapper_path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/staged/v5_1_prep_20260814_r4/scripts/response_shape/hpc/07_gather_v5_1.sbatch",
+    "sealed_submission_wrapper_sha256": "965d5b3b6c3d28bdc8d75ed0658aab762579bb5bd20dfbbd6b323d000672a70b"
+  },
+  "optional_archive_attempt": {
+    "biological_outputs_opened": false,
+    "elapsed": "00:00:02",
+    "exit_code": "2:0",
+    "final_archive_created": false,
+    "job_id": "417643",
+    "state": "FAILED",
+    "status_line_sha256": "e041eb59fa6dd58844d0c473d55e0926a514729ea17577c70576f559e5bb552a"
+  },
+  "run_id": "v5_1_full_20260814_r1",
+  "schema_version": "response-shape-audit-exception-v5.1",
+  "status": "RECORDED_PROPORTIONATE_OPERATIONAL_EXCEPTION"
+}

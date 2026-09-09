@@ -1,0 +1,227 @@
+{
+  "analysis_version": 4,
+  "seed": 20260813,
+  "n_bootstrap": 5000,
+  "_source": "data/census/census_master_edges.csv.gz, is_self=false by endpoint Ensembl identity (83,489 trans census edges)",
+  "_scope": "618 perturbations passed the upstream on-target and >=50 significant-target gate in each endpoint state; CARD6 contributed no shared significant edge, leaving 617 represented census regulators. This signal-selected census is not a sample of all perturbed genes, so it cannot establish a whole-network scale-free claim",
+  "regulator_outdegree_full_census": {
+    "alpha_at_optimiser_bound": false,
+    "label": "regulator out-degree",
+    "n": 617,
+    "min": 1,
+    "max": 3058,
+    "median": 39.0,
+    "xmin": 188,
+    "alpha": 2.26311996037381,
+    "n_tail": 115,
+    "ks_distance": 0.06322867513494229,
+    "tail_fraction": 0.1864,
+    "gof_p": 0.1902,
+    "gof_exceedances": 950,
+    "gof_valid_bootstraps": 5000,
+    "gof_execution": "serial; shared deterministic RNG stream",
+    "power_law_verdict": "not ruled out (this is NOT confirmation)",
+    "model_comparison": {
+      "lognormal_params": {
+        "mu": 4.330270386758555,
+        "sigma": 1.3296658592713595
+      },
+      "exponential_params": {
+        "q": 0.9970996948374569,
+        "lambda": 0.0029045191975250405
+      },
+      "cutoff_power_law_params": {
+        "alpha": 1.6142757057333261,
+        "lambda": 0.0007212858318616964,
+        "alpha_at_lower_bound": false
+      },
+      "log_likelihood": {
+        "power_law": -781.0675518809464,
+        "lognormal": -778.5289490167752,
+        "exponential": -786.7710926855586,
+        "cutoff_power_law": -777.6618812183992
+      },
+      "aicc": {
+        "power_law": 1564.1705019919814,
+        "lognormal": 1561.1650408906933,
+        "exponential": 1575.5775836012058,
+        "cutoff_power_law": 1559.4309052939414
+      },
+      "delta_aicc": {
+        "power_law": 4.739596698040032,
+        "lognormal": 1.734135596751912,
+        "exponential": 16.146678307264438,
+        "cutoff_power_law": 0.0
+      },
+      "power_law_vs_lognormal": {
+        "R": -2.5386028641711604,
+        "vuong_z": -1.4626496145106593,
+        "p": 0.14356327975521074,
+        "favours": "indistinguishable",
+        "q_bh_across_six": 0.2153449196328161
+      },
+      "power_law_vs_exponential": {
+        "R": 5.703540804612238,
+        "vuong_z": 0.9528718347053412,
+        "p": 0.34065501214718785,
+        "favours": "indistinguishable",
+        "q_bh_across_six": 0.34065501214718785
+      },
+      "power_law_vs_cutoff_power_law": {
+        "delta_log_likelihood": -3.405670662547209,
+        "test": "not tested: cutoff power law contains the pure power law at lambda=0; relative support is reported by AICc"
+      }
+    },
+    "verdict": "power-law tail compatible by GOF; this is not confirmation"
+  },
+  "target_indegree_full_census": {
+    "alpha_at_optimiser_bound": false,
+    "label": "target in-degree",
+    "n": 9554,
+    "min": 1,
+    "max": 56,
+    "median": 7.0,
+    "xmin": 31,
+    "alpha": 6.97330160525813,
+    "n_tail": 183,
+    "ks_distance": 0.05117321075094283,
+    "tail_fraction": 0.0192,
+    "gof_p": 0.0414,
+    "gof_exceedances": 206,
+    "gof_valid_bootstraps": 5000,
+    "gof_execution": "serial; shared deterministic RNG stream",
+    "power_law_verdict": "REJECTED (p < 0.1)",
+    "model_comparison": {
+      "lognormal_params": {
+        "mu": 3.0611909086241784,
+        "sigma": 0.3292400568286102
+      },
+      "exponential_params": {
+        "q": 0.8454391891891891,
+        "lambda": 0.16789903612873047
+      },
+      "cutoff_power_law_params": {
+        "alpha": 4.323492459706565e-13,
+        "lambda": 0.16789903541278273,
+        "alpha_at_lower_bound": true
+      },
+      "log_likelihood": {
+        "power_law": -512.4019723221779,
+        "lognormal": -509.85016634009196,
+        "exponential": -509.75861742112215,
+        "cutoff_power_law": -509.7586174211219
+      },
+      "aicc": {
+        "power_law": 1026.8260440918696,
+        "lognormal": 1023.7669993468506,
+        "exponential": 1021.5393342897581,
+        "cutoff_power_law": 1023.5839015089106
+      },
+      "delta_aicc": {
+        "power_law": 5.286709802111432,
+        "lognormal": 2.2276650570925085,
+        "exponential": 0.0,
+        "cutoff_power_law": 2.044567219152441
+      },
+      "power_law_vs_lognormal": {
+        "R": -2.5518059820859005,
+        "vuong_z": -1.4649690854427908,
+        "p": 0.14292935238545165,
+        "favours": "indistinguishable",
+        "q_bh_across_six": 0.2153449196328161
+      },
+      "power_law_vs_exponential": {
+        "R": -2.64335490105583,
+        "vuong_z": -1.977424591022029,
+        "p": 0.04799365659621271,
+        "favours": "exponential",
+        "q_bh_across_six": 0.1439809697886381
+      },
+      "power_law_vs_cutoff_power_law": {
+        "delta_log_likelihood": -2.643354901056,
+        "test": "not tested: cutoff power law contains the pure power law at lambda=0; relative support is reported by AICc"
+      }
+    },
+    "verdict": "power law REJECTED by goodness of fit"
+  },
+  "regulator_outdegree_reversing_subgraph": {
+    "alpha_at_optimiser_bound": false,
+    "label": "reversals per regulator",
+    "n": 324,
+    "min": 1,
+    "max": 288,
+    "median": 3.0,
+    "xmin": 8,
+    "alpha": 1.9593919826903476,
+    "n_tail": 110,
+    "ks_distance": 0.07995962025954939,
+    "tail_fraction": 0.3395,
+    "gof_p": 0.0196,
+    "gof_exceedances": 97,
+    "gof_valid_bootstraps": 5000,
+    "gof_execution": "serial; shared deterministic RNG stream",
+    "power_law_verdict": "REJECTED (p < 0.1)",
+    "model_comparison": {
+      "lognormal_params": {
+        "mu": -0.2338287923990158,
+        "sigma": 2.0576587031044493
+      },
+      "exponential_params": {
+        "q": 0.9644702842377261,
+        "lambda": 0.036176256610482065
+      },
+      "cutoff_power_law_params": {
+        "alpha": 1.6609975212989219,
+        "lambda": 0.004105367717463836,
+        "alpha_at_lower_bound": false
+      },
+      "log_likelihood": {
+        "power_law": -451.1654672331342,
+        "lognormal": -449.6466125735566,
+        "exponential": -475.1347478197915,
+        "cutoff_power_law": -448.6884130087329
+      },
+      "aicc": {
+        "power_law": 904.3679715033055,
+        "lognormal": 903.4053746798235,
+        "exponential": 952.3065326766201,
+        "cutoff_power_law": 901.4889755501761
+      },
+      "delta_aicc": {
+        "power_law": 2.878995953129447,
+        "lognormal": 1.9163991296474023,
+        "exponential": 50.81755712644406,
+        "cutoff_power_law": 0.0
+      },
+      "power_law_vs_lognormal": {
+        "R": -1.5188546595775376,
+        "vuong_z": -1.2045752541195756,
+        "p": 0.22836731447085878,
+        "favours": "indistinguishable",
+        "q_bh_across_six": 0.2740407773650305
+      },
+      "power_law_vs_exponential": {
+        "R": 23.969280586657284,
+        "vuong_z": 2.626252091445004,
+        "p": 0.008633085362977405,
+        "favours": "power law",
+        "q_bh_across_six": 0.051798512177864436
+      },
+      "power_law_vs_cutoff_power_law": {
+        "delta_log_likelihood": -2.4770542244013427,
+        "test": "not tested: cutoff power law contains the pure power law at lambda=0; relative support is reported by AICc"
+      }
+    },
+    "verdict": "power law REJECTED by goodness of fit"
+  },
+  "direction_split": {
+    "n_targets_lost": 1445,
+    "n_targets_gained": 1412,
+    "n_targets_both": 280,
+    "median_indegree_lost": 1.0,
+    "median_indegree_gained": 1.0,
+    "regulator_median_outdeg_reversing": 91.0,
+    "regulator_median_outdeg_nonreversing": 21.0,
+    "_caveat": "the regulator split is guaranteed by sampling: a regulator with more edges is more likely to carry at least one reversal, so panel a is descriptive only"
+  }
+}

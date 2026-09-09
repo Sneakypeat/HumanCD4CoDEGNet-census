@@ -1,0 +1,212 @@
+{
+  "schema_version": "fig3b-r49-x-279-dense-tail-synthesis-diagnostic-v2",
+  "status": "DIAGNOSTIC_ONLY_NOT_PROMOTED",
+  "created_utc": "2026-09-03T06:56:12.507730+00:00",
+  "renderer": {
+    "path": "scripts/fig3b_r49_x_279_dense_tail_synthesis_diagnostic_v2.py",
+    "sha256": "6efeceac28f6f17b7a6de3788f07d5dbd2acbf94c6206778f65014efcb308253"
+  },
+  "software": {
+    "python": "3.14.7",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  },
+  "inputs": {
+    "census": {
+      "path": "results_data/census/census_master_edges.csv.gz",
+      "sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+      "bytes": 9488575
+    },
+    "census_manifest": {
+      "path": "results_data/census/census_master_manifest.json",
+      "sha256": "1b4b6b7a74c255faf3ba3184b9f7fadf9171dc57167dfde4d9dd539b51dd0af5",
+      "bytes": 2591
+    },
+    "r49": {
+      "path": "results_data/census/fig3_biological_bridge/all49_enriched_regulators.csv",
+      "sha256": "46fbb6ddf4325c9f33e0b58ad6bf587ef512ed4cd19fb59d10255c3529b83905",
+      "bytes": 9369
+    },
+    "t279_query": {
+      "path": "results_data/census/fig3b_compound_target_pathway_randomization_freeze/production_v1/02_query_targets.tsv",
+      "sha256": "55388879be2bfecd14f5f453c5a4333c3cb469b7321d2cc67d68b6e5dde55515",
+      "bytes": 14978
+    },
+    "concentration_result": {
+      "path": "results_data/census/convergence_test_results.json",
+      "sha256": "920fcba9c9ee6873ac3c38b29791e75fbf24b309bc0c4da3853531e6bb96ad1a",
+      "bytes": 1343
+    },
+    "regulator_tests": {
+      "path": "results_data/census/per_regulator_enrichment_all.csv",
+      "sha256": "d86317e954c14d7a8cee78b3e990622b4fe3f497ec8e845047f6560a79e7640d",
+      "bytes": 86217
+    }
+  },
+  "semantic_freeze": {
+    "full_cells": 13671,
+    "full_reversal_cells": 537,
+    "full_lost_cells": 330,
+    "full_gained_cells": 207,
+    "full_stable_cells": 430,
+    "full_outside_cells": 12703,
+    "full_self_cells": 1,
+    "full_reversal_positive_rows": 43,
+    "full_reversal_zero_rows": 6,
+    "full_reversal_positive_targets": 257,
+    "full_reversal_zero_targets": 22,
+    "dense_targets": 80,
+    "dense_lost_targets": 52,
+    "dense_gained_targets": 28,
+    "context_targets": 199,
+    "context_lost_targets": 109,
+    "context_gained_targets": 90,
+    "t279_whole_census_reversals": 1160,
+    "t279_whole_census_lost": 693,
+    "t279_whole_census_gained": 467,
+    "dense_full_census_reversals": 500,
+    "dense_full_census_stable": 988,
+    "dense_cells": 3920,
+    "dense_reversal_cells": 208,
+    "dense_lost_cells": 137,
+    "dense_gained_cells": 71,
+    "dense_stable_cells": 128,
+    "dense_outside_cells": 3584,
+    "dense_self_cells": 0,
+    "dense_reversal_positive_rows": 37,
+    "dense_reversal_zero_rows": 12,
+    "dense_reversal_positive_targets": 77,
+    "dense_reversal_zero_targets": 3,
+    "target_whole_census_burden_min": 3,
+    "target_whole_census_burden_max": 18,
+    "target_r49_burden_min": 0,
+    "target_r49_burden_max": 7,
+    "row_full_burden_min": 0,
+    "row_full_burden_max": 113,
+    "row_dense_burden_min": 0,
+    "row_dense_burden_max": 45,
+    "edge_gate_both_endpoints_adjp_lt_010": 537
+  },
+  "selection": {
+    "rows": "exact 49 degree-conditioned two-sided BH q<0.05 reversal-enriched regulators",
+    "columns": "exact 279 full-census targets with >=3 reversals, unanimous orientation, and >=1 stable edge",
+    "dense_tail_emphasis": "column target has >=5 whole-census reversals",
+    "cells": "unique trans census dyad with kind=rev in the R49-by-T279 intersection"
+  },
+  "ordering": {
+    "rows": "pre-existing R49 display_rank ascending",
+    "columns": [
+      "dense_tail_member descending",
+      "orientation lost then gained",
+      "whole-census reversal burden descending",
+      "R49 projected reversal count descending",
+      "target_ensg ascending"
+    ],
+    "clustering": null,
+    "ordering_uses_r49_projected_burden": true,
+    "r49_burden_role": "descriptive within-stratum ordering only; not a cluster or test"
+  },
+  "tested_evidence": {
+    "regulator_family": "degree-conditioned regulator test with two-sided BH q<0.05",
+    "global_ge5_target_tail": {
+      "observed": 110,
+      "null_mean": 16.3,
+      "p_two_sided": 0.0004,
+      "n_permutations": 5000
+    },
+    "edge_gate": "adjusted p<0.10 in Rest and 48 h plus opposite coefficient sign"
+  },
+  "descriptive_encoding": {
+    "cell_states": {
+      "0": "outside both-endpoint census; white",
+      "1": "eligible stable dyad; light grey",
+      "2": "lost reversal; red",
+      "3": "gained reversal; teal",
+      "4": "self-ineligible; slate mask"
+    },
+    "magnitude_encoding": null,
+    "z_score": null,
+    "top_tracks": [
+      "dense >=5 membership",
+      "whole-census target orientation",
+      "R49 reversal burden per target",
+      "whole-census reversal burden per target"
+    ],
+    "right_tracks": [
+      "R49 reversal burden across all T279 targets",
+      "R49 reversal burden across the \u22655-burden subset"
+    ],
+    "target_labels": "all 80 \u22655-burden target symbols in the zoom; overview unlabeled",
+    "regulator_labels": "all 49 regulator symbols in the zoom"
+  },
+  "claim_boundary": "Rows are the 49 regulator-level BH-significant reversal-enriched regulators from the 617-regulator family. Columns are all 279 targets with >=3 reversals, >=1 stable edge and unanimous reversal orientation. The >=5 mark is the previously tested whole-census burden threshold (110 targets); 80 displayed targets meet it, but this intersection and its 208 R49 edges were not separately tested. Cells show the fixed both-endpoint census state. No individual cell, target, R49-by-target intersection, cluster or module is tested. Blank means outside the both-endpoint census, not absence of regulation.",
+  "geometry": {
+    "figure_width_inches": 15.5,
+    "figure_height_inches": 11.0,
+    "overview_cell_width_points": 2.293906810035842,
+    "overview_cell_height_points": 2.293906810035841,
+    "overview_width_inches": 8.888888888888888,
+    "overview_height_inches": 1.561131023496614,
+    "zoom_cell_width_points": 8.0,
+    "zoom_cell_height_points": 7.999999999999997,
+    "zoom_width_inches": 8.888888888888888,
+    "zoom_height_inches": 5.444444444444442,
+    "zoom_row_label_pitch_points": 7.999999999999981,
+    "zoom_target_label_pitch_points": 7.999999999999981,
+    "overview_targets": 279,
+    "zoom_targets": 80,
+    "row_labels": 49,
+    "target_labels": 80,
+    "column_track_count_per_panel": 4,
+    "row_bar_axes": 2,
+    "visible_text_min_points": 5.0,
+    "visible_text_max_points": 7.0,
+    "overview_and_zoom_tracks": 8,
+    "row_bars_present": true
+  },
+  "export": {
+    "pdf_vector_heatmap": true,
+    "pdf_fonttype": 42,
+    "png_dpi": 300,
+    "zoom_square_cell_side_points": 8.0,
+    "overview_square_cell_side_points": 2.293906810035842
+  },
+  "outputs": {
+    "Fig3b_R49_x_279_dense_tail_synthesis_v2.pdf": {
+      "sha256": "22d878b42b9a491ef5035c16480b8f21ca2d4e1eaab423027ad52d68b5798f80",
+      "bytes": 364593
+    },
+    "Fig3b_R49_x_279_dense_tail_synthesis_v2.png": {
+      "sha256": "ff16bd28a6347d57b7b15310ec5ace21d02767ea2ca3f0fd67403100414a4669",
+      "bytes": 591380
+    },
+    "displayed_edge_values.tsv": {
+      "sha256": "a2a422ca26c5affedb1282868cc6465c704ba95be0d5ec3648e096fe617330f6",
+      "bytes": 107615
+    },
+    "regulator_order.tsv": {
+      "sha256": "cf98467146d55095406842d2e86204f726e36dbc811f313c4428a4ec11eca0f8",
+      "bytes": 9837
+    },
+    "target_order.tsv": {
+      "sha256": "a5338d656eeeb8f324b02559b6fc8083cef668dc2d5b7b82220adf49e1a886d6",
+      "bytes": 20202
+    },
+    "cell_state_matrix.tsv": {
+      "sha256": "98ea5a8aba7287e2d56f87fc1614d9fcc612b878cb29615d4cc6f617546c6175",
+      "bytes": 32605
+    },
+    "cell_scope.tsv.gz": {
+      "sha256": "a774f913a735983366ff750da87269ea240ec1b1c1cfcfc1cc30666d49bdba62",
+      "bytes": 58619
+    },
+    "semantic_summary.tsv": {
+      "sha256": "b9ac394e9fc72a6c401097f8992bda4220b8b1af8b9ac4d89b82f735f41ae610",
+      "bytes": 1093
+    }
+  },
+  "canonical_changes": false,
+  "manuscript_changes": false,
+  "legend_changes": false
+}

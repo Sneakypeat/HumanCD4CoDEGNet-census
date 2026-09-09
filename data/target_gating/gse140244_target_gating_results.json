@@ -1,0 +1,682 @@
+{
+  "status": "GSE140244_FROZEN_TARGET_GATING_COMPLETE",
+  "source": {
+    "counts_filename": "GSE140244_rnaseq_gene_counts.txt.gz",
+    "counts_sha256": "42b08f3fa46dc26a66f04cfe63453b7e50015e1244448936c6d84cbd7d0a1ae4",
+    "frozen_universe_sha256": "47706ee445125a03255cd25b9ca83097a190aefc14f06fb15fdfa9184eab319b",
+    "freeze_manifest_sha256": "904ca781ea95b2c47b421fe235d8a5673b498e4f74237f29c8947d34fed3cbb2",
+    "author_normalized_filename": "GSE140244_rnaseq_gene_normalized.txt.gz",
+    "author_normalized_sha256": "aa0f3b9ba1e6b3254f7fb172a68607a75db2b46bebdb3a50abecb4cbfc81f74a"
+  },
+  "processing": {
+    "raw_gene_rows": 57820,
+    "version_collapsed_nonzero_genes": 41555,
+    "donor_time_pseudobulks": 173,
+    "normalization": "edgeR TMM log2 CPM, prior.count=0.5",
+    "replicate_handling": "raw counts summed within donor and time",
+    "inferential_unit": "donor"
+  },
+  "mapping": {
+    "frozen_targets": 633,
+    "mapped_targets": 629,
+    "unmapped_target_ids": ["ENSG00000263001", "ENSG00000273983", "ENSG00000275713", "ENSG00000276043"]
+  },
+  "primary_and_sensitivities": {
+    "minimum_2": {
+      "n_mapped_targets": 629,
+      "n_lost_predicted_induced": 351,
+      "n_gained_predicted_repressed": 278,
+      "donor_auc": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5710354793089,
+        "q25": 0.559895673205,
+        "q75": 0.5840993871569,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "donor_stratified_auc": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5957707095421,
+        "q25": 0.5841488989864,
+        "q75": 0.6094023068857,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_difference": {
+        "n": 22,
+        "positive": 21,
+        "negative": 1,
+        "ties": 0,
+        "median": 0.3862966420915,
+        "q25": 0.3139165411412,
+        "q75": 0.4493321489282,
+        "exact_one_sided_sign_p": 5.483627319336e-06
+      }
+    },
+    "minimum_3": {
+      "n_mapped_targets": 280,
+      "n_lost_predicted_induced": 162,
+      "n_gained_predicted_repressed": 118,
+      "donor_auc": {
+        "n": 22,
+        "positive": 20,
+        "negative": 2,
+        "ties": 0,
+        "median": 0.5449623352166,
+        "q25": 0.5287063193137,
+        "q75": 0.5545616237707,
+        "exact_one_sided_sign_p": 6.05583190918e-05
+      },
+      "donor_stratified_auc": {
+        "n": 22,
+        "positive": 20,
+        "negative": 2,
+        "ties": 0,
+        "median": 0.5438373570521,
+        "q25": 0.529542566709,
+        "q75": 0.5559085133418,
+        "exact_one_sided_sign_p": 6.05583190918e-05
+      },
+      "median_delta_difference": {
+        "n": 22,
+        "positive": 20,
+        "negative": 2,
+        "ties": 0,
+        "median": 0.3103904493824,
+        "q25": 0.1362210124686,
+        "q75": 0.3651296937576,
+        "exact_one_sided_sign_p": 6.05583190918e-05
+      }
+    },
+    "minimum_5": {
+      "n_mapped_targets": 80,
+      "n_lost_predicted_induced": 52,
+      "n_gained_predicted_repressed": 28,
+      "donor_auc": {
+        "n": 22,
+        "positive": 20,
+        "negative": 2,
+        "ties": 0,
+        "median": 0.5408653846154,
+        "q25": 0.5278159340659,
+        "q75": 0.5769230769231,
+        "exact_one_sided_sign_p": 6.05583190918e-05
+      },
+      "donor_stratified_auc": {
+        "n": 22,
+        "positive": 13,
+        "negative": 9,
+        "ties": 0,
+        "median": 0.5078125,
+        "q25": 0.486328125,
+        "q75": 0.53125,
+        "exact_one_sided_sign_p": 0.2617335319519
+      },
+      "median_delta_difference": {
+        "n": 22,
+        "positive": 15,
+        "negative": 7,
+        "ties": 0,
+        "median": 0.04618842943253,
+        "q25": -0.06548726730881,
+        "q75": 0.253290647877,
+        "exact_one_sided_sign_p": 0.0669002532959
+      }
+    }
+  },
+  "target_level_secondary": {
+    "n": 629,
+    "table_rows_activation_induced_repressed_cols_lost_gained": [
+      [259, 163],
+      [92, 115]
+    ],
+    "agreement_fraction": 0.5945945945946,
+    "odds_ratio": 1.983993072471,
+    "confidence_interval_95": [1.398052741545, 2.822543182146],
+    "fisher_two_sided_p": 8.086720046059e-05,
+    "inference_boundary": "secondary because coexpressed targets are not biological replicates"
+  },
+  "timecourse_secondary": {
+    "hour_0": {
+      "time": 0,
+      "n": 0,
+      "positive": 0,
+      "negative": 0,
+      "ties": 22,
+      "median": 0.5,
+      "q25": 0.5,
+      "q75": 0.5,
+      "exact_one_sided_sign_p": null,
+      "median_delta_lost_across_donors": {
+        "n": 0,
+        "positive": 0,
+        "negative": 0,
+        "ties": 22,
+        "median": 0,
+        "q25": 0,
+        "q75": 0,
+        "exact_one_sided_sign_p": null
+      },
+      "median_delta_gained_across_donors": {
+        "n": 0,
+        "positive": 0,
+        "negative": 0,
+        "ties": 22,
+        "median": 0,
+        "q25": 0,
+        "q75": 0,
+        "exact_one_sided_sign_p": null
+      },
+      "median_delta_difference_across_donors": {
+        "n": 0,
+        "positive": 0,
+        "negative": 0,
+        "ties": 22,
+        "median": 0,
+        "q25": 0,
+        "q75": 0,
+        "exact_one_sided_sign_p": null
+      }
+    },
+    "hour_2": {
+      "time": 2,
+      "n": 22,
+      "positive": 22,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.68718871057,
+      "q25": 0.6703137490008,
+      "q75": 0.6977699891369,
+      "exact_one_sided_sign_p": 2.384185791016e-07,
+      "median_delta_lost_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.3079722202517,
+        "q25": 0.2151729985213,
+        "q75": 0.358115337918,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_gained_across_donors": {
+        "n": 22,
+        "positive": 7,
+        "negative": 15,
+        "ties": 0,
+        "median": -0.03169237870007,
+        "q25": -0.08391432916571,
+        "q75": 0.00744831268022,
+        "exact_one_sided_sign_p": 0.9737606048584
+      },
+      "median_delta_difference_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.3241048389719,
+        "q25": 0.2781885590563,
+        "q75": 0.3684841611754,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "holm_p_nonprimary_times": 1.430511474609e-06
+    },
+    "hour_4": {
+      "time": 4,
+      "n": 22,
+      "positive": 22,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.6929738260674,
+      "q25": 0.6859358666913,
+      "q75": 0.7057712804116,
+      "exact_one_sided_sign_p": 2.384185791016e-07,
+      "median_delta_lost_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.658222875582,
+        "q25": 0.5638164263166,
+        "q75": 0.7333280267275,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_gained_across_donors": {
+        "n": 22,
+        "positive": 0,
+        "negative": 22,
+        "ties": 0,
+        "median": -0.1807440787635,
+        "q25": -0.2126298199718,
+        "q75": -0.1106502659664,
+        "exact_one_sided_sign_p": 1
+      },
+      "median_delta_difference_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.8347359416646,
+        "q25": 0.7245607911355,
+        "q75": 0.9104422476492,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "holm_p_nonprimary_times": 1.430511474609e-06
+    },
+    "hour_8": {
+      "time": 8,
+      "n": 22,
+      "positive": 22,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.6967349197565,
+      "q25": 0.6863073643649,
+      "q75": 0.7058609522638,
+      "exact_one_sided_sign_p": 2.384185791016e-07,
+      "median_delta_lost_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.8663209224101,
+        "q25": 0.815157063351,
+        "q75": 0.9326586433025,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_gained_across_donors": {
+        "n": 22,
+        "positive": 0,
+        "negative": 22,
+        "ties": 0,
+        "median": -0.1680480348277,
+        "q25": -0.202065575839,
+        "q75": -0.1030036971297,
+        "exact_one_sided_sign_p": 1
+      },
+      "median_delta_difference_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 1.00668499635,
+        "q25": 0.9244782914381,
+        "q75": 1.097821678147,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "holm_p_nonprimary_times": 1.430511474609e-06
+    },
+    "hour_12": {
+      "time": 12,
+      "n": 19,
+      "positive": 19,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.6872040828875,
+      "q25": 0.6784162413659,
+      "q75": 0.6943214659042,
+      "exact_one_sided_sign_p": 1.907348632812e-06,
+      "median_delta_lost_across_donors": {
+        "n": 19,
+        "positive": 19,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.8118735668345,
+        "q25": 0.7855054239612,
+        "q75": 0.8462992888625,
+        "exact_one_sided_sign_p": 1.907348632812e-06
+      },
+      "median_delta_gained_across_donors": {
+        "n": 19,
+        "positive": 0,
+        "negative": 19,
+        "ties": 0,
+        "median": -0.09628477978448,
+        "q25": -0.1462544110007,
+        "q75": -0.07344483435723,
+        "exact_one_sided_sign_p": 1
+      },
+      "median_delta_difference_across_donors": {
+        "n": 19,
+        "positive": 19,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.910699102908,
+        "q25": 0.8512245457947,
+        "q75": 0.9845721691691,
+        "exact_one_sided_sign_p": 1.907348632812e-06
+      },
+      "holm_p_nonprimary_times": 1.907348632812e-06
+    },
+    "hour_24": {
+      "time": 24,
+      "n": 22,
+      "positive": 22,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.6102246408002,
+      "q25": 0.5991565721782,
+      "q75": 0.6189868617926,
+      "exact_one_sided_sign_p": 2.384185791016e-07,
+      "median_delta_lost_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.8092092951858,
+        "q25": 0.7603637496324,
+        "q75": 0.8548079942622,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_gained_across_donors": {
+        "n": 22,
+        "positive": 20,
+        "negative": 2,
+        "ties": 0,
+        "median": 0.2100398038328,
+        "q25": 0.1417061654551,
+        "q75": 0.2584404270499,
+        "exact_one_sided_sign_p": 6.05583190918e-05
+      },
+      "median_delta_difference_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.6134391885229,
+        "q25": 0.5057492272613,
+        "q75": 0.6905647968093,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "holm_p_nonprimary_times": 1.430511474609e-06
+    },
+    "hour_48": {
+      "time": 48,
+      "n": 22,
+      "positive": 22,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.5710354793089,
+      "q25": 0.559895673205,
+      "q75": 0.5840993871569,
+      "exact_one_sided_sign_p": 2.384185791016e-07,
+      "median_delta_lost_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.7587075320358,
+        "q25": 0.7031077351781,
+        "q75": 0.8382409406178,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_gained_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.3795339261223,
+        "q25": 0.3058743641228,
+        "q75": 0.4221861183499,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_difference_across_donors": {
+        "n": 22,
+        "positive": 21,
+        "negative": 1,
+        "ties": 0,
+        "median": 0.3862966420915,
+        "q25": 0.3139165411412,
+        "q75": 0.4493321489282,
+        "exact_one_sided_sign_p": 5.483627319336e-06
+      }
+    },
+    "hour_72": {
+      "time": 72,
+      "n": 22,
+      "positive": 22,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.564153805161,
+      "q25": 0.5501675582611,
+      "q75": 0.578793375556,
+      "exact_one_sided_sign_p": 2.384185791016e-07,
+      "median_delta_lost_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.7118006263007,
+        "q25": 0.6895866600578,
+        "q75": 0.7853581653167,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_gained_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.3941805045465,
+        "q25": 0.3344520681065,
+        "q75": 0.4535294396584,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_difference_across_donors": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.3231109211336,
+        "q25": 0.2956917129194,
+        "q75": 0.3780087060543,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "holm_p_nonprimary_times": 1.430511474609e-06
+    }
+  },
+  "claim_boundary": "A positive result supports an association between endogenous activation direction and shared reversal orientation. It does not establish direct edges, target agency, regulator-complex rewiring or biochemical mechanism.",
+  "literal_bidirectional_direction_gate": {
+    "lost_group_positive": {
+      "n": 22,
+      "positive": 22,
+      "negative": 0,
+      "ties": 0,
+      "median": 0.7587075320358,
+      "q25": 0.7031077351781,
+      "q75": 0.8382409406178,
+      "exact_one_sided_sign_p": 2.384185791016e-07,
+      "holm_p": 4.768371582031e-07
+    },
+    "gained_group_negative": {
+      "n": 22,
+      "positive": 0,
+      "negative": 22,
+      "ties": 0,
+      "median": -0.3795339261223,
+      "q25": -0.4221861183499,
+      "q75": -0.3058743641228,
+      "exact_one_sided_sign_p": 1,
+      "holm_p": 1
+    },
+    "both_groups_pass": false,
+    "interpretation": "Failure of this gate does not negate relative group separation; it forbids describing the independent cohort as two target groups moving in opposite absolute directions."
+  },
+  "prediction_adjudication": {
+    "frozen_direction_labels_preserved": true,
+    "relative_ordering_observed": true,
+    "literal_activation_induced_versus_repressed_prediction_observed": false,
+    "interpretation": "The frozen labels are retained for provenance, but GSE140244 supports only relative ordering: lost-on-activation targets rise more than gained-on-activation targets. Both target groups have positive 0-to-48 h median trajectories, so the gained group must not be described as activation-repressed in this independent cohort."
+  },
+  "preoutcome_qc_sensitivities": {
+    "replicate_A_only": {
+      "n_donors": 22,
+      "donor_auc": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5706357990531,
+        "q25": 0.5598367459878,
+        "q75": 0.5841045112628,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "donor_stratified_auc": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5968192939532,
+        "q25": 0.5841488989864,
+        "q75": 0.60948968892,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_difference": {
+        "n": 22,
+        "positive": 21,
+        "negative": 1,
+        "ties": 0,
+        "median": 0.3949539621119,
+        "q25": 0.3139209070198,
+        "q75": 0.4511465910351,
+        "exact_one_sided_sign_p": 5.483627319336e-06
+      }
+    },
+    "exclude_endpoint_mapping_below_80pct": {
+      "excluded_donor": "TB03070641",
+      "n_donors": 21,
+      "donor_auc": {
+        "n": 21,
+        "positive": 21,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5713173051303,
+        "q25": 0.5619401914366,
+        "q75": 0.5854905818935,
+        "exact_one_sided_sign_p": 4.768371582031e-07
+      },
+      "donor_stratified_auc": {
+        "n": 21,
+        "positive": 21,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5966445298847,
+        "q25": 0.5844110450891,
+        "q75": 0.6116742397763,
+        "exact_one_sided_sign_p": 4.768371582031e-07
+      },
+      "median_delta_difference": {
+        "n": 21,
+        "positive": 21,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.3925189454435,
+        "q25": 0.3156662393307,
+        "q75": 0.4529165071334,
+        "exact_one_sided_sign_p": 4.768371582031e-07
+      }
+    }
+  },
+  "author_normalized_sensitivity": {
+    "minimum_2": {
+      "n_mapped_targets": 629,
+      "donor_auc": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5703232285966,
+        "q25": 0.5592039189161,
+        "q75": 0.5813426182131,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "donor_stratified_auc": {
+        "n": 22,
+        "positive": 22,
+        "negative": 0,
+        "ties": 0,
+        "median": 0.5749235474006,
+        "q25": 0.5677879714577,
+        "q75": 0.5877505946313,
+        "exact_one_sided_sign_p": 2.384185791016e-07
+      },
+      "median_delta_difference": {
+        "n": 22,
+        "positive": 21,
+        "negative": 1,
+        "ties": 0,
+        "median": 0.3577846771592,
+        "q25": 0.2939545547698,
+        "q75": 0.404578830685,
+        "exact_one_sided_sign_p": 5.483627319336e-06
+      }
+    },
+    "minimum_3": {
+      "n_mapped_targets": 280,
+      "donor_auc": {
+        "n": 22,
+        "positive": 20,
+        "negative": 2,
+        "ties": 0,
+        "median": 0.5439160912325,
+        "q25": 0.5273985143335,
+        "q75": 0.555856350701,
+        "exact_one_sided_sign_p": 6.05583190918e-05
+      },
+      "donor_stratified_auc": {
+        "n": 22,
+        "positive": 18,
+        "negative": 4,
+        "ties": 0,
+        "median": 0.5203452527744,
+        "q25": 0.5046239210851,
+        "q75": 0.5280517879162,
+        "exact_one_sided_sign_p": 0.002171754837036
+      },
+      "median_delta_difference": {
+        "n": 22,
+        "positive": 20,
+        "negative": 2,
+        "ties": 0,
+        "median": 0.2471649420838,
+        "q25": 0.1131153574061,
+        "q75": 0.3090671829433,
+        "exact_one_sided_sign_p": 6.05583190918e-05
+      }
+    },
+    "minimum_5": {
+      "n_mapped_targets": 80,
+      "donor_auc": {
+        "n": 22,
+        "positive": 19,
+        "negative": 3,
+        "ties": 0,
+        "median": 0.5401785714286,
+        "q25": 0.5199175824176,
+        "q75": 0.5726304945055,
+        "exact_one_sided_sign_p": 0.0004277229309082
+      },
+      "donor_stratified_auc": {
+        "n": 22,
+        "positive": 10,
+        "negative": 12,
+        "ties": 0,
+        "median": 0.4929078014184,
+        "q25": 0.4822695035461,
+        "q75": 0.5159574468085,
+        "exact_one_sided_sign_p": 0.7382664680481
+      },
+      "median_delta_difference": {
+        "n": 22,
+        "positive": 11,
+        "negative": 11,
+        "ties": 0,
+        "median": 0.004447818834383,
+        "q25": -0.07506087315914,
+        "q75": 0.2198476563431,
+        "exact_one_sided_sign_p": 0.5840940475464
+      }
+    }
+  }
+}

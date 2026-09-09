@@ -1,0 +1,203 @@
+{
+  "design": {
+    "primary_k": 3,
+    "k_sensitivities": [
+      2,
+      3,
+      4
+    ],
+    "n_cells": 100087,
+    "n_targets": 2495,
+    "n_edges": 3497,
+    "adt_score": "leave-one-donor-out Rest-vs-Stim marker weights; donor-condition NT quantile states",
+    "decomposition": "exact two-player Shapley allocation on log2 mean-expression ratios"
+  },
+  "adt_score_diagnostics": {
+    "A": {
+      "training_donor": "B",
+      "n_markers": 34,
+      "markers": [
+        "Hu.CD107a",
+        "Hu.CD127",
+        "Hu.CD134",
+        "Hu.CD152",
+        "Hu.CD154",
+        "Hu.CD155",
+        "Hu.CD2",
+        "Hu.CD223",
+        "Hu.CD226_11A8",
+        "Hu.CD25",
+        "Hu.CD26",
+        "Hu.CD274",
+        "Hu.CD279",
+        "Hu.CD28",
+        "Hu.CD3_UCHT1",
+        "Hu.CD45RA",
+        "Hu.CD49d",
+        "Hu.CD5",
+        "Hu.CD52",
+        "Hu.CD54",
+        "Hu.CD58",
+        "Hu.CD62L",
+        "Hu.CD69",
+        "Hu.CD7",
+        "Hu.CD71",
+        "Hu.CD88",
+        "Hu.CD95",
+        "Hu.CD99",
+        "Hu.HLA.ABC",
+        "Hu.TCR.AB",
+        "Hu.TIGIT",
+        "HuMs.CD49f",
+        "HuMs.integrin.b7",
+        "HuMsRt.CD278"
+      ],
+      "rest_control_mean": -0.4278658330440521,
+      "stim_control_mean": 0.47903111577033997
+    },
+    "B": {
+      "training_donor": "A",
+      "n_markers": 39,
+      "markers": [
+        "Hu.CD123",
+        "Hu.CD127",
+        "Hu.CD134",
+        "Hu.CD146",
+        "Hu.CD152",
+        "Hu.CD154",
+        "Hu.CD155",
+        "Hu.CD183",
+        "Hu.CD2",
+        "Hu.CD223",
+        "Hu.CD226_11A8",
+        "Hu.CD25",
+        "Hu.CD26",
+        "Hu.CD27",
+        "Hu.CD274",
+        "Hu.CD279",
+        "Hu.CD28",
+        "Hu.CD3_UCHT1",
+        "Hu.CD45RA",
+        "Hu.CD48",
+        "Hu.CD49d",
+        "Hu.CD52",
+        "Hu.CD54",
+        "Hu.CD58",
+        "Hu.CD62L",
+        "Hu.CD69",
+        "Hu.CD7",
+        "Hu.CD71",
+        "Hu.CD82",
+        "Hu.CD88",
+        "Hu.CD94",
+        "Hu.CD95",
+        "Hu.CD99",
+        "Hu.HLA.ABC",
+        "Hu.HLA.DR",
+        "Hu.TCR.AB",
+        "HuMs.CD44",
+        "HuMs.integrin.b7",
+        "HuMsRt.CD278"
+      ],
+      "rest_control_mean": -0.45020774006843567,
+      "stim_control_mean": 0.44533899426460266
+    }
+  },
+  "label_diagnostics": {
+    "2": {
+      "teff_unassigned": 0
+    },
+    "3": {
+      "teff_unassigned": 0
+    },
+    "4": {
+      "teff_unassigned": 0
+    }
+  },
+  "published_effect_reconstruction": {
+    "Resting": {
+      "spearman_rho": 0.9557720430270371,
+      "p": 0.0
+    },
+    "Stimulated": {
+      "spearman_rho": 0.969180547042236,
+      "p": 0.0
+    }
+  },
+  "matched_primary": {
+    "n_regulators": 8,
+    "n_reversal_edges": 235,
+    "mean_regulator_median_difference": -0.004564606240219553,
+    "cluster_bootstrap_ci": [
+      -0.020871484284865936,
+      0.011851101485032952
+    ],
+    "permutation_p_one_sided": 0.22575484903019397,
+    "positive_regulators": 3,
+    "sign_test_p_two_sided": 0.7265625,
+    "per_regulator": {
+      "BATF": -0.019422608253923612,
+      "CBFB": -0.004141015235396575,
+      "FOXO1": 0.025037813569570723,
+      "MED12": 0.031971997860395944,
+      "MED24": -0.0005976613819273988,
+      "MYB": -0.026253882328042696,
+      "STAT5B": -0.04441570397383537,
+      "USP22": 0.0013042098214025547
+    }
+  },
+  "donor_sensitivity": {
+    "A": {
+      "n_regulators": 8,
+      "n_reversal_edges": 236,
+      "mean_regulator_median_difference": -0.013005765988484845,
+      "cluster_bootstrap_ci": [
+        -0.02890454900503647,
+        0.002475850177634885
+      ],
+      "permutation_p_one_sided": 0.47652347652347654,
+      "positive_regulators": 3,
+      "sign_test_p_two_sided": 0.7265625,
+      "per_regulator": {
+        "BATF": -0.03837152394396586,
+        "CBFB": -0.01584368081736786,
+        "FOXO1": 0.01045382292391521,
+        "MED12": 0.018857166808836492,
+        "MED24": 0.008319521620955422,
+        "MYB": -0.02360386932899572,
+        "STAT5B": -0.04893731988137683,
+        "USP22": -0.014920245289879615
+      }
+    },
+    "B": {
+      "n_regulators": 8,
+      "n_reversal_edges": 236,
+      "mean_regulator_median_difference": -0.012174255391959588,
+      "cluster_bootstrap_ci": [
+        -0.026946824242575794,
+        0.001148844398421658
+      ],
+      "permutation_p_one_sided": 0.4565434565434565,
+      "positive_regulators": 2,
+      "sign_test_p_two_sided": 0.2890625,
+      "per_regulator": {
+        "BATF": -0.020903864728492757,
+        "CBFB": 0.0031911883723316752,
+        "FOXO1": -0.055334818488817675,
+        "MED12": 0.020813562741429766,
+        "MED24": -0.005631067533681394,
+        "MYB": -0.009622854351372764,
+        "STAT5B": -0.018953117407224832,
+        "USP22": -0.010953071739848719
+      }
+    }
+  },
+  "flip_summary": {
+    "n_arce_flips": 792,
+    "n_adjusted_flips": 797,
+    "arce_flips_removed": 54,
+    "arce_flips_retained": 738,
+    "median_composition_fraction_reversal": 0.06422337885783891,
+    "median_composition_fraction_stable": 0.04977675395812528
+  }
+}

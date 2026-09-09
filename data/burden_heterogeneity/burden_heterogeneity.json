@@ -1,0 +1,76 @@
+{
+  "_what": "Reversal-burden heterogeneity across regulators; replaces the power-law framing.",
+  "_source": "data/census/per_regulator_enrichment_all.csv",
+  "_script": "scripts/census.py",
+  "_caveat": "Technical covariates were tested in burden_covariate_closure.py and do NOT explain the dispersion (rho 0.0661 -> 0.0635 adding precision, efficacy and a cubic degree term on the same 555 regulators). That excludes the measurable technical explanations, not every one, and does not establish biology.",
+  "_not_new": "This is a single global effect size for the same heterogeneity the per-regulator degree-matched Fisher tests already detect (106/617 at 5% FDR).",
+  "n_regulators": 617,
+  "n_edges": 83489,
+  "n_reversals": 4379,
+  "pooled_rate": 0.0524500233563703,
+  "tarone_Z": 251.96407551822776,
+  "tarone_p": 0.0,
+  "betabinom_unadjusted": {
+    "rho": 0.0691521718066165,
+    "lrt_chi2": 3113.9329367169257,
+    "lrt_p": 0.0
+  },
+  "degree_adjusted": {
+    "slope_per_log10_outdegree": 0.4313186552585683,
+    "slope_lrt_chi2": 19.778457439475915,
+    "slope_p": 8.69572597106207e-06,
+    "residual_rho": 0.07181020742669855,
+    "residual_lrt_chi2": 2852.484999919419,
+    "residual_p_naive_chi2_1": 0.0,
+    "residual_p_boundary_corrected": 0.0,
+    "regulators_outside_binomial_95_interval": 146,
+    "expected_outside_exact_under_independence": 11.656703160453041,
+    "median_realised_interval_coverage": 0.9827235867811354,
+    "expected_outside_naive_5pct_WRONG": 31,
+    "target_preserving_null": "see data/burden_heterogeneity/target_null.json"
+  },
+  "variance_explained": {
+    "spearman_outdegree_vs_count": 0.6262547565705373,
+    "spearman_outdegree_vs_rate": 0.3443533928614844,
+    "fitted_rate_at_min_outdegree": 0.018596594928266316,
+    "fitted_rate_at_max_outdegree": 0.07851687530577137
+  },
+  "concentration": {
+    "gini": 0.8607976111121187,
+    "share_top_5pct": 0.6195478419730532,
+    "share_top_10pct": 0.771408997488011,
+    "share_top_20pct": 0.9022607901347339
+  },
+  "robustness_drop_top_carriers": [
+    {
+      "dropped": 0,
+      "n_regulators": 617,
+      "rho": 0.07181020742669855,
+      "lrt_chi2": 2852.4849999194194
+    },
+    {
+      "dropped": 5,
+      "n_regulators": 612,
+      "rho": 0.0690967476229684,
+      "lrt_chi2": 2017.5785145008172
+    },
+    {
+      "dropped": 10,
+      "n_regulators": 607,
+      "rho": 0.06624968251119723,
+      "lrt_chi2": 1631.0320497772368
+    },
+    {
+      "dropped": 20,
+      "n_regulators": 597,
+      "rho": 0.06571447219303551,
+      "lrt_chi2": 1341.950111179075
+    },
+    {
+      "dropped": 50,
+      "n_regulators": 567,
+      "rho": 0.056749840523915636,
+      "lrt_chi2": 617.6325262277428
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": "broad-alltarget-kegg-go-supplement-package-audit-v1",
+  "audit_date": "2026-09-04",
+  "status": "PASS",
+  "independent_agent_decision": "PASS",
+  "supplement_pdf": {
+    "path": "submission/supplementary/Supplementary_Information.pdf",
+    "sha256": "3a7c9a5fd16907532035a45adabafd689b195593e6ee1b8fec85fb0d489411de",
+    "pages": 34,
+    "supplementary_figure_s5_page": 9
+  },
+  "package_contract": {
+    "figures": "Supplementary Figures S1-S5, PDF and PNG",
+    "supplementary_data": "Supplementary Data 1-21",
+    "active_incomplete_build_stubs": 0
+  },
+  "figure_s5": {
+    "canonical_pdf_sha256": "32cc2210083f94467c284ec83b9bfbdb2fe9e83e06c025ec2608d6411581f291",
+    "canonical_png_sha256": "33b0d9a64be5cee4f6a8f45a6ee5a1e9055bc54c63a6f6e09555b884bf4696d5",
+    "package_copies_byte_identical": true,
+    "embedded_width_inches": 7.2,
+    "observed_embedding_scale": 1.00005,
+    "delivered_text_points": [5.8, 7.0],
+    "visual_clipping_or_overlap": false
+  },
+  "authoritative_results": {
+    "kegg_tested": 168,
+    "kegg_statement_eligible": 9,
+    "kegg_global_maxT_stable": 0,
+    "go_bp_tested": 2425,
+    "go_bp_statement_eligible": 161,
+    "go_bp_pooled_global_maxT": 12,
+    "go_bp_global_maxT_stable": 10
+  },
+  "replay": {
+    "certificate": "results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/independent_audit_v2.json",
+    "status": "PASS",
+    "draws_per_bank": 10000,
+    "terms_per_draw": 2593,
+    "full_independent_permutation_replay": true
+  },
+  "packaged_authoritative_data_byte_identical": {
+    "Supplementary_Data_19_broad_kegg_go_rank_enrichment_terms.tsv": true,
+    "Supplementary_Data_20_broad_kegg_go_target_scores.tsv.gz": true,
+    "Supplementary_Data_21_broad_kegg_go_leading_edges.tsv.gz": true
+  },
+  "protected_main_artifacts": {
+    "MANUSCRIPT.md": "7105bb430c7726746939958a68a07f8b3f64b9831f3da3407c9d4a69c86ddc78",
+    "figures_final/Fig3.pdf": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+    "figures_final/Fig3.png": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de"
+  },
+  "scope_note": "The Supplement package is complete. The separate main-manuscript DOCX/PDF post-build state was not changed or certified by this Supplement-only task."
+}

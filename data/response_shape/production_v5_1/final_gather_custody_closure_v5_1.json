@@ -1,0 +1,228 @@
+{
+  "audit_exception": {
+    "path": "/Users/sabih/CoDEG_Tcell/paper/results_data/response_shape/v5_1_full_417546_custody/audit/audit_exception_v5_1.json",
+    "sha256": "a0f6a462769974d851ea56a5252a7fee300c1165402d2698cae1f60e80c489e2",
+    "status": "RECORDED_PROPORTIONATE_OPERATIONAL_EXCEPTION"
+  },
+  "checks": {
+    "biological_values_not_inspected": true,
+    "durable_sacct_exact": true,
+    "eight_shard_aggregate_custody_exact": true,
+    "gather_report_registry_matches_recomputed_hashes": true,
+    "gather_report_self_hash_stable": true,
+    "gather_stdout_and_stderr_empty": true,
+    "proportionate_operational_exception_transparent": true,
+    "sealed_wrapper07_exact": true,
+    "source_manifests_and_operational_audits_current": true,
+    "source_shards_target_only_and_regulator_zero": true,
+    "tenure_independent_live_scontrol_not_required": true,
+    "three_read_only_inventory_checks_stable": true
+  },
+  "claim_boundary": "This closure authorizes opening the frozen continuous result artifacts and downstream Figure 4 rendering under the existing builder gates. It does not authorize individual-edge inference, a mechanistic claim, or reinterpretation of the recorded scheduler exception.",
+  "gather_artifacts": {
+    "all_nonzero": true,
+    "all_regular": true,
+    "all_symlink_free": true,
+    "directory_mode": "0550",
+    "exact_inventory_count": 9,
+    "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1",
+    "artifacts": [
+      {
+        "mode": "0440",
+        "name": "cal_envelopes_v5_1.tsv",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/cal_envelopes_v5_1.tsv",
+        "sha256": "278972d56183d3414f3e206ed386e9d7bf37298d71a82fb085cb59cb6e3564fc",
+        "size_bytes": 1715
+      },
+      {
+        "mode": "0440",
+        "name": "edge_continuous_summary_v5_1.parquet",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/edge_continuous_summary_v5_1.parquet",
+        "sha256": "12955a88c2462025a40b8aacddd81dab863f236c5ae816a88eaf026576f02627",
+        "size_bytes": 7456663
+      },
+      {
+        "mode": "0440",
+        "name": "gather_report_v5_1.json",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/gather_report_v5_1.json",
+        "sha256": "df659abf76566889b963ff0199e3e83bf430f0bbd6d6442b49c3e6f093f176c5",
+        "size_bytes": 3206
+      },
+      {
+        "mode": "0440",
+        "name": "guide_lane_totals_v5_1.parquet",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/guide_lane_totals_v5_1.parquet",
+        "sha256": "ae80e553cd2395780300650688e0c67f67a9b4b6ea4430032dddb06528423fca",
+        "size_bytes": 1087197
+      },
+      {
+        "mode": "0440",
+        "name": "guide_specific_effects_v5_1.parquet",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/guide_specific_effects_v5_1.parquet",
+        "sha256": "1218451c650d6847a1f7e24945cff44d12ad0021b51395b5f05c6c78f1fc7be5",
+        "size_bytes": 21001325
+      },
+      {
+        "mode": "0440",
+        "name": "positive_target_moments_v5_1.parquet",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/positive_target_moments_v5_1.parquet",
+        "sha256": "86b76c19bc0c6ef0fb95e0d796a7a810df6e8e9c9ddbdab8b4bbed44a9c621db",
+        "size_bytes": 7576181594
+      },
+      {
+        "mode": "0440",
+        "name": "reversal_census_v5_1.parquet",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/reversal_census_v5_1.parquet",
+        "sha256": "dd0ed44f6970be1a9e02f3ab54b63a2caadc8c1be1584daf15797f1fa96942bc",
+        "size_bytes": 1622465
+      },
+      {
+        "mode": "0440",
+        "name": "status_waterfall_v5_1.tsv",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/status_waterfall_v5_1.tsv",
+        "sha256": "2a7f6410be489535715f6a5c2631e7346c561f2124cace76671cd4ceaddfd57e",
+        "size_bytes": 154
+      },
+      {
+        "mode": "0440",
+        "name": "unit_effects_v5_1.parquet",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/gather/v5_1_full_20260814_r1/unit_effects_v5_1.parquet",
+        "sha256": "284ab152ceffed4ddc4440da6d99ac50f220058dcf02b55fea881a4fb5bdd1ff",
+        "size_bytes": 38378225
+      }
+    ]
+  },
+  "gather_report_registry": {
+    "all_registered_hashes_match": true,
+    "registered_artifact_count": 8,
+    "registered_output_sha256": {
+      "cal_envelopes": "278972d56183d3414f3e206ed386e9d7bf37298d71a82fb085cb59cb6e3564fc",
+      "edge_continuous_summary": "12955a88c2462025a40b8aacddd81dab863f236c5ae816a88eaf026576f02627",
+      "guide_lane_totals": "ae80e553cd2395780300650688e0c67f67a9b4b6ea4430032dddb06528423fca",
+      "guide_specific_effects": "1218451c650d6847a1f7e24945cff44d12ad0021b51395b5f05c6c78f1fc7be5",
+      "positive_target_moments": "86b76c19bc0c6ef0fb95e0d796a7a810df6e8e9c9ddbdab8b4bbed44a9c621db",
+      "reversal_census": "dd0ed44f6970be1a9e02f3ab54b63a2caadc8c1be1584daf15797f1fa96942bc",
+      "status_waterfall": "2a7f6410be489535715f6a5c2631e7346c561f2124cace76671cd4ceaddfd57e",
+      "unit_effects": "284ab152ceffed4ddc4440da6d99ac50f220058dcf02b55fea881a4fb5bdd1ff"
+    },
+    "report_run_id": "v5_1_full_20260814_r1",
+    "report_schema_version": "response-shape-gather-v5.1",
+    "report_self_sha256": "df659abf76566889b963ff0199e3e83bf430f0bbd6d6442b49c3e6f093f176c5",
+    "report_status": "PASS_CONTINUOUS_RESULTS_NO_INDIVIDUAL_EDGE_INFERENCE"
+  },
+  "generated_at_utc": "2026-08-15T21:52:50Z",
+  "outcome_boundary": {
+    "biological_values_opened_during_closure": false,
+    "directions_or_magnitudes_emitted": false,
+    "edge_ids_emitted": false,
+    "individual_edge_inference_authorized": false,
+    "mechanistic_claim_authorized": false,
+    "result_opening_authorized": true
+  },
+  "run_id": "v5_1_full_20260814_r1",
+  "scheduler_evidence": {
+    "allocated_cpus": 60,
+    "durable_submit_line": "sbatch --export=ALL,RESPONSE_V51_PREPARATION_SEAL=/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/preparation/v5_1_prep_20260814_r4/preparation_seal_v5_1.json,RESPONSE_V51_PREPARATION_SEAL_CHECKSUM=/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/preparation/v5_1_prep_20260814_r4/preparation_seal_v5_1.sha256,RESPONSE_V51_RUN_ID=v5_1_full_20260814_r1 --cpus-per-task=60 --mem=500G --time=24:00:00 /home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/staged/v5_1_prep_20260814_r4/scripts/response_shape/hpc/07_gather_v5_1.sbatch",
+    "elapsed": "05:28:45",
+    "end": "2026-08-15T19:00:23",
+    "evidence_basis": "durable_sacct_plus_sealed_submission_wrapper_and_empty_logs",
+    "exit_code": "0:0",
+    "job_id": "417604",
+    "job_name": "rshape51_gather",
+    "logs": [
+      {
+        "mode": "0644",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/logs/rshape51_gather_417604.out",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      },
+      {
+        "mode": "0644",
+        "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/logs/rshape51_gather_417604.err",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0
+      }
+    ],
+    "node": "cn022",
+    "partition": "mediumq",
+    "requested_memory": "500G",
+    "requested_time": "1-00:00:00",
+    "start": "2026-08-15T13:31:38",
+    "state": "COMPLETED",
+    "submit": "2026-08-15T13:31:37",
+    "work_directory": "/home/hpc-user",
+    "wrapper": {
+      "mode": "0440",
+      "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/staged/v5_1_prep_20260814_r4/scripts/response_shape/hpc/07_gather_v5_1.sbatch",
+      "regular": true,
+      "sha256": "965d5b3b6c3d28bdc8d75ed0658aab762579bb5bd20dfbbd6b323d000672a70b",
+      "size_bytes": 3740,
+      "symlink": false
+    }
+  },
+  "schema_version": "response-shape-final-gather-custody-closure-v5.1",
+  "source_custody": {
+    "aggregate": {
+      "guide_lane_rows": 153723,
+      "implicit_cell_zeros": 1766457625,
+      "implicit_group_zeros": 152495296,
+      "positive_target_moment_rows": 514508801,
+      "selected_cells": 816502,
+      "target_expression_values_read": 1776344553
+    },
+    "array": {
+      "completed_tasks": 8,
+      "failed_tasks": 0,
+      "master_job_id": "417546",
+      "requested_cpus_per_task": 60,
+      "requested_memory": "500G",
+      "stderr_nonempty_tasks": 0,
+      "stdout_nonempty_tasks": 0
+    },
+    "closed_bundle": {
+      "path": "/Users/sabih/CoDEG_Tcell/paper/results_data/response_shape/v5_1_full_417546_custody/v5_1_full_417546_custody_closed_bundle.sha256",
+      "sha256": "89ed14c29e8e33fd99cf8517648866254177f7066b14c1ef2d4e1a67a57d68d8",
+      "verification_passed": true
+    },
+    "custody_report": {
+      "path": "/Users/sabih/CoDEG_Tcell/paper/results_data/response_shape/v5_1_full_417546_custody/full_run_8shard_custody_report_v5_1.json",
+      "sha256": "7c75a229e4eac831051316f2962fd6639b6f515c034b867e9359d74ea2fb55d1",
+      "status": "PASS_8_SHARDS_AUDITED_AND_LOCKED"
+    },
+    "current_remote_hashes_match": true,
+    "operational_audit_sha256": {
+      "D1_Rest": "2cd78bd39429dfb29508c9d56c721a0794ca4042fb9d69276b787f390b6ab6c1",
+      "D1_Stim48hr": "c74f93618968ac4d599fa6bd4cea623bc365f1f1958f80473db8fa933eb68fbd",
+      "D2_Rest": "07469dbff492eab8d534a735d31537f8dea7fbd4bcaa6b07ebf8647e886d4e9f",
+      "D2_Stim48hr": "86ee445d05ef10f6bf257735ce0226bb10a44c0d211df4b9de17870c2aed0cb3",
+      "D3_Rest": "a62c578b2500312a8ab38d0ef63d1b0a21d96698ca33e525952755907dde47db",
+      "D3_Stim48hr": "70645361cf2de044c61c7ebf0e98f275c2d7dd5883009cc0d9cf6ce6f214c610",
+      "D4_Rest": "430f5d942459fb6ef34cc53245523f7402f53abe99bec0bcd51045a273bcab84",
+      "D4_Stim48hr": "610909b92ca5de9e73d7e34f506d856a859e71201c86ed53ce5cfd6b25ba0fa7"
+    },
+    "remote_audit_root": {
+      "mode": "0550",
+      "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/audits/v5_1_full_20260814_r1"
+    },
+    "remote_full_root": {
+      "mode": "0550",
+      "path": "/home/hpc-user/projects/codeg_atlas/work/response_shape/v5_1/full/v5_1_full_20260814_r1"
+    },
+    "requested_target_ids_sha256": "2abd91ca021bf806583a892970b14d1e67e9f72b7e444395e01b857ab467d40c",
+    "requested_targets_per_shard": 4339,
+    "shard_manifest_sha256": {
+      "D1_Rest": "04f6cabb7df1231893c2327200baea5e634e4d04073af5f7b7fe82e730e6a6b0",
+      "D1_Stim48hr": "bded112e786b15b9a57e5b303f3408c0150ffd3c795dbe7f2f17ecb34774bc10",
+      "D2_Rest": "c82394d4ef101ec6ed86e4d1efe822bc6bca482e65fd5805763978aefa6b817f",
+      "D2_Stim48hr": "d8c1addf236c833b6660ff7f8f86535e05010a1bdb5979161229c8a1f45fa3b0",
+      "D3_Rest": "66b8e8084fd2072c6e423e3e3d20ad21164c407af67f0992ea683c4cd2668989",
+      "D3_Stim48hr": "04537666d8d01f8ecfe53561892cb0ad9c12da44d775d6aa67628de55106f3a3",
+      "D4_Rest": "09fe35c5ba49dbbaa3efda5bbcc90234cf645c1fce55e506c4062308fd3a16e6",
+      "D4_Stim48hr": "31bc1f6af3d4dc591d32bed22431ed77c55be3b079073ead9971904ea6251ee5"
+    },
+    "target_authorization_verified_for_all_shards": true,
+    "target_only_reads_for_all_shards": true,
+    "total_regulator_expression_values_read": 0
+  },
+  "status": "GO_TO_OPEN_RESULTS_PROPORTIONATE_AUDIT"
+}

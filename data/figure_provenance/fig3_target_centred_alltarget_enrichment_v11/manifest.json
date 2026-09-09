@@ -1,0 +1,719 @@
+{
+  "active_claim_guard_changes": false,
+  "canonical_changes": false,
+  "claim_boundary": "all-target network-adjusted pooled reversal-burden enrichment; KEGG and GO-BP use explicitly separated evidence tiers. Bar colours are a descriptive partition of each term's census members by dataset-wide target orientation and do not test lost-versus-gained enrichment, pathway activity, mechanism, individual edges, or enrichment among the 279 targets in panels c-d. Terms overlap.",
+  "created_utc": "2026-09-04T17:17:17.262412+00:00",
+  "decision_scope": "Replace only Figure 3 panel e with the corrected all-target v2 composition overlay; preserve panels a-d and f-h and the c/d key. No canonical or active-text write.",
+  "docx_changes": false,
+  "export": {
+    "fresh_canvas_count": 2,
+    "page_inches": [
+      8.267716535433072,
+      9.6
+    ],
+    "pdf_byte_identical": true,
+    "pdf_fonttype": 42,
+    "pdf_sha256": "3582a9dc256e9d070701667a1d67a24699fd5bf43375a92abaeada119216b21a",
+    "png_byte_identical": true,
+    "png_dpi": 300,
+    "png_sha256": "67ae02e5d0d9f0ad7e20382b2bd45b56e10b367fe84c403a7f594142c7fded46",
+    "tight_bbox": false
+  },
+  "geometry": {
+    "all_text_bbox_audit": {
+      "collision_count": 0,
+      "collisions": [],
+      "pairwise_overlap_threshold_pixels_each_axis": 0.5,
+      "rendered_text_artists": 444
+    },
+    "content_bbox": {
+      "area_occupancy_fraction": 0.9695896270145064,
+      "bottom_margin_inches": 0.006133333333333309,
+      "height_inches": 9.37375706528539,
+      "height_occupancy_fraction": 0.976433027633895,
+      "left_margin_inches": 0.016606299212598433,
+      "page_height_inches": 9.6,
+      "page_width_inches": 8.267716535433072,
+      "right_margin_inches": 0.04133858267716484,
+      "top_margin_inches": 0.22010960138127622,
+      "width_inches": 8.209771653543308,
+      "width_occupancy_fraction": 0.9929914285714285,
+      "x0_inches": 0.016606299212598433,
+      "x1_inches": 8.226377952755907,
+      "y0_inches": 0.006133333333333309,
+      "y1_inches": 9.379890398618723
+    },
+    "heat_geometry": {
+      "c": {
+        "cell_height_points": 0.9200000000000013,
+        "cell_width_points": 0.92,
+        "matrix_height_points": 45.08000000000006,
+        "matrix_width_points": 256.68
+      },
+      "d": {
+        "cell_height_points": 5.5,
+        "cell_width_points": 5.499999999999998,
+        "matrix_height_points": 269.5,
+        "matrix_width_points": 439.9999999999999
+      }
+    },
+    "layout_inches": {
+      "bottom_colorbar_rect": [
+        0.18,
+        0.018,
+        0.37,
+        0.012
+      ],
+      "bottom_row_height_inches": 1.8398618722318143,
+      "detail_cell_side_points": 5.5,
+      "detail_heat_x_inches": 0.4640157480314961,
+      "detail_panel_e_gap_inches": 0.04,
+      "detail_row_track_x_inches": 0.025,
+      "detail_vertical_shift_inches": 0.25,
+      "middle_row_height_inches": 4.773695668493355,
+      "overview_cell_side_points": 0.92,
+      "page": [
+        8.267716535433072,
+        9.6
+      ],
+      "panel_e_width_inches": 1.6112510936133015,
+      "panel_e_x_inches": 6.615126859142606,
+      "top_ab_slot_width_inches": 3.4516648223549966,
+      "top_c_slot_width_inches": 3.721795112800169,
+      "top_row_height_inches": 1.9890398618722314,
+      "top_square_side": 1.34
+    },
+    "literal_zoom_assertions": {
+      "orientation_track_equal_c_first_80": true,
+      "row_burden_track_identical_full_panel_scale": true,
+      "row_order_equal": true,
+      "scores_equal_c_first_80": true,
+      "states_equal_c_first_80": true,
+      "target_burden_track_equal_c_first_80": true,
+      "targets_equal_c_first_80": true
+    },
+    "panel_ab_geometry": {
+      "axes": [
+        {
+          "height_inches": 1.3399999999999994,
+          "width_inches": 1.3399999999999996,
+          "x0_figure_fraction": 0.10312449163765933,
+          "y0_figure_fraction": 0.8312499999999999
+        },
+        {
+          "height_inches": 1.3399999999999994,
+          "width_inches": 1.339999999999999,
+          "x0_figure_fraction": 0.3522863963995641,
+          "y0_figure_fraction": 0.8312499999999999
+        }
+      ],
+      "requested_side_inches": 1.34
+    },
+    "panel_c": {
+      "cell_side_points": 0.92,
+      "dendrogram": false,
+      "gained_cells": 207,
+      "lost_cells": 330,
+      "ordering": "frozen dense-tail-v2 display_rank; no clustering",
+      "outside_cells": 12703,
+      "regulators_with_reversal": 43,
+      "reversal_cells": 537,
+      "row_labels_shown": false,
+      "self_cells": 1,
+      "shape": [
+        49,
+        279
+      ],
+      "stable_cells": 430,
+      "target_labels_shown": false,
+      "targets_with_reversal": 257
+    },
+    "panel_d": {
+      "cell_side_points": 5.499999999999998,
+      "dendrogram": false,
+      "gained_cells": 71,
+      "inherited_label_points": 5.0,
+      "label_font_families": [
+        [
+          "sans-serif"
+        ]
+      ],
+      "label_points": 5.5,
+      "lost_cells": 137,
+      "ordering": "literal first 80 columns of frozen panel c display order",
+      "outside_cells": 3584,
+      "regulator_label_collision_audit": {
+        "labels": 49,
+        "maximum_overlap_area_pixels2": 0.0,
+        "overlap_pairs_above_0.2px_each_axis": 0
+      },
+      "regulators_with_reversal": 37,
+      "reversal_cells": 208,
+      "row_labels_shown": true,
+      "self_cells": 0,
+      "shape": [
+        49,
+        80
+      ],
+      "stable_cells": 128,
+      "target_label_collision_audit": {
+        "labels": 80,
+        "maximum_overlap_area_pixels2": 0.0,
+        "overlap_pairs_above_0.2px_each_axis": 0
+      },
+      "target_labels_shown": true,
+      "targets_with_reversal": 77
+    },
+    "panel_d_axis_label_typography": {
+      "delivered_font_size_points": 5.5,
+      "inherited_and_delivered_font_families": [
+        [
+          "sans-serif"
+        ]
+      ],
+      "inherited_font_size_points": 5.0,
+      "post_clamp_and_draw": {
+        "exact_5_5_points": true,
+        "font_families": [
+          [
+            "sans-serif"
+          ]
+        ],
+        "font_sizes_points": [
+          5.5
+        ],
+        "text_unchanged": true,
+        "x_label_text_sha256": "90880195d08bc80c3ef472f6cd5a54f30f743a181e300e341268ba6c21fe51fa",
+        "x_tick_label_count": 80,
+        "y_label_text_sha256": "0f52da391d89aadce377589c33c6dc16ec933cad159e3cf77f94cd51e831c00a",
+        "y_tick_label_count": 49
+      },
+      "text_unchanged": true,
+      "x_label_text_sha256": "90880195d08bc80c3ef472f6cd5a54f30f743a181e300e341268ba6c21fe51fa",
+      "x_tick_label_count": 80,
+      "y_label_text_sha256": "0f52da391d89aadce377589c33c6dc16ec933cad159e3cf77f94cd51e831c00a",
+      "y_tick_label_count": 49
+    },
+    "panel_d_header_clearance": {
+      "all_clear": true,
+      "lower_clearance_from_burden_track_pixels": {
+        "subtitle": 7.560164834112129,
+        "tag": 18.08047058959221,
+        "title": 19.601735405249883
+      },
+      "threshold_pixels": 0.5,
+      "upper_clearance_to_panel_c_footnote_pixels": {
+        "subtitle": 25.221025448539876,
+        "tag": 10.899938443059796,
+        "title": 9.181408002402122
+      }
+    },
+    "panel_e": {
+      "all_target_universe": 9554,
+      "bar_width_inches": 0.48,
+      "c_d_key_preserved_at_v10_4_1_position": true,
+      "claim_boundary": "all-target network-adjusted pooled reversal-burden enrichment; KEGG and GO-BP use explicitly separated evidence tiers. Bar colours are a descriptive partition of each term's census members by dataset-wide target orientation and do not test lost-versus-gained enrichment, pathway activity, mechanism, individual edges, or enrichment among the 279 targets in panels c-d. Terms overlap.",
+      "composition_values_match_overlay_json": true,
+      "display": "lost/gained/mixed/no-reversal share of census members",
+      "displayed_per_term_n_nes_q": false,
+      "displayed_terms": 19,
+      "evidence_tiers_visibly_separated": true,
+      "false_overlap_asterisk_or_footnote_rendered": false,
+      "go_bp_global_maxT_stable_terms": 10,
+      "go_bp_statement_eligible_terms_total": 161,
+      "heading_points": 7.0,
+      "kegg_global_maxT_stable_terms": 0,
+      "kegg_repeatable_fdr_terms": 9,
+      "labels_call_go_entries_terms_not_pathways": true,
+      "prion_proteasome_overlap_counts": {
+        "leading_edge_targets": 0,
+        "leading_edge_targets_tie_expanded": 0,
+        "member_targets": 0
+      },
+      "row_pitch_points": 7.0,
+      "statistics_retained_in_source_table": true,
+      "targets_with_zero_observed_reversals": 6977,
+      "term_label_points": 5.0,
+      "term_selection_matches_authoritative_table": true,
+      "upstream_inputs": {
+        "01_terms.tsv": "2244fed3acb505432244e2f5a0f76538457236143f6f407cfbc0b2a62e3c7ca6",
+        "census_master_edges.csv.gz": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+        "supplement_package_final_audit.json": "1245df174de5f3998aa4b8a9efdbcd3e5e86a2711c807416956c1106629223cd"
+      }
+    },
+    "panel_tag_contract": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e",
+      "f": "f",
+      "g": "g",
+      "h": "h"
+    },
+    "post_save_canvas_geometry": {
+      "heat_equal_pre_save": true,
+      "panel_d_axis_labels_equal_pre_save": true,
+      "top_equal_pre_save": true
+    },
+    "targeted_text_geometry": {
+      "panel_e_required_text_present": true,
+      "panel_e_term_labels": 19,
+      "relationships": [
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 37.0,
+          "relationship": "panel f title vs CCNC"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 52.09375,
+          "relationship": "panel f title vs TADA2B"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 52.0,
+          "relationship": "panel f title vs SUPT7L"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 28.0,
+          "relationship": "panel g title vs AHR"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 36.0,
+          "relationship": "panel g title vs ARNT"
+        }
+      ],
+      "retired_overlap_asterisks_present": false,
+      "threshold_pixels_each_axis": 0.5
+    },
+    "terminology_contract": {
+      "b": "Single-orientation targets",
+      "f": "Cofactor trio; 16 direction-concordant targets",
+      "forbidden_matches": [],
+      "g": "Sensor pair; 17 direction-concordant targets"
+    },
+    "text_audit": {
+      "formal_axes_clip_candidates_ignored": 0,
+      "max_visible_text_points": 7.0,
+      "min_visible_text_points": 5.0,
+      "off_page_text": [],
+      "visible_text_count": 448
+    }
+  },
+  "layout_order": {
+    "bottom": [
+      "f",
+      "g",
+      "h"
+    ],
+    "middle": [
+      "d",
+      "e"
+    ],
+    "top": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "legend_changes": false,
+  "manuscript_changes": false,
+  "no_write_guard": {
+    "all_equal": true,
+    "paired_before_after_hashes": true,
+    "protected_after": {
+      "FIGURE_LEGENDS.md": "d7f863baaf6f9bb8e14e8721ddd5793f5af78b6f67d76b82f083921164e29d34",
+      "HumanCD4CoDEGNet_signflip.docx": "4f1705ea430ef11da9469d7f2771fc4032464c9f87839dbc3dc06f338f575033",
+      "HumanCD4CoDEGNet_signflip.pdf": "0903c8956f35ffd04b24495ae5d9bea0555975e37ebfbe14ac8287441a7df32e",
+      "MANUSCRIPT.md": "7105bb430c7726746939958a68a07f8b3f64b9831f3da3407c9d4a69c86ddc78",
+      "PAPER_FACTS.md": "20bbee2518d6232ae8fd8ca79b5d3c72829ab1e4332fe9f6c8d17e137e411538",
+      "figures_final/Fig3.pdf": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+      "figures_final/Fig3.png": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/Fig3_target_centred_top_overview_layout_v10_4_1.pdf": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/Fig3_target_centred_top_overview_layout_v10_4_1.png": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_all49.csv": "46fbb6ddf4325c9f33e0b58ad6bf587ef512ed4cd19fb59d10255c3529b83905",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_arce.json": "428d6e3057e638694f80122718cb703506eeb7c201d85e5972eb81c8822ba47d",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_bridge_manifest.json": "89e497bf7d3c91c8de9797b8df532ba0a36774577fed95196eaf27a8512fc698",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_cofactor.csv": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_concentration.json": "920fcba9c9ee6873ac3c38b29791e75fbf24b309bc0c4da3853531e6bb96ad1a",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_cell_state_matrix.tsv": "98ea5a8aba7287e2d56f87fc1614d9fcc612b878cb29615d4cc6f617546c6175",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_displayed_edge_values.tsv": "a2a422ca26c5affedb1282868cc6465c704ba95be0d5ec3648e096fe617330f6",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_manifest.json": "06d3e57b1c0fe505cdc119ff4fb0b702b2d7c25186dd78160638cd07144ce27d",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_regulator_order.tsv": "cf98467146d55095406842d2e86204f726e36dbc811f313c4428a4ec11eca0f8",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_target_order.tsv": "a5338d656eeeb8f324b02559b6fc8083cef668dc2d5b7b82220adf49e1a886d6",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_go_slim_go_slim_source_manifest.json": "b580d4a05084d9197a6ad9de9a5901c82939ab4948b6cd1eca26ca852c4cb926",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_go_slim_target_annotation_coverage.tsv": "c0c44f841aae9386897199135a974db57e7d6dfe5acf6b7c6c450ef30c0ed8cd",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_go_slim_target_go_slim_memberships.tsv": "62504edaabaafa3c5c2c6051b430e932aa56943a5862847e8978bd8067150bba",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_programme_manifest.json": "cbc4d68d7f4e592d5c90f9deefe9d62cbb85e70b37ed314ee8df086c4678f341",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_programme_memberships.csv": "4e9ecd62c996347544634fc58c1450279d56491e57346618f68764339d886758",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_programmes.csv": "88c9017e7d2a2e429abd8cb51813770bd60129228fb2aa12ddc06ab8813ecdf1",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_sensor.csv": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_unanimity.json": "0ef79f5c61437945a8ddf35a7fd684c04bf9458a3828896ee103be79d0e35478",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/manifest.json": "e90b58662bc7dd3eed709323bfa55ca44daed84a800325bc77e348b47120020b",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/predecessor_renderer_fig3_target_centred_top_overview_layout_v10.py": "0827896ef22b2748f7aa727ae561d3ef75c797a7ab32fa997ce3490e7f51dffd",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_base_r5.py": "6f0c52c17c56af6e77ab5c6dd609200b7a7e8dbd8483b81addb81cead182e690",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_bridge.py": "f2e4ec02f92228c89b1e6452aa2681908507959ec72f0e6b7ae4afe3bb32ebb8",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_biological_summary_v9.py": "6e08b4fc81832c18c8b2723e45c6f34ad01a0836c3877504b0da129b64bbca9c",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_effect_zoom_v7.py": "03c6ee120ec0af80abeb96cea054dffc4fa8683b6b709412b69248319eeddc50",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_effect_zoom_v8.py": "d709c21e15ae0d3e450cca1c8ca4e1f46e50651b8815021a72b20c1c61486937",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_top_overview_layout_v10_4_1.py": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_v6.py": "c0768074377d432194d3dd6852f4d5fd22ab4a3101237b200c8e726434bb2155",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3c_go_slim_biological_summary_v2.py": "85aa2261a80fdd68f90eff66454625f7d9517baf94a2f799a56849a3ccb7b03e",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_a_target_concentration.csv": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_b_target_unanimity.csv": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_c_effect_score_matrix.tsv": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_d_effect_score_matrix.tsv": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_e_go_bp_slim_summary.tsv": "359becae2759094eb8e2c4632bd5fdd1bd9e43341f7bbd6ec12805231eea68b8",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_f_cofactor_targets.csv": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_g_sensor_targets.csv": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_h_arce_recurrence.csv": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v1/gsea_pathway_reversal_overlay_v1.pdf": "7565e48276486a09c404fcd598a46571afba804d95d563572a44df3a2ae75093",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v1/gsea_pathway_reversal_overlay_v1.png": "011cadfc033575cd3c752d8963cbe77492325b96ab05cd3a6cb27d2736c9cd91",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v1/manifest.json": "19bab8879fb086804833b5c32a3c99ccdeeda5e144dc382de7e13558cb5742d4",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/gsea_pathway_reversal_overlay_v2.pdf": "26233411a87d080b091ad5c23305e890e36d380c84644f20a89e428930494358",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/gsea_pathway_reversal_overlay_v2.png": "1ccbe985e78c8780c819d74ce295216bee56dca5f3d9ae2426160deb3cfbbb4d",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/manifest.json": "fb6e1ac16ea3cfd4c6c743707b5b41fe0e5023e0fb74c18fdcddefc0f60f3a4f",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/panel_a_overlap_audit.guard.log": "d26d9db53b14c0072fee226d26a86187ae079a26cf8ce7221cb4315d552b4976",
+      "results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/production_v2/01_terms.tsv": "2244fed3acb505432244e2f5a0f76538457236143f6f407cfbc0b2a62e3c7ca6",
+      "results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/supplement_package_final_audit.json": "1245df174de5f3998aa4b8a9efdbcd3e5e86a2711c807416956c1106629223cd",
+      "results_data/census/census_master_edges.csv.gz": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+      "results_data/census/gsea_pathway_reversal_overlay.json": "38ee74c1b4c366de512eefb76f9a185d1a1e7674b29ddfc5229ccc365f1833da",
+      "scripts/active_claim_guard.py": "41daec54bd4bf43a0366e09892c679fead2b886e8cbc7a333a49b019d181c265",
+      "scripts/fig3_target_centred_top_overview_layout_v10_4_1.py": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858",
+      "scripts/fig_gsea_pathway_reversal_overlay.py": "80c5f2af9b02f6893e7019001b59d4a4c5b0cc74b84fda4391a2b80fb316afd1",
+      "scripts/gsea_pathway_reversal_overlay.py": "4ebe7a2cf55118eb07a62f1a1c84768b7b6722f624091cb23890bcec919f7016"
+    },
+    "protected_before": {
+      "FIGURE_LEGENDS.md": "d7f863baaf6f9bb8e14e8721ddd5793f5af78b6f67d76b82f083921164e29d34",
+      "HumanCD4CoDEGNet_signflip.docx": "4f1705ea430ef11da9469d7f2771fc4032464c9f87839dbc3dc06f338f575033",
+      "HumanCD4CoDEGNet_signflip.pdf": "0903c8956f35ffd04b24495ae5d9bea0555975e37ebfbe14ac8287441a7df32e",
+      "MANUSCRIPT.md": "7105bb430c7726746939958a68a07f8b3f64b9831f3da3407c9d4a69c86ddc78",
+      "PAPER_FACTS.md": "20bbee2518d6232ae8fd8ca79b5d3c72829ab1e4332fe9f6c8d17e137e411538",
+      "figures_final/Fig3.pdf": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+      "figures_final/Fig3.png": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/Fig3_target_centred_top_overview_layout_v10_4_1.pdf": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/Fig3_target_centred_top_overview_layout_v10_4_1.png": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_all49.csv": "46fbb6ddf4325c9f33e0b58ad6bf587ef512ed4cd19fb59d10255c3529b83905",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_arce.json": "428d6e3057e638694f80122718cb703506eeb7c201d85e5972eb81c8822ba47d",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_bridge_manifest.json": "89e497bf7d3c91c8de9797b8df532ba0a36774577fed95196eaf27a8512fc698",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_cofactor.csv": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_concentration.json": "920fcba9c9ee6873ac3c38b29791e75fbf24b309bc0c4da3853531e6bb96ad1a",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_cell_state_matrix.tsv": "98ea5a8aba7287e2d56f87fc1614d9fcc612b878cb29615d4cc6f617546c6175",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_displayed_edge_values.tsv": "a2a422ca26c5affedb1282868cc6465c704ba95be0d5ec3648e096fe617330f6",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_manifest.json": "06d3e57b1c0fe505cdc119ff4fb0b702b2d7c25186dd78160638cd07144ce27d",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_regulator_order.tsv": "cf98467146d55095406842d2e86204f726e36dbc811f313c4428a4ec11eca0f8",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_dense_target_order.tsv": "a5338d656eeeb8f324b02559b6fc8083cef668dc2d5b7b82220adf49e1a886d6",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_go_slim_go_slim_source_manifest.json": "b580d4a05084d9197a6ad9de9a5901c82939ab4948b6cd1eca26ca852c4cb926",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_go_slim_target_annotation_coverage.tsv": "c0c44f841aae9386897199135a974db57e7d6dfe5acf6b7c6c450ef30c0ed8cd",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_go_slim_target_go_slim_memberships.tsv": "62504edaabaafa3c5c2c6051b430e932aa56943a5862847e8978bd8067150bba",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_programme_manifest.json": "cbc4d68d7f4e592d5c90f9deefe9d62cbb85e70b37ed314ee8df086c4678f341",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_programme_memberships.csv": "4e9ecd62c996347544634fc58c1450279d56491e57346618f68764339d886758",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_programmes.csv": "88c9017e7d2a2e429abd8cb51813770bd60129228fb2aa12ddc06ab8813ecdf1",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_sensor.csv": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/input_unanimity.json": "0ef79f5c61437945a8ddf35a7fd684c04bf9458a3828896ee103be79d0e35478",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/manifest.json": "e90b58662bc7dd3eed709323bfa55ca44daed84a800325bc77e348b47120020b",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/predecessor_renderer_fig3_target_centred_top_overview_layout_v10.py": "0827896ef22b2748f7aa727ae561d3ef75c797a7ab32fa997ce3490e7f51dffd",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_base_r5.py": "6f0c52c17c56af6e77ab5c6dd609200b7a7e8dbd8483b81addb81cead182e690",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_bridge.py": "f2e4ec02f92228c89b1e6452aa2681908507959ec72f0e6b7ae4afe3bb32ebb8",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_biological_summary_v9.py": "6e08b4fc81832c18c8b2723e45c6f34ad01a0836c3877504b0da129b64bbca9c",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_effect_zoom_v7.py": "03c6ee120ec0af80abeb96cea054dffc4fa8683b6b709412b69248319eeddc50",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_effect_zoom_v8.py": "d709c21e15ae0d3e450cca1c8ca4e1f46e50651b8815021a72b20c1c61486937",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_top_overview_layout_v10_4_1.py": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3_target_centred_v6.py": "c0768074377d432194d3dd6852f4d5fd22ab4a3101237b200c8e726434bb2155",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/renderer_fig3c_go_slim_biological_summary_v2.py": "85aa2261a80fdd68f90eff66454625f7d9517baf94a2f799a56849a3ccb7b03e",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_a_target_concentration.csv": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_b_target_unanimity.csv": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_c_effect_score_matrix.tsv": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_d_effect_score_matrix.tsv": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_e_go_bp_slim_summary.tsv": "359becae2759094eb8e2c4632bd5fdd1bd9e43341f7bbd6ec12805231eea68b8",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_f_cofactor_targets.csv": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_g_sensor_targets.csv": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/source_panel_h_arce_recurrence.csv": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v1/gsea_pathway_reversal_overlay_v1.pdf": "7565e48276486a09c404fcd598a46571afba804d95d563572a44df3a2ae75093",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v1/gsea_pathway_reversal_overlay_v1.png": "011cadfc033575cd3c752d8963cbe77492325b96ab05cd3a6cb27d2736c9cd91",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v1/manifest.json": "19bab8879fb086804833b5c32a3c99ccdeeda5e144dc382de7e13558cb5742d4",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/gsea_pathway_reversal_overlay_v2.pdf": "26233411a87d080b091ad5c23305e890e36d380c84644f20a89e428930494358",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/gsea_pathway_reversal_overlay_v2.png": "1ccbe985e78c8780c819d74ce295216bee56dca5f3d9ae2426160deb3cfbbb4d",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/manifest.json": "fb6e1ac16ea3cfd4c6c743707b5b41fe0e5023e0fb74c18fdcddefc0f60f3a4f",
+      "figures_final/diagnostics/gsea_pathway_reversal_overlay_v2/panel_a_overlap_audit.guard.log": "d26d9db53b14c0072fee226d26a86187ae079a26cf8ce7221cb4315d552b4976",
+      "results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/production_v2/01_terms.tsv": "2244fed3acb505432244e2f5a0f76538457236143f6f407cfbc0b2a62e3c7ca6",
+      "results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/supplement_package_final_audit.json": "1245df174de5f3998aa4b8a9efdbcd3e5e86a2711c807416956c1106629223cd",
+      "results_data/census/census_master_edges.csv.gz": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+      "results_data/census/gsea_pathway_reversal_overlay.json": "38ee74c1b4c366de512eefb76f9a185d1a1e7674b29ddfc5229ccc365f1833da",
+      "scripts/active_claim_guard.py": "41daec54bd4bf43a0366e09892c679fead2b886e8cbc7a333a49b019d181c265",
+      "scripts/fig3_target_centred_top_overview_layout_v10_4_1.py": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858",
+      "scripts/fig_gsea_pathway_reversal_overlay.py": "80c5f2af9b02f6893e7019001b59d4a4c5b0cc74b84fda4391a2b80fb316afd1",
+      "scripts/gsea_pathway_reversal_overlay.py": "4ebe7a2cf55118eb07a62f1a1c84768b7b6722f624091cb23890bcec919f7016"
+    }
+  },
+  "outputs": {
+    "Fig3_target_centred_alltarget_enrichment_v11.pdf": {
+      "bytes": 552195,
+      "sha256": "3582a9dc256e9d070701667a1d67a24699fd5bf43375a92abaeada119216b21a"
+    },
+    "Fig3_target_centred_alltarget_enrichment_v11.png": {
+      "bytes": 732167,
+      "sha256": "67ae02e5d0d9f0ad7e20382b2bd45b56e10b367fe84c403a7f594142c7fded46"
+    },
+    "source_panel_a_target_concentration.csv": {
+      "bytes": 159,
+      "sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1"
+    },
+    "source_panel_b_target_unanimity.csv": {
+      "bytes": 312,
+      "sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81"
+    },
+    "source_panel_c_effect_score_matrix.tsv": {
+      "bytes": 29123,
+      "sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a"
+    },
+    "source_panel_d_effect_score_matrix.tsv": {
+      "bytes": 9952,
+      "sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252"
+    },
+    "source_panel_e_alltarget_term_composition.tsv": {
+      "bytes": 4317,
+      "sha256": "1851bc24bdc3bf911db47f5d6391f9d0ae809c0a70f34acae4c02608e0cfa074"
+    },
+    "source_panel_e_overlay_generator.py": {
+      "bytes": 7317,
+      "sha256": "4ebe7a2cf55118eb07a62f1a1c84768b7b6722f624091cb23890bcec919f7016"
+    },
+    "source_panel_e_standalone_renderer.py": {
+      "bytes": 12304,
+      "sha256": "80c5f2af9b02f6893e7019001b59d4a4c5b0cc74b84fda4391a2b80fb316afd1"
+    },
+    "source_panel_f_cofactor_targets.csv": {
+      "bytes": 4407,
+      "sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4"
+    },
+    "source_panel_g_sensor_targets.csv": {
+      "bytes": 3422,
+      "sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552"
+    },
+    "source_panel_h_arce_recurrence.csv": {
+      "bytes": 832,
+      "sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79"
+    }
+  },
+  "panel_e": {
+    "all_target_universe": 9554,
+    "bar_width_inches": 0.48,
+    "c_d_key_preserved_at_v10_4_1_position": true,
+    "claim_boundary": "all-target network-adjusted pooled reversal-burden enrichment; KEGG and GO-BP use explicitly separated evidence tiers. Bar colours are a descriptive partition of each term's census members by dataset-wide target orientation and do not test lost-versus-gained enrichment, pathway activity, mechanism, individual edges, or enrichment among the 279 targets in panels c-d. Terms overlap.",
+    "composition_values_match_overlay_json": true,
+    "display": "lost/gained/mixed/no-reversal share of census members",
+    "displayed_per_term_n_nes_q": false,
+    "displayed_terms": 19,
+    "evidence_tiers_visibly_separated": true,
+    "false_overlap_asterisk_or_footnote_rendered": false,
+    "go_bp_global_maxT_stable_terms": 10,
+    "go_bp_statement_eligible_terms_total": 161,
+    "heading_points": 7.0,
+    "kegg_global_maxT_stable_terms": 0,
+    "kegg_repeatable_fdr_terms": 9,
+    "labels_call_go_entries_terms_not_pathways": true,
+    "prion_proteasome_overlap_counts": {
+      "leading_edge_targets": 0,
+      "leading_edge_targets_tie_expanded": 0,
+      "member_targets": 0
+    },
+    "row_pitch_points": 7.0,
+    "statistics_retained_in_source_table": true,
+    "targets_with_zero_observed_reversals": 6977,
+    "term_label_points": 5.0,
+    "term_selection_matches_authoritative_table": true,
+    "upstream_inputs": {
+      "01_terms.tsv": "2244fed3acb505432244e2f5a0f76538457236143f6f407cfbc0b2a62e3c7ca6",
+      "census_master_edges.csv.gz": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+      "supplement_package_final_audit.json": "1245df174de5f3998aa4b8a9efdbcd3e5e86a2711c807416956c1106629223cd"
+    }
+  },
+  "panel_map": {
+    "a": "unchanged target concentration",
+    "b": "unchanged single-orientation target statistic",
+    "c": "unchanged complete R49 x T279 fixed-order signed effect overview",
+    "d": "unchanged literal panel c[:, :80] enlargement",
+    "e": "corrected v2 all-target enriched-term composition; 9 KEGG plus 10 GO-BP",
+    "f": "unchanged cofactor-trio direction-concordant targets",
+    "g": "unchanged sensor-pair direction-concordant targets",
+    "h": "unchanged Arce edge recurrence"
+  },
+  "parent": {
+    "directory": "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1",
+    "manifest_sha256": "e90b58662bc7dd3eed709323bfa55ca44daed84a800325bc77e348b47120020b",
+    "pdf_sha256": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+    "png_sha256": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de",
+    "renderer_sha256": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858"
+  },
+  "permanent_deletion_performed": false,
+  "prior_artifact_changes": false,
+  "promotion_performed": false,
+  "renderer": {
+    "path": "scripts/fig3_target_centred_alltarget_enrichment_v11.py",
+    "sha256": "2b0936bc9855e2eba5689e236982473974f3f0cce71f491f7463d78a29c2e845"
+  },
+  "saved_pdf_geometry": {
+    "page_height_inches": 9.600000000000001,
+    "page_height_points": 691.2,
+    "page_standard": "custom short portrait",
+    "page_width_inches": 8.267722222222222,
+    "page_width_points": 595.276,
+    "tight_bbox": false
+  },
+  "schema_version": "fig3-target-centred-alltarget-enrichment-v11",
+  "scientific_caption_boundary": "Panel e uses all 9,554 census targets, including 6,977 with no observed reversal, not the 279 targets in panels c-d. Nine of 168 KEGG Legacy terms met the repeatable within-library FDR criterion in the pooled permutations and both independent banks; none passed global maxT across all 2,593 terms. Ten of 2,425 GO Biological Process terms passed global maxT in the pooled analysis and both banks. Bars descriptively partition term members into lost, gained, mixed, or no observed reversal; the enrichment test pools direction. Terms overlap and do not establish pathway activity.",
+  "source_closure": {
+    "all_display_values_retained_in_source_panel": true,
+    "authoritative_terms_sha256": "2244fed3acb505432244e2f5a0f76538457236143f6f407cfbc0b2a62e3c7ca6",
+    "census_master_edges_sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+    "copied_inputs_and_renderers": {
+      "input_panel_e_authoritative_terms.tsv": {
+        "bytes": 2035601,
+        "sha256": "2244fed3acb505432244e2f5a0f76538457236143f6f407cfbc0b2a62e3c7ca6",
+        "source": "results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/production_v2/01_terms.tsv"
+      },
+      "input_panel_e_overlay_v2.json": {
+        "bytes": 28369,
+        "sha256": "38ee74c1b4c366de512eefb76f9a185d1a1e7674b29ddfc5229ccc365f1833da",
+        "source": "results_data/census/gsea_pathway_reversal_overlay.json"
+      },
+      "input_panel_e_supplement_package_final_audit.json": {
+        "bytes": 2271,
+        "sha256": "1245df174de5f3998aa4b8a9efdbcd3e5e86a2711c807416956c1106629223cd",
+        "source": "results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/supplement_package_final_audit.json"
+      },
+      "parent_renderer_v10_4_1.py": {
+        "bytes": 68197,
+        "sha256": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858",
+        "source": "scripts/fig3_target_centred_top_overview_layout_v10_4_1.py"
+      },
+      "parent_v10_4_1_manifest.json": {
+        "bytes": 38550,
+        "sha256": "e90b58662bc7dd3eed709323bfa55ca44daed84a800325bc77e348b47120020b",
+        "source": "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_4_1/manifest.json"
+      },
+      "renderer_fig3_target_centred_alltarget_enrichment_v11.py": {
+        "bytes": 41739,
+        "sha256": "2b0936bc9855e2eba5689e236982473974f3f0cce71f491f7463d78a29c2e845",
+        "source": "scripts/fig3_target_centred_alltarget_enrichment_v11.py"
+      },
+      "source_panel_e_overlay_generator.py": {
+        "bytes": 7317,
+        "sha256": "4ebe7a2cf55118eb07a62f1a1c84768b7b6722f624091cb23890bcec919f7016",
+        "source": "scripts/gsea_pathway_reversal_overlay.py"
+      },
+      "source_panel_e_standalone_renderer.py": {
+        "bytes": 12304,
+        "sha256": "80c5f2af9b02f6893e7019001b59d4a4c5b0cc74b84fda4391a2b80fb316afd1",
+        "source": "scripts/fig_gsea_pathway_reversal_overlay.py"
+      }
+    },
+    "overlay_generator_sha256": "4ebe7a2cf55118eb07a62f1a1c84768b7b6722f624091cb23890bcec919f7016",
+    "overlay_json_sha256": "38ee74c1b4c366de512eefb76f9a185d1a1e7674b29ddfc5229ccc365f1833da",
+    "panel_source_rows": 19,
+    "standalone_overlay_renderer_sha256": "80c5f2af9b02f6893e7019001b59d4a4c5b0cc74b84fda4391a2b80fb316afd1",
+    "supplement_package_final_audit_sha256": "1245df174de5f3998aa4b8a9efdbcd3e5e86a2711c807416956c1106629223cd"
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_PROMOTED",
+  "unchanged_content_proof": {
+    "c_d_key_preserved": true,
+    "geometry": {
+      "geometry_fields_byte_value_equal": [
+        "panel_ab_geometry",
+        "panel_c",
+        "panel_d",
+        "panel_d_axis_label_typography",
+        "heat_geometry",
+        "literal_zoom_assertions",
+        "panel_d_header_clearance",
+        "panel_tag_contract",
+        "terminology_contract"
+      ],
+      "layout_fields_byte_value_equal": [
+        "page",
+        "top_square_side",
+        "overview_cell_side_points",
+        "detail_cell_side_points",
+        "detail_vertical_shift_inches",
+        "detail_heat_x_inches",
+        "detail_row_track_x_inches",
+        "panel_e_x_inches",
+        "panel_e_width_inches",
+        "detail_panel_e_gap_inches",
+        "top_row_height_inches",
+        "middle_row_height_inches",
+        "bottom_row_height_inches",
+        "top_ab_slot_width_inches",
+        "top_c_slot_width_inches",
+        "bottom_colorbar_rect"
+      ],
+      "panel_e_slot_width_inches": 1.6112510936133015,
+      "panel_e_slot_x_inches": 6.615126859142606
+    },
+    "panel_sources": {
+      "source_panel_a_target_concentration.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1",
+        "v11_sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1"
+      },
+      "source_panel_b_target_unanimity.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81",
+        "v11_sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81"
+      },
+      "source_panel_c_effect_score_matrix.tsv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a",
+        "v11_sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a"
+      },
+      "source_panel_d_effect_score_matrix.tsv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252",
+        "v11_sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252"
+      },
+      "source_panel_f_cofactor_targets.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+        "v11_sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4"
+      },
+      "source_panel_g_sensor_targets.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+        "v11_sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552"
+      },
+      "source_panel_h_arce_recurrence.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79",
+        "v11_sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79"
+      }
+    },
+    "panels_a_d_and_f_h_preserved": true,
+    "saved_png_raster": {
+      "all_other_rendered_pixels_identical_to_v10_4_1": true,
+      "c_d_key_changed_pixels": 0,
+      "c_d_key_crop_pixels_top_down": [
+        1995,
+        1661,
+        2458,
+        2052
+      ],
+      "c_d_key_pixels_identical_to_v10_4_1": true,
+      "outside_panel_e_changed_pixels": 0,
+      "panel_e_difference_mask_pixels_top_down": [
+        1968,
+        687,
+        2480,
+        2152
+      ],
+      "png_shape": [
+        2880,
+        2480,
+        4
+      ]
+    }
+  }
+}

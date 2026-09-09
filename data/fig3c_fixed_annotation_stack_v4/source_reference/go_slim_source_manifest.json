@@ -1,0 +1,305 @@
+{
+  "annotation_mapping": {
+    "ambiguous_accepted_product_to_target_mappings": 0,
+    "hierarchy_rule": "when assigned slim terms are ancestor-descendant, retain the more specific term; retain unrelated categories as multi-label memberships",
+    "mapped_targets": 240,
+    "matched_gaf_bp_rows": 4214,
+    "multiply_mapped_targets": 152,
+    "official_bp_slim_terms": 25,
+    "official_bp_slim_terms_with_zero_coverage": 2,
+    "skipped_not_rows": 613,
+    "skipped_unknown_go_terms": 0,
+    "targets": 279,
+    "targets_touching_rejected_shared_products": [
+      "CALM3",
+      "H4C3"
+    ],
+    "targets_unresolved_after_fail_closed_shared_product_rule": [
+      "H4C3"
+    ],
+    "targets_with_accepted_gpi_product": 278,
+    "targets_with_any_direct_go_bp_annotation": 268,
+    "targets_with_any_gpi_ensembl_xref": 279,
+    "targets_with_gaf_bp_annotated_product": 268,
+    "targets_with_rejected_shared_gpi_product": 2,
+    "unmapped_targets": 39
+  },
+  "canonical_changes": false,
+  "claim_boundary": "Broad GO-slim memberships are descriptive target annotations. They did not select or order targets and carry no enrichment, pathway-activity, community, or mechanism claim.",
+  "created_utc": "2026-09-03T18:39:11.590777+00:00",
+  "figure3c_source": {
+    "cell_state_matrix_sha256": "98ea5a8aba7287e2d56f87fc1614d9fcc612b878cb29615d4cc6f617546c6175",
+    "displayed_edge_values_sha256": "a2a422ca26c5affedb1282868cc6465c704ba95be0d5ec3648e096fe617330f6",
+    "full_summary": {
+      "cells": 13671,
+      "gained": 207,
+      "lost": 330,
+      "outside": 12703,
+      "positive_rows": 43,
+      "positive_targets": 257,
+      "reversal": 537,
+      "self": 1,
+      "stable": 430
+    },
+    "manifest_sha256": "06d3e57b1c0fe505cdc119ff4fb0b702b2d7c25186dd78160638cd07144ce27d",
+    "path": "figures_final/diagnostics/fig3b_r49_x_279_dense_tail_synthesis_v2",
+    "regulator_order_sha256": "cf98467146d55095406842d2e86204f726e36dbc811f313c4428a4ec11eca0f8",
+    "target_order_sha256": "a5338d656eeeb8f324b02559b6fc8083cef668dc2d5b7b82220adf49e1a886d6"
+  },
+  "figure_geometry": {
+    "figure_inches": [
+      11.692913385826772,
+      5.196850393700788
+    ],
+    "heatmap_cell_height_points": 1.9,
+    "heatmap_cell_width_points": 1.9000000000000001,
+    "heatmap_shape": [
+      49,
+      279
+    ],
+    "ribbon_rows_include_unmapped": true,
+    "ribbon_shape": [
+      26,
+      279
+    ],
+    "target_order_equal_frozen_figure3c": true,
+    "text_audit": {
+      "maximum_points": 7.0,
+      "minimum_points": 5.0,
+      "outside_canvas": [],
+      "unique_points": [
+        5.0,
+        5.5,
+        7.0
+      ],
+      "visible_text_count": 73
+    }
+  },
+  "forbidden_analyses": {
+    "annotation_called_pathway_activity": false,
+    "mapped_only_reduced_universe": false,
+    "post_result_hand_selection_of_categories": false,
+    "unrestricted_go_bp_hypergeometric_enrichment": false,
+    "unsupported_term_network": false
+  },
+  "outputs": {
+    "ALT_TEXT.md": {
+      "bytes": 312,
+      "sha256": "6cd99a53864b7391096e759b5547397f1d47ef58d6a719021098584977d18327"
+    },
+    "CAPTION_DRAFT.md": {
+      "bytes": 944,
+      "sha256": "7fc3a7e8d8ee36bc2e794dbf0e39481e5ce8c6c042f4e52fcf4fd1fde7f1b4ae"
+    },
+    "Fig3c_GO_slim_annotation_ribbon_v1.pdf": {
+      "bytes": 420105,
+      "sha256": "14fcbef3b81ba23ce825f1582a3bacde7f399d25099fd684b88cb7726209dff8"
+    },
+    "Fig3c_GO_slim_annotation_ribbon_v1.png": {
+      "bytes": 240631,
+      "sha256": "477567c867ff7397e779c4ac602b424e1c457305b4f5d233893df0cf0f57edd0"
+    },
+    "fig3c_go_slim_annotation_ribbon_diagnostic_v1.py": {
+      "bytes": 47803,
+      "sha256": "376ed94c4ddcbd205f2c58d88e6e99f2cfd8d3ddcc1951fb8f8e8ecdac3c9362"
+    },
+    "go_slim_term_counts.tsv": {
+      "bytes": 1329,
+      "sha256": "503638b9449c4a39a6dcf292b043774d8b7ad099eb67acf6d3d8399fde161ba4"
+    },
+    "target_annotation_coverage.tsv": {
+      "bytes": 54153,
+      "sha256": "c0c44f841aae9386897199135a974db57e7d6dfe5acf6b7c6c450ef30c0ed8cd"
+    },
+    "target_go_slim_matrix.tsv": {
+      "bytes": 17098,
+      "sha256": "01977b1d0a84fbc425b482705093da4e1e38d29f85ade3913ce02e73beb74c32"
+    },
+    "target_go_slim_memberships.tsv": {
+      "bytes": 41614,
+      "sha256": "62504edaabaafa3c5c2c6051b430e932aa56943a5862847e8978bd8067150bba"
+    },
+    "target_gpi_product_map.tsv": {
+      "bytes": 107222,
+      "sha256": "38f344cac3a6f9e236839fd90566d749004f8997df01459fa5d36feee26ad83b"
+    }
+  },
+  "protected_hashes_after": {
+    "FIGURE_LEGENDS.md": "a79751fe46af0a14c596bc3bf00cff3b0e1b9f41c7e191aa2b17a37a74e3b2cd",
+    "HumanCD4CoDEGNet_signflip.docx": "d92fe2594b326ba5da5f6a1d4e349be386c144da6a97f8036dcde00b83627da8",
+    "HumanCD4CoDEGNet_signflip.pdf": "7c07dae389b219808b16e4cb21714d6066152726fd6024afd13d71b9eb1886cb",
+    "MANUSCRIPT.md": "69c91570732b2806dd5324a17bcf065a80ae2a13f795674f9b91361a7e128117",
+    "PAPER_FACTS.md": "683e0fc8d3d982e7677a1c54f977c8226c1fd1eeb6a42d3a78e12d63dafa7440",
+    "figures_final/Fig3.pdf": "48cbf1202c51604d94d6fa7ffb5420d6d6699edd5f9d3cdd2a07a708ff2afa91",
+    "figures_final/Fig3.png": "df9622531b3c74dec29bda73425096ee071bb3a2ef2db27893511a2279321618",
+    "scripts/active_claim_guard.py": "97e46133c78bca8ca1f17bad636894c8706c6116c6a433fad60ae69bb6c42632"
+  },
+  "protected_hashes_before": {
+    "FIGURE_LEGENDS.md": "a79751fe46af0a14c596bc3bf00cff3b0e1b9f41c7e191aa2b17a37a74e3b2cd",
+    "HumanCD4CoDEGNet_signflip.docx": "d92fe2594b326ba5da5f6a1d4e349be386c144da6a97f8036dcde00b83627da8",
+    "HumanCD4CoDEGNet_signflip.pdf": "7c07dae389b219808b16e4cb21714d6066152726fd6024afd13d71b9eb1886cb",
+    "MANUSCRIPT.md": "69c91570732b2806dd5324a17bcf065a80ae2a13f795674f9b91361a7e128117",
+    "PAPER_FACTS.md": "683e0fc8d3d982e7677a1c54f977c8226c1fd1eeb6a42d3a78e12d63dafa7440",
+    "figures_final/Fig3.pdf": "48cbf1202c51604d94d6fa7ffb5420d6d6699edd5f9d3cdd2a07a708ff2afa91",
+    "figures_final/Fig3.png": "df9622531b3c74dec29bda73425096ee071bb3a2ef2db27893511a2279321618",
+    "scripts/active_claim_guard.py": "97e46133c78bca8ca1f17bad636894c8706c6116c6a433fad60ae69bb6c42632"
+  },
+  "render": {
+    "fresh_canvas_count": 2,
+    "pdf_byte_identical": true,
+    "pdf_fonttype": 42,
+    "pdf_sha256": "14fcbef3b81ba23ce825f1582a3bacde7f399d25099fd684b88cb7726209dff8",
+    "png_byte_identical": true,
+    "png_dpi": 300,
+    "png_sha256": "477567c867ff7397e779c4ac602b424e1c457305b4f5d233893df0cf0f57edd0"
+  },
+  "schema_version": "fig3c-go-slim-annotation-ribbon-diagnostic-v1",
+  "source_releases": {
+    "go_basic": {
+      "bytes": 32227785,
+      "declared_data_version": "releases/2026-07-26",
+      "header": [
+        "format-version: 1.2",
+        "data-version: releases/2026-07-26",
+        "subsetdef: chebi_ph7_3 \"Rhea list of ChEBI terms representing the major species at pH 7.3.\"",
+        "subsetdef: gocheck_do_not_annotate \"Term not to be used for direct annotation\"",
+        "subsetdef: gocheck_obsoletion_candidate \"Terms planned for obsoletion\"",
+        "subsetdef: goslim_agr \"AGR slim\"",
+        "subsetdef: goslim_aspergillus \"Aspergillus GO slim\"",
+        "subsetdef: goslim_candida \"Candida GO slim\"",
+        "subsetdef: goslim_chembl \"ChEMBL protein targets summary\"",
+        "subsetdef: goslim_drosophila \"Drosophila GO slim\"",
+        "subsetdef: goslim_euk_cellular_processes_ribbon \"GO ribbon for eukaroytic cellular processes\"",
+        "subsetdef: goslim_flybase_ribbon \"Insecta GO ribbon slim\"",
+        "subsetdef: goslim_generic \"Generic GO slim\"",
+        "subsetdef: goslim_metagenomics \"Metagenomics GO slim\"",
+        "subsetdef: goslim_mouse \"Mouse GO slim\"",
+        "subsetdef: goslim_pir \"PIR GO slim\"",
+        "subsetdef: goslim_plant \"Plant GO slim\"",
+        "subsetdef: goslim_plant_ribbon \"Plant GO ribbon\"",
+        "subsetdef: goslim_pombe \"Fission yeast GO slim\"",
+        "subsetdef: goslim_prokaryote \"GO subset for prokaryotes\"",
+        "subsetdef: goslim_prokaryote_ribbon \"Prokaryote GO ribbon slim\"",
+        "subsetdef: goslim_synapse \"synapse GO slim\"",
+        "subsetdef: goslim_virus \"GO subset for viruses\"",
+        "subsetdef: goslim_yeast \"Yeast GO slim\"",
+        "synonymtypedef: syngo_official_label \"label approved by the SynGO project\"",
+        "synonymtypedef: systematic_synonym \"Systematic synonym\" EXACT",
+        "default-namespace: gene_ontology",
+        "idspace: dc http://purl.org/dc/elements/1.1/ ",
+        "idspace: EC http://purl.uniprot.org/enzyme/ ",
+        "idspace: KEGG_REACTION http://www.kegg.jp/entry/ ",
+        "idspace: MetaCyc http://identifiers.org/metacyc.reaction/ ",
+        "idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# ",
+        "idspace: Reactome http://identifiers.org/reactome/ ",
+        "idspace: RHEA http://rdf.rhea-db.org/ ",
+        "idspace: skos http://www.w3.org/2004/02/skos/core# ",
+        "idspace: TC http://identifiers.org/tcdb/ ",
+        "idspace: terms http://purl.org/dc/terms/ ",
+        "idspace: UM-BBD_pathwayID http://identifiers.org/umbbd.pathway/ ",
+        "idspace: UM-BBD_reactionID http://identifiers.org/umbbd.reaction/ ",
+        "idspace: VZ https://viralzone.expasy.org/ ",
+        "ontology: go",
+        "property_value: dc:description \"The Gene Ontology (GO) provides a framework and set of concepts for describing the functions of gene products from all organisms.\" xsd:string",
+        "property_value: dc:title \"Gene Ontology\" xsd:string",
+        "property_value: has_ontology_root_term GO:0003674",
+        "property_value: has_ontology_root_term GO:0005575",
+        "property_value: has_ontology_root_term GO:0008150",
+        "property_value: owl:versionInfo \"2026-07-26\" xsd:string",
+        "property_value: terms:license http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "release_package": "2026-08-05",
+      "requested_url": "https://release.geneontology.org/2026-08-05/ontology/go-basic.obo",
+      "resolved_url": "https://release.geneontology.org/2026-08-05/ontology/go-basic.obo",
+      "response_etag": "\"8c4b8a3bec875862945bb5e31d58e4d6-4\"",
+      "response_headers_file": "go-basic.obo.response_headers.txt",
+      "response_headers_sha256": "3ea9740f35ba21c739e2c88dea86fe7d3b76883e796c5daf98b48c3cfa79cfaa",
+      "response_last_modified": "Sat, 08 Aug 2026 21:51:43 GMT",
+      "retrieved_utc": "2026-09-03T18:39:01.891854+00:00",
+      "sha256": "b08d45b268b8c24ccb2513dbbbc7d4df9f6521c099b413f79eb31e06e0fa3bcc"
+    },
+    "go_slim": {
+      "bytes": 63496,
+      "expected_version": "2026-07-26",
+      "header": [
+        "format-version: 1.2",
+        "data-version: go/releases/2026-07-26/subsets/goslim_euk_cellular_processes_ribbon.owl",
+        "subsetdef: chebi_ph7_3 \"Rhea list of ChEBI terms representing the major species at pH 7.3.\"",
+        "subsetdef: gocheck_do_not_annotate \"Term not to be used for direct annotation\"",
+        "subsetdef: gocheck_obsoletion_candidate \"Terms planned for obsoletion\"",
+        "subsetdef: goslim_agr \"AGR slim\"",
+        "subsetdef: goslim_aspergillus \"Aspergillus GO slim\"",
+        "subsetdef: goslim_candida \"Candida GO slim\"",
+        "subsetdef: goslim_chembl \"ChEMBL protein targets summary\"",
+        "subsetdef: goslim_drosophila \"Drosophila GO slim\"",
+        "subsetdef: goslim_euk_cellular_processes_ribbon \"GO ribbon for eukaroytic cellular processes\"",
+        "subsetdef: goslim_flybase_ribbon \"Insecta GO ribbon slim\"",
+        "subsetdef: goslim_generic \"Generic GO slim\"",
+        "subsetdef: goslim_metagenomics \"Metagenomics GO slim\"",
+        "subsetdef: goslim_mouse \"Mouse GO slim\"",
+        "subsetdef: goslim_pir \"PIR GO slim\"",
+        "subsetdef: goslim_plant \"Plant GO slim\"",
+        "subsetdef: goslim_plant_ribbon \"Plant GO ribbon\"",
+        "subsetdef: goslim_pombe \"Fission yeast GO slim\"",
+        "subsetdef: goslim_prokaryote \"GO subset for prokaryotes\"",
+        "subsetdef: goslim_prokaryote_ribbon \"Prokaryote GO ribbon slim\"",
+        "subsetdef: goslim_synapse \"synapse GO slim\"",
+        "subsetdef: goslim_virus \"GO subset for viruses\"",
+        "subsetdef: goslim_yeast \"Yeast GO slim\"",
+        "synonymtypedef: syngo_official_label \"label approved by the SynGO project\"",
+        "synonymtypedef: systematic_synonym \"Systematic synonym\" EXACT",
+        "ontology: go/subsets/goslim_euk_cellular_processes_ribbon",
+        "property_value: owl:versionInfo \"2026-07-26\" xsd:string"
+      ],
+      "namespace_used": "biological_process",
+      "release_package": "2026-08-05",
+      "requested_url": "https://release.geneontology.org/2026-08-05/ontology/subsets/goslim_euk_cellular_processes_ribbon.obo",
+      "resolved_url": "https://release.geneontology.org/2026-08-05/ontology/subsets/goslim_euk_cellular_processes_ribbon.obo",
+      "response_etag": "\"3b88b3b46b165d731b698abbb8203132\"",
+      "response_headers_file": "goslim_euk_cellular_processes_ribbon.obo.response_headers.txt",
+      "response_headers_sha256": "8f3fd87b04d29d3ebac686a65cd7a9e239cf783e93f1a676f73a202531d6944e",
+      "response_last_modified": "Sat, 08 Aug 2026 21:51:57 GMT",
+      "retrieved_utc": "2026-09-03T18:39:02.019059+00:00",
+      "sha256": "d85a5345e260d40ad63676520351bb5a01824a60a94ee3dbd1ceefa68bf31686",
+      "subset": "goslim_euk_cellular_processes_ribbon"
+    },
+    "goa_human": {
+      "bytes": 12109254,
+      "expected_generated": "2026-07-28 19:42",
+      "header": [
+        "!gaf-version: 2.2",
+        "!generated-by: UniProt",
+        "!date-generated: 2026-07-28 19:42",
+        "!go-version: http://purl.obolibrary.org/obo/go/releases/2026-07-26/extensions/go-plus.ofn"
+      ],
+      "release_package": "2026-08-05",
+      "requested_url": "https://release.geneontology.org/2026-08-05/annotations/gaf/HUMAN-uniprot.gaf.gz",
+      "resolved_url": "https://release.geneontology.org/2026-08-05/annotations/gaf/HUMAN-uniprot.gaf.gz",
+      "response_etag": "\"792de2de5767408a2db9a581aa5743b5-2\"",
+      "response_headers_file": "HUMAN-uniprot.gaf.gz.response_headers.txt",
+      "response_headers_sha256": "5d15c76beae811f308851cdb59dd44a5debbc71a2233b4005aede1716279cfee",
+      "response_last_modified": "Sat, 08 Aug 2026 21:40:45 GMT",
+      "retrieved_utc": "2026-09-03T18:39:05.493520+00:00",
+      "sha256": "a0afba19dfb1f8fa996bc1bdcd61fd0c9bd4cf0d2bf2509d09ac86993c0e70a2"
+    },
+    "gpi_human": {
+      "bytes": 9897023,
+      "expected_generated": "2026-07-28 22:03",
+      "header": [
+        "!gpi-version: 2.0",
+        "!generated-by: UniProt",
+        "!date-generated: 2026-07-28 22:03"
+      ],
+      "release_package": "2026-08-05",
+      "requested_url": "https://release.geneontology.org/2026-08-05/annotations/gpi/HUMAN-uniprot.gpi.gz",
+      "resolved_url": "https://release.geneontology.org/2026-08-05/annotations/gpi/HUMAN-uniprot.gpi.gz",
+      "response_etag": "\"6bb7733da1086140a5fd365930938e18-2\"",
+      "response_headers_file": "HUMAN-uniprot.gpi.gz.response_headers.txt",
+      "response_headers_sha256": "2a30cc8916d915f21b2639fac08a72120cadaf1577bd934db664a67eaf853a30",
+      "response_last_modified": "Sat, 08 Aug 2026 21:42:35 GMT",
+      "retrieved_utc": "2026-09-03T18:39:07.021930+00:00",
+      "sha256": "2aad49b7eddfec0c3b41622f0a52d3f93d71c68325bd55c35103e7bf232f498e"
+    }
+  },
+  "status": "DESCRIPTIVE_DIAGNOSTIC_NOT_PROMOTED"
+}

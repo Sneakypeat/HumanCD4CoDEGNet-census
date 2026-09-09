@@ -1,0 +1,13 @@
+metric	scope	condition	available	absolute_q95	n_unique_supported_CAL	quantile	quantile_definition	source_role	stable_target_CAL_included	edge_weights
+total_effect	condition	Rest	True	0.2700779245345988	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+total_effect	condition	Stim48hr	True	0.36040365564994126	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+total_effect	cross_condition	delta	True	0.4672136696084307	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+detection_component	condition	Rest	True	0.1249966059555941	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+detection_component	condition	Stim48hr	True	0.11168067488371478	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+detection_component	cross_condition	delta	True	0.1630963341261115	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+positive_intensity_component	condition	Rest	True	0.2395412199932842	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+positive_intensity_component	condition	Stim48hr	True	0.3295790853490085	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+positive_intensity_component	cross_condition	delta	True	0.4005610530960586	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+raw_rate_log2_ratio	condition	Rest	True	0.292274583911454	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+raw_rate_log2_ratio	condition	Stim48hr	True	0.25014624691637555	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL
+raw_rate_log2_ratio	cross_condition	delta	True	0.28895610742191147	1726	0.95	HYNDMAN_FAN_TYPE_7_NUMPY_LINEAR	CAL_REVERSAL	False	EQUAL

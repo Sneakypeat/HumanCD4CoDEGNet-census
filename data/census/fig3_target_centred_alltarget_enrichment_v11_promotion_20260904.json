@@ -1,0 +1,1006 @@
+{
+  "active_text": {
+    "figure_legends": {
+      "bytes": 56530,
+      "path": "FIGURE_LEGENDS.md",
+      "sha256": "8dd2f087e3fda9ad1f101a3ba23cf49deaea4948b84700447a9c70b139ea397d"
+    },
+    "manuscript": {
+      "bytes": 68837,
+      "path": "MANUSCRIPT.md",
+      "sha256": "108d8c06c2736646e25fce6ca9d0f853f0edc56ab6c23c4196a0eb3e0e16a51b"
+    },
+    "paper_facts": {
+      "bytes": 36075,
+      "path": "PAPER_FACTS.md",
+      "sha256": "45534b24444ccf69db9d9623b28d83d59a2d517cef191882bf1b8286587f6c11"
+    },
+    "supplementary_methods": {
+      "bytes": 39928,
+      "path": "SUPPLEMENTARY_METHODS.md",
+      "sha256": "dcc88eb443828478871c72e99ee07d7af559d00ba168fe63461e5979a0a5c422"
+    },
+    "supplementary_results": {
+      "bytes": 23853,
+      "path": "SUPPLEMENTARY_RESULTS.md",
+      "sha256": "9c1cdaf51c319fa25f0d71f8bf310e440bf69494e4e33bcddef64f37e0cca8f9"
+    }
+  },
+  "audit_byproduct_archive": {
+    "checksums": {
+      "bytes": 514,
+      "path": "figures_final/repository/fig3_v11_audit_byproducts_2026-09-04/SHA256SUMS.txt",
+      "sha256": "7b15ce3d01563d9254590a3ed626d77e74eb9e14ab641e6f21032684241f2723"
+    },
+    "inventory": {
+      "bytes": 1575,
+      "path": "figures_final/repository/fig3_v11_audit_byproducts_2026-09-04/inventory.json",
+      "sha256": "718182a5ef6f9cbce7dbc2ff2dcb9c9edfe83b90d08434102ac9c4f0e6eb2a52"
+    },
+    "moved_crop_hashes": {
+      "Fig3_target_centred_alltarget_enrichment_v11-1_1.png": "f6e70420c07df3b9ed5c5e58322a2d178b05dc3aa8888ceb8f5b0c721a0d69da",
+      "Fig3_target_centred_alltarget_enrichment_v11-1_2.png": "dbac6a5d9d8e90fc57a39bc3a8753c7f3eeee7a99a63e32195ac1df40c014bf4",
+      "Fig3_target_centred_alltarget_enrichment_v11-1_3.png": "14ae24e0010748c5db39a0fce6a5d8b9d147c181bd7aa022153994d028959262"
+    },
+    "path": "figures_final/repository/fig3_v11_audit_byproducts_2026-09-04",
+    "permanent_deletion_performed": false,
+    "record_count": 5,
+    "recoverable": true
+  },
+  "authorised_guard_repins": [
+    {
+      "current_sha256": "3ac90c51f0d97043037f42a98d0bb83d8c67c8e81c24d8b4b5eedbdec1d5d6ff",
+      "previous_sha256": "988d9231d6b6e9a4bb45631be8dd18ea532ccf6fca0ac5c43802e2a6c3b2c44c",
+      "reason": "Replace the superseded Figure 3c derived-text token with the independently reviewed v11 Results wording; no scientific value changed.",
+      "utc": "2026-09-04T17:43:12.675022+00:00"
+    }
+  ],
+  "build_logs": {
+    "docx_build": {
+      "bytes": 855,
+      "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_docx_build.guard.log",
+      "sha256": "19d808451f5f56ac5f65b5c9ea6a4de965d248f4d652e7058e152cd5ad437e3a"
+    },
+    "pdf_build": {
+      "bytes": 854,
+      "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_pdf_build.guard.log",
+      "sha256": "130eac8fb20b200fdefd56ee8c87e216f85f2767632daa98fad05675766c4557"
+    },
+    "source_guard": {
+      "bytes": 870,
+      "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_source_guard.log",
+      "sha256": "07b0966c55cf6231f3d18cc2e6f73ccacf999a94c32499f97ba58aa704af15ac"
+    },
+    "supplementary_build": {
+      "bytes": 864,
+      "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_supplementary_build.guard.log",
+      "sha256": "fb6b66154c69291b103636f8fee3838ececee3f6fc254467a01ded8bbe60bbd4"
+    }
+  },
+  "build_scripts": {
+    "docx": {
+      "bytes": 12702,
+      "path": "scripts/build_docx.py",
+      "sha256": "1304a8ce41165aca789ee009ebae418ef728fde14418ec5309ee584e75f8e029"
+    },
+    "pdf": {
+      "bytes": 4778,
+      "path": "scripts/build_pdf.py",
+      "sha256": "d55c50b43306b6eefc772ab9669fd70979025ced43c89510309ae510ddf00028"
+    },
+    "supplementary": {
+      "bytes": 26527,
+      "path": "scripts/build_supplementary.py",
+      "sha256": "56363b6bfda1b37f4afc11da53db7741335f08a1b74efe0f0cc7bf8f9bec2bab"
+    }
+  },
+  "candidate": {
+    "directory": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11",
+    "exact_file_inventory": [
+      "Fig3_target_centred_alltarget_enrichment_v11.pdf",
+      "Fig3_target_centred_alltarget_enrichment_v11.png",
+      "input_panel_e_authoritative_terms.tsv",
+      "input_panel_e_overlay_v2.json",
+      "input_panel_e_supplement_package_final_audit.json",
+      "manifest.json",
+      "parent_renderer_v10_4_1.py",
+      "parent_v10_4_1_manifest.json",
+      "renderer_fig3_target_centred_alltarget_enrichment_v11.py",
+      "source_panel_a_target_concentration.csv",
+      "source_panel_b_target_unanimity.csv",
+      "source_panel_c_effect_score_matrix.tsv",
+      "source_panel_d_effect_score_matrix.tsv",
+      "source_panel_e_alltarget_term_composition.tsv",
+      "source_panel_e_overlay_generator.py",
+      "source_panel_e_standalone_renderer.py",
+      "source_panel_f_cofactor_targets.csv",
+      "source_panel_g_sensor_targets.csv",
+      "source_panel_h_arce_recurrence.csv"
+    ],
+    "manifest": {
+      "bytes": 43627,
+      "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11/manifest.json",
+      "sha256": "54e5cbe31003f81d06918682c3ffce90fc69c01c9995b97de8f917c38a45607c"
+    },
+    "manifest_copied_inputs_and_renderers": 8,
+    "manifest_outputs": 12,
+    "pdf": {
+      "bytes": 552195,
+      "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11/Fig3_target_centred_alltarget_enrichment_v11.pdf",
+      "sha256": "3582a9dc256e9d070701667a1d67a24699fd5bf43375a92abaeada119216b21a"
+    },
+    "png": {
+      "bytes": 732167,
+      "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11/Fig3_target_centred_alltarget_enrichment_v11.png",
+      "sha256": "67ae02e5d0d9f0ad7e20382b2bd45b56e10b367fe84c403a7f594142c7fded46"
+    },
+    "renderer": {
+      "bytes": 41739,
+      "path": "scripts/fig3_target_centred_alltarget_enrichment_v11.py",
+      "sha256": "2b0936bc9855e2eba5689e236982473974f3f0cce71f491f7463d78a29c2e845"
+    },
+    "unique_file_count": 19
+  },
+  "canonical": {
+    "candidate_and_canonical_bytes_identical": true,
+    "pdf": {
+      "bytes": 552195,
+      "path": "figures_final/Fig3.pdf",
+      "sha256": "3582a9dc256e9d070701667a1d67a24699fd5bf43375a92abaeada119216b21a"
+    },
+    "png": {
+      "bytes": 732167,
+      "path": "figures_final/Fig3.png",
+      "sha256": "67ae02e5d0d9f0ad7e20382b2bd45b56e10b367fe84c403a7f594142c7fded46"
+    },
+    "promoted_by_byte_copy": true
+  },
+  "claim_boundary": "all-target network-adjusted pooled reversal-burden enrichment; KEGG and GO-BP use explicitly separated evidence tiers. Bar colours are a descriptive partition of each term's census members by dataset-wide target orientation and do not test lost-versus-gained enrichment, pathway activity, mechanism, individual edges, or enrichment among the 279 targets in panels c-d. Terms overlap.",
+  "decision": "Promote the independently audited v11 Figure 3 by byte-identical copy. Only panel e changes scientifically and visually; panels a-d and f-h, including the c/d key and literal zoom, remain unchanged.",
+  "derived_artifacts": {
+    "docx": {
+      "bytes": 8124697,
+      "path": "HumanCD4CoDEGNet_signflip.docx",
+      "sha256": "9fc334a1c59aa4bbcf1e5f78f6f5b8e6761d803568b3ce0578c7fcb37819a49d"
+    },
+    "pdf": {
+      "bytes": 3171148,
+      "path": "HumanCD4CoDEGNet_signflip.pdf",
+      "sha256": "233e81801aa07699463de9228c1f7aaf1dfc0ebad60d27b1f7d82a82d95ed017"
+    },
+    "status": "POSTBUILD_GUARDED",
+    "supplementary_package": {
+      "files": 37,
+      "path": "submission/supplementary",
+      "tree_sha256": "0da1e0cb4f14ba026e50109fc38731213d36fe4ef1f03e841b1967134003758c"
+    },
+    "supplementary_pdf": {
+      "bytes": 1141921,
+      "path": "submission/supplementary/Supplementary_Information.pdf",
+      "sha256": "f995ffafef98230c4a7075b724a5efc1757601c3723b6f3813900efe86a29b6d"
+    }
+  },
+  "display_contract": {
+    "all_panels_a_through_h_retained": true,
+    "panel_d_axis_label_points": 5.5,
+    "panel_d_cells_are_true_squares": true,
+    "panel_d_is_literal_panel_c_first_80": true,
+    "panel_e_evidence_tiers_visibly_separated": true,
+    "panel_e_false_asterisks_present": false,
+    "visible_text_points_max": 7.0,
+    "visible_text_points_min": 5.0
+  },
+  "immediate_predecessor_archive": {
+    "checksums": {
+      "bytes": 8013,
+      "path": "figures_final/repository/superseded_figure3_candidates_2026-09-04/pre_alltarget_enrichment_v11_20260904/SHA256SUMS.txt",
+      "sha256": "74f32c9d7be5bc3421ba65336edc6d11ca762622240ab3c6a6c4010475e416e8"
+    },
+    "inventory": {
+      "bytes": 27392,
+      "path": "figures_final/repository/superseded_figure3_candidates_2026-09-04/pre_alltarget_enrichment_v11_20260904/inventory.json",
+      "sha256": "80649870a3cd8d3a9c04d72e61d07db41f0ebee1f6f73c165f7848fff014c77b"
+    },
+    "old_canonical_pdf_sha256": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+    "old_canonical_png_sha256": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de",
+    "path": "figures_final/repository/superseded_figure3_candidates_2026-09-04/pre_alltarget_enrichment_v11_20260904",
+    "permanent_deletion_performed": false,
+    "record_count": 63,
+    "recoverable": true,
+    "v10_promotion_sha256": "d53f5b7af556c3909adf3b5f1bdfd5d31c3989e8c0f4f40b7899c264bc6ca68f"
+  },
+  "integration_controls": {
+    "active_claim_guard": {
+      "bytes": 214644,
+      "path": "scripts/active_claim_guard.py",
+      "sha256": "d6b4a4296e608ff70072011357d8134d4f92471d8dd762dc05cf92e6bcc616a9"
+    }
+  },
+  "panel_e_scope": {
+    "display_order": [
+      {
+        "display_label": "Cytokine-receptor interaction",
+        "display_order": 1,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Cytokine Cytokine Receptor Interaction"
+      },
+      {
+        "display_label": "Proteasome",
+        "display_order": 2,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Proteasome"
+      },
+      {
+        "display_label": "Apoptosis",
+        "display_order": 3,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Apoptosis"
+      },
+      {
+        "display_label": "Antigen presentation",
+        "display_order": 4,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Antigen Processing And Presentation"
+      },
+      {
+        "display_label": "JAK-STAT signalling",
+        "display_order": 5,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Jak Stat Signaling Pathway"
+      },
+      {
+        "display_label": "Prion diseases",
+        "display_order": 6,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Prion Diseases"
+      },
+      {
+        "display_label": "Thyroid cancer",
+        "display_order": 7,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Thyroid Cancer"
+      },
+      {
+        "display_label": "Chronic myeloid leukaemia",
+        "display_order": 8,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "Chronic Myeloid Leukemia"
+      },
+      {
+        "display_label": "p53 signalling",
+        "display_order": 9,
+        "evidence_tier": "repeatable within-library FDR q<0.10; not global maxT",
+        "library": "KEGG_Legacy",
+        "term": "P53 Signaling Pathway"
+      },
+      {
+        "display_label": "Apoptotic process",
+        "display_order": 10,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Apoptotic Process"
+      },
+      {
+        "display_label": "Organelle organisation",
+        "display_order": 11,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Organelle Organization"
+      },
+      {
+        "display_label": "ER-stress intrinsic apoptosis",
+        "display_order": 12,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Intrinsic Apoptotic Signaling Pathway In Response To Endoplasmic Reticulum Stress"
+      },
+      {
+        "display_label": "Response to LPS",
+        "display_order": 13,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Cellular Response To Lipopolysaccharide"
+      },
+      {
+        "display_label": "Response to cytokine",
+        "display_order": 14,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Cellular Response To Cytokine Stimulus"
+      },
+      {
+        "display_label": "Intrinsic apoptotic signalling",
+        "display_order": 15,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Intrinsic Apoptotic Signaling Pathway"
+      },
+      {
+        "display_label": "Mitotic cytokinesis",
+        "display_order": 16,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Mitotic Cytokinesis"
+      },
+      {
+        "display_label": "Type II IFN regulation",
+        "display_order": 17,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Regulation Of Type II Interferon Production"
+      },
+      {
+        "display_label": "Positive apoptosis regulation",
+        "display_order": 18,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Positive Regulation Of Apoptotic Process"
+      },
+      {
+        "display_label": "Proteasomal protein turnover",
+        "display_order": 19,
+        "evidence_tier": "bank-stable global maxT",
+        "library": "GO_Biological_Process",
+        "term": "Proteasome-Mediated Ubiquitin-Dependent Protein Catabolic Process"
+      }
+    ],
+    "displayed_go_bp_rows": 10,
+    "displayed_kegg_rows": 9,
+    "displayed_rows": 19,
+    "eligible_census_targets": 9554,
+    "global_maxT_family_terms": 2593,
+    "go_bp_both_bank_global_maxT_terms": 10,
+    "go_bp_pooled_global_maxT_terms": 12,
+    "go_bp_repeatable_within_library_fdr_terms": 161,
+    "go_bp_tested_terms": 2425,
+    "kegg_global_maxT_terms": 0,
+    "kegg_repeatable_within_library_fdr_terms": 9,
+    "kegg_tested_terms": 168,
+    "permutation_banks": 2,
+    "permutations_per_bank": 10000,
+    "targets_with_no_observed_reversal": 6977
+  },
+  "panel_order": {
+    "a": "target concentration",
+    "b": "single-orientation",
+    "c": "complete 49 x 279 effect map",
+    "d": "literal first-80 enlargement",
+    "e": "network-adjusted all-target functional rank enrichment",
+    "f": "CCNC/TADA2B/SUPT7L direction-concordant targets",
+    "g": "AHR/ARNT direction-concordant targets",
+    "h": "Arce edge recurrence"
+  },
+  "postbuild_repairs": [
+    {
+      "clean_package_prebuild": {
+        "files": 39,
+        "sealed_utc": "2026-09-04T17:51:12.527159+00:00",
+        "tree_sha256": "925d048c2b8f44b1db5d4d3476dfb78fb26a792791305a40766c2c8d3c15be28"
+      },
+      "completed_utc": "2026-09-04T17:53:06.506430+00:00",
+      "current_build_scripts": {
+        "docx": {
+          "bytes": 10647,
+          "path": "scripts/build_docx.py",
+          "sha256": "20d13a6cfd1dc6908402217e4aef1c3cbd3d51646a830815f4ea40978d0b30d2"
+        },
+        "supplementary": {
+          "bytes": 26813,
+          "path": "scripts/build_supplementary.py",
+          "sha256": "4003fc01d48b5d224ed20b6bae7730624e5b729bbd7e11ee4b6add2134fc765c"
+        }
+      },
+      "current_guard": {
+        "bytes": 204302,
+        "path": "scripts/active_claim_guard.py",
+        "sha256": "9b5c3edfe44a538930ba7a537b242a0aa1ef679ac6a1be68b3a67b19cb695e94"
+      },
+      "docx_preseal": {
+        "artifact": {
+          "bytes": 8549378,
+          "path": "HumanCD4CoDEGNet_signflip.docx",
+          "sha256": "3f7b9d9c71c0fa23729a40d627b8a15c740f797f2b8542aae4617e4e7bab7021"
+        },
+        "s4_s5_extents_emu": {
+          "FigS4.png": [
+            6583680,
+            7863839
+          ],
+          "FigS5.png": [
+            6583680,
+            7863839
+          ]
+        },
+        "sealed_utc": "2026-09-04T17:52:41.120074+00:00"
+      },
+      "guarded_build_logs": {
+        "docx_build": {
+          "bytes": 855,
+          "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_docx_layout_repair.guard.log",
+          "sha256": "bbd884ec6a48a126a47da22310f014eedfa39ba0da39261d1e5b624efee71a5c"
+        },
+        "source_guard": {
+          "bytes": 870,
+          "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_repair_source_guard_pass.guard.log",
+          "sha256": "72b6d703dfefea4bec8bbb52c8e8c1885a286caaf1cf09b8b64acd2fedd83494"
+        },
+        "supplementary_build": {
+          "bytes": 864,
+          "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_supplementary_clean_rebuild_pass.guard.log",
+          "sha256": "090f4ba8e904e85f3d244b5bcb15297ed8ee155bd87177f705f567842f4f4016"
+        }
+      },
+      "permanent_deletion_performed": false,
+      "postbuild_guard": {
+        "bytes": 886,
+        "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_postbuild_guard_final.guard.log",
+        "sha256": "905986541ab835f9fde1378943c7b0aa865e5c60841245e53aa24472c9643161"
+      },
+      "previous_build_scripts": {
+        "docx": {
+          "bytes": 7918,
+          "path": "scripts/build_docx.py",
+          "sha256": "458ecc6938eabcb45551a09d67c866a92dce01066f31c5310ab466194cc5af9f"
+        },
+        "supplementary": {
+          "bytes": 25019,
+          "path": "scripts/build_supplementary.py",
+          "sha256": "b16271a664a4b13a02342ffbb822f653b3213b358b4e376f9a996f8927063181"
+        }
+      },
+      "previous_guard": {
+        "bytes": 200772,
+        "path": "scripts/active_claim_guard.py",
+        "sha256": "3ac90c51f0d97043037f42a98d0bb83d8c67c8e81c24d8b4b5eedbdec1d5d6ff"
+      },
+      "rebuilt_artifacts": {
+        "docx": {
+          "bytes": 8549378,
+          "path": "HumanCD4CoDEGNet_signflip.docx",
+          "sha256": "3f7b9d9c71c0fa23729a40d627b8a15c740f797f2b8542aae4617e4e7bab7021"
+        },
+        "supplementary_package": {
+          "files": 39,
+          "path": "submission/supplementary",
+          "tree_sha256": "65a07c817d43a1342f7b614330b13614ad65e6aa673fbdfe8af29a3d1a98ecef"
+        },
+        "supplementary_pdf": {
+          "bytes": 1192538,
+          "path": "submission/supplementary/Supplementary_Information.pdf",
+          "sha256": "3097e0e8a36956d7e633cc588a8accf8d57aef259688ef58787d0de997696ad2"
+        }
+      },
+      "rebuilt_utc": "2026-09-04T17:52:56.292965+00:00",
+      "repair_id": "docx-s4-s5-width-and-clean-si-v1",
+      "repair_prebuild_archive": "figures_final/repository/fig3_v11_pre_docx_si_repair_2026-09-04",
+      "scope": "Restore only Supplementary Figures S4/S5 to their audited 7.2-inch Word width and keep build scratch/history outside the exact 39-file reader-facing supplementary tree. No scientific source or canonical figure byte is changed.",
+      "started_utc": "2026-09-04T17:50:33.029080+00:00",
+      "status": "COMPLETE",
+      "supplementary_cleanup_archive": "figures_final/repository/fig3_v11_supplementary_nonreader_files_2026-09-04"
+    }
+  ],
+  "postbuild_sealed_utc": "2026-09-05T19:38:16.259792+00:00",
+  "postpromotion_amendment_v1_2": {
+    "historical_top_level_build_logs_retained": {
+      "docx_build": {
+        "bytes": 855,
+        "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_docx_build.guard.log",
+        "sha256": "19d808451f5f56ac5f65b5c9ea6a4de965d248f4d652e7058e152cd5ad437e3a"
+      },
+      "pdf_build": {
+        "bytes": 854,
+        "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_pdf_build.guard.log",
+        "sha256": "130eac8fb20b200fdefd56ee8c87e216f85f2767632daa98fad05675766c4557"
+      },
+      "source_guard": {
+        "bytes": 870,
+        "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_source_guard.log",
+        "sha256": "07b0966c55cf6231f3d18cc2e6f73ccacf999a94c32499f97ba58aa704af15ac"
+      },
+      "supplementary_build": {
+        "bytes": 864,
+        "path": "figures_final/diagnostics/fig3_target_centred_alltarget_enrichment_v11_supplementary_build.guard.log",
+        "sha256": "fb6b66154c69291b103636f8fee3838ececee3f6fc254467a01ded8bbe60bbd4"
+      }
+    },
+    "logs": {
+      "docx_build": {
+        "bytes": 853,
+        "path": "figures_final/diagnostics/broad_enrichment_s5_to_s4_promotion_v1/docx_build.guard.log",
+        "sha256": "631c2bbc1402c802a5f0d2b4217b61135524644796c3379919790caa9ca9106b"
+      },
+      "pdf_build": {
+        "bytes": 852,
+        "path": "figures_final/diagnostics/broad_enrichment_s5_to_s4_promotion_v1/pdf_build.guard.log",
+        "sha256": "c3ee67af4e411b160c9a50ce8982a745ccdd097811e6758b53ff8c4d84395c58"
+      },
+      "source_guard": {
+        "bytes": 868,
+        "path": "figures_final/diagnostics/broad_enrichment_s5_to_s4_promotion_v1/source_guard.guard.log",
+        "sha256": "cd2f395747baa9d6ff58351274a7e44876373f54fa55b331c06858ed765b38c9"
+      },
+      "supplementary_build": {
+        "bytes": 1725,
+        "path": "figures_final/diagnostics/broad_enrichment_s5_to_s4_promotion_v1/supplementary_build.guard.log",
+        "sha256": "2c9d65bc081f15db807ac37db889e0def1204d546cdd5f72587430d54a11d28a"
+      }
+    },
+    "mutable_promotion_manifest_referenced": false,
+    "outputs": {
+      "docx": {
+        "bytes": 8094205,
+        "path": "HumanCD4CoDEGNet_signflip.docx",
+        "sha256": "82ae8fda98a2265defbbf93e6fbb7ebbc744607274d7ad9b135ec56564cb2cc0"
+      },
+      "pdf": {
+        "bytes": 3172431,
+        "path": "HumanCD4CoDEGNet_signflip.pdf",
+        "sha256": "360736fa6918574b74847c5f94797fe31eebb57c27c6b2fcd31f0050c32a4cae"
+      },
+      "supplementary_package": {
+        "files": 37,
+        "path": "submission/supplementary",
+        "rebuilt_members": {
+          "README.md": {
+            "bytes": 7724,
+            "path": "submission/supplementary/README.md",
+            "sha256": "646c80af680a6e13591830c698dc9898d1c705b3ae162f49bf5607ef6149f04a"
+          },
+          "Supplementary_Information.pdf": {
+            "bytes": 1138880,
+            "path": "submission/supplementary/Supplementary_Information.pdf",
+            "sha256": "b0c94da3c2533109859a779a5531846eb9619fb881c2adee42bc2d5d8cb9a6c5"
+          },
+          "figures/Figure_S4.pdf": {
+            "bytes": 41745,
+            "path": "submission/supplementary/figures/Figure_S4.pdf",
+            "sha256": "32cc2210083f94467c284ec83b9bfbdb2fe9e83e06c025ec2608d6411581f291"
+          },
+          "figures/Figure_S4.png": {
+            "bytes": 367555,
+            "path": "submission/supplementary/figures/Figure_S4.png",
+            "sha256": "33b0d9a64be5cee4f6a8f45a6ee5a1e9055bc54c63a6f6e09555b884bf4696d5"
+          },
+          "notes/Supplementary_Results_R1-R7.md": {
+            "bytes": 22538,
+            "path": "submission/supplementary/notes/Supplementary_Results_R1-R7.md",
+            "sha256": "5666e4d52527d9b8414099271043b5380d84e66bd3389b3d9cc0facdc23f31ff"
+          }
+        },
+        "run_window_members": [
+          "README.md",
+          "Supplementary_Information.pdf"
+        ],
+        "source_copy_members": [
+          "figures/Figure_S4.pdf",
+          "figures/Figure_S4.png",
+          "notes/Supplementary_Results_R1-R7.md"
+        ],
+        "tree_sha256": "5d298852581d26c75173a9e48843927df1dc6c42529b24dac5a43bf7adb8bc08",
+        "unchanged_predecessor_members_verified": 32
+      },
+      "supplementary_pdf": {
+        "bytes": 1138880,
+        "path": "submission/supplementary/Supplementary_Information.pdf",
+        "sha256": "b0c94da3c2533109859a779a5531846eb9619fb881c2adee42bc2d5d8cb9a6c5"
+      }
+    },
+    "predecessor_archive": {
+      "inventory": {
+        "bytes": 25980,
+        "path": "figures_final/repository/superseded_s4_s5_formal_supplement_2026-09-05/pre_broad_s5_to_s4_v1_20260905/inventory.json",
+        "sha256": "6080286682c04c371e0fa3ccd3047fbf6efd39908a36ac7d5dd0e4ec84568177"
+      },
+      "path": "figures_final/repository/superseded_s4_s5_formal_supplement_2026-09-05/pre_broad_s5_to_s4_v1_20260905",
+      "permanent_deletion_performed": false,
+      "record_count": 85,
+      "recoverable": true,
+      "sha256sums": {
+        "bytes": 11790,
+        "path": "figures_final/repository/superseded_s4_s5_formal_supplement_2026-09-05/pre_broad_s5_to_s4_v1_20260905/SHA256SUMS.txt",
+        "sha256": "6fd7f8be6f06a9586482ff457116c23756b369ce7e890e1281f689c947260b58"
+      },
+      "supplementary_package_files": 39,
+      "supplementary_package_tree_sha256": "65a07c817d43a1342f7b614330b13614ad65e6aa673fbdfe8af29a3d1a98ecef"
+    },
+    "predecessor_final_audit": {
+      "bytes": 1838,
+      "path": "results_data/census/fig3_target_centred_alltarget_enrichment_v11_final_audit_v2_20260904.json",
+      "sha256": "dedb59d766da3e5f6c51bbf56b4fd3dfbdd4c681086a211188dad6d2b1a072d6"
+    },
+    "predecessor_manifest": {
+      "bytes": 28739,
+      "path": "figures_final/repository/superseded_s4_s5_formal_supplement_2026-09-05/pre_broad_s5_to_s4_v1_20260905/snapshot/results_data/census/fig3_target_centred_alltarget_enrichment_v11_promotion_20260904.json",
+      "sha256": "d8db4a2af52b0fa11907bfe265209463cacaae781abe8d9568e3657630d94041"
+    },
+    "prepared_utc": "2026-09-05T08:20:31.577223+00:00",
+    "runs": {
+      "docx_build": {
+        "command": [
+          "python3",
+          "scripts/build_docx.py"
+        ],
+        "finished_utc": "2026-09-05T08:20:44+00:00",
+        "launcher_exit": 0,
+        "output": {
+          "bytes": 8094205,
+          "path": "HumanCD4CoDEGNet_signflip.docx",
+          "sha256": "82ae8fda98a2265defbbf93e6fbb7ebbc744607274d7ad9b135ec56564cb2cc0"
+        },
+        "started_utc": "2026-09-05T08:20:42+00:00"
+      },
+      "pdf_build": {
+        "command": [
+          "python3",
+          "scripts/build_pdf.py"
+        ],
+        "finished_utc": "2026-09-05T08:20:54+00:00",
+        "launcher_exit": 0,
+        "output": {
+          "bytes": 3172431,
+          "path": "HumanCD4CoDEGNet_signflip.pdf",
+          "sha256": "360736fa6918574b74847c5f94797fe31eebb57c27c6b2fcd31f0050c32a4cae"
+        },
+        "started_utc": "2026-09-05T08:20:48+00:00"
+      },
+      "source_guard": {
+        "command": [
+          "python3",
+          "scripts/active_claim_guard.py"
+        ],
+        "finished_utc": "2026-09-05T08:20:37+00:00",
+        "launcher_exit": 0,
+        "started_utc": "2026-09-05T08:20:37+00:00"
+      },
+      "supplementary_build": {
+        "command": [
+          "python3",
+          "scripts/build_supplementary.py"
+        ],
+        "finished_utc": "2026-09-05T08:21:56+00:00",
+        "launcher_exit": 0,
+        "output": {
+          "bytes": 1138880,
+          "path": "submission/supplementary/Supplementary_Information.pdf",
+          "sha256": "b0c94da3c2533109859a779a5531846eb9619fb881c2adee42bc2d5d8cb9a6c5"
+        },
+        "started_utc": "2026-09-05T08:21:50+00:00"
+      }
+    },
+    "schema_version": "fig3-v11-broad-s5-to-s4-amendment-v1.2",
+    "sealed_utc": "2026-09-05T08:22:02.019718+00:00",
+    "source_integration": {
+      "bytes": 7345,
+      "path": "results_data/census/broad_enrichment_s5_to_s4_source_integration_v1.json",
+      "sha256": "c75b359761cad6ba13d80bb096c02e85d2159b9e33c2cc8334949936d184a284"
+    },
+    "status": "SEALED_AFTER_BROAD_S5_TO_S4_RENUMBER"
+  },
+  "postpromotion_amendment_v1_3": {
+    "logs": {
+      "docx_build": {
+        "bytes": 855,
+        "path": "figures_final/diagnostics/fig2_no_zoom_recent_text_reseal_v1/docx_build.guard.log",
+        "sha256": "31815e45e6cf257e923d5448d05e8f8e92cdf99b5206d7416043dfcfb39816f1"
+      },
+      "pdf_build": {
+        "bytes": 854,
+        "path": "figures_final/diagnostics/fig2_no_zoom_recent_text_reseal_v1/pdf_build.guard.log",
+        "sha256": "c237a34616c5fd77af6c47be57335bd66728503fcb452544bfa139bdb47b64dc"
+      },
+      "source_guard": {
+        "bytes": 870,
+        "path": "figures_final/diagnostics/fig2_no_zoom_recent_text_reseal_v1/source_guard.guard.log",
+        "sha256": "8b5ac4be775c88574dcbc830bc2631c1b9262e577e367e954f814598c75ad05c"
+      },
+      "supplementary_build": {
+        "bytes": 864,
+        "path": "figures_final/diagnostics/fig2_no_zoom_recent_text_reseal_v1/supplementary_build.guard.log",
+        "sha256": "d8b165bd399a4d35ba0f6000ac6e094e82e127263c36b2daab13116211088c62"
+      }
+    },
+    "outputs": {
+      "docx": {
+        "bytes": 8124697,
+        "path": "HumanCD4CoDEGNet_signflip.docx",
+        "sha256": "9fc334a1c59aa4bbcf1e5f78f6f5b8e6761d803568b3ce0578c7fcb37819a49d"
+      },
+      "pdf": {
+        "bytes": 3171148,
+        "path": "HumanCD4CoDEGNet_signflip.pdf",
+        "sha256": "233e81801aa07699463de9228c1f7aaf1dfc0ebad60d27b1f7d82a82d95ed017"
+      },
+      "supplementary_package": {
+        "files": 37,
+        "path": "submission/supplementary",
+        "tree_sha256": "0da1e0cb4f14ba026e50109fc38731213d36fe4ef1f03e841b1967134003758c"
+      },
+      "supplementary_pdf": {
+        "bytes": 1141921,
+        "path": "submission/supplementary/Supplementary_Information.pdf",
+        "sha256": "f995ffafef98230c4a7075b724a5efc1757601c3723b6f3813900efe86a29b6d"
+      }
+    },
+    "predecessor_archive": {
+      "frozen_transaction": {
+        "bytes": 71269,
+        "path": "figures_final/repository/superseded_figure2_presentations_2026-09-05/pre_no_zoom_recent_text_reseal_v1_20260905/snapshot/scripts/promote_fig2_no_zoom_and_reseal_recent_text_v1.py",
+        "sha256": "38fb984f203e255c328089b6d852fa12efd40817d13e193121daae0b1e903eb3"
+      },
+      "inventory": {
+        "bytes": 15578,
+        "path": "figures_final/repository/superseded_figure2_presentations_2026-09-05/pre_no_zoom_recent_text_reseal_v1_20260905/inventory.json",
+        "sha256": "34072713c55eef23b944ac71b4a579331dea019c29ffd03640daab109bcbe938"
+      },
+      "path": "figures_final/repository/superseded_figure2_presentations_2026-09-05/pre_no_zoom_recent_text_reseal_v1_20260905",
+      "permanent_deletion_performed": false,
+      "record_count": 68,
+      "recoverable": true,
+      "sha256sums": {
+        "bytes": 9800,
+        "path": "figures_final/repository/superseded_figure2_presentations_2026-09-05/pre_no_zoom_recent_text_reseal_v1_20260905/SHA256SUMS.txt",
+        "sha256": "2de224fc57ffc4d7cbdd1a77a0a3133a894bf15b638b087d01942c5dd4bd78fa"
+      },
+      "supplementary_package_files": 37
+    },
+    "prepared_utc": "2026-09-05T19:37:43.306553+00:00",
+    "runs": {
+      "docx_build": {
+        "command": [
+          "python3",
+          "scripts/build_docx.py"
+        ],
+        "finished_utc": "2026-09-05T19:37:52+00:00",
+        "launcher_exit": 0,
+        "output": {
+          "bytes": 8124697,
+          "path": "HumanCD4CoDEGNet_signflip.docx",
+          "sha256": "9fc334a1c59aa4bbcf1e5f78f6f5b8e6761d803568b3ce0578c7fcb37819a49d"
+        },
+        "started_utc": "2026-09-05T19:37:50+00:00"
+      },
+      "pdf_build": {
+        "command": [
+          "python3",
+          "scripts/build_pdf.py"
+        ],
+        "finished_utc": "2026-09-05T19:38:03+00:00",
+        "launcher_exit": 0,
+        "output": {
+          "bytes": 3171148,
+          "path": "HumanCD4CoDEGNet_signflip.pdf",
+          "sha256": "233e81801aa07699463de9228c1f7aaf1dfc0ebad60d27b1f7d82a82d95ed017"
+        },
+        "started_utc": "2026-09-05T19:37:56+00:00"
+      },
+      "source_guard": {
+        "command": [
+          "python3",
+          "scripts/active_claim_guard.py"
+        ],
+        "finished_utc": "2026-09-05T19:37:47+00:00",
+        "launcher_exit": 0,
+        "started_utc": "2026-09-05T19:37:46+00:00"
+      },
+      "supplementary_build": {
+        "command": [
+          "python3",
+          "scripts/build_supplementary.py"
+        ],
+        "finished_utc": "2026-09-05T19:38:12+00:00",
+        "launcher_exit": 0,
+        "output": {
+          "bytes": 1141921,
+          "path": "submission/supplementary/Supplementary_Information.pdf",
+          "sha256": "f995ffafef98230c4a7075b724a5efc1757601c3723b6f3813900efe86a29b6d"
+        },
+        "started_utc": "2026-09-05T19:38:06+00:00"
+      }
+    },
+    "schema_version": "fig3-v11-fig2-no-zoom-recent-text-amendment-v1.3",
+    "sealed_utc": "2026-09-05T19:38:16.259792+00:00",
+    "status": "SEALED_AFTER_MAIN_AND_SUPPLEMENTARY_REBUILD",
+    "transaction": {
+      "bytes": 71269,
+      "path": "scripts/promote_fig2_no_zoom_and_reseal_recent_text_v1.py",
+      "sha256": "38fb984f203e255c328089b6d852fa12efd40817d13e193121daae0b1e903eb3"
+    }
+  },
+  "prebuild_script_archive": {
+    "checksums": {
+      "bytes": 405,
+      "path": "figures_final/repository/fig3_v11_prebuild_scripts_2026-09-04/SHA256SUMS.txt",
+      "sha256": "2c6859155487b42201b206635261f3f555a468d5093b9c9b349d556540ad2a0e"
+    },
+    "inventory": {
+      "bytes": 1096,
+      "path": "figures_final/repository/fig3_v11_prebuild_scripts_2026-09-04/inventory.json",
+      "sha256": "dfe111c747c3c38a71f0937008f4b99e8bebd921cb25bb4c437cf56d59689b11"
+    },
+    "path": "figures_final/repository/fig3_v11_prebuild_scripts_2026-09-04",
+    "permanent_deletion_performed": false,
+    "record_count": 5,
+    "recoverable": true
+  },
+  "promoted_utc": "2026-09-04T17:40:51.376336+00:00",
+  "promotion_audits": {
+    "c_d_key_changed_pixels": 0,
+    "candidate_pdf_png_deterministic_rerender_byte_identical": true,
+    "changed_pixels_outside_panel_e": 0,
+    "independent_agent_decision": "PASS",
+    "rendered_text_collisions": 0,
+    "saved_pdf_text_off_page": 0,
+    "saved_pdf_valid_one_page": true,
+    "saved_png_valid": true,
+    "visible_text_range_points": [
+      5.0,
+      7.0
+    ]
+  },
+  "repair_prebuild_archive": {
+    "checksums": {
+      "bytes": 811,
+      "path": "figures_final/repository/fig3_v11_pre_docx_si_repair_2026-09-04/SHA256SUMS.txt",
+      "sha256": "c1bc54ff5d6a8690192ca09596851af8dcb1b58497f54b0923e4b0f2193becba"
+    },
+    "inventory": {
+      "bytes": 2341,
+      "path": "figures_final/repository/fig3_v11_pre_docx_si_repair_2026-09-04/inventory.json",
+      "sha256": "1a279345b0d27fdfbe9f769a59814e6fdde09953953e2ab55969c0ff146102ca"
+    },
+    "path": "figures_final/repository/fig3_v11_pre_docx_si_repair_2026-09-04",
+    "permanent_deletion_performed": false,
+    "record_count": 8,
+    "recoverable": true
+  },
+  "retention_policy": {
+    "audit_byproducts_archived_recoverably": true,
+    "permanent_deletion_performed": false,
+    "routine_cleanup_may_not_delete_archived_bundles": true,
+    "superseded_artifacts_archived_recoverably": true,
+    "v10_candidate_bundle_retained": true,
+    "v11_candidate_bundle_retained": true
+  },
+  "schema_version": "fig3-target-centred-alltarget-enrichment-v11-promotion-v1",
+  "scientific_caption_boundary": "Panel e uses all 9,554 census targets, including 6,977 with no observed reversal, not the 279 targets in panels c-d. Nine of 168 KEGG Legacy terms met the repeatable within-library FDR criterion in the pooled permutations and both independent banks; none passed global maxT across all 2,593 terms. Ten of 2,425 GO Biological Process terms passed global maxT in the pooled analysis and both banks. Bars descriptively partition term members into lost, gained, mixed, or no observed reversal; the enrichment test pools direction. Terms overlap and do not establish pathway activity.",
+  "status": "PROMOTED_AND_POSTBUILD_GUARDED",
+  "supersedes": {
+    "historical_without_rewrite": true,
+    "path": "results_data/census/fig3_top_overview_v10_4_1_promotion_20260904.json",
+    "sha256": "d53f5b7af556c3909adf3b5f1bdfd5d31c3989e8c0f4f40b7899c264bc6ca68f",
+    "status_at_supersession": "PROMOTED_SOURCE_POSTBUILD_PENDING"
+  },
+  "supplementary_cleanup_archive": {
+    "checksums": {
+      "bytes": 1364,
+      "path": "figures_final/repository/fig3_v11_supplementary_nonreader_files_2026-09-04/SHA256SUMS.txt",
+      "sha256": "2bc7e2766ace4defb6a98d34f761a398645ceb4a4df0c5d855d752de0abc20f4"
+    },
+    "inventory": {
+      "bytes": 3701,
+      "path": "figures_final/repository/fig3_v11_supplementary_nonreader_files_2026-09-04/inventory.json",
+      "sha256": "b486fa8a0d90a29b433e3baf66f2ac2c720fb4bae559c6d9bb373ace4c4d8832"
+    },
+    "moved_file_count": 9,
+    "original_file_hashes": {
+      ".DS_Store": "3883d23139b65e2bc1809c66296dca5ae1c2c0a187ca5a53bf7ac16750908840",
+      "_si_build.md": "e6b715229fd411cfd8a8231f3cd92e84a2520c5687f7247317faa6f139d4a5ad",
+      "repository/superseded_incomplete_builds_2026-09-04/Supplementary_Information.building.5wxlwgrv.pdf": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "repository/superseded_incomplete_builds_2026-09-04/manifest.json": "2d13b4e7c6f0868966390d8b55125b6c995ce8c25102a3d88b659f3f65e5afc7",
+      "repository/superseded_package_files/Supplementary_Data_3_kinetics_8h_classification.csv.gz.5623c449696b": "5623c449696b7cca326f2934846e75863f8ae76160d96d4a17919813da1b71be",
+      "repository/superseded_package_files/Supplementary_Methods_M1-M11.md.e7bb6c9fc0c7": "e7bb6c9fc0c755d9eb71535ea949ab92d2013aeb46147b3ea49fa4f9a0c1bfd1",
+      "repository/superseded_package_files/Supplementary_Methods_M1-M19.md.df8a2736a04c": "df8a2736a04c285317c2d32e1ffbdd71a003e1d9c1b9ad3aa092d896fa20ad54",
+      "repository/superseded_package_files/Supplementary_Results_R1-R4.md.d60c9d491717": "d60c9d4917173e41c718e7b407d4d1c0852efe7aca222c131558bfc777d0b494",
+      "repository/superseded_package_files/Supplementary_Results_R1-R5.md.b0b999d01b38": "b0b999d01b38df3716e6ff55ec367c9658e6fc50cd872df7954475cbce44ed59"
+    },
+    "path": "figures_final/repository/fig3_v11_supplementary_nonreader_files_2026-09-04",
+    "permanent_deletion_performed": false,
+    "record_count": 11,
+    "recoverable": true
+  },
+  "unchanged_content_proof": {
+    "c_d_key_preserved": true,
+    "geometry": {
+      "geometry_fields_byte_value_equal": [
+        "panel_ab_geometry",
+        "panel_c",
+        "panel_d",
+        "panel_d_axis_label_typography",
+        "heat_geometry",
+        "literal_zoom_assertions",
+        "panel_d_header_clearance",
+        "panel_tag_contract",
+        "terminology_contract"
+      ],
+      "layout_fields_byte_value_equal": [
+        "page",
+        "top_square_side",
+        "overview_cell_side_points",
+        "detail_cell_side_points",
+        "detail_vertical_shift_inches",
+        "detail_heat_x_inches",
+        "detail_row_track_x_inches",
+        "panel_e_x_inches",
+        "panel_e_width_inches",
+        "detail_panel_e_gap_inches",
+        "top_row_height_inches",
+        "middle_row_height_inches",
+        "bottom_row_height_inches",
+        "top_ab_slot_width_inches",
+        "top_c_slot_width_inches",
+        "bottom_colorbar_rect"
+      ],
+      "panel_e_slot_width_inches": 1.6112510936133015,
+      "panel_e_slot_x_inches": 6.615126859142606
+    },
+    "panel_sources": {
+      "source_panel_a_target_concentration.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1",
+        "v11_sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1"
+      },
+      "source_panel_b_target_unanimity.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81",
+        "v11_sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81"
+      },
+      "source_panel_c_effect_score_matrix.tsv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a",
+        "v11_sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a"
+      },
+      "source_panel_d_effect_score_matrix.tsv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252",
+        "v11_sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252"
+      },
+      "source_panel_f_cofactor_targets.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+        "v11_sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4"
+      },
+      "source_panel_g_sensor_targets.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+        "v11_sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552"
+      },
+      "source_panel_h_arce_recurrence.csv": {
+        "byte_identical": true,
+        "v10_4_1_sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79",
+        "v11_sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79"
+      }
+    },
+    "panels_a_d_and_f_h_preserved": true,
+    "saved_png_raster": {
+      "all_other_rendered_pixels_identical_to_v10_4_1": true,
+      "c_d_key_changed_pixels": 0,
+      "c_d_key_crop_pixels_top_down": [
+        1995,
+        1661,
+        2458,
+        2052
+      ],
+      "c_d_key_pixels_identical_to_v10_4_1": true,
+      "outside_panel_e_changed_pixels": 0,
+      "panel_e_difference_mask_pixels_top_down": [
+        1968,
+        687,
+        2480,
+        2152
+      ],
+      "png_shape": [
+        2880,
+        2480,
+        4
+      ]
+    }
+  }
+}

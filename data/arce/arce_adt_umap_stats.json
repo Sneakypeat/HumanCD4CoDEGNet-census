@@ -1,0 +1,38 @@
+{
+  "n_cells": 100087,
+  "n_features_used": 130,
+  "dropped_hashtags": [
+    "Resting_Teff",
+    "Resting_Treg",
+    "Stimulated_Teff",
+    "Stimulated_Treg"
+  ],
+  "dropped_isotypes": [
+    "Isotype_HTK888",
+    "Isotype_MOPC.173",
+    "Isotype_MOPC.21",
+    "Isotype_MPC.11",
+    "Isotype_RTK2071",
+    "Isotype_RTK2758",
+    "Isotype_RTK4530"
+  ],
+  "auroc_activation_all": 0.9980497432457173,
+  "auroc_activation_by_donor": {
+    "A": 0.9971026705749763,
+    "B": 0.9988935801436263
+  },
+  "n_by_subset": {
+    "Teff": 56627,
+    "Treg": 43460
+  },
+  "n_by_state": {
+    "Stim": 54008,
+    "Rest": 46079
+  },
+  "umap_params": {
+    "n_neighbors": 30,
+    "min_dist": 0.3,
+    "n_pcs": 30,
+    "seed": 0
+  }
+}

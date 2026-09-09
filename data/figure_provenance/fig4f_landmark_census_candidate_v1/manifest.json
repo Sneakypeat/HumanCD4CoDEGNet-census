@@ -1,0 +1,242 @@
+{
+  "alignment_null_unchanged": {
+    "matched stable": {
+      "ci_high": 0.1967170500869265,
+      "ci_low": 0.14013058032670647,
+      "edges": 3905,
+      "pooled": 0.16798975672215108,
+      "regulators": 104
+    },
+    "regulators_higher_for_reversals": {
+      "count": 92,
+      "of": 98
+    },
+    "reversals": {
+      "ci_high": 0.9220900905896241,
+      "ci_low": 0.8547043806483036,
+      "edges": 1899,
+      "pooled": 0.8920484465508162,
+      "regulators": 101
+    }
+  },
+  "canonical_changes": false,
+  "claim_boundary": "complete descriptive landmark matrix; no matched p-value, individual-edge test, direct-regulation claim, pathway-activity claim or mechanism claim",
+  "column_order_left_to_right": [
+    "GZMA",
+    "GZMB",
+    "GNLY",
+    "PRF1",
+    "IFNG",
+    "TNF",
+    "NKG7",
+    "CCL5",
+    "CCL4",
+    "CCL3",
+    "CCR5",
+    "CCR1",
+    "CCR7",
+    "CCR2",
+    "IL2",
+    "IL2RA",
+    "IL2RB",
+    "CD69",
+    "CTLA4",
+    "IL2RG",
+    "SELL",
+    "TBX21",
+    "KLRB1",
+    "XCL1",
+    "XCL2"
+  ],
+  "encoding": {
+    "assay_anchor_star": false,
+    "comparable_not_reversed": {
+      "fill": null,
+      "outline": "#7f8a94"
+    },
+    "enriched_regulator_dots": false,
+    "outside_both_endpoint_census": {
+      "fill": "white",
+      "outline": null
+    },
+    "purple_row_emphasis": false,
+    "response_shape": {
+      "detection_dominant": "white upward triangle",
+      "intensity_dominant": "white circle",
+      "unresolved": "no inner marker"
+    },
+    "reversal_gained": {
+      "fill": "#2a9d8f",
+      "hatch": "////"
+    },
+    "reversal_lost": {
+      "fill": "#c1272d",
+      "hatch": null
+    }
+  },
+  "fisher_result_included": false,
+  "geometry": {
+    "all_visible_text_max_pt": 13.0,
+    "all_visible_text_min_pt": 5.0,
+    "figure_height_in": 10.04,
+    "figure_width_in": 7.1,
+    "off_page_text": [],
+    "panel_f_axis_label_points": 5.5,
+    "panel_f_cell_height_points": 7.441618142813354,
+    "panel_f_cell_width_points": 7.441618142813388,
+    "panel_f_heading_points": 7.0,
+    "panel_f_legend_points": 5.0,
+    "panel_f_x_label_collisions": 0,
+    "panel_f_y_label_collisions": 0
+  },
+  "guard_changes": false,
+  "inputs": {
+    "active_presentation_renderer": {
+      "path": "scripts/response_shape/fig4_presentation_v5_1.py",
+      "sha256": "5c8a88e5cf8d2f1db65b57c4cbb81c98815694d7b6e27e6514212d72772b0f97"
+    },
+    "census_master": {
+      "path": "results_data/census/census_master_edges.csv.gz",
+      "sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad"
+    },
+    "current_canonical_png": {
+      "path": "figures_final/Fig4.png",
+      "sha256": "924121074f38853056325d139468f6906ba1e9b432ee2afe4a174949b9ecba43"
+    },
+    "response_shape_artifacts_sha256": {
+      "audit_exception": "a0f6a462769974d851ea56a5252a7fee300c1165402d2698cae1f60e80c489e2",
+      "cal_envelopes": "278972d56183d3414f3e206ed386e9d7bf37298d71a82fb085cb59cb6e3564fc",
+      "edge_continuous_summary": "12955a88c2462025a40b8aacddd81dab863f236c5ae816a88eaf026576f02627",
+      "final_gather_custody_closure": "39127de48dc4d0e2fdb6a51adfeab95310b11309941de77870e1d39b181bc968",
+      "gather_report": "df659abf76566889b963ff0199e3e83bf430f0bbd6d6442b49c3e6f093f176c5",
+      "guide_specific_effects": "1218451c650d6847a1f7e24945cff44d12ad0021b51395b5f05c6c78f1fc7be5",
+      "reversal_census": "dd0ed44f6970be1a9e02f3ab54b63a2caadc8c1be1584daf15797f1fa96942bc",
+      "status_waterfall": "2a7f6410be489535715f6a5c2631e7346c561f2124cace76671cd4ceaddfd57e",
+      "unit_effects": "284ab152ceffed4ddc4440da6d99ac50f220058dcf02b55fea881a4fb5bdd1ff"
+    },
+    "response_shape_production_manifest": {
+      "path": "results_data/response_shape/production_v5_1/figure4_production_manifest_v5_1.json",
+      "sha256": "61654fd2201cd42b6ef5a63f36aa77572a76f590c45e18566d8dd9cd5618e29d"
+    }
+  },
+  "legend_changes": false,
+  "manuscript_changes": false,
+  "matched_localisation_inference_included": false,
+  "outputs": {
+    "pdf": {
+      "filename": "Fig4_landmark_census_candidate_v1.pdf",
+      "sha256": "09c498f004500a5cce5e921f3c1fb640ef7c1eb5541319c7bb1bf5363543a2c3"
+    },
+    "png": {
+      "filename": "Fig4_landmark_census_candidate_v1.png",
+      "sha256": "9ba85da8cb139801b04584295aef8e833d6cdb9865db926520078bab78f5b04d"
+    },
+    "source_panel_f": {
+      "filename": "source_panel_f_landmark_census.tsv",
+      "rows": 1125,
+      "sha256": "63f055b7584248aba9495df7fd546980973a7e4a650d1f398eed9f5a25c0b521"
+    }
+  },
+  "panel_map": {
+    "a": "unchanged active Figure 4 waterfall",
+    "b": "unchanged active Figure 4 component split",
+    "c": "unchanged active Figure 4 orientation agreement",
+    "d": "unchanged active Figure 4 CAL envelopes",
+    "e": "unchanged active Figure 4 target-response burden",
+    "f": "45 regulator by 25 fixed T-cell landmark census matrix"
+  },
+  "raster_difference_vs_current_canonical": {
+    "canonical_png": "figures_final/Fig4.png",
+    "canonical_png_sha256": "924121074f38853056325d139468f6906ba1e9b432ee2afe4a174949b9ecba43",
+    "changed_fraction": 0.04347445897162524,
+    "changed_pixels": 278913,
+    "difference_bbox_pixels": [
+      1135,
+      934,
+      2060,
+      2872
+    ],
+    "interpretation": "all raster changes are confined to panel f",
+    "left_of_page_midpoint_unchanged": true
+  },
+  "renderers": {
+    "candidate": {
+      "path": "scripts/response_shape/fig4_presentation_v5_1_landmark_census_candidate_v1.py",
+      "sha256": "e737187036586e9d7d2384d1c1d3ba71a3d64a8105a3df4a64db861b21e135d7"
+    },
+    "panel_helper": {
+      "path": "scripts/response_shape/fig4_landmark_census_panel_v1.py",
+      "sha256": "e65aa9c377a59848944782f95f97bc2302e11f1f391025d9f53fd21d154c10bb"
+    }
+  },
+  "row_order_top_to_bottom": [
+    "TADA2B",
+    "CCNC",
+    "SUPT7L",
+    "ARNT",
+    "TAF6L",
+    "TADA1",
+    "SMARCB1",
+    "PNPT1",
+    "SMARCE1",
+    "ARHGAP30",
+    "MED19",
+    "SUPT20H",
+    "HCCS",
+    "GDAP2",
+    "SENP5",
+    "SGF29",
+    "CARMIL2",
+    "TAF13",
+    "TP53INP2",
+    "STAT5B",
+    "SOCS4",
+    "SMG7",
+    "UNC45A",
+    "VAV1",
+    "WAC",
+    "YEATS2",
+    "ACTR8",
+    "METAP2",
+    "PRKAR1A",
+    "CXXC1",
+    "ARPC3",
+    "ATP5F1A",
+    "BCL3",
+    "CBFB",
+    "COPS8",
+    "COX4I1",
+    "DDA1",
+    "PAXIP1",
+    "E2F1",
+    "EIF4G2",
+    "INO80",
+    "IST1",
+    "IWS1",
+    "MED12",
+    "ZAP70"
+  ],
+  "schema_version": "fig4f-landmark-census-candidate-v1",
+  "semantic_counts": {
+    "all_comparable_landmark_pairs": 427,
+    "all_regulators_with_landmark_opportunity": 191,
+    "detection_dominant": 2,
+    "displayed_comparable_cells": 154,
+    "displayed_regulators": 45,
+    "fixed_landmarks": 25,
+    "gained_cells": 23,
+    "intensity_dominant": 16,
+    "landmarks_with_reversal": 16,
+    "lost_cells": 47,
+    "matrix_cells": 1125,
+    "outside_cells": 971,
+    "response_shape_supported": 18,
+    "reversal_cells": 70,
+    "stable_cells": 84,
+    "supported_gained": 0,
+    "supported_lost": 18
+  },
+  "statistics_ladder_included": false,
+  "status": "DIAGNOSTIC_ONLY_NOT_PROMOTED",
+  "supplement_changes": false
+}

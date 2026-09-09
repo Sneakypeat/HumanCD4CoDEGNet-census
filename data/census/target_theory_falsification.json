@@ -1,0 +1,317 @@
+{
+  "seed": 20260812,
+  "n_perm": 2000,
+  "A1_min_reversals_per_target": {
+    "2": {
+      "n_targets": 913,
+      "n_edges": 4379,
+      "observed": 0.6933,
+      "null_mean": 0.3705,
+      "excess": 0.3229,
+      "z": 22.4,
+      "p": 0.0005
+    },
+    "3": {
+      "n_targets": 414,
+      "n_edges": 4379,
+      "observed": 0.6763,
+      "null_mean": 0.1993,
+      "excess": 0.477,
+      "z": 26.26,
+      "p": 0.0005
+    },
+    "4": {
+      "n_targets": 205,
+      "n_edges": 4379,
+      "observed": 0.6976,
+      "null_mean": 0.1128,
+      "excess": 0.5848,
+      "z": 28.89,
+      "p": 0.0005
+    },
+    "5": {
+      "n_targets": 110,
+      "n_edges": 4379,
+      "observed": 0.7273,
+      "null_mean": 0.0678,
+      "excess": 0.6595,
+      "z": 28.32,
+      "p": 0.0005
+    }
+  },
+  "A2_leave_one_regulator_out": {
+    "_top5_by_reversal_count": {
+      "CCNC": 288,
+      "TADA2B": 268,
+      "ARNT": 177,
+      "SGF29": 166,
+      "AHR": 165
+    },
+    "CCNC": {
+      "n_targets": 849,
+      "n_edges": 4091,
+      "observed": 0.7067,
+      "null_mean": 0.3751,
+      "excess": 0.3316,
+      "z": 22.27,
+      "p": 0.0005
+    },
+    "TADA2B": {
+      "n_targets": 840,
+      "n_edges": 4111,
+      "observed": 0.675,
+      "null_mean": 0.3775,
+      "excess": 0.2975,
+      "z": 19.91,
+      "p": 0.0005
+    },
+    "ARNT": {
+      "n_targets": 874,
+      "n_edges": 4202,
+      "observed": 0.6979,
+      "null_mean": 0.373,
+      "excess": 0.3249,
+      "z": 21.62,
+      "p": 0.0005
+    },
+    "SGF29": {
+      "n_targets": 881,
+      "n_edges": 4213,
+      "observed": 0.6913,
+      "null_mean": 0.3753,
+      "excess": 0.3159,
+      "z": 21.37,
+      "p": 0.0005
+    },
+    "AHR": {
+      "n_targets": 868,
+      "n_edges": 4214,
+      "observed": 0.6924,
+      "null_mean": 0.3711,
+      "excess": 0.3213,
+      "z": 21.3,
+      "p": 0.0005
+    }
+  },
+  "A3_drop_bloc": {
+    "_dropped": [
+      "CCNC",
+      "AHR",
+      "ARNT"
+    ],
+    "n_reversals_dropped": 630,
+    "frac_of_census_dropped": 0.144,
+    "result": {
+      "n_targets": 761,
+      "n_edges": 3749,
+      "observed": 0.7083,
+      "null_mean": 0.3751,
+      "excess": 0.3332,
+      "z": 20.5,
+      "p": 0.0005
+    },
+    "result_min3": {
+      "n_targets": 342,
+      "n_edges": 3749,
+      "observed": 0.6784,
+      "null_mean": 0.2025,
+      "excess": 0.4758,
+      "z": 23.75,
+      "p": 0.0005
+    }
+  },
+  "A4_B2_within_baseMean_decile": {
+    "_design": "if concordance is an expression artifact it should vanish inside a decile of target baseline expression",
+    "0.0": {
+      "n_targets": 722,
+      "n_edges": 4072,
+      "observed": 0.9429,
+      "null_mean": 0.9206,
+      "excess": 0.0224,
+      "z": 5.07,
+      "p": 0.0005
+    },
+    "1.0": {
+      "n_targets": 832,
+      "n_edges": 6049,
+      "observed": 0.7622,
+      "null_mean": 0.7022,
+      "excess": 0.06,
+      "z": 14.01,
+      "p": 0.0005
+    },
+    "2.0": {
+      "n_targets": 823,
+      "n_edges": 6211,
+      "observed": 0.6849,
+      "null_mean": 0.6054,
+      "excess": 0.0794,
+      "z": 21.09,
+      "p": 0.0005
+    },
+    "3.0": {
+      "n_targets": 842,
+      "n_edges": 6547,
+      "observed": 0.6792,
+      "null_mean": 0.5998,
+      "excess": 0.0794,
+      "z": 19.64,
+      "p": 0.0005
+    },
+    "4.0": {
+      "n_targets": 866,
+      "n_edges": 6950,
+      "observed": 0.6726,
+      "null_mean": 0.5952,
+      "excess": 0.0775,
+      "z": 19.49,
+      "p": 0.0005
+    },
+    "5.0": {
+      "n_targets": 887,
+      "n_edges": 7417,
+      "observed": 0.654,
+      "null_mean": 0.5668,
+      "excess": 0.0872,
+      "z": 26.09,
+      "p": 0.0005
+    },
+    "6.0": {
+      "n_targets": 914,
+      "n_edges": 7993,
+      "observed": 0.6542,
+      "null_mean": 0.5608,
+      "excess": 0.0933,
+      "z": 27.6,
+      "p": 0.0005
+    },
+    "7.0": {
+      "n_targets": 928,
+      "n_edges": 9264,
+      "observed": 0.6548,
+      "null_mean": 0.5588,
+      "excess": 0.0959,
+      "z": 33.87,
+      "p": 0.0005
+    },
+    "8.0": {
+      "n_targets": 948,
+      "n_edges": 11921,
+      "observed": 0.6316,
+      "null_mean": 0.5226,
+      "excess": 0.109,
+      "z": 52.67,
+      "p": 0.0005
+    },
+    "9.0": {
+      "n_targets": 955,
+      "n_edges": 17064,
+      "observed": 0.6115,
+      "null_mean": 0.5039,
+      "excess": 0.1076,
+      "z": 83.27,
+      "p": 0.0005
+    }
+  },
+  "A5_B2_within_indegree_decile": {
+    "0": {
+      "n_targets": 119,
+      "n_edges": 1075,
+      "observed": 0.7059,
+      "null_mean": 0.6087,
+      "excess": 0.0972,
+      "z": 2.5,
+      "p": 0.0085
+    },
+    "1": {
+      "n_targets": 955,
+      "n_edges": 2145,
+      "observed": 0.6758,
+      "null_mean": 0.5607,
+      "excess": 0.1151,
+      "z": 10.59,
+      "p": 0.0005
+    },
+    "2": {
+      "n_targets": 955,
+      "n_edges": 3210,
+      "observed": 0.6577,
+      "null_mean": 0.5747,
+      "excess": 0.083,
+      "z": 11.49,
+      "p": 0.0005
+    },
+    "3": {
+      "n_targets": 956,
+      "n_edges": 4295,
+      "observed": 0.6451,
+      "null_mean": 0.5573,
+      "excess": 0.0878,
+      "z": 17.42,
+      "p": 0.0005
+    },
+    "4": {
+      "n_targets": 955,
+      "n_edges": 5501,
+      "observed": 0.647,
+      "null_mean": 0.5629,
+      "excess": 0.0841,
+      "z": 21.13,
+      "p": 0.0005
+    },
+    "5": {
+      "n_targets": 955,
+      "n_edges": 7098,
+      "observed": 0.6454,
+      "null_mean": 0.5613,
+      "excess": 0.0842,
+      "z": 26.98,
+      "p": 0.0005
+    },
+    "6": {
+      "n_targets": 956,
+      "n_edges": 8957,
+      "observed": 0.6612,
+      "null_mean": 0.5696,
+      "excess": 0.0916,
+      "z": 38.16,
+      "p": 0.0005
+    },
+    "7": {
+      "n_targets": 955,
+      "n_edges": 11527,
+      "observed": 0.6644,
+      "null_mean": 0.5599,
+      "excess": 0.1045,
+      "z": 53.78,
+      "p": 0.0005
+    },
+    "8": {
+      "n_targets": 955,
+      "n_edges": 15156,
+      "observed": 0.6546,
+      "null_mean": 0.5448,
+      "excess": 0.1098,
+      "z": 72.96,
+      "p": 0.0005
+    },
+    "9": {
+      "n_targets": 956,
+      "n_edges": 24525,
+      "observed": 0.651,
+      "null_mean": 0.5402,
+      "excess": 0.1108,
+      "z": 103.36,
+      "p": 0.0005
+    }
+  },
+  "A0_B2_unstratified": {
+    "n_targets": 8717,
+    "n_edges": 83489,
+    "observed": 0.6536,
+    "null_mean": 0.5508,
+    "excess": 0.1028,
+    "z": 111.3,
+    "p": 0.0005
+  }
+}

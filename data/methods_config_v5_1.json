@@ -1,0 +1,243 @@
+{
+  "schema_version": "response-shape-methods-v5.1",
+  "frozen_date": "2026-08-14",
+  "status": "FROZEN_PREOUTCOME_V5_1_TARGET_ACCESS_NOT_AUTHORIZED",
+  "base_v5": {
+    "disposition": "SUPERSEDED_PREOUTCOME_NOT_LAUNCHABLE",
+    "config": {
+      "path": "scripts/response_shape/methods_config_v5.json",
+      "sha256": "d7122c1f31430fe0004a264aa2e2e00bd0db9e230c1a63afdf4abc459b0654e7"
+    },
+    "amendment": {
+      "path": "docs/response_shape/amendments/2026-08-14_PREOUTCOME_DONOR_LEVEL_TWO_PART_V5.md",
+      "sha256": "708a76df71265eda0fc0a2b332d6d8b95c0f0d333cb096d97bde91df8698e843"
+    },
+    "metadata_report": {
+      "path": "results_data/response_shape/metadata_feasibility_v5.json",
+      "sha256": "d6fe7bdfcdacbbf01e39c020240944a900a6465f8db4c6b5bd2ee81a8c15bb74"
+    }
+  },
+  "amendment": {
+    "path": "docs/response_shape/amendments/2026-08-14_PREOUTCOME_DONOR_LEVEL_TWO_PART_V5_1.md",
+    "sha256": "dde9b2fb0353bc60fcbd6bc2998b6e9e98bfb59409f59fc606a6acef4039b6f1"
+  },
+  "executable": {
+    "metadata_script": {
+      "path": "scripts/response_shape/hpc/metadata_feasibility_v5_1.R",
+      "sha256": "da7cec6259f90b0c7088782b3d95fa3e677ef8dd7d896594bc08ca5f691c778b"
+    },
+    "cal_map_path": "results_data/response_shape/cal_pseudo_pairs_v5_1.tsv",
+    "metadata_report_path": "results_data/response_shape/metadata_feasibility_v5_1.json"
+  },
+  "custody": {
+    "target_expression_values_read_before_freeze": 0,
+    "x_data_values_read_before_freeze": 0,
+    "x_indices_values_read_before_freeze": 0,
+    "regulator_expression_values_read_before_freeze": 0,
+    "metadata_and_cal_pairing_only": true,
+    "target_access_authorized": false,
+    "regulator_expression_access_authorized": false,
+    "v4_overwritten": false,
+    "v5_overwritten": false
+  },
+  "cal_pairing": {
+    "template_unit": "metadata_eligible_regulator",
+    "point_pipeline_pairs_per_regulator": 1,
+    "required_fixed_pair_regulators": 149,
+    "same_physical_pair_reused_across_all_donors_conditions_and_targets": true,
+    "distinct_CAL_guides_required": true,
+    "ordered_pair_slots": [
+      "c_A",
+      "c_B"
+    ],
+    "profile_blocks": 190,
+    "profile_block_fields": [
+      "donor",
+      "condition",
+      "lane_id"
+    ],
+    "profile_block_order": "UTF8_LEXICOGRAPHIC_TUPLE",
+    "profile_value": "clean_cell_count_with_absent_block_zero",
+    "distance": "mean_over_190_blocks(abs(log1p(n_case)-log1p(n_CAL)))",
+    "scaling": "NONE",
+    "pair_score": "distance(A,c_A)+distance(B,c_B)",
+    "selection": "lexicographic_minimum(score,c_A,c_B)",
+    "minimum_cells_per_each_CAL_guide_per_donor_condition": 5,
+    "minimum_combined_CAL_pair_cells_per_donor_condition": 30,
+    "minimum_combined_CAL_pair_cells_in_one_lane": 5,
+    "same_lane_reservoir_gate_inherited_from_v5": true,
+    "exact_v5_paired_donor_set_required": true,
+    "reuse_cap": null,
+    "reuse_report_required": true,
+    "rematching_draws": 0,
+    "target_assignment": "inherit_exact_template_target_ensg_and_frozen_orientation_after_pair_selection",
+    "target_or_expression_outcomes_used_in_pairing": false,
+    "no_feasible_pair_action": "NO_GO_BEFORE_TARGET_ACCESS"
+  },
+  "post_target_support": {
+    "evaluated_only_after_separate_target_launch_authorization": true,
+    "common_donor_identity_required_across_Rest_and_Stim48hr": true,
+    "minimum_common_donors": 3,
+    "minimum_detected_cells_per_physical_case_guide_in_each_donor_condition": 10,
+    "case_guides_A_and_B_each_pass_separately": true,
+    "minimum_pooled_raw_detections_per_A_weighted_REF_arm": 10,
+    "minimum_distinct_detecting_physical_REF_guides_per_A_weighted_REF_arm": 10,
+    "minimum_pooled_raw_detections_per_B_weighted_REF_arm": 10,
+    "minimum_distinct_detecting_physical_REF_guides_per_B_weighted_REF_arm": 10,
+    "minimum_detected_cells_per_individual_REF_guide": null,
+    "fractional_or_Kish_effective_detection_counts_forbidden": true,
+    "CAL_processed_identically_with_fixed_c_A_and_c_B": true,
+    "failure_status": "UNANALYSABLE_POSITIVE_INTENSITY",
+    "failure_may_be_forced_into_detection_label": false
+  },
+  "primary_aggregation": {
+    "guide_specific_detection": "p_g",
+    "guide_specific_all_cell_target_excluded_CP10K_mass": "q_g",
+    "equal_guide_detection": "p=(p_A+p_B)/2",
+    "equal_guide_marginal_mass": "q=(q_A+q_B)/2",
+    "positive_cell_mean": "mu=q/p",
+    "direct_average_of_per_guide_positive_means_forbidden": true,
+    "donor_summary": "equal_mean_over_exact_common_donor_IDs",
+    "delta_definition": "delta_x=x_Stim48hr-x_Rest",
+    "orientation": "o=expected_sign_Stim48hr; gained=+1; lost=-1",
+    "oriented_reversal_contrast": "o*delta_x",
+    "sign_zero": 0
+  },
+  "calibration_envelopes": {
+    "primary_source": "unique_supported_CAL_pseudo_edges_attached_to_metadata_eligible_reversal_parents_only",
+    "stable_target_CAL_use": "DESCRIPTIVE_ONLY_NEVER_IN_PRIMARY_ENVELOPE",
+    "metrics": [
+      "total_effect",
+      "detection_component",
+      "positive_intensity_component",
+      "raw_rate_log2_ratio"
+    ],
+    "conditions": [
+      "Rest",
+      "Stim48hr"
+    ],
+    "cross_condition_metric": "delta_x=x_Stim48hr-x_Rest",
+    "one_global_envelope_per_metric_condition_or_cross_condition": true,
+    "absolute_quantile": 0.95,
+    "quantile_definition": "HYNDMAN_FAN_TYPE_7_EQUIVALENT_TO_NUMPY_LINEAR",
+    "edge_weights": "EQUAL",
+    "minimum_unique_supported_reversal_parent_CAL_pseudo_edges": 1000,
+    "per_target_percentiles_forbidden": true,
+    "expression_support_target_or_other_strata_forbidden": true,
+    "unavailable_action": "DO_NOT_DRAW_CORRESPONDING_DOMINANCE_REGION_OR_PROMOTE_PATTERN_SENTENCE"
+  },
+  "raw_rate_sensitivity": {
+    "lane_target_count": "K=sum(target_raw_UMI)",
+    "lane_exposure": "E=sum(total_UMI-target_raw_UMI)",
+    "requirements": "finite_K>=0_and_finite_E>0_and_nonnegative_cell_exposures",
+    "lane_rate": "r=(K+0.5)/E",
+    "within_lane_REF_comparison": "separate_log2_rate_ratio_against_each_physical_REF_guide_then_equal_average",
+    "lane_aggregation": "case_guide_frozen_case_cell_lane_weights",
+    "guide_aggregation": "equal_average_A_and_B",
+    "donor_aggregation": "equal_mean_over_exact_primary_common_donor_IDs",
+    "CAL_processing": "IDENTICAL_WITH_FIXED_c_A_c_B",
+    "practical_absolute_log2_ratio_minimum": 0.15,
+    "calibration": "corresponding_global_metric_by_condition_absolute_q95",
+    "opposite_requires": [
+      "absolute_log2_ratio_at_least_0.15",
+      "absolute_log2_ratio_above_global_CAL_q95",
+      "sign_opposite_primary_marginal_target_excluded_CP10K_total_effect"
+    ],
+    "zero_sign_is_opposite": false,
+    "opposite_in_either_condition_status": "MIXED_OR_UNRESOLVED",
+    "may_rescue_primary": false
+  },
+  "stable_controls": {
+    "retained_family": "regulator_matched",
+    "target_matched_family_status": "RETIRED_OUTCOME_BLIND_BALANCE_FAILURE",
+    "sources": {
+      "stable_matches": {
+        "path": "results_data/response_shape/v5_controls_417525_r1/stable_matches_v4.tsv",
+        "sha256": "ce726b1a258e5e06c31a117185d566812c2e1ffb6e6c68b8c02873ee471016b3"
+      },
+      "stage_manifest": {
+        "path": "results_data/response_shape/v5_controls_417525_r1/stage_manifest.sha256",
+        "sha256": "309951b7f25b4701bad9272bf18c647fb357ffaa1fbc2579f90016033a1f445e"
+      },
+      "audit": {
+        "path": "results_data/response_shape/v5_controls_417525_r1/provenance_balance_reuse_audit_v4.json",
+        "sha256": "5b65c3a3c45003ae6fec4e4f095c67ddda4d2bc56437e8a9b2e881a811d57037"
+      }
+    },
+    "expected_total_rows": 15570,
+    "expected_regulator_rows": 8730,
+    "expected_parent_reversal_edges": 4370,
+    "expected_maximum_reuse": 5,
+    "expected_maximum_absolute_SMD": 0.04363303870653125,
+    "accepted_parent_job_terminal_state": "CANCELLED_AFTER_REQUIRED_REUSABLE_ARTIFACTS_CLOSED",
+    "cancelled_bridge_job_allowed_because_scientific_file_is_independently_sealed": true,
+    "unfinished_bridge_six_manifest_report_and_job04_forbidden": true,
+    "class_enrichment_testing": false
+  },
+  "numerical_additivity": {
+    "deterministic_fixture_absolute_tolerance": 1e-12,
+    "production_check": "abs(error)<=1e-10+1e-12*max(abs(T),abs(phi_detection),abs(phi_intensity))",
+    "failure_status": "QUARANTINED_NUMERICAL_ADDITIVITY",
+    "failure_retained_in_full_4379_denominator": true
+  },
+  "inference_boundary": {
+    "individual_edge_p_values": false,
+    "cell_level_p_values": false,
+    "class_enrichment_hypotheses_or_p_values": false,
+    "continuous_component_reporting": true,
+    "hard_mechanism_label": false
+  },
+  "expected_metadata": {
+    "frozen_edges": 4379,
+    "eligible_edges": 3000,
+    "eligible_regulators": 149,
+    "eligible_targets": 2037,
+    "lane_blocks": 190
+  },
+  "expected_cal_feasibility": {
+    "donor_sets": [
+      {
+        "paired_donor_set": "D1,D2,D4",
+        "eligible_regulators": 40,
+        "eligible_CAL_guides": 198,
+        "eligible_unordered_CAL_pairs": 17174,
+        "eligible_ordered_CAL_pairs": 34348
+      },
+      {
+        "paired_donor_set": "D1,D3,D4",
+        "eligible_regulators": 25,
+        "eligible_CAL_guides": 187,
+        "eligible_unordered_CAL_pairs": 15589,
+        "eligible_ordered_CAL_pairs": 31178
+      },
+      {
+        "paired_donor_set": "D2,D3,D4",
+        "eligible_regulators": 14,
+        "eligible_CAL_guides": 163,
+        "eligible_unordered_CAL_pairs": 11591,
+        "eligible_ordered_CAL_pairs": 23182
+      },
+      {
+        "paired_donor_set": "D1,D2,D3,D4",
+        "eligible_regulators": 70,
+        "eligible_CAL_guides": 155,
+        "eligible_unordered_CAL_pairs": 9958,
+        "eligible_ordered_CAL_pairs": 19916
+      }
+    ],
+    "selected_unique_CAL_guides": 135,
+    "selected_maximum_regulator_assignments_per_CAL_guide": 8,
+    "ordered_pair_count_minimum": 19916,
+    "ordered_pair_count_median": 23182,
+    "ordered_pair_count_maximum": 34348
+  },
+  "authorization": {
+    "metadata_feasibility_script_may_run": true,
+    "CAL_pair_construction_may_run": true,
+    "target_X_may_be_read": false,
+    "regulator_X_may_be_read": false,
+    "target_extractor_contract_required_before_launch": true,
+    "synthetic_tests_required_before_launch": true,
+    "independent_hash_seal_required_before_launch": true
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "active_claim_guard_changes": false,
+  "bundled_inputs_and_renderers": {
+    "input_all49.csv": {
+      "bytes": 9369,
+      "sha256": "46fbb6ddf4325c9f33e0b58ad6bf587ef512ed4cd19fb59d10255c3529b83905",
+      "source": "results_data/census/fig3_biological_bridge/all49_enriched_regulators.csv"
+    },
+    "input_arce.json": {
+      "bytes": 8523,
+      "sha256": "428d6e3057e638694f80122718cb703506eeb7c201d85e5972eb81c8822ba47d",
+      "source": "results_data/arce/arce_validation_results.json"
+    },
+    "input_bridge_manifest.json": {
+      "bytes": 4596,
+      "sha256": "89e497bf7d3c91c8de9797b8df532ba0a36774577fed95196eaf27a8512fc698",
+      "source": "results_data/census/fig3_biological_bridge/manifest.json"
+    },
+    "input_cofactor.csv": {
+      "bytes": 4407,
+      "sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+      "source": "results_data/census/fig3_biological_bridge/shared_reversal_targets_CCNC_TADA2B_SUPT7L.csv"
+    },
+    "input_concentration.json": {
+      "bytes": 1343,
+      "sha256": "920fcba9c9ee6873ac3c38b29791e75fbf24b309bc0c4da3853531e6bb96ad1a",
+      "source": "results_data/census/convergence_test_results.json"
+    },
+    "input_dense_cell_state_matrix.tsv": {
+      "bytes": 32605,
+      "sha256": "98ea5a8aba7287e2d56f87fc1614d9fcc612b878cb29615d4cc6f617546c6175",
+      "source": "figures_final/diagnostics/fig3b_r49_x_279_dense_tail_synthesis_v2/cell_state_matrix.tsv"
+    },
+    "input_dense_displayed_edge_values.tsv": {
+      "bytes": 107615,
+      "sha256": "a2a422ca26c5affedb1282868cc6465c704ba95be0d5ec3648e096fe617330f6",
+      "source": "figures_final/diagnostics/fig3b_r49_x_279_dense_tail_synthesis_v2/displayed_edge_values.tsv"
+    },
+    "input_dense_manifest.json": {
+      "bytes": 8188,
+      "sha256": "06d3e57b1c0fe505cdc119ff4fb0b702b2d7c25186dd78160638cd07144ce27d",
+      "source": "figures_final/diagnostics/fig3b_r49_x_279_dense_tail_synthesis_v2/manifest.json"
+    },
+    "input_dense_regulator_order.tsv": {
+      "bytes": 9837,
+      "sha256": "cf98467146d55095406842d2e86204f726e36dbc811f313c4428a4ec11eca0f8",
+      "source": "figures_final/diagnostics/fig3b_r49_x_279_dense_tail_synthesis_v2/regulator_order.tsv"
+    },
+    "input_dense_target_order.tsv": {
+      "bytes": 20202,
+      "sha256": "a5338d656eeeb8f324b02559b6fc8083cef668dc2d5b7b82220adf49e1a886d6",
+      "source": "figures_final/diagnostics/fig3b_r49_x_279_dense_tail_synthesis_v2/target_order.tsv"
+    },
+    "input_go_slim_go_slim_source_manifest.json": {
+      "bytes": 15415,
+      "sha256": "b580d4a05084d9197a6ad9de9a5901c82939ab4948b6cd1eca26ca852c4cb926",
+      "source": "figures_final/diagnostics/fig3c_fixed_annotation_stack_v4/source_reference/go_slim_source_manifest.json"
+    },
+    "input_go_slim_target_annotation_coverage.tsv": {
+      "bytes": 54153,
+      "sha256": "c0c44f841aae9386897199135a974db57e7d6dfe5acf6b7c6c450ef30c0ed8cd",
+      "source": "figures_final/diagnostics/fig3c_fixed_annotation_stack_v4/source_reference/target_annotation_coverage.tsv"
+    },
+    "input_go_slim_target_go_slim_memberships.tsv": {
+      "bytes": 41614,
+      "sha256": "62504edaabaafa3c5c2c6051b430e932aa56943a5862847e8978bd8067150bba",
+      "source": "figures_final/diagnostics/fig3c_fixed_annotation_stack_v4/source_reference/target_go_slim_memberships.tsv"
+    },
+    "input_programme_manifest.json": {
+      "bytes": 19541,
+      "sha256": "cbc4d68d7f4e592d5c90f9deefe9d62cbb85e70b37ed314ee8df086c4678f341",
+      "source": "results_data/census/fig3_biological_bridge/all49_target_programme_manifest.json"
+    },
+    "input_programme_memberships.csv": {
+      "bytes": 339787,
+      "sha256": "4e9ecd62c996347544634fc58c1450279d56491e57346618f68764339d886758",
+      "source": "results_data/census/fig3_biological_bridge/all49_target_programme_memberships.csv"
+    },
+    "input_programmes.csv": {
+      "bytes": 47407,
+      "sha256": "88c9017e7d2a2e429abd8cb51813770bd60129228fb2aa12ddc06ab8813ecdf1",
+      "source": "results_data/census/fig3_biological_bridge/all49_target_programme_counts.csv"
+    },
+    "input_sensor.csv": {
+      "bytes": 3422,
+      "sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+      "source": "results_data/census/fig3_biological_bridge/shared_reversal_targets_AHR_ARNT.csv"
+    },
+    "input_unanimity.json": {
+      "bytes": 4267,
+      "sha256": "0ef79f5c61437945a8ddf35a7fd684c04bf9458a3828896ee103be79d0e35478",
+      "source": "results_data/census/target_theory_decisive.json"
+    },
+    "predecessor_renderer_fig3_target_centred_top_overview_layout_v10.py": {
+      "bytes": 49969,
+      "sha256": "0827896ef22b2748f7aa727ae561d3ef75c797a7ab32fa997ce3490e7f51dffd",
+      "source": "scripts/fig3_target_centred_top_overview_layout_v10.py"
+    },
+    "renderer_base_r5.py": {
+      "bytes": 69067,
+      "sha256": "6f0c52c17c56af6e77ab5c6dd609200b7a7e8dbd8483b81addb81cead182e690",
+      "source": "scripts/fig3_biological_bridge_r5_ahr_arce_candidate.py"
+    },
+    "renderer_bridge.py": {
+      "bytes": 52510,
+      "sha256": "f2e4ec02f92228c89b1e6452aa2681908507959ec72f0e6b7ae4afe3bb32ebb8",
+      "source": "scripts/fig3_biological_bridge_candidate.py"
+    },
+    "renderer_fig3_target_centred_biological_summary_v9.py": {
+      "bytes": 45326,
+      "sha256": "6e08b4fc81832c18c8b2723e45c6f34ad01a0836c3877504b0da129b64bbca9c",
+      "source": "scripts/fig3_target_centred_biological_summary_v9.py"
+    },
+    "renderer_fig3_target_centred_effect_zoom_v7.py": {
+      "bytes": 49053,
+      "sha256": "03c6ee120ec0af80abeb96cea054dffc4fa8683b6b709412b69248319eeddc50",
+      "source": "scripts/fig3_target_centred_effect_zoom_v7.py"
+    },
+    "renderer_fig3_target_centred_effect_zoom_v8.py": {
+      "bytes": 21399,
+      "sha256": "d709c21e15ae0d3e450cca1c8ca4e1f46e50651b8815021a72b20c1c61486937",
+      "source": "scripts/fig3_target_centred_effect_zoom_v8.py"
+    },
+    "renderer_fig3_target_centred_top_overview_layout_v10_4_1.py": {
+      "bytes": 68197,
+      "sha256": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858",
+      "source": "scripts/fig3_target_centred_top_overview_layout_v10_4_1.py"
+    },
+    "renderer_fig3_target_centred_v6.py": {
+      "bytes": 32814,
+      "sha256": "c0768074377d432194d3dd6852f4d5fd22ab4a3101237b200c8e726434bb2155",
+      "source": "scripts/fig3_target_centred_v6.py"
+    },
+    "renderer_fig3c_go_slim_biological_summary_v2.py": {
+      "bytes": 22752,
+      "sha256": "85aa2261a80fdd68f90eff66454625f7d9517baf94a2f799a56849a3ccb7b03e",
+      "source": "scripts/fig3c_go_slim_biological_summary_v2.py"
+    }
+  },
+  "canonical_changes": false,
+  "claim_boundary": "Relative to audited v10.3, only panel d's 80 target and 49 regulator axis tick-label sizes change from 5.0 to exactly 5.5 points; its cells increase from 5.0 to 5.5-point true squares, and panel e narrows to keep the same short page. Panel e describes frozen broad GO Biological Process slim membership among 279 single-orientation targets; it is not enrichment, a lost-versus-gained test, pathway activity, community structure, or mechanism. Its 39-target complement means outside this fixed BP slim, not biologically unannotated. The two zero-total fixed terms, cell wall organization or biogenesis and secondary metabolic process, remain in the bundled 26-row source but are omitted from the 24-row display. Panel d remains the literal first-80 enlargement of panel c and is descriptive, not separately tested.",
+  "created_utc": "2026-09-04T08:56:06.628972+00:00",
+  "export": {
+    "fresh_canvas_count": 2,
+    "page": "custom short portrait",
+    "page_inches": [
+      8.267716535433072,
+      9.6
+    ],
+    "pdf_byte_identical": true,
+    "pdf_fonttype": 42,
+    "pdf_sha256": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627",
+    "pdf_vector_heatmaps": true,
+    "png_byte_identical": true,
+    "png_dpi": 300,
+    "png_sha256": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de",
+    "tight_bbox": false
+  },
+  "geometry": {
+    "all_text_bbox_audit": {
+      "collision_count": 0,
+      "collisions": [],
+      "pairwise_overlap_threshold_pixels_each_axis": 0.5,
+      "rendered_text_artists": 498
+    },
+    "content_bbox": {
+      "area_occupancy_fraction": 0.9695896270145064,
+      "bottom_margin_inches": 0.006133333333333309,
+      "height_inches": 9.37375706528539,
+      "height_occupancy_fraction": 0.976433027633895,
+      "left_margin_inches": 0.016606299212598433,
+      "page_height_inches": 9.6,
+      "page_width_inches": 8.267716535433072,
+      "right_margin_inches": 0.04133858267716484,
+      "top_margin_inches": 0.22010960138127622,
+      "width_inches": 8.209771653543308,
+      "width_occupancy_fraction": 0.9929914285714285,
+      "x0_inches": 0.016606299212598433,
+      "x1_inches": 8.226377952755907,
+      "y0_inches": 0.006133333333333309,
+      "y1_inches": 9.379890398618723
+    },
+    "heat_geometry": {
+      "c": {
+        "cell_height_points": 0.9200000000000013,
+        "cell_width_points": 0.92,
+        "matrix_height_points": 45.08000000000006,
+        "matrix_width_points": 256.68
+      },
+      "d": {
+        "cell_height_points": 5.5,
+        "cell_width_points": 5.499999999999998,
+        "matrix_height_points": 269.5,
+        "matrix_width_points": 439.9999999999999
+      }
+    },
+    "layout_inches": {
+      "bottom_colorbar_rect": [
+        0.18,
+        0.018,
+        0.37,
+        0.012
+      ],
+      "bottom_row_height_inches": 1.8398618722318143,
+      "detail_cell_side_points": 5.5,
+      "detail_heat_x_inches": 0.4640157480314961,
+      "detail_panel_e_gap_inches": 0.04,
+      "detail_row_track_x_inches": 0.025,
+      "detail_vertical_shift_inches": 0.25,
+      "middle_row_height_inches": 4.773695668493355,
+      "overview_cell_side_points": 0.92,
+      "page": [
+        8.267716535433072,
+        9.6
+      ],
+      "panel_e_width_inches": 1.6112510936133015,
+      "panel_e_x_inches": 6.615126859142606,
+      "top_ab_slot_width_inches": 3.4516648223549966,
+      "top_c_slot_width_inches": 3.721795112800169,
+      "top_row_height_inches": 1.9890398618722314,
+      "top_square_side": 1.34
+    },
+    "literal_zoom_assertions": {
+      "orientation_track_equal_c_first_80": true,
+      "row_burden_track_identical_full_panel_scale": true,
+      "row_order_equal": true,
+      "scores_equal_c_first_80": true,
+      "states_equal_c_first_80": true,
+      "target_burden_track_equal_c_first_80": true,
+      "targets_equal_c_first_80": true
+    },
+    "panel_ab_geometry": {
+      "axes": [
+        {
+          "height_inches": 1.3399999999999994,
+          "width_inches": 1.3399999999999996,
+          "x0_figure_fraction": 0.10312449163765933,
+          "y0_figure_fraction": 0.8312499999999999
+        },
+        {
+          "height_inches": 1.3399999999999994,
+          "width_inches": 1.339999999999999,
+          "x0_figure_fraction": 0.3522863963995641,
+          "y0_figure_fraction": 0.8312499999999999
+        }
+      ],
+      "requested_side_inches": 1.34
+    },
+    "panel_c": {
+      "cell_side_points": 0.92,
+      "dendrogram": false,
+      "gained_cells": 207,
+      "lost_cells": 330,
+      "ordering": "frozen dense-tail-v2 display_rank; no clustering",
+      "outside_cells": 12703,
+      "regulators_with_reversal": 43,
+      "reversal_cells": 537,
+      "row_labels_shown": false,
+      "self_cells": 1,
+      "shape": [
+        49,
+        279
+      ],
+      "stable_cells": 430,
+      "target_labels_shown": false,
+      "targets_with_reversal": 257
+    },
+    "panel_d": {
+      "cell_side_points": 5.499999999999998,
+      "dendrogram": false,
+      "gained_cells": 71,
+      "inherited_label_points": 5.0,
+      "label_font_families": [
+        [
+          "sans-serif"
+        ]
+      ],
+      "label_points": 5.5,
+      "lost_cells": 137,
+      "ordering": "literal first 80 columns of frozen panel c display order",
+      "outside_cells": 3584,
+      "regulator_label_collision_audit": {
+        "labels": 49,
+        "maximum_overlap_area_pixels2": 0.0,
+        "overlap_pairs_above_0.2px_each_axis": 0
+      },
+      "regulators_with_reversal": 37,
+      "reversal_cells": 208,
+      "row_labels_shown": true,
+      "self_cells": 0,
+      "shape": [
+        49,
+        80
+      ],
+      "stable_cells": 128,
+      "target_label_collision_audit": {
+        "labels": 80,
+        "maximum_overlap_area_pixels2": 0.0,
+        "overlap_pairs_above_0.2px_each_axis": 0
+      },
+      "target_labels_shown": true,
+      "targets_with_reversal": 77
+    },
+    "panel_d_axis_label_typography": {
+      "delivered_font_size_points": 5.5,
+      "inherited_and_delivered_font_families": [
+        [
+          "sans-serif"
+        ]
+      ],
+      "inherited_font_size_points": 5.0,
+      "post_clamp_and_draw": {
+        "exact_5_5_points": true,
+        "font_families": [
+          [
+            "sans-serif"
+          ]
+        ],
+        "font_sizes_points": [
+          5.5
+        ],
+        "text_unchanged": true,
+        "x_label_text_sha256": "90880195d08bc80c3ef472f6cd5a54f30f743a181e300e341268ba6c21fe51fa",
+        "x_tick_label_count": 80,
+        "y_label_text_sha256": "0f52da391d89aadce377589c33c6dc16ec933cad159e3cf77f94cd51e831c00a",
+        "y_tick_label_count": 49
+      },
+      "text_unchanged": true,
+      "x_label_text_sha256": "90880195d08bc80c3ef472f6cd5a54f30f743a181e300e341268ba6c21fe51fa",
+      "x_tick_label_count": 80,
+      "y_label_text_sha256": "0f52da391d89aadce377589c33c6dc16ec933cad159e3cf77f94cd51e831c00a",
+      "y_tick_label_count": 49
+    },
+    "panel_d_header_clearance": {
+      "all_clear": true,
+      "lower_clearance_from_burden_track_pixels": {
+        "subtitle": 7.560164834112129,
+        "tag": 18.08047058959221,
+        "title": 19.601735405249883
+      },
+      "threshold_pixels": 0.5,
+      "upper_clearance_to_panel_c_footnote_pixels": {
+        "subtitle": 25.221025448539876,
+        "tag": 10.899938443059796,
+        "title": 9.181408002402122
+      }
+    },
+    "panel_e": {
+      "claim_boundary": "descriptive frozen GO-BP-slim membership; zero-total fixed terms omitted from display only; no enrichment, lost-versus-gained test, pathway activity, or mechanism",
+      "display_label_contractions": {
+        "generation of precursor metabolites and energy": "precursor metabolites / energy"
+      },
+      "displayed_nonzero_official_bp_slim_terms": 23,
+      "displayed_rows": 24,
+      "explicit_complement_rows": 1,
+      "gained_denominator": 118,
+      "lost_denominator": 161,
+      "mapped_targets": 240,
+      "memberships_overlap": true,
+      "omitted_zero_rows": [
+        {
+          "go_id": "GO:0071554",
+          "go_term": "cell wall organization or biogenesis"
+        },
+        {
+          "go_id": "GO:0019748",
+          "go_term": "secondary metabolic process"
+        }
+      ],
+      "outside_this_slim_targets": 39,
+      "printed_cell_value": "unique-target count",
+      "row_pitch_points": 6.05,
+      "shade": "within-orientation percentage on a fixed 0--40% scale",
+      "source_official_bp_slim_terms": 25,
+      "source_rows": 26,
+      "targets": 279,
+      "teal": "#2a9d8f"
+    },
+    "panel_tag_contract": {
+      "a": "a",
+      "b": "b",
+      "c": "c",
+      "d": "d",
+      "e": "e",
+      "f": "f",
+      "g": "g",
+      "h": "h"
+    },
+    "post_save_canvas_geometry": {
+      "heat_equal_pre_save": true,
+      "panel_d_axis_labels_equal_pre_save": true,
+      "top_equal_pre_save": true
+    },
+    "targeted_text_geometry": {
+      "relationships": [
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 27.0,
+          "relationship": "panel e explanatory vs 'lost\\nn=161'"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 21.79294488188964,
+          "relationship": "panel e explanatory vs 'gained\\nn=118'"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 37.0,
+          "relationship": "panel f title vs CCNC"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 52.09375,
+          "relationship": "panel f title vs TADA2B"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 52.0,
+          "relationship": "panel f title vs SUPT7L"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 28.0,
+          "relationship": "panel g title vs AHR"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 36.0,
+          "relationship": "panel g title vs ARNT"
+        },
+        {
+          "overlap_height_pixels": 0.0,
+          "overlap_width_pixels": 0.0,
+          "relationship": "panel g tag vs title"
+        }
+      ],
+      "threshold_pixels_each_axis": 0.5
+    },
+    "terminology_contract": {
+      "b": "Single-orientation targets",
+      "f": "Cofactor trio; 16 direction-concordant targets",
+      "forbidden_matches": [],
+      "g": "Sensor pair; 17 direction-concordant targets"
+    },
+    "text_audit": {
+      "formal_axes_clip_candidates_ignored": 0,
+      "max_visible_text_points": 7.0,
+      "min_visible_text_points": 5.0,
+      "off_page_text": [],
+      "visible_text_count": 498
+    }
+  },
+  "layout_order": {
+    "bottom": [
+      "f",
+      "g",
+      "h"
+    ],
+    "middle": [
+      "d",
+      "e"
+    ],
+    "top": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  "legend_changes": false,
+  "manuscript_changes": false,
+  "no_write_guard": {
+    "all_equal": true,
+    "paired_before_after_hashes": true,
+    "protected_after": {
+      "FIGURE_LEGENDS.md": "ef92dbe171aea6dbc8f0c37f4d092be79cb33588affb862cc14dd7ebeb74cf4d",
+      "HumanCD4CoDEGNet_signflip.docx": "3035fd478c16901e87da2ffc39958133cf28188528f3ce7da098eb62d3678aeb",
+      "HumanCD4CoDEGNet_signflip.pdf": "0903c8956f35ffd04b24495ae5d9bea0555975e37ebfbe14ac8287441a7df32e",
+      "MANUSCRIPT.md": "e2db466f808641ad34cbe3e771f8fb34a473fa3a1e9088b058595571ae050055",
+      "PAPER_FACTS.md": "02b54187fea94fccfecf93ef6cd53c100c61fed5bad278ddca252196d282b021",
+      "figures_final/Fig3.pdf": "48cbf1202c51604d94d6fa7ffb5420d6d6699edd5f9d3cdd2a07a708ff2afa91",
+      "figures_final/Fig3.png": "df9622531b3c74dec29bda73425096ee071bb3a2ef2db27893511a2279321618",
+      "figures_final/diagnostics/_archive/fig3h_target_centred_top_overview_layout_v10_4_failed_header_clip_20260904_1248/Fig3_target_centred_top_overview_layout_v10_4.pdf": "7a69cb629d7dc1bd91bbb0a40d9d4b2680b0f911630015901b96dce0f93ab8c5",
+      "figures_final/diagnostics/_archive/fig3h_target_centred_top_overview_layout_v10_4_failed_header_clip_20260904_1248/Fig3_target_centred_top_overview_layout_v10_4.png": "f0179f1d6e157e2fde22e1cb736085e256a1eaf2a0e61c8890d2a92ecca019c1",
+      "figures_final/diagnostics/_archive/fig3h_target_centred_top_overview_layout_v10_4_failed_header_clip_20260904_1248/manifest.json": "d6a13c38ebef72ec71487d2861064525ca2d49c4b7ee3a8df29a0f82c4b4b532",
+      "figures_final/diagnostics/fig3_target_centred_effect_zoom_v8_2/Fig3_target_centred_effect_zoom_v8_2.pdf": "48cbf1202c51604d94d6fa7ffb5420d6d6699edd5f9d3cdd2a07a708ff2afa91",
+      "figures_final/diagnostics/fig3_target_centred_effect_zoom_v8_2/Fig3_target_centred_effect_zoom_v8_2.png": "df9622531b3c74dec29bda73425096ee071bb3a2ef2db27893511a2279321618",
+      "figures_final/diagnostics/fig3_target_centred_effect_zoom_v8_2/manifest.json": "3f602f7193f113527027fb4576047a9c94fad343eace0b9bff165426194a2bc6",
+      "figures_final/diagnostics/fig3h_target_centred_biological_summary_v9_1/Fig3_target_centred_biological_summary_v9_1.pdf": "081e1371b91800ce26b72c3475ca6ed9593434278e0180c57402ab2f114ac1d1",
+      "figures_final/diagnostics/fig3h_target_centred_biological_summary_v9_1/Fig3_target_centred_biological_summary_v9_1.png": "9e62e7df6429b0776ac1ac7b725ce52da8a4176ec78f1f505d82c027013b4b5b",
+      "figures_final/diagnostics/fig3h_target_centred_biological_summary_v9_1/manifest.json": "5f810c5e190c6e57d2cc143533361aeb3e42ef6e8fa4288bec044b65166364a5",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10/Fig3_target_centred_top_overview_layout_v10.pdf": "21a250f5b2c7902b681312eaf1c3acfae6946250448d5bf42fa49bc688b043d4",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10/Fig3_target_centred_top_overview_layout_v10.png": "6cac859ebb3cb06a7dd0f145a5fc28db81b908a783161748869645621505ccef",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10/manifest.json": "dcb7b69c66d380ee1c1d79750b01e55400a75f2c91eca126f637c94e80e7ca63",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_1/Fig3_target_centred_top_overview_layout_v10_1.pdf": "52461dffd441fb3c873e7b26e921a6b216702f75dbd5327998bd98533330617e",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_1/Fig3_target_centred_top_overview_layout_v10_1.png": "ef55c26ca7e2918d9eb52d6c61418cb49af190c9f277f109e633bfa65ceab3db",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_1/manifest.json": "7fccdea673b09d869c31ae169067539d3d4d6e0a6bc027a2aaa49ca9f5bbcd73",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_2/Fig3_target_centred_top_overview_layout_v10_2.pdf": "6ae75531f181740052636d0ca7627b943dfd984bb710a85feb7b11b277562f3e",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_2/Fig3_target_centred_top_overview_layout_v10_2.png": "780b7842377a52fd4f6942e3e11c9efb51ef7a3d10c5781e2d5cb5deca37dc36",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_2/manifest.json": "13c40c4d109bf8d1b151af24c04cbf97b40e2d26a9d7245752d54cea75ced916",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_3/Fig3_target_centred_top_overview_layout_v10_3.pdf": "1fd1f2fbbe70f4464286400952ac38eec1712ff06bfbf02b762725a7ce6b1a51",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_3/Fig3_target_centred_top_overview_layout_v10_3.png": "547e15a43683d9876d97ea8890dc5b2c0e715b80c6b01929cc4fe3349f02695b",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_3/manifest.json": "1b8b746111e7008c876e2163a30541f7f0b7dc678bfe4573be398fcd82895249",
+      "scripts/active_claim_guard.py": "2fae7237c766ab83c7e2652e3496e47f65364113f4da3002004e0201ef746fdc",
+      "scripts/fig3_target_centred_biological_summary_v9.py": "6e08b4fc81832c18c8b2723e45c6f34ad01a0836c3877504b0da129b64bbca9c",
+      "scripts/fig3_target_centred_effect_zoom_v7.py": "03c6ee120ec0af80abeb96cea054dffc4fa8683b6b709412b69248319eeddc50",
+      "scripts/fig3_target_centred_effect_zoom_v8.py": "d709c21e15ae0d3e450cca1c8ca4e1f46e50651b8815021a72b20c1c61486937",
+      "scripts/fig3_target_centred_top_overview_layout_v10.py": "0827896ef22b2748f7aa727ae561d3ef75c797a7ab32fa997ce3490e7f51dffd",
+      "scripts/fig3c_go_slim_biological_summary_v2.py": "85aa2261a80fdd68f90eff66454625f7d9517baf94a2f799a56849a3ccb7b03e"
+    },
+    "protected_before": {
+      "FIGURE_LEGENDS.md": "ef92dbe171aea6dbc8f0c37f4d092be79cb33588affb862cc14dd7ebeb74cf4d",
+      "HumanCD4CoDEGNet_signflip.docx": "3035fd478c16901e87da2ffc39958133cf28188528f3ce7da098eb62d3678aeb",
+      "HumanCD4CoDEGNet_signflip.pdf": "0903c8956f35ffd04b24495ae5d9bea0555975e37ebfbe14ac8287441a7df32e",
+      "MANUSCRIPT.md": "e2db466f808641ad34cbe3e771f8fb34a473fa3a1e9088b058595571ae050055",
+      "PAPER_FACTS.md": "02b54187fea94fccfecf93ef6cd53c100c61fed5bad278ddca252196d282b021",
+      "figures_final/Fig3.pdf": "48cbf1202c51604d94d6fa7ffb5420d6d6699edd5f9d3cdd2a07a708ff2afa91",
+      "figures_final/Fig3.png": "df9622531b3c74dec29bda73425096ee071bb3a2ef2db27893511a2279321618",
+      "figures_final/diagnostics/_archive/fig3h_target_centred_top_overview_layout_v10_4_failed_header_clip_20260904_1248/Fig3_target_centred_top_overview_layout_v10_4.pdf": "7a69cb629d7dc1bd91bbb0a40d9d4b2680b0f911630015901b96dce0f93ab8c5",
+      "figures_final/diagnostics/_archive/fig3h_target_centred_top_overview_layout_v10_4_failed_header_clip_20260904_1248/Fig3_target_centred_top_overview_layout_v10_4.png": "f0179f1d6e157e2fde22e1cb736085e256a1eaf2a0e61c8890d2a92ecca019c1",
+      "figures_final/diagnostics/_archive/fig3h_target_centred_top_overview_layout_v10_4_failed_header_clip_20260904_1248/manifest.json": "d6a13c38ebef72ec71487d2861064525ca2d49c4b7ee3a8df29a0f82c4b4b532",
+      "figures_final/diagnostics/fig3_target_centred_effect_zoom_v8_2/Fig3_target_centred_effect_zoom_v8_2.pdf": "48cbf1202c51604d94d6fa7ffb5420d6d6699edd5f9d3cdd2a07a708ff2afa91",
+      "figures_final/diagnostics/fig3_target_centred_effect_zoom_v8_2/Fig3_target_centred_effect_zoom_v8_2.png": "df9622531b3c74dec29bda73425096ee071bb3a2ef2db27893511a2279321618",
+      "figures_final/diagnostics/fig3_target_centred_effect_zoom_v8_2/manifest.json": "3f602f7193f113527027fb4576047a9c94fad343eace0b9bff165426194a2bc6",
+      "figures_final/diagnostics/fig3h_target_centred_biological_summary_v9_1/Fig3_target_centred_biological_summary_v9_1.pdf": "081e1371b91800ce26b72c3475ca6ed9593434278e0180c57402ab2f114ac1d1",
+      "figures_final/diagnostics/fig3h_target_centred_biological_summary_v9_1/Fig3_target_centred_biological_summary_v9_1.png": "9e62e7df6429b0776ac1ac7b725ce52da8a4176ec78f1f505d82c027013b4b5b",
+      "figures_final/diagnostics/fig3h_target_centred_biological_summary_v9_1/manifest.json": "5f810c5e190c6e57d2cc143533361aeb3e42ef6e8fa4288bec044b65166364a5",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10/Fig3_target_centred_top_overview_layout_v10.pdf": "21a250f5b2c7902b681312eaf1c3acfae6946250448d5bf42fa49bc688b043d4",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10/Fig3_target_centred_top_overview_layout_v10.png": "6cac859ebb3cb06a7dd0f145a5fc28db81b908a783161748869645621505ccef",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10/manifest.json": "dcb7b69c66d380ee1c1d79750b01e55400a75f2c91eca126f637c94e80e7ca63",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_1/Fig3_target_centred_top_overview_layout_v10_1.pdf": "52461dffd441fb3c873e7b26e921a6b216702f75dbd5327998bd98533330617e",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_1/Fig3_target_centred_top_overview_layout_v10_1.png": "ef55c26ca7e2918d9eb52d6c61418cb49af190c9f277f109e633bfa65ceab3db",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_1/manifest.json": "7fccdea673b09d869c31ae169067539d3d4d6e0a6bc027a2aaa49ca9f5bbcd73",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_2/Fig3_target_centred_top_overview_layout_v10_2.pdf": "6ae75531f181740052636d0ca7627b943dfd984bb710a85feb7b11b277562f3e",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_2/Fig3_target_centred_top_overview_layout_v10_2.png": "780b7842377a52fd4f6942e3e11c9efb51ef7a3d10c5781e2d5cb5deca37dc36",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_2/manifest.json": "13c40c4d109bf8d1b151af24c04cbf97b40e2d26a9d7245752d54cea75ced916",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_3/Fig3_target_centred_top_overview_layout_v10_3.pdf": "1fd1f2fbbe70f4464286400952ac38eec1712ff06bfbf02b762725a7ce6b1a51",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_3/Fig3_target_centred_top_overview_layout_v10_3.png": "547e15a43683d9876d97ea8890dc5b2c0e715b80c6b01929cc4fe3349f02695b",
+      "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_3/manifest.json": "1b8b746111e7008c876e2163a30541f7f0b7dc678bfe4573be398fcd82895249",
+      "scripts/active_claim_guard.py": "2fae7237c766ab83c7e2652e3496e47f65364113f4da3002004e0201ef746fdc",
+      "scripts/fig3_target_centred_biological_summary_v9.py": "6e08b4fc81832c18c8b2723e45c6f34ad01a0836c3877504b0da129b64bbca9c",
+      "scripts/fig3_target_centred_effect_zoom_v7.py": "03c6ee120ec0af80abeb96cea054dffc4fa8683b6b709412b69248319eeddc50",
+      "scripts/fig3_target_centred_effect_zoom_v8.py": "d709c21e15ae0d3e450cca1c8ca4e1f46e50651b8815021a72b20c1c61486937",
+      "scripts/fig3_target_centred_top_overview_layout_v10.py": "0827896ef22b2748f7aa727ae561d3ef75c797a7ab32fa997ce3490e7f51dffd",
+      "scripts/fig3c_go_slim_biological_summary_v2.py": "85aa2261a80fdd68f90eff66454625f7d9517baf94a2f799a56849a3ccb7b03e"
+    }
+  },
+  "outputs": {
+    "Fig3_target_centred_top_overview_layout_v10_4_1.pdf": {
+      "bytes": 557886,
+      "sha256": "8652a5130cbe57c00a2c34337eabc2c177312d8b91c803195862baca6d2e4627"
+    },
+    "Fig3_target_centred_top_overview_layout_v10_4_1.png": {
+      "bytes": 767537,
+      "sha256": "8e3e4ab040e55cda511637c024d739970b06df686c4d48ff776c52149bff57de"
+    },
+    "source_panel_a_target_concentration.csv": {
+      "bytes": 159,
+      "sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1"
+    },
+    "source_panel_b_target_unanimity.csv": {
+      "bytes": 312,
+      "sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81"
+    },
+    "source_panel_c_effect_score_matrix.tsv": {
+      "bytes": 29123,
+      "sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a"
+    },
+    "source_panel_d_effect_score_matrix.tsv": {
+      "bytes": 9952,
+      "sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252"
+    },
+    "source_panel_e_go_bp_slim_summary.tsv": {
+      "bytes": 2740,
+      "sha256": "359becae2759094eb8e2c4632bd5fdd1bd9e43341f7bbd6ec12805231eea68b8"
+    },
+    "source_panel_f_cofactor_targets.csv": {
+      "bytes": 4407,
+      "sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4"
+    },
+    "source_panel_g_sensor_targets.csv": {
+      "bytes": 3422,
+      "sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552"
+    },
+    "source_panel_h_arce_recurrence.csv": {
+      "bytes": 832,
+      "sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79"
+    }
+  },
+  "panel_map": {
+    "a": "unchanged target concentration, smaller true square",
+    "b": "unchanged single-orientation target statistic, smaller true square",
+    "c": "unchanged complete R49 x T279 fixed-order signed effect overview",
+    "d": "literal panel c[:, :80] enlargement; 5.5-pt true-square cells and 5.5-pt inherited-sans-serif axis tick labels",
+    "e": "former h: 23 nonzero fixed GO-BP-slim terms plus outside-slim complement; two zero rows retained in source only",
+    "f": "former e: cofactor trio, 16 direction-concordant targets",
+    "g": "former f: sensor pair, 17 direction-concordant targets",
+    "h": "former g: external edge recurrence"
+  },
+  "prior_candidate_changes": false,
+  "renderer": {
+    "path": "scripts/fig3_target_centred_top_overview_layout_v10_4_1.py",
+    "sha256": "79c9747af744bd94cc2c12d6c4f00279ef2651c117048e2b377c6f7b88867858"
+  },
+  "revision_from_v10_3": {
+    "middle_panel_d_e_geometry_changed_only_for_readability": true,
+    "page_canvas_top_bottom_layout_data_order_scales_legends_unchanged": true,
+    "panel_d_x_tick_labels": 80,
+    "panel_d_y_tick_labels": 49,
+    "panel_source_files_byte_identical": {
+      "source_panel_a_target_concentration.csv": {
+        "byte_identical": true,
+        "v10_3_sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1",
+        "v10_4_1_sha256": "9c00b784da1799f05fc8aa2934e66fffb01be306d8c8ce8a2ff0640508ddd4d1"
+      },
+      "source_panel_b_target_unanimity.csv": {
+        "byte_identical": true,
+        "v10_3_sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81",
+        "v10_4_1_sha256": "e3a7d81b249d9aa573fec6599f1b5056e353718d273bacaa9f95af8b677d4c81"
+      },
+      "source_panel_c_effect_score_matrix.tsv": {
+        "byte_identical": true,
+        "v10_3_sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a",
+        "v10_4_1_sha256": "2e12f7e319aa89ae19bdf4feda3b901a9f1c0b8a96e1c6718e1b5633ca01a91a"
+      },
+      "source_panel_d_effect_score_matrix.tsv": {
+        "byte_identical": true,
+        "v10_3_sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252",
+        "v10_4_1_sha256": "0e4841b7b60044e3e741454f3b88206b93f3dca4b5a1345d7443ffd22db28252"
+      },
+      "source_panel_e_go_bp_slim_summary.tsv": {
+        "byte_identical": true,
+        "v10_3_sha256": "359becae2759094eb8e2c4632bd5fdd1bd9e43341f7bbd6ec12805231eea68b8",
+        "v10_4_1_sha256": "359becae2759094eb8e2c4632bd5fdd1bd9e43341f7bbd6ec12805231eea68b8"
+      },
+      "source_panel_f_cofactor_targets.csv": {
+        "byte_identical": true,
+        "v10_3_sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4",
+        "v10_4_1_sha256": "fa332f7cfd0ade91f816ea370b8ad1bd88b529723a066954f67451b3262696c4"
+      },
+      "source_panel_g_sensor_targets.csv": {
+        "byte_identical": true,
+        "v10_3_sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552",
+        "v10_4_1_sha256": "84e023842a14f48829ffb244b11023345d5108f826a337300cd1584b34758552"
+      },
+      "source_panel_h_arce_recurrence.csv": {
+        "byte_identical": true,
+        "v10_3_sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79",
+        "v10_4_1_sha256": "ad0674b793fe9be2b3e791d39afb7a9b07f12be141f011220ee395d02e2cce79"
+      }
+    },
+    "predecessor_directory": "figures_final/diagnostics/fig3h_target_centred_top_overview_layout_v10_3",
+    "predecessor_manifest_sha256": "1b8b746111e7008c876e2163a30541f7f0b7dc678bfe4573be398fcd82895249",
+    "predecessor_pdf_sha256": "1fd1f2fbbe70f4464286400952ac38eec1712ff06bfbf02b762725a7ce6b1a51",
+    "predecessor_png_sha256": "547e15a43683d9876d97ea8890dc5b2c0e715b80c6b01929cc4fe3349f02695b",
+    "preserved_geometry_and_semantic_fields": [
+      "panel_ab_geometry",
+      "panel_c",
+      "panel_e",
+      "literal_zoom_assertions",
+      "terminology_contract",
+      "panel_tag_contract"
+    ],
+    "preserved_layout_fields": [
+      "page",
+      "top_square_side",
+      "overview_cell_side_points",
+      "top_row_height_inches",
+      "middle_row_height_inches",
+      "bottom_row_height_inches",
+      "top_ab_slot_width_inches",
+      "top_c_slot_width_inches",
+      "bottom_colorbar_rect"
+    ],
+    "preserved_panel_d_semantic_fields": [
+      "shape",
+      "reversal_cells",
+      "lost_cells",
+      "gained_cells",
+      "stable_cells",
+      "outside_cells",
+      "self_cells",
+      "regulators_with_reversal",
+      "targets_with_reversal",
+      "row_labels_shown",
+      "target_labels_shown",
+      "dendrogram",
+      "ordering"
+    ],
+    "readability_changes_only": "panel d x-axis target and y-axis regulator tick-label font sizes increase from 5.0 to exactly 5.5 points; panel d cells increase from 5.0 to 5.5-point true squares and panel e narrows to retain the same short page"
+  },
+  "saved_pdf_geometry": {
+    "page_height_inches": 9.600000000000001,
+    "page_height_points": 691.2,
+    "page_standard": "custom short portrait",
+    "page_width_inches": 8.267722222222222,
+    "page_width_points": 595.276,
+    "tight_bbox": false
+  },
+  "schema_version": "fig3-target-centred-top-overview-layout-v10.4.1",
+  "semantic_counts": {
+    "panel_c": {
+      "cells": 13671,
+      "gained": 207,
+      "lost": 330,
+      "outside": 12703,
+      "positive_rows": 43,
+      "positive_targets": 257,
+      "reversal": 537,
+      "self": 1,
+      "stable": 430
+    },
+    "panel_d": {
+      "cells": 3920,
+      "gained": 71,
+      "lost": 137,
+      "outside": 3584,
+      "positive_rows": 37,
+      "positive_targets": 77,
+      "reversal": 208,
+      "self": 0,
+      "stable": 128
+    },
+    "panel_d_zero_reversal_targets": [
+      "CD47",
+      "NSMCE1",
+      "SPIN1"
+    ],
+    "panel_e": {
+      "claim_boundary": "descriptive frozen GO-BP-slim membership; zero-total fixed terms omitted from display only; no enrichment, lost-versus-gained test, pathway activity, or mechanism",
+      "display_label_contractions": {
+        "generation of precursor metabolites and energy": "precursor metabolites / energy"
+      },
+      "displayed_nonzero_official_bp_slim_terms": 23,
+      "displayed_rows": 24,
+      "explicit_complement_rows": 1,
+      "gained_denominator": 118,
+      "lost_denominator": 161,
+      "mapped_targets": 240,
+      "memberships_overlap": true,
+      "omitted_zero_rows": [
+        {
+          "go_id": "GO:0071554",
+          "go_term": "cell wall organization or biogenesis"
+        },
+        {
+          "go_id": "GO:0019748",
+          "go_term": "secondary metabolic process"
+        }
+      ],
+      "outside_this_slim_targets": 39,
+      "printed_cell_value": "unique-target count",
+      "row_pitch_points": 6.05,
+      "shade": "within-orientation percentage on a fixed 0--40% scale",
+      "source_official_bp_slim_terms": 25,
+      "source_rows": 26,
+      "targets": 279,
+      "teal": "#2a9d8f"
+    }
+  },
+  "source_closure": {
+    "all_copied_input_and_renderer_hashes_recorded": true,
+    "all_input_bytes_copied_into_bundle": true,
+    "dense_source_manifest_sha256": "06d3e57b1c0fe505cdc119ff4fb0b702b2d7c25186dd78160638cd07144ce27d",
+    "go_slim_source_manifest_schema": "fig3c-go-slim-annotation-ribbon-diagnostic-v1",
+    "go_slim_source_manifest_status": "DESCRIPTIVE_DIAGNOSTIC_NOT_PROMOTED",
+    "panel_e_displayed_nonzero_fixed_terms": 23,
+    "panel_e_displayed_rows": 24,
+    "panel_e_omitted_zero_rows_retained_in_source": [
+      "GO:0071554 cell wall organization or biogenesis",
+      "GO:0019748 secondary metabolic process"
+    ],
+    "panel_e_source_rows": 26
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_PROMOTED",
+  "superseded_preview_retained": {
+    "bytes_unchanged_by_v10_4_1_build": true,
+    "directory": "figures_final/diagnostics/_archive/fig3h_target_centred_top_overview_layout_v10_4_failed_header_clip_20260904_1248",
+    "manifest_sha256": "d6a13c38ebef72ec71487d2861064525ca2d49c4b7ee3a8df29a0f82c4b4b532",
+    "pdf_sha256": "7a69cb629d7dc1bd91bbb0a40d9d4b2680b0f911630015901b96dce0f93ab8c5",
+    "png_sha256": "f0179f1d6e157e2fde22e1cb736085e256a1eaf2a0e61c8890d2a92ecca019c1",
+    "reason": "panel-d header overprinted by top tracks and panel-e line clipped",
+    "status": "DIAGNOSTIC_ONLY_NOT_PROMOTED"
+  },
+  "trash_changes": false
+}

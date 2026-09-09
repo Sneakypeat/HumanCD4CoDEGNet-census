@@ -1,0 +1,73 @@
+{
+  "source": "results_data/census/census_master_edges.csv.gz",
+  "trans_definition": "master is_self == false; is_self is endpoint Ensembl-ID equality",
+  "universe": {
+    "edges": 83489,
+    "stable": 79110,
+    "reversing": 4379,
+    "reversal_bearing_regulators": 324
+  },
+  "seed": 20260717,
+  "observed": {
+    "n_targets": 2577,
+    "ge2": 913,
+    "ge3": 414,
+    "ge5": 110,
+    "max": 18
+  },
+  "nperm": 5000,
+  "null": {
+    "n_targets": {
+      "observed": 2577,
+      "null_mean": 3152.5,
+      "null_95": [
+        3107.0,
+        3199.0
+      ],
+      "p_two_sided": 0.0004
+    },
+    "ge2": {
+      "observed": 913,
+      "null_mean": 895.9,
+      "null_95": [
+        862.0,
+        929.0
+      ],
+      "p_two_sided": 0.33873
+    },
+    "ge3": {
+      "observed": 414,
+      "null_mean": 244.7,
+      "null_95": [
+        222.0,
+        268.0
+      ],
+      "p_two_sided": 0.0004
+    },
+    "ge5": {
+      "observed": 110,
+      "null_mean": 16.3,
+      "null_95": [
+        9.0,
+        24.0
+      ],
+      "p_two_sided": 0.0004
+    },
+    "max": {
+      "observed": 18,
+      "null_mean": 6.8,
+      "null_95": [
+        6.0,
+        9.0
+      ],
+      "p_two_sided": 0.0004
+    }
+  },
+  "effector": {
+    "n_geneset": 792,
+    "n_convergent": 110,
+    "obs_frac": 0.1,
+    "null_frac_mean": 0.0974,
+    "p": 0.46269
+  }
+}

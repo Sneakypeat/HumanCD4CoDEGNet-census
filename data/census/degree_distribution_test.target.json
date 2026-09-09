@@ -1,0 +1,70 @@
+{
+  "alpha_at_optimiser_bound": false,
+  "label": "target in-degree",
+  "n": 9554,
+  "min": 1,
+  "max": 56,
+  "median": 7.0,
+  "xmin": 31,
+  "alpha": 6.97330160525813,
+  "n_tail": 183,
+  "ks_distance": 0.05117321075094283,
+  "tail_fraction": 0.0192,
+  "gof_p": 0.0414,
+  "gof_exceedances": 206,
+  "gof_valid_bootstraps": 5000,
+  "gof_execution": "serial; shared deterministic RNG stream",
+  "power_law_verdict": "REJECTED (p < 0.1)",
+  "model_comparison": {
+    "lognormal_params": {
+      "mu": 3.0611909086241784,
+      "sigma": 0.3292400568286102
+    },
+    "exponential_params": {
+      "q": 0.8454391891891891,
+      "lambda": 0.16789903612873047
+    },
+    "cutoff_power_law_params": {
+      "alpha": 4.323492459706565e-13,
+      "lambda": 0.16789903541278273,
+      "alpha_at_lower_bound": true
+    },
+    "log_likelihood": {
+      "power_law": -512.4019723221779,
+      "lognormal": -509.85016634009196,
+      "exponential": -509.75861742112215,
+      "cutoff_power_law": -509.7586174211219
+    },
+    "aicc": {
+      "power_law": 1026.8260440918696,
+      "lognormal": 1023.7669993468506,
+      "exponential": 1021.5393342897581,
+      "cutoff_power_law": 1023.5839015089106
+    },
+    "delta_aicc": {
+      "power_law": 5.286709802111432,
+      "lognormal": 2.2276650570925085,
+      "exponential": 0.0,
+      "cutoff_power_law": 2.044567219152441
+    },
+    "power_law_vs_lognormal": {
+      "R": -2.5518059820859005,
+      "vuong_z": -1.4649690854427908,
+      "p": 0.14292935238545165,
+      "favours": "indistinguishable",
+      "q_bh_across_six": 0.2153449196328161
+    },
+    "power_law_vs_exponential": {
+      "R": -2.64335490105583,
+      "vuong_z": -1.977424591022029,
+      "p": 0.04799365659621271,
+      "favours": "exponential",
+      "q_bh_across_six": 0.1439809697886381
+    },
+    "power_law_vs_cutoff_power_law": {
+      "delta_log_likelihood": -2.643354901056,
+      "test": "not tested: cutoff power law contains the pure power law at lambda=0; relative support is reported by AICc"
+    }
+  },
+  "verdict": "power law REJECTED by goodness of fit"
+}

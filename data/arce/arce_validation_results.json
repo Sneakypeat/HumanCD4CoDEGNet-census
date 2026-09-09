@@ -1,0 +1,304 @@
+{
+  "_note": "Cluster on REGULATOR, never on edges. All CIs are cluster bootstraps over regulators. No genome-wide rate is estimable from these data: Arce's 28-gene library was selected for state-specific effects.",
+  "perturbseq": {
+    "n_rev": 241,
+    "n_stable": 3256,
+    "n_regulators": 11,
+    "rev_flip_rate": 0.48132780082987553,
+    "stable_flip_rate": 0.2195945945945946,
+    "or_mh": 3.227795814482523,
+    "cmh_p_edge_level": 1.679135860335699e-18,
+    "per_regulator": [
+      {
+        "regulator": "ATXN7L3",
+        "n_rev": 3,
+        "n_stable": 101,
+        "rev_flip": 0,
+        "rev_flip_rate": 0.0,
+        "stable_flip": 51,
+        "stable_flip_rate": 0.504950495049505,
+        "or_haldane": 0.14008321775312066
+      },
+      {
+        "regulator": "BATF",
+        "n_rev": 12,
+        "n_stable": 68,
+        "rev_flip": 7,
+        "rev_flip_rate": 0.5833333333333334,
+        "stable_flip": 14,
+        "stable_flip_rate": 0.20588235294117646,
+        "or_haldane": 5.12539184952978
+      },
+      {
+        "regulator": "BPTF",
+        "n_rev": 1,
+        "n_stable": 39,
+        "rev_flip": 0,
+        "rev_flip_rate": 0.0,
+        "stable_flip": 5,
+        "stable_flip_rate": 0.1282051282051282,
+        "or_haldane": 2.090909090909091
+      },
+      {
+        "regulator": "CBFB",
+        "n_rev": 34,
+        "n_stable": 177,
+        "rev_flip": 19,
+        "rev_flip_rate": 0.5588235294117647,
+        "stable_flip": 29,
+        "stable_flip_rate": 0.1638418079096045,
+        "or_haldane": 6.332968835429196
+      },
+      {
+        "regulator": "FOXO1",
+        "n_rev": 10,
+        "n_stable": 216,
+        "rev_flip": 6,
+        "rev_flip_rate": 0.6,
+        "stable_flip": 98,
+        "stable_flip_rate": 0.4537037037037037,
+        "or_haldane": 1.7377326565143825
+      },
+      {
+        "regulator": "MED12",
+        "n_rev": 53,
+        "n_stable": 951,
+        "rev_flip": 23,
+        "rev_flip_rate": 0.4339622641509434,
+        "stable_flip": 138,
+        "stable_flip_rate": 0.14511041009463724,
+        "or_haldane": 4.52559625969107
+      },
+      {
+        "regulator": "MED24",
+        "n_rev": 57,
+        "n_stable": 324,
+        "rev_flip": 28,
+        "rev_flip_rate": 0.49122807017543857,
+        "stable_flip": 90,
+        "stable_flip_rate": 0.2777777777777778,
+        "or_haldane": 2.503324281299747
+      },
+      {
+        "regulator": "MYB",
+        "n_rev": 10,
+        "n_stable": 397,
+        "rev_flip": 6,
+        "rev_flip_rate": 0.6,
+        "stable_flip": 75,
+        "stable_flip_rate": 0.1889168765743073,
+        "or_haldane": 6.169977924944813
+      },
+      {
+        "regulator": "NFKB2",
+        "n_rev": 1,
+        "n_stable": 183,
+        "rev_flip": 1,
+        "rev_flip_rate": 1.0,
+        "stable_flip": 20,
+        "stable_flip_rate": 0.1092896174863388,
+        "or_haldane": 23.926829268292682
+      },
+      {
+        "regulator": "STAT5B",
+        "n_rev": 42,
+        "n_stable": 228,
+        "rev_flip": 19,
+        "rev_flip_rate": 0.4523809523809524,
+        "stable_flip": 49,
+        "stable_flip_rate": 0.2149122807017544,
+        "or_haldane": 3.0090264345583493
+      },
+      {
+        "regulator": "USP22",
+        "n_rev": 18,
+        "n_stable": 572,
+        "rev_flip": 7,
+        "rev_flip_rate": 0.3888888888888889,
+        "stable_flip": 146,
+        "stable_flip_rate": 0.25524475524475526,
+        "or_haldane": 1.8986496512835733
+      }
+    ],
+    "cluster_boot_ci": [
+      2.324666345327729,
+      4.463691084377782
+    ],
+    "cluster_boot_p_le1": 0.0,
+    "leave_one_out": [
+      {
+        "dropped": "ATXN7L3",
+        "or_mh": 3.4306987305006635,
+        "cmh_p": 9.205072986167781e-20,
+        "n_rev_left": 238
+      },
+      {
+        "dropped": "BATF",
+        "or_mh": 3.1485988470044957,
+        "cmh_p": 5.3632560381545307e-17,
+        "n_rev_left": 229
+      },
+      {
+        "dropped": "BPTF",
+        "or_mh": 3.2440982173964237,
+        "cmh_p": 1.2595230738359916e-18,
+        "n_rev_left": 240
+      },
+      {
+        "dropped": "CBFB",
+        "or_mh": 2.9353038443317327,
+        "cmh_p": 7.794596580066656e-14,
+        "n_rev_left": 207
+      },
+      {
+        "dropped": "FOXO1",
+        "or_mh": 3.334361276598845,
+        "cmh_p": 1.0791667718823073e-18,
+        "n_rev_left": 231
+      },
+      {
+        "dropped": "MED12",
+        "or_mh": 2.9716781737093094,
+        "cmh_p": 1.227958427375237e-12,
+        "n_rev_left": 188
+      },
+      {
+        "dropped": "MED24",
+        "or_mh": 3.5004779927349436,
+        "cmh_p": 9.474827945083844e-17,
+        "n_rev_left": 184
+      },
+      {
+        "dropped": "MYB",
+        "or_mh": 3.129702016417496,
+        "cmh_p": 1.0143818545094568e-16,
+        "n_rev_left": 231
+      },
+      {
+        "dropped": "NFKB2",
+        "or_mh": 3.192182089832901,
+        "cmh_p": 5.306947442766369e-18,
+        "n_rev_left": 240
+      },
+      {
+        "dropped": "STAT5B",
+        "or_mh": 3.2701508521820317,
+        "cmh_p": 3.2662917838136623e-16,
+        "n_rev_left": 199
+      },
+      {
+        "dropped": "USP22",
+        "or_mh": 3.3962624481879597,
+        "cmh_p": 1.5006551556613056e-18,
+        "n_rev_left": 223
+      }
+    ],
+    "loo_or_min": 2.9353038443317327,
+    "loo_or_max": 3.5004779927349436,
+    "sign_test_n_better": 9,
+    "sign_test_n_reg": 11,
+    "sign_test_p": 0.0654296875,
+    "wilcoxon_p": 0.0537109375,
+    "matched": {
+      "n_rev": 241,
+      "n_stable": 241,
+      "or_mh": 3.1328513119510846,
+      "cmh_p_edge_level": 1.2184813056808134e-08,
+      "rev_flip_rate": 0.48132780082987553,
+      "stable_flip_rate": 0.22821576763485477,
+      "balance_mwu_p": 0.8850729588232978,
+      "cluster_boot_ci": [
+        2.0720971932921257,
+        4.906499721281411
+      ]
+    },
+    "med12": {
+      "n_rev": 53,
+      "rev_flip": 23,
+      "rev_flip_rate": 0.4339622641509434,
+      "n_stable": 951,
+      "stable_flip": 138,
+      "stable_flip_rate": 0.14511041009463724,
+      "fisher_or": 4.516666666666667,
+      "fisher_p": 9.979272299991156e-07
+    }
+  },
+  "bulk": {
+    "n_rev": 108,
+    "n_stable": 1271,
+    "n_regulators": 2,
+    "rev_flip_rate": 0.4166666666666667,
+    "stable_flip_rate": 0.21951219512195122,
+    "or_mh": 2.245156211850419,
+    "cmh_p_edge_level": 0.0001424192221570339,
+    "per_regulator": [
+      {
+        "regulator": "MED12",
+        "n_rev": 52,
+        "n_stable": 947,
+        "rev_flip": 19,
+        "rev_flip_rate": 0.36538461538461536,
+        "stable_flip": 186,
+        "stable_flip_rate": 0.19640971488912354,
+        "or_haldane": 2.376735624824937
+      },
+      {
+        "regulator": "MED24",
+        "n_rev": 56,
+        "n_stable": 324,
+        "rev_flip": 26,
+        "rev_flip_rate": 0.4642857142857143,
+        "stable_flip": 93,
+        "stable_flip_rate": 0.28703703703703703,
+        "or_haldane": 2.1512229332865784
+      }
+    ],
+    "matched": {
+      "n_rev": 108,
+      "n_stable": 108,
+      "or_mh": 2.172302737520129,
+      "cmh_p_edge_level": 0.01375361305104539,
+      "rev_flip_rate": 0.4166666666666667,
+      "stable_flip_rate": 0.25,
+      "balance_mwu_p": 0.9887078686795949
+    },
+    "med12": {
+      "n_rev": 52,
+      "rev_flip": 19,
+      "rev_flip_rate": 0.36538461538461536,
+      "n_stable": 947,
+      "stable_flip": 186,
+      "stable_flip_rate": 0.19640971488912354,
+      "fisher_or": 2.3556533072662105,
+      "fisher_p": 0.007104740736002481
+    }
+  },
+  "cbfb_il2ra": {
+    "perturbseq": {
+      "our_rest": 2.683368775028389,
+      "our_stim": -0.5014075050693492,
+      "arce_rest": 1.1637265609976,
+      "arce_stim": -0.15710761611405,
+      "arce_rest_padj": 6.548834762402781e-09,
+      "arce_stim_padj": 0.373277776948635,
+      "flipped": 1,
+      "dir_match": 1,
+      "donor_reproduced": 1
+    },
+    "screen_ko_surface_protein": {
+      "lfc_rest_lowhigh": -2.6935,
+      "fdr_rest_neg_direction": 0.000291,
+      "lfc_stim_lowhigh": 0.6703,
+      "fdr_stim_pos_direction": 0.004429,
+      "sign_relative_to_knockdown_effect": -1,
+      "interpretation": "negative regulator at rest, positive when stimulated; both FDR-significant, opposite directions; matches ours after the low/high sign inversion",
+      "polarity_anchor": {
+        "gene": "GATA3",
+        "published_stim_teff_lowhigh_lfc": 2.47,
+        "table_value": 2.4693,
+        "source": "Arce et al. 2024 main text vs Zenodo S1"
+      },
+      "note": "72 h restimulation, not 48 h; source Zenodo S1_all_screens_gene_summary"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "alpha_at_optimiser_bound": false,
+  "label": "regulator out-degree",
+  "n": 617,
+  "min": 1,
+  "max": 3058,
+  "median": 39.0,
+  "xmin": 188,
+  "alpha": 2.26311996037381,
+  "n_tail": 115,
+  "ks_distance": 0.06322867513494229,
+  "tail_fraction": 0.1864,
+  "gof_p": 0.1902,
+  "gof_exceedances": 950,
+  "gof_valid_bootstraps": 5000,
+  "gof_execution": "serial; shared deterministic RNG stream",
+  "power_law_verdict": "not ruled out (this is NOT confirmation)",
+  "model_comparison": {
+    "lognormal_params": {
+      "mu": 4.330270386758555,
+      "sigma": 1.3296658592713595
+    },
+    "exponential_params": {
+      "q": 0.9970996948374569,
+      "lambda": 0.0029045191975250405
+    },
+    "cutoff_power_law_params": {
+      "alpha": 1.6142757057333261,
+      "lambda": 0.0007212858318616964,
+      "alpha_at_lower_bound": false
+    },
+    "log_likelihood": {
+      "power_law": -781.0675518809464,
+      "lognormal": -778.5289490167752,
+      "exponential": -786.7710926855586,
+      "cutoff_power_law": -777.6618812183992
+    },
+    "aicc": {
+      "power_law": 1564.1705019919814,
+      "lognormal": 1561.1650408906933,
+      "exponential": 1575.5775836012058,
+      "cutoff_power_law": 1559.4309052939414
+    },
+    "delta_aicc": {
+      "power_law": 4.739596698040032,
+      "lognormal": 1.734135596751912,
+      "exponential": 16.146678307264438,
+      "cutoff_power_law": 0.0
+    },
+    "power_law_vs_lognormal": {
+      "R": -2.5386028641711604,
+      "vuong_z": -1.4626496145106593,
+      "p": 0.14356327975521074,
+      "favours": "indistinguishable",
+      "q_bh_across_six": 0.2153449196328161
+    },
+    "power_law_vs_exponential": {
+      "R": 5.703540804612238,
+      "vuong_z": 0.9528718347053412,
+      "p": 0.34065501214718785,
+      "favours": "indistinguishable",
+      "q_bh_across_six": 0.34065501214718785
+    },
+    "power_law_vs_cutoff_power_law": {
+      "delta_log_likelihood": -3.405670662547209,
+      "test": "not tested: cutoff power law contains the pure power law at lambda=0; relative support is reported by AICc"
+    }
+  },
+  "verdict": "power-law tail compatible by GOF; this is not confirmation"
+}

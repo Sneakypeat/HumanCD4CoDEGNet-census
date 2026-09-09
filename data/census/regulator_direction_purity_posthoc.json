@@ -1,0 +1,834 @@
+{
+  "analysis_date": "2026-08-29",
+  "analysis_status": "POST_HOC_EXPLORATORY",
+  "census_validation": {
+    "direction_matches_resting_sign": true,
+    "inclusive_edges": 84044,
+    "represented_regulators": 617,
+    "reversal_bearing_regulators": 324,
+    "reversal_bearing_targets": 2577,
+    "reversal_edges": 4379,
+    "stable_id_dyads_unique": true,
+    "trans_edges": 83489
+  },
+  "claim_boundary": "This is a post-hoc network-organisation result. It does not select a regulator, establish a shared biological programme, or show direct regulation, mediation, protein-state switching, or molecular mechanism.",
+  "code": {
+    "path": "scripts/regulator_direction_purity_posthoc.py",
+    "sha256": "8e74956dd9e5a4c1e69f3d51cbf4a02ae2f4658d9fef6d8d3eb375b377fb15f4"
+  },
+  "custody_manifest": "results_data/census/regulator_direction_purity_posthoc.manifest.json",
+  "cutoff_provenance": "The >=6 rule was chosen after inspecting the catalogue as a historical display threshold. The outcomes at cutoffs 4--7 were also inspected before this reproducibility implementation; they are reported in full as a post-hoc threshold sensitivity, with no inferential multiplicity correction claimed.",
+  "cutoff_sensitivity": [
+    {
+      "cutoff_min_reversals": 4,
+      "expected_direction_pure": {
+        "decimal": 7.110361552028219,
+        "fraction": "161263/22680"
+      },
+      "factorial_moments": [
+        {
+          "decimal": 1.0,
+          "fraction": "1/1"
+        },
+        {
+          "decimal": 7.110361552028219,
+          "fraction": "161263/22680"
+        },
+        {
+          "decimal": 23.003400660675794,
+          "fraction": "32868179/1428840"
+        },
+        {
+          "decimal": 44.90001202412835,
+          "fraction": "4619155189/102876480"
+        },
+        {
+          "decimal": 59.11192436767104,
+          "fraction": "31274880197/529079040"
+        },
+        {
+          "decimal": 55.582412541429676,
+          "fraction": "329363882045/5925685248"
+        },
+        {
+          "decimal": 38.55011324859577,
+          "fraction": "489505365827/12697896960"
+        },
+        {
+          "decimal": 20.07666626285958,
+          "fraction": "64242722755537/3199870033920"
+        },
+        {
+          "decimal": 7.914165648638383,
+          "fraction": "25324301502557/3199870033920"
+        },
+        {
+          "decimal": 2.3612337952122897,
+          "fraction": "7555641264379/3199870033920"
+        },
+        {
+          "decimal": 0.5289971035296491,
+          "fraction": "338544395923/639974006784"
+        },
+        {
+          "decimal": 0.0874903859692194,
+          "fraction": "39993980617/457124290560"
+        },
+        {
+          "decimal": 0.010374459680892763,
+          "fraction": "33196922651/3199870033920"
+        },
+        {
+          "decimal": 0.0008406991248030344,
+          "fraction": "384303991/457124290560"
+        },
+        {
+          "decimal": 4.295394611124894e-05,
+          "fraction": "27489409/639974006784"
+        },
+        {
+          "decimal": 1.1951110387177709e-06,
+          "fraction": "95605/79996750848"
+        },
+        {
+          "decimal": 1.3125533085650954e-08,
+          "fraction": "25/1904684544"
+        }
+      ],
+      "n_eligible_regulators": 157,
+      "n_observed_direction_pure": 12,
+      "n_regulators_with_nonzero_null_purity_probability": 16,
+      "null_pmf": [
+        {
+          "decimal": 0.0,
+          "fraction": "0/1",
+          "n_direction_pure": 0
+        },
+        {
+          "decimal": 0.0,
+          "fraction": "0/1",
+          "n_direction_pure": 1
+        },
+        {
+          "decimal": 0.0005372583704263598,
+          "fraction": "4913/9144576",
+          "n_direction_pure": 2
+        },
+        {
+          "decimal": 0.007077940093790145,
+          "fraction": "1664351/235146240",
+          "n_direction_pure": 3
+        },
+        {
+          "decimal": 0.03758989846367216,
+          "fraction": "20624621/548674560",
+          "n_direction_pure": 4
+        },
+        {
+          "decimal": 0.11014016357353444,
+          "fraction": "1305311885/11851370496",
+          "n_direction_pure": 5
+        },
+        {
+          "decimal": 0.2017575217431911,
+          "fraction": "1280948111/6348948480",
+          "n_direction_pure": 6
+        },
+        {
+          "decimal": 0.24612271895624427,
+          "fraction": "17501349179/71108222976",
+          "n_direction_pure": 7
+        },
+        {
+          "decimal": 0.2068643203099383,
+          "fraction": "661938939647/3199870033920",
+          "n_direction_pure": 8
+        },
+        {
+          "decimal": 0.12179030719619009,
+          "fraction": "389713154419/3199870033920",
+          "n_direction_pure": 9
+        },
+        {
+          "decimal": 0.05039033799053078,
+          "fraction": "1535643167/30474952704",
+          "n_direction_pure": 10
+        },
+        {
+          "decimal": 0.014510159387979947,
+          "fraction": "46430624213/3199870033920",
+          "n_direction_pure": 11
+        },
+        {
+          "decimal": 0.002834293102176269,
+          "fraction": "1813873913/639974006784",
+          "n_direction_pure": 12
+        },
+        {
+          "decimal": 0.00035748023978295063,
+          "fraction": "18156989/50791587840",
+          "n_direction_pure": 13
+        },
+        {
+          "decimal": 2.6602344500760493e-05,
+          "fraction": "17024809/639974006784",
+          "n_direction_pure": 14
+        },
+        {
+          "decimal": 9.851025093473557e-07,
+          "fraction": "78805/79996750848",
+          "n_direction_pure": 15
+        },
+        {
+          "decimal": 1.3125533085650954e-08,
+          "fraction": "25/1904684544",
+          "n_direction_pure": 16
+        }
+      ],
+      "observed_fraction": 0.07643312101910828,
+      "observed_minus_expected": 4.889638447971781,
+      "observed_regulators": [
+        "CARD11",
+        "CXXC1",
+        "LCK",
+        "MCAT",
+        "NDUFA8",
+        "NRBP1",
+        "OXA1L",
+        "PTPN2",
+        "RB1CC1",
+        "RRAGA",
+        "TIMM8B",
+        "YY1"
+      ],
+      "one_sided_exact_p": {
+        "decimal": 0.0032193739145024132,
+        "fraction": "10301578117/3199870033920"
+      },
+      "role": "post_hoc_threshold_sensitivity"
+    },
+    {
+      "cutoff_min_reversals": 5,
+      "expected_direction_pure": {
+        "decimal": 5.454805996472663,
+        "fraction": "24743/4536"
+      },
+      "factorial_moments": [
+        {
+          "decimal": 1.0,
+          "fraction": "1/1"
+        },
+        {
+          "decimal": 5.454805996472663,
+          "fraction": "24743/4536"
+        },
+        {
+          "decimal": 12.999055177626607,
+          "fraction": "68791/5292"
+        },
+        {
+          "decimal": 17.829605391825226,
+          "fraction": "733698817/41150592"
+        },
+        {
+          "decimal": 15.61407167605268,
+          "fraction": "642528293/41150592"
+        },
+        {
+          "decimal": 9.15437587750864,
+          "fraction": "1506831947/164602368"
+        },
+        {
+          "decimal": 3.662393462538045,
+          "fraction": "16276643185/4444263936"
+        },
+        {
+          "decimal": 0.9990900036410438,
+          "fraction": "3775697/3779136"
+        },
+        {
+          "decimal": 0.1821978324556465,
+          "fraction": "11246323/61725888"
+        },
+        {
+          "decimal": 0.02124876388079576,
+          "fraction": "94435115/4444263936"
+        },
+        {
+          "decimal": 0.0014573956662505474,
+          "fraction": "308431/211631616"
+        },
+        {
+          "decimal": 5.014103644811072e-05,
+          "fraction": "3095/61725888"
+        },
+        {
+          "decimal": 6.300255881112458e-07,
+          "fraction": "25/39680928"
+        }
+      ],
+      "n_eligible_regulators": 139,
+      "n_observed_direction_pure": 10,
+      "n_regulators_with_nonzero_null_purity_probability": 12,
+      "null_pmf": [
+        {
+          "decimal": 0.0,
+          "fraction": "0/1",
+          "n_direction_pure": 0
+        },
+        {
+          "decimal": 0.0,
+          "fraction": "0/1",
+          "n_direction_pure": 1
+        },
+        {
+          "decimal": 0.005372583704263598,
+          "fraction": "24565/4572288",
+          "n_direction_pure": 2
+        },
+        {
+          "decimal": 0.05242307328166749,
+          "fraction": "4314481/82301184",
+          "n_direction_pure": 3
+        },
+        {
+          "decimal": 0.176266532609462,
+          "fraction": "43520833/246903552",
+          "n_direction_pure": 4
+        },
+        {
+          "decimal": 0.29057328088445916,
+          "fraction": "61494493/211631616",
+          "n_direction_pure": 5
+        },
+        {
+          "decimal": 0.2688766545389981,
+          "fraction": "1194958819/4444263936",
+          "n_direction_pure": 6
+        },
+        {
+          "decimal": 0.1476229255165461,
+          "fraction": "54672937/370355328",
+          "n_direction_pure": 7
+        },
+        {
+          "decimal": 0.048580354161936075,
+          "fraction": "5997331/123451776",
+          "n_direction_pure": 8
+        },
+        {
+          "decimal": 0.009293958593551902,
+          "fraction": "41304805/4444263936",
+          "n_direction_pure": 9
+        },
+        {
+          "decimal": 0.0009474259541366717,
+          "fraction": "1403537/1481421312",
+          "n_direction_pure": 10
+        },
+        {
+          "decimal": 4.258072939077577e-05,
+          "fraction": "7885/185177664",
+          "n_direction_pure": 11
+        },
+        {
+          "decimal": 6.300255881112458e-07,
+          "fraction": "25/39680928",
+          "n_direction_pure": 12
+        }
+      ],
+      "observed_fraction": 0.07194244604316546,
+      "observed_minus_expected": 4.545194003527337,
+      "observed_regulators": [
+        "CXXC1",
+        "LCK",
+        "MCAT",
+        "NDUFA8",
+        "NRBP1",
+        "OXA1L",
+        "RB1CC1",
+        "RRAGA",
+        "TIMM8B",
+        "YY1"
+      ],
+      "one_sided_exact_p": {
+        "decimal": 0.0009906367091155586,
+        "fraction": "4402651/4444263936"
+      },
+      "role": "post_hoc_threshold_sensitivity"
+    },
+    {
+      "cutoff_min_reversals": 6,
+      "expected_direction_pure": {
+        "decimal": 4.958774250440917,
+        "fraction": "22493/4536"
+      },
+      "factorial_moments": [
+        {
+          "decimal": 1.0,
+          "fraction": "1/1"
+        },
+        {
+          "decimal": 4.958774250440917,
+          "fraction": "22493/4536"
+        },
+        {
+          "decimal": 10.467255780913188,
+          "fraction": "1709261/163296"
+        },
+        {
+          "decimal": 12.277390954667188,
+          "fraction": "12029093/979776"
+        },
+        {
+          "decimal": 8.756393638273781,
+          "fraction": "25737913/2939328"
+        },
+        {
+          "decimal": 3.898159034990311,
+          "fraction": "716123/183708"
+        },
+        {
+          "decimal": 1.0650550057700263,
+          "fraction": "1565273/1469664"
+        },
+        {
+          "decimal": 0.16660576839331984,
+          "fraction": "489709/2939328"
+        },
+        {
+          "decimal": 0.012463733207045965,
+          "fraction": "36635/2939328"
+        },
+        {
+          "decimal": 0.00023814967230605092,
+          "fraction": "25/104976"
+        }
+      ],
+      "n_eligible_regulators": 131,
+      "n_observed_direction_pure": 8,
+      "n_regulators_with_nonzero_null_purity_probability": 9,
+      "null_pmf": [
+        {
+          "decimal": 0.0,
+          "fraction": "0/1",
+          "n_direction_pure": 0
+        },
+        {
+          "decimal": 0.0,
+          "fraction": "0/1",
+          "n_direction_pure": 1
+        },
+        {
+          "decimal": 0.009369488536155202,
+          "fraction": "85/9072",
+          "n_direction_pure": 2
+        },
+        {
+          "decimal": 0.08554404271996864,
+          "fraction": "13969/163296",
+          "n_direction_pure": 3
+        },
+        {
+          "decimal": 0.25267612188908484,
+          "fraction": "41261/163296",
+          "n_direction_pure": 4
+        },
+        {
+          "decimal": 0.33858793574585755,
+          "fraction": "995221/2939328",
+          "n_direction_pure": 5
+        },
+        {
+          "decimal": 0.22779458434036623,
+          "fraction": "669563/2939328",
+          "n_direction_pure": 6
+        },
+        {
+          "decimal": 0.07546929093996996,
+          "fraction": "73943/979776",
+          "n_direction_pure": 7
+        },
+        {
+          "decimal": 0.010320386156291507,
+          "fraction": "30335/2939328",
+          "n_direction_pure": 8
+        },
+        {
+          "decimal": 0.00023814967230605092,
+          "fraction": "25/104976",
+          "n_direction_pure": 9
+        }
+      ],
+      "observed_fraction": 0.061068702290076333,
+      "observed_minus_expected": 3.041225749559083,
+      "observed_regulators": [
+        "CXXC1",
+        "LCK",
+        "MCAT",
+        "NDUFA8",
+        "OXA1L",
+        "RB1CC1",
+        "TIMM8B",
+        "YY1"
+      ],
+      "one_sided_exact_p": {
+        "decimal": 0.010558535828597558,
+        "fraction": "10345/979776"
+      },
+      "role": "historical_post_hoc_rule"
+    },
+    {
+      "cutoff_min_reversals": 7,
+      "expected_direction_pure": {
+        "decimal": 1.8611111111111112,
+        "fraction": "67/36"
+      },
+      "factorial_moments": [
+        {
+          "decimal": 1.0,
+          "fraction": "1/1"
+        },
+        {
+          "decimal": 1.8611111111111112,
+          "fraction": "67/36"
+        },
+        {
+          "decimal": 1.1990740740740742,
+          "fraction": "259/216"
+        },
+        {
+          "decimal": 0.32253086419753085,
+          "fraction": "209/648"
+        },
+        {
+          "decimal": 0.030864197530864196,
+          "fraction": "5/162"
+        }
+      ],
+      "n_eligible_regulators": 117,
+      "n_observed_direction_pure": 3,
+      "n_regulators_with_nonzero_null_purity_probability": 4,
+      "null_pmf": [
+        {
+          "decimal": 0.046296296296296294,
+          "fraction": "5/108",
+          "n_direction_pure": 0
+        },
+        {
+          "decimal": 0.30709876543209874,
+          "fraction": "199/648",
+          "n_direction_pure": 1
+        },
+        {
+          "decimal": 0.4166666666666667,
+          "fraction": "5/12",
+          "n_direction_pure": 2
+        },
+        {
+          "decimal": 0.19907407407407407,
+          "fraction": "43/216",
+          "n_direction_pure": 3
+        },
+        {
+          "decimal": 0.030864197530864196,
+          "fraction": "5/162",
+          "n_direction_pure": 4
+        }
+      ],
+      "observed_fraction": 0.02564102564102564,
+      "observed_minus_expected": 1.1388888888888888,
+      "observed_regulators": [
+        "MCAT",
+        "NDUFA8",
+        "TIMM8B"
+      ],
+      "one_sided_exact_p": {
+        "decimal": 0.22993827160493827,
+        "fraction": "149/648"
+      },
+      "role": "post_hoc_threshold_sensitivity"
+    }
+  ],
+  "input": {
+    "identity": "stable Ensembl regulator-target dyads; symbols are annotations only",
+    "path": "results_data/census/census_master_edges.csv.gz",
+    "sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad"
+  },
+  "null": {
+    "conditioning": "Within each target, all allocations of its observed lost and gained labels over its fixed incident reversal dyads are equiprobable; target blocks are independent.",
+    "fixed_margins": [
+      "stable-ID reversal dyad set",
+      "every regulator's reversal burden",
+      "every target's reversal in-degree",
+      "every target's lost/gained reversal totals"
+    ],
+    "joint_probability": "For selected oriented purity events A, multiply across targets: (L_t)_[a_t] (G_t)_[b_t] / (n_t)_[a_t+b_t].",
+    "not_fixed": [
+      "each regulator's lost/gained totals",
+      "non-reversing edges",
+      "programme membership or pathway activity"
+    ],
+    "random_object": "lost/gained direction labels on the fixed reversal graph",
+    "tail": "one-sided P_null(N >= N_observed)",
+    "tail_algorithm": "Exact rational factorial moments S_j=E[choose(N,j)] followed by binomial-moment inversion; no Monte Carlo draws, seed, independence approximation, or asymptotic reference distribution."
+  },
+  "primary": {
+    "cutoff_min_reversals": 6,
+    "expected_direction_pure": {
+      "decimal": 4.958774250440917,
+      "fraction": "22493/4536"
+    },
+    "factorial_moments": [
+      {
+        "decimal": 1.0,
+        "fraction": "1/1"
+      },
+      {
+        "decimal": 4.958774250440917,
+        "fraction": "22493/4536"
+      },
+      {
+        "decimal": 10.467255780913188,
+        "fraction": "1709261/163296"
+      },
+      {
+        "decimal": 12.277390954667188,
+        "fraction": "12029093/979776"
+      },
+      {
+        "decimal": 8.756393638273781,
+        "fraction": "25737913/2939328"
+      },
+      {
+        "decimal": 3.898159034990311,
+        "fraction": "716123/183708"
+      },
+      {
+        "decimal": 1.0650550057700263,
+        "fraction": "1565273/1469664"
+      },
+      {
+        "decimal": 0.16660576839331984,
+        "fraction": "489709/2939328"
+      },
+      {
+        "decimal": 0.012463733207045965,
+        "fraction": "36635/2939328"
+      },
+      {
+        "decimal": 0.00023814967230605092,
+        "fraction": "25/104976"
+      }
+    ],
+    "n_eligible_regulators": 131,
+    "n_observed_direction_pure": 8,
+    "n_regulators_with_nonzero_null_purity_probability": 9,
+    "null_pmf": [
+      {
+        "decimal": 0.0,
+        "fraction": "0/1",
+        "n_direction_pure": 0
+      },
+      {
+        "decimal": 0.0,
+        "fraction": "0/1",
+        "n_direction_pure": 1
+      },
+      {
+        "decimal": 0.009369488536155202,
+        "fraction": "85/9072",
+        "n_direction_pure": 2
+      },
+      {
+        "decimal": 0.08554404271996864,
+        "fraction": "13969/163296",
+        "n_direction_pure": 3
+      },
+      {
+        "decimal": 0.25267612188908484,
+        "fraction": "41261/163296",
+        "n_direction_pure": 4
+      },
+      {
+        "decimal": 0.33858793574585755,
+        "fraction": "995221/2939328",
+        "n_direction_pure": 5
+      },
+      {
+        "decimal": 0.22779458434036623,
+        "fraction": "669563/2939328",
+        "n_direction_pure": 6
+      },
+      {
+        "decimal": 0.07546929093996996,
+        "fraction": "73943/979776",
+        "n_direction_pure": 7
+      },
+      {
+        "decimal": 0.010320386156291507,
+        "fraction": "30335/2939328",
+        "n_direction_pure": 8
+      },
+      {
+        "decimal": 0.00023814967230605092,
+        "fraction": "25/104976",
+        "n_direction_pure": 9
+      }
+    ],
+    "observed_fraction": 0.061068702290076333,
+    "observed_minus_expected": 3.041225749559083,
+    "observed_regulators": [
+      "CXXC1",
+      "LCK",
+      "MCAT",
+      "NDUFA8",
+      "OXA1L",
+      "RB1CC1",
+      "TIMM8B",
+      "YY1"
+    ],
+    "one_sided_exact_p": {
+      "decimal": 0.010558535828597558,
+      "fraction": "10345/979776"
+    },
+    "role": "historical_post_hoc_rule"
+  },
+  "primary_cutoff_min_reversals": 6,
+  "primary_nonzero_null_events": [
+    {
+      "feasible_null_purity_orientations": [
+        "lost_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 0.02821869488536155,
+        "fraction": "16/567"
+      },
+      "n_reversals": 6,
+      "observed_direction": "lost_on_activation",
+      "regulator": "RB1CC1",
+      "regulator_ensg": "ENSG00000023287"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "lost_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 0.3333333333333333,
+        "fraction": "1/3"
+      },
+      "n_reversals": 10,
+      "observed_direction": "lost_on_activation",
+      "regulator": "MCAT",
+      "regulator_ensg": "ENSG00000100294"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "gained_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 1.0,
+        "fraction": "1/1"
+      },
+      "n_reversals": 6,
+      "observed_direction": "gained_on_activation",
+      "regulator": "YY1",
+      "regulator_ensg": "ENSG00000100811"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "gained_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 0.25,
+        "fraction": "1/4"
+      },
+      "n_reversals": 7,
+      "observed_direction": "mixed",
+      "regulator": "METAP2",
+      "regulator_ensg": "ENSG00000111142"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "gained_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 0.8333333333333334,
+        "fraction": "5/6"
+      },
+      "n_reversals": 9,
+      "observed_direction": "gained_on_activation",
+      "regulator": "NDUFA8",
+      "regulator_ensg": "ENSG00000119421"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "lost_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 0.4444444444444444,
+        "fraction": "4/9"
+      },
+      "n_reversals": 7,
+      "observed_direction": "lost_on_activation",
+      "regulator": "TIMM8B",
+      "regulator_ensg": "ENSG00000150779"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "lost_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 0.4444444444444444,
+        "fraction": "4/9"
+      },
+      "n_reversals": 6,
+      "observed_direction": "lost_on_activation",
+      "regulator": "CXXC1",
+      "regulator_ensg": "ENSG00000154832"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "lost_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 1.0,
+        "fraction": "1/1"
+      },
+      "n_reversals": 6,
+      "observed_direction": "lost_on_activation",
+      "regulator": "OXA1L",
+      "regulator_ensg": "ENSG00000155463"
+    },
+    {
+      "feasible_null_purity_orientations": [
+        "gained_on_activation"
+      ],
+      "marginal_null_purity_probability": {
+        "decimal": 0.625,
+        "fraction": "5/8"
+      },
+      "n_reversals": 6,
+      "observed_direction": "gained_on_activation",
+      "regulator": "LCK",
+      "regulator_ensg": "ENSG00000182866"
+    }
+  ],
+  "question": "Do more reversal-bearing regulators carry all their fixed reversal edges in one direction than expected from each target's observed lost/gained margin?",
+  "schema_version": "regulator-direction-purity-posthoc-v1",
+  "software": {
+    "arithmetic": "fractions.Fraction exact rational arithmetic",
+    "pandas": "3.0.5",
+    "python": "3.14.7"
+  },
+  "tables": {
+    "regulators": {
+      "path": "results_data/census/regulator_direction_purity_posthoc.regulators.tsv",
+      "sha256": "642c6c66b334ec008ff4c3032964643ae9a1e6a57fdf79e2f519c6d172c25360"
+    },
+    "sensitivity": {
+      "path": "results_data/census/regulator_direction_purity_posthoc.sensitivity.tsv",
+      "sha256": "48f927701efe599ab4331953aa898d581189d2513c8070193a4eae3c7e4cc7dc"
+    }
+  }
+}

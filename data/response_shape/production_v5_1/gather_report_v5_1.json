@@ -1,0 +1,65 @@
+{
+  "counts": {
+    "edge_summaries": 17970,
+    "full_reversal_census": 4379,
+    "guide_lane_totals": 153723,
+    "positive_target_moments": 514508801,
+    "unit_effects": 122024
+  },
+  "custody": {
+    "eight_distinct_shard_authorizations_hash_validated": true,
+    "regulator_expression_values_read": 0,
+    "source_shards_hash_validated": true,
+    "target_expression_values_read": 1776344553
+  },
+  "inference": {
+    "cell_level_p_values": false,
+    "class_enrichment_hypotheses_or_p_values": false,
+    "hard_mechanism_labels": false,
+    "individual_edge_p_values": false
+  },
+  "input_shard_manifest_sha256": {
+    "D1_Rest": "04f6cabb7df1231893c2327200baea5e634e4d04073af5f7b7fe82e730e6a6b0",
+    "D1_Stim48hr": "bded112e786b15b9a57e5b303f3408c0150ffd3c795dbe7f2f17ecb34774bc10",
+    "D2_Rest": "c82394d4ef101ec6ed86e4d1efe822bc6bca482e65fd5805763978aefa6b817f",
+    "D2_Stim48hr": "d8c1addf236c833b6660ff7f8f86535e05010a1bdb5979161229c8a1f45fa3b0",
+    "D3_Rest": "66b8e8084fd2072c6e423e3e3d20ad21164c407af67f0992ea683c4cd2668989",
+    "D3_Stim48hr": "04537666d8d01f8ecfe53561892cb0ad9c12da44d775d6aa67628de55106f3a3",
+    "D4_Rest": "09fe35c5ba49dbbaa3efda5bbcc90234cf645c1fce55e506c4062308fd3a16e6",
+    "D4_Stim48hr": "31bc1f6af3d4dc591d32bed22431ed77c55be3b079073ead9971904ea6251ee5"
+  },
+  "output_sha256": {
+    "cal_envelopes": "278972d56183d3414f3e206ed386e9d7bf37298d71a82fb085cb59cb6e3564fc",
+    "edge_continuous_summary": "12955a88c2462025a40b8aacddd81dab863f236c5ae816a88eaf026576f02627",
+    "guide_lane_totals": "ae80e553cd2395780300650688e0c67f67a9b4b6ea4430032dddb06528423fca",
+    "guide_specific_effects": "1218451c650d6847a1f7e24945cff44d12ad0021b51395b5f05c6c78f1fc7be5",
+    "positive_target_moments": "86b76c19bc0c6ef0fb95e0d796a7a810df6e8e9c9ddbdab8b4bbed44a9c621db",
+    "reversal_census": "dd0ed44f6970be1a9e02f3ab54b63a2caadc8c1be1584daf15797f1fa96942bc",
+    "status_waterfall": "2a7f6410be489535715f6a5c2631e7346c561f2124cace76671cd4ceaddfd57e",
+    "unit_effects": "284ab152ceffed4ddc4440da6d99ac50f220058dcf02b55fea881a4fb5bdd1ff"
+  },
+  "preparation_seal_sha256": "c05f4e50445696d4011b44c759d6f1d86a5a243dbc541b511ef51a95ad938909",
+  "run_id": "v5_1_full_20260814_r1",
+  "schema_version": "response-shape-gather-v5.1",
+  "shards": [
+    "D1_Rest",
+    "D1_Stim48hr",
+    "D2_Rest",
+    "D2_Stim48hr",
+    "D3_Rest",
+    "D3_Stim48hr",
+    "D4_Rest",
+    "D4_Stim48hr"
+  ],
+  "status": "PASS_CONTINUOUS_RESULTS_NO_INDIVIDUAL_EDGE_INFERENCE",
+  "target_authorization_sha256": {
+    "D1_Rest": "6bd843ac1b374ebdbe61c76ec4153ffdbdf287cffa76facb87a1d2272ef44c07",
+    "D1_Stim48hr": "590c21b14906b7b4a19789d0d1212064c3848a0f3d3ba9dcb4184b3ad0096e8e",
+    "D2_Rest": "5baf9178d223a950f56053d40b28b5796274654117333f52ec38bb5e54b11edb",
+    "D2_Stim48hr": "030aa99de89b1e3072b25488d2a1173f08b89d5d8989ab30eebeb0d7f71194f0",
+    "D3_Rest": "24af14c1408794a3314ed62b0206918bb4f0cf10c604a7d586ce71009be822cf",
+    "D3_Stim48hr": "89125b0617671cdbfbad06d98c5e23f33a1ca83410ad258d1a6603f53756a834",
+    "D4_Rest": "9afce757a971ba7fc6b8f0cfcb61f2168a21c5b20c698d3391ed246efdf467c9",
+    "D4_Stim48hr": "37a511dc3db66426d1349bbf5c77ed21fba383cda22749ea513797aad06a5d50"
+  }
+}

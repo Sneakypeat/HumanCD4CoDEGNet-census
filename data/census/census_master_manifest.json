@@ -1,0 +1,71 @@
+{
+  "file": "data/census/census_master_edges.csv.gz",
+  "what": "every inclusive census edge, all three states; the preserved source authority. Manuscript and main figures use trans_totals.",
+  "sources": {
+    "membership_rest_and_48h": "data/paper1_flips/frozen_edges.tsv",
+    "endpoint_ensembl_identity": "data/census/atlas_endpoint_identity.tsv",
+    "self_mask_crosscheck": "data/paper1_flips/frozen_edges_ensembl.tsv",
+    "8h_statistics": "data/kinetics/kinetics_8hr_edges.csv.gz"
+  },
+  "totals": {
+    "edges": 84044,
+    "regulators": 617,
+    "reversing": 4379,
+    "reversing_regulators": 324,
+    "same_sign": 79665
+  },
+  "trans_totals": {
+    "edges": 83489,
+    "regulators": 617,
+    "reversing": 4379,
+    "reversing_regulators": 324,
+    "same_sign": 79110,
+    "targets": 9554,
+    "reversing_targets": 2577,
+    "self_edges_excluded": 555
+  },
+  "regulator_scope": {
+    "state_specific_gate_passed": 618,
+    "represented_in_inclusive_census": 617,
+    "represented_in_trans_census": 617,
+    "gate_passed_without_a_both_significant_edge": 1,
+    "gate_passed_without_a_both_significant_edge_ids": [
+      "CARD6"
+    ],
+    "definition": "the upstream gate required on-target significance and at least 50 significant downstream targets in Rest and Stim48hr; one of the 618 gate-passing perturbations (CARD6) contributed no target edge significant in both states, leaving 617 represented regulators"
+  },
+  "direction_split": {
+    "lost_on_activation": 2298,
+    "gained_on_activation": 2081
+  },
+  "identity_rule": {
+    "self_definition": "regulator_ensg == target_ensg",
+    "identity_authority": "raw atlas obs/target_contrast and var/gene_ids",
+    "symbol_alias_self_edges": [
+      "QNG1->C9orf64"
+    ],
+    "symbol_equality_self_edges": 554,
+    "ensembl_equality_self_edges": 555,
+    "frozen_self_mask_agrees": true,
+    "frozen_historical_id_mismatch_rows": {
+      "regulator": 1900,
+      "target": 2720
+    },
+    "frozen_historical_id_mismatch_symbols": {
+      "regulator": 15,
+      "target": 309
+    }
+  },
+  "targets": 9571,
+  "reversing_targets": 2577,
+  "inclusive_edges_without_8h": 629,
+  "inclusive_reversing_edges_without_8h": 2,
+  "trans_edges_without_8h": 74,
+  "trans_reversing_edges_without_8h": 2,
+  "regulators_absent_from_8h_table": [
+    "KAT7",
+    "STARD10"
+  ],
+  "label_disagreements_with_8h_table": 0,
+  "supersedes": "kinetics_8hr_edges.csv.gz as a census source; that file is the 8 h subset and undercounts reversing regulators 324 -> 323 because KAT7's two reversing edges have no finite 8 h value"
+}

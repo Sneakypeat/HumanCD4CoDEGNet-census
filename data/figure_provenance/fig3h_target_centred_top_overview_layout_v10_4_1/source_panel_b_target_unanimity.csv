@@ -1,0 +1,4 @@
+minimum_reversals,eligible_targets,unanimous_targets,observed_fraction,null_mean,null_q025,null_q975,one_sided_mc_p,n_permutations
+2,910,631,0.6934065934065934,0.4668,0.4396,0.4945,0.0002,5000
+3,413,279,0.6755447941888619,0.331,0.293,0.368,0.0002,5000
+4,205,143,0.697560975609756,0.254,0.2098,0.3024,0.0002,5000

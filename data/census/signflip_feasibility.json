@@ -1,0 +1,113 @@
+{
+  "seed": 20260715,
+  "min_outdeg": 50,
+  "n_candidate_perturbations": 618,
+  "edges_sig_both": 84044,
+  "same_sign": 79665,
+  "opp_sign_raw": 4379,
+  "robust_inverting_edges": 4379,
+  "n_inverting_regulators": 324,
+  "top_regulators": [
+    {
+      "gene": "CCNC",
+      "n_inverted_targets": 288
+    },
+    {
+      "gene": "TADA2B",
+      "n_inverted_targets": 268
+    },
+    {
+      "gene": "ARNT",
+      "n_inverted_targets": 177
+    },
+    {
+      "gene": "SGF29",
+      "n_inverted_targets": 166
+    },
+    {
+      "gene": "AHR",
+      "n_inverted_targets": 165
+    },
+    {
+      "gene": "SUPT7L",
+      "n_inverted_targets": 148
+    },
+    {
+      "gene": "TAF6L",
+      "n_inverted_targets": 129
+    },
+    {
+      "gene": "SUPT20H",
+      "n_inverted_targets": 100
+    },
+    {
+      "gene": "TADA1",
+      "n_inverted_targets": 100
+    },
+    {
+      "gene": "NCKAP1L",
+      "n_inverted_targets": 91
+    },
+    {
+      "gene": "ATAD5",
+      "n_inverted_targets": 90
+    },
+    {
+      "gene": "ARHGAP30",
+      "n_inverted_targets": 71
+    },
+    {
+      "gene": "ELOF1",
+      "n_inverted_targets": 67
+    },
+    {
+      "gene": "SENP5",
+      "n_inverted_targets": 64
+    },
+    {
+      "gene": "CREBBP",
+      "n_inverted_targets": 59
+    },
+    {
+      "gene": "LEO1",
+      "n_inverted_targets": 59
+    },
+    {
+      "gene": "MED24",
+      "n_inverted_targets": 57
+    },
+    {
+      "gene": "ATP2A2",
+      "n_inverted_targets": 55
+    },
+    {
+      "gene": "EIF4G2",
+      "n_inverted_targets": 55
+    },
+    {
+      "gene": "MED12",
+      "n_inverted_targets": 53
+    },
+    {
+      "gene": "DHX36",
+      "n_inverted_targets": 51
+    },
+    {
+      "gene": "NCOR1",
+      "n_inverted_targets": 43
+    },
+    {
+      "gene": "STAT5B",
+      "n_inverted_targets": 42
+    },
+    {
+      "gene": "KDM1A",
+      "n_inverted_targets": 41
+    },
+    {
+      "gene": "STIP1",
+      "n_inverted_targets": 41
+    }
+  ],
+  "survivor_min_abs_lfc_median": 0.2453681365455623
+}

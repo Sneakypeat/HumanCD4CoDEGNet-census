@@ -1,0 +1,267 @@
+{
+  "alignment_bootstrap": {
+    "cluster_unit": "regulator_ensg",
+    "draws": 2000,
+    "interval": "2.5th and 97.5th percentiles",
+    "pooling": "all edges in each sampled cluster, retaining sample multiplicity",
+    "sampling": "regulator clusters sampled with replacement",
+    "seed": 20260824
+  },
+  "alignment_null": {
+    "matched stable": {
+      "ci_high": 0.1967170500869265,
+      "ci_low": 0.14013058032670647,
+      "edges": 3905,
+      "pooled": 0.16798975672215108,
+      "regulators": 104
+    },
+    "regulators_higher_for_reversals": {
+      "count": 92,
+      "of": 98
+    },
+    "reversals": {
+      "ci_high": 0.9220900905896241,
+      "ci_low": 0.8547043806483036,
+      "edges": 1899,
+      "pooled": 0.8920484465508162,
+      "regulators": 101
+    }
+  },
+  "amendment_sha256": "dde9b2fb0353bc60fcbd6bc2998b6e9e98bfb59409f59fc606a6acef4039b6f1",
+  "audited_render_png_sha256": "a6aca29d9f2836e74de6918754eb19c715db209b34b670b10d52a6453a8260b1",
+  "canonical_figure_modified": false,
+  "canonical_outputs": {
+    "panel_f_source": {
+      "bytes": 96461,
+      "path": "figures_final/Fig4.panel_f_source.tsv",
+      "sha256": "63f055b7584248aba9495df7fd546980973a7e4a650d1f398eed9f5a25c0b521"
+    },
+    "pdf": {
+      "bytes": 133617,
+      "path": "figures_final/Fig4.pdf",
+      "sha256": "cd5dc3667dc7f4d71d99f0a568c87e674cdaa40a3dd98fe48403cfcd9eee251f"
+    },
+    "png": {
+      "bytes": 515801,
+      "path": "figures_final/Fig4.png",
+      "sha256": "99773a41994e9b5bbe304801022e169322e32c54089a6079b58d70f2256582c9"
+    },
+    "renderer": {
+      "bytes": 30863,
+      "path": "scripts/response_shape/fig4_horizontal_transposed_diagnostic_v4.py",
+      "sha256": "60fc8243bc89ed93d08dabcd95156ceec2e1af46ed77631f2b78bbdf049ca6ed"
+    }
+  },
+  "changes_vs_audited_render": [
+    "panel c regulator-cluster bootstrap now retains duplicate sampled regulators",
+    "Figure 3d connector encoding preserved on panel e through the reflow",
+    "layout reflowed: a, b, c square across the top; d over e in the left column; f, the fixed T-cell landmark matrix, fills the right column",
+    "panel c and panel d swapped: orientation agreement now c, CAL envelopes now d",
+    "CAL envelopes redrawn as a dot plot; the four-by-three number table is retired",
+    "panel f added: Figure 3d module, Figure 3e pair, TAF6L and the CBFB assay anchor against all 25 fixed Figure 1a effector landmarks (descriptive, no test)",
+    "panel b's three furthest-from-origin edge names removed",
+    "panel a bar values set upright; stage names upright and hanging below the axis",
+    "panel d's CAL parent count moved inside the axes",
+    "scatter axes cut at the 99.5th percentile with clipped points declared",
+    "panel c axis labels shortened so the y-label clears the x-label",
+    "leave-one-donor panel lettered f",
+    "CAL parent count moved from twelve cells to one footnote",
+    "panel a mixed/unresolved note anchored to the step it explains",
+    "leave-one-donor ticks reduced to donor identity with a named axis"
+  ],
+  "changes_vs_v5": [
+    "changed detection-dominant from ochre to the user-specified #05bbaa so it is distinct from the orange 48 h encoding"
+  ],
+  "changes_vs_v5_1_1": [
+    "panel f replaced by the audited 45-by-25 fixed-landmark census matrix",
+    "visible native typography constrained to 5.5--7.5 pt for 6.5-inch placement"
+  ],
+  "claim_boundary": "marginal_donor_balanced_response_shape_not_biochemical_mechanism",
+  "colour_semantics": {
+    "gained": "#2a9d8f",
+    "gained_fill": "solid",
+    "generic_response_panels_b_c": "#3F6FA6",
+    "green_reserved_for": "gained reversal in panel f",
+    "panel_a_waterfall": [
+      "#46515C",
+      "#5A7184",
+      "#7189A6",
+      "#4C78A8",
+      "#315B7D"
+    ],
+    "panel_d_48h": "#e07b39",
+    "panel_e_detection_dominant": "#05bbaa"
+  },
+  "compact_canvas_height_in": 8.75,
+  "connector": {
+    "ahr_arnt_displayed_overlap": 0,
+    "cofactor_inclusive_at_cutoff": 11,
+    "display_cutoff_supported_reversals": 4,
+    "display_slots_at_cutoff": 8,
+    "encoding": "navy diamond plus bold target label and direct in-panel key",
+    "interpretation": "descriptive rendered-display cross-reference; not an overlap test, enrichment test, target test or mechanism claim",
+    "marked_target_count": 8,
+    "marked_targets": [
+      "BCL2L1",
+      "DDIT4",
+      "GPR108",
+      "IL2RA",
+      "PSMB9",
+      "PSME1",
+      "PSME2",
+      "SDCBP"
+    ],
+    "role": "backward descriptive display cross-reference from Figure 4e to the Figure 3e cofactor-trio intersection",
+    "sensor_inclusive_at_cutoff": 1,
+    "targets_above_cutoff": 20,
+    "targets_tied_at_cutoff": 29,
+    "top28_membership_order_and_bar_values_unchanged": true,
+    "top28_selection_uses_connector_membership": false,
+    "visible_key": "\u25c6 also in Fig. 3e trio"
+  },
+  "cross_reference_only_successor": {
+    "all_other_visible_content_intended_unchanged": true,
+    "new_visible_label": "\u25c6 also in Fig. 3e trio",
+    "old_visible_label": "\u25c6 also in Fig. 3d trio",
+    "reason": "Figure 3 merged its overview and enlargement as panel c and relettered the former cofactor-trio panel d as panel e"
+  },
+  "derived_from": "fig4_production_v5_1.py (frozen, unmodified)",
+  "diagnostic_wrapper": {
+    "path": "scripts/response_shape/fig4_horizontal_transposed_fig3e_crossref_diagnostic_v7.py",
+    "sha256": "ca75dd009b0fc3395020e62e5bd08e63cbbb7d1e886e5a1037b511cf3ae5c06a"
+  },
+  "display_only_transpositions": {
+    "panel_d": "CAL metrics on x; absolute 95th percentile on y",
+    "panel_e": "28 targets left-to-right; reversal burden on y",
+    "panel_f": "23 displayed landmark rows by 45 regulator columns; full 25-landmark source retained"
+  },
+  "display_quantile": 0.995,
+  "figure_height_in": 8.75,
+  "figure_width_in": 7.1,
+  "input_artifact_sha256": {
+    "audit_exception": "a0f6a462769974d851ea56a5252a7fee300c1165402d2698cae1f60e80c489e2",
+    "cal_envelopes": "278972d56183d3414f3e206ed386e9d7bf37298d71a82fb085cb59cb6e3564fc",
+    "edge_continuous_summary": "12955a88c2462025a40b8aacddd81dab863f236c5ae816a88eaf026576f02627",
+    "final_gather_custody_closure": "39127de48dc4d0e2fdb6a51adfeab95310b11309941de77870e1d39b181bc968",
+    "gather_report": "df659abf76566889b963ff0199e3e83bf430f0bbd6d6442b49c3e6f093f176c5",
+    "guide_specific_effects": "1218451c650d6847a1f7e24945cff44d12ad0021b51395b5f05c6c78f1fc7be5",
+    "reversal_census": "dd0ed44f6970be1a9e02f3ab54b63a2caadc8c1be1584daf15797f1fa96942bc",
+    "status_waterfall": "2a7f6410be489535715f6a5c2631e7346c561f2124cace76671cd4ceaddfd57e",
+    "unit_effects": "284ab152ceffed4ddc4440da6d99ac50f220058dcf02b55fea881a4fb5bdd1ff"
+  },
+  "layout": "unchanged a-b-c top; transposed CAL d and wide target e in the middle; transposed 23-displayed-by-45 landmark matrix f across the bottom, with all 25 landmarks retained in the source table",
+  "layout_change_only": false,
+  "maximum_nonblank_text_pt": 7.5,
+  "methods_config_sha256": "171992cf0c2a40eb19a4bb206ba84a5db0ef2780818561d5986199607ea37fe4",
+  "minimum_nonblank_text_pt": 5.5,
+  "outputs": {
+    "panel_f_source": {
+      "filename": "Fig4.panel_f_source.tsv",
+      "rows": 1125,
+      "sha256": "63f055b7584248aba9495df7fd546980973a7e4a650d1f398eed9f5a25c0b521"
+    },
+    "pdf": {
+      "filename": "Fig4.pdf",
+      "sha256": "88001c154dda2213b344f3d37ca5886a24fb28b627672a91e889203238582c66"
+    },
+    "png": {
+      "filename": "Fig4.png",
+      "sha256": "d621a797a9e0eba979868c0f66a5f103e569a0ab8c70bd15ca32860652cdbcce"
+    }
+  },
+  "panel_f": {
+    "analysis_fixed_landmarks": 25,
+    "audited_candidate_manifest": {
+      "path": "figures_final/diagnostics/fig4f_landmark_census_candidate_v1/manifest.json",
+      "sha256": "afe21208723bc3a0d967e045e1f898e029e9d38c4947c2fea893e0018307c56c"
+    },
+    "column_entity": "regulator with at least one landmark reversal",
+    "columns": 45,
+    "display_transposed_only": true,
+    "displayed_landmarks": 23,
+    "individual_edge_test_included": false,
+    "matched_localisation_p_value_included": false,
+    "matched_localisation_title_interpretation_included": true,
+    "mechanism_claim_included": false,
+    "omission_scope": "zero comparable edge among the 45 displayed regulators; the full 25-landmark source table is retained",
+    "omitted_display_landmarks": [
+      "XCL1",
+      "XCL2"
+    ],
+    "role": "complete fixed-landmark census matrix with a set-level matched-localisation title",
+    "row_entity": "displayed fixed T-cell effector landmark",
+    "rows": 23,
+    "semantic_counts": {
+      "all_comparable_landmark_pairs": 427,
+      "all_regulators_with_landmark_opportunity": 191,
+      "detection_dominant": 2,
+      "displayed_comparable_cells": 154,
+      "displayed_regulators": 45,
+      "fixed_landmarks": 25,
+      "gained_cells": 23,
+      "intensity_dominant": 16,
+      "landmarks_with_reversal": 16,
+      "lost_cells": 47,
+      "matrix_cells": 1125,
+      "outside_cells": 971,
+      "response_shape_supported": 18,
+      "reversal_cells": 70,
+      "stable_cells": 84,
+      "supported_gained": 0,
+      "supported_lost": 18
+    },
+    "source": {
+      "path": "figures_final/diagnostics/fig4f_landmark_census_candidate_v1/source_panel_f_landmark_census.tsv",
+      "sha256": "63f055b7584248aba9495df7fd546980973a7e4a650d1f398eed9f5a25c0b521"
+    },
+    "title": "Reversals concentrate on fixed T-cell effector landmarks"
+  },
+  "pdf_metadata_inherited_from_audited_v5_2_renderer": true,
+  "predeclared_examples_panel_rendered": false,
+  "predeclared_examples_supported": "0/4",
+  "presentation_builder_sha256": "031fb83cb2fa67dd4cf290c6bb5ffea4468c6b851caad873316a518a2fd1b6d9",
+  "presentation_only_change": true,
+  "production_builder_sha256": "c44c87ccc05056b2a84a0be74dd3bafb1241f78ba2af7efe6aec4c1aa5be25c5",
+  "promoted_from": {
+    "bytes": 10201,
+    "path": "figures_final/diagnostics/fig4_horizontal_transposed_candidate_v6_detection_05bbaa/Fig4.presentation.json",
+    "sha256": "731af830f2fd21269b766add32a6746f76385b3f5bcaf5b5cd277ac3a3ba96c7"
+  },
+  "promoted_utc": "2026-09-06T10:29:20.123180+00:00",
+  "retained_v5_presentation_changes": [
+    "reserved green exclusively for gained reversals",
+    "made gained cells and their legend key solid rather than hatched",
+    "recoloured unrelated green encodings in panels a, b, c and e",
+    "omitted XCL1 and XCL2 from the display only because neither has a comparable edge among the 45 displayed regulators"
+  ],
+  "schema": "response-shape-figure4-fig3e-crossref-diagnostic-v7",
+  "scientific_panels_or_data_changed": false,
+  "source_manifest_sha256": "61654fd2201cd42b6ef5a63f36aa77572a76f590c45e18566d8dd9cd5618e29d",
+  "status": "DIAGNOSTIC_ONLY_NOT_PROMOTED",
+  "typography": {
+    "delivered_text_max_pt": 6.866197183098592,
+    "delivered_text_min_pt": 5.035211267605634,
+    "detection_colour_distinct_from_48h_orange": true,
+    "docx_placed_width_in": 6.5,
+    "docx_scale": 0.9154929577464789,
+    "figure_height_in": 8.75,
+    "figure_width_in": 7.1,
+    "forbidden_non_gain_green_uses": 0,
+    "green_reserved_for_gained": true,
+    "native_text_max_pt": 7.5,
+    "native_text_min_pt": 5.5,
+    "off_page_text": [],
+    "panel_e_detection_05bbaa_uses": 29,
+    "panel_e_retired_ochre_uses": 0,
+    "panel_f_axis_label_pt": 5.5,
+    "panel_f_cell_height_pt": 7.090909090909087,
+    "panel_f_cell_width_pt": 7.090909090909087,
+    "panel_f_columns": 45,
+    "panel_f_gained_cells": 23,
+    "panel_f_gained_hatched_cells": 0,
+    "panel_f_heading_pt": 7.0,
+    "panel_f_legend_pt": 5.5,
+    "panel_f_rows": 23,
+    "text_collision_count": 0
+  }
+}

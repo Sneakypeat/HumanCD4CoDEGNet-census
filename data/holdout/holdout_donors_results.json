@@ -1,0 +1,128 @@
+{
+  "mode": "donors",
+  "n_folds": 6,
+  "input_file": "/Users/sabih/CoDEG_Tcell/data/GWCD4i.DE_stats.by_donors.h5mu",
+  "candidates": 618,
+  "candidate_universe": {
+    "definition": "ontarget_significant == true and n_downstream >= 50 in both Rest and Stim48hr",
+    "source_kind": "upstream_h5_obs",
+    "source": "/Users/sabih/CoDEG_Tcell/data/GWCD4i.DE_stats.h5ad",
+    "n_candidates": 618,
+    "candidate_sha256": "68675a8171ac9ff083cdeb419f6e80b23736f8e696cb091aa2bac1a32a08fd03",
+    "required_symbols_present": [
+      "CARD6",
+      "MCAT"
+    ]
+  },
+  "edge_table": {
+    "canonical_file": "results_data/holdout/holdout_donors_edges.csv.gz",
+    "compatibility_alias": "results_data/holdout/holdout_donors_instances.csv.gz",
+    "n_rows": 72768,
+    "key": [
+      "regulator_id",
+      "target_id",
+      "split",
+      "fold"
+    ],
+    "key_unique": true,
+    "contains_ids_signs_and_effects": true
+  },
+  "n_rev_instances": 452,
+  "n_unique_rev_edges": 166,
+  "by_threshold": {
+    ">0": {
+      "n_rev_instances": 452,
+      "rev_repro_instance": 0.9071,
+      "perm_null_mean": 0.0233,
+      "perm_p": 0.0004997501249375312,
+      "n_unique_edges": 166,
+      "unique_repro": 0.7651,
+      "unique_cluster_boot95": [
+        0.629,
+        0.821
+      ],
+      "n_regulators": 26,
+      "unique_wilson95": [
+        0.695,
+        0.823
+      ],
+      "stable_repro": 0.9994,
+      "n_stable": 72316
+    },
+    ">0.25": {
+      "n_rev_instances": 333,
+      "rev_repro_instance": 0.9159,
+      "perm_null_mean": 0.0226,
+      "perm_p": 0.0004997501249375312,
+      "n_unique_edges": 124,
+      "unique_repro": 0.7903,
+      "unique_cluster_boot95": [
+        0.639,
+        0.874
+      ],
+      "n_regulators": 26,
+      "unique_wilson95": [
+        0.71,
+        0.853
+      ],
+      "stable_repro": 0.9995,
+      "n_stable": 62231
+    },
+    ">0.5": {
+      "n_rev_instances": 74,
+      "rev_repro_instance": 0.8649,
+      "perm_null_mean": 0.0254,
+      "perm_p": 0.0004997501249375312,
+      "n_unique_edges": 28,
+      "unique_repro": 0.7143,
+      "unique_cluster_boot95": [
+        0.455,
+        0.879
+      ],
+      "n_regulators": 15,
+      "unique_wilson95": [
+        0.529,
+        0.847
+      ],
+      "stable_repro": 0.9997,
+      "n_stable": 29672
+    },
+    ">1.0": {
+      "n_rev_instances": 12,
+      "rev_repro_instance": 0.5833,
+      "perm_null_mean": 0.0456,
+      "perm_p": 0.0004997501249375312,
+      "n_unique_edges": 7,
+      "unique_repro": 0.5714,
+      "unique_cluster_boot95": [
+        0.286,
+        0.857
+      ],
+      "n_regulators": 6,
+      "unique_wilson95": [
+        0.25,
+        0.842
+      ],
+      "stable_repro": 0.9995,
+      "n_stable": 9137
+    }
+  },
+  "named_candidate_diagnostics": {
+    "CARD6": {
+      "regulator_id": "ENSG00000132357",
+      "in_candidate_universe": true,
+      "n_testable_trans_edge_instances": 0,
+      "n_reversal_instances": 0,
+      "n_unique_reversal_edges": 0,
+      "testable": false
+    },
+    "MCAT": {
+      "regulator_id": "ENSG00000100294",
+      "in_candidate_universe": true,
+      "n_testable_trans_edge_instances": 6,
+      "n_reversal_instances": 0,
+      "n_unique_reversal_edges": 0,
+      "testable": true
+    }
+  }
+}

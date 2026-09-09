@@ -1,0 +1,169 @@
+{
+  "canonical_before_and_after_identical": {
+    "figures_final/Fig4.panel_f_source.tsv": "63f055b7584248aba9495df7fd546980973a7e4a650d1f398eed9f5a25c0b521",
+    "figures_final/Fig4.pdf": "cd5dc3667dc7f4d71d99f0a568c87e674cdaa40a3dd98fe48403cfcd9eee251f",
+    "figures_final/Fig4.png": "99773a41994e9b5bbe304801022e169322e32c54089a6079b58d70f2256582c9",
+    "figures_final/Fig4.presentation.json": "c946b77e1abc266f0b0ab535bc512026027b9fb961b0406c8bdf5a93fa7869bf"
+  },
+  "change_scope": "one visible cross-reference label only",
+  "created_utc": "2026-09-06T18:35:31.372756+00:00",
+  "layout_fonts_colours_changed": false,
+  "new_visible_label": "\u25c6 also in Fig. 3e trio",
+  "old_visible_label": "\u25c6 also in Fig. 3d trio",
+  "outputs": {
+    "Fig4.panel_f_source.tsv": {
+      "bytes": 96461,
+      "sha256": "63f055b7584248aba9495df7fd546980973a7e4a650d1f398eed9f5a25c0b521"
+    },
+    "Fig4.pdf": {
+      "bytes": 133617,
+      "sha256": "88001c154dda2213b344f3d37ca5886a24fb28b627672a91e889203238582c66"
+    },
+    "Fig4.png": {
+      "bytes": 515866,
+      "sha256": "d621a797a9e0eba979868c0f66a5f103e569a0ab8c70bd15ca32860652cdbcce"
+    },
+    "Fig4.presentation.json": {
+      "bytes": 11643,
+      "sha256": "62925a25f62fa4b0806c647dbd9efcc6a2e111c6931ceacfedb1adc48c67e29e"
+    },
+    "fig4_horizontal_transposed_fig3e_crossref_diagnostic_v7.py": {
+      "bytes": 7957,
+      "sha256": "ca75dd009b0fc3395020e62e5bd08e63cbbb7d1e886e5a1037b511cf3ae5c06a"
+    }
+  },
+  "predecessor_before_and_after_identical": {
+    "figures_final/diagnostics/fig4_horizontal_transposed_candidate_v6_detection_05bbaa/Fig4.panel_f_source.tsv": "63f055b7584248aba9495df7fd546980973a7e4a650d1f398eed9f5a25c0b521",
+    "figures_final/diagnostics/fig4_horizontal_transposed_candidate_v6_detection_05bbaa/Fig4.pdf": "cd5dc3667dc7f4d71d99f0a568c87e674cdaa40a3dd98fe48403cfcd9eee251f",
+    "figures_final/diagnostics/fig4_horizontal_transposed_candidate_v6_detection_05bbaa/Fig4.png": "99773a41994e9b5bbe304801022e169322e32c54089a6079b58d70f2256582c9",
+    "figures_final/diagnostics/fig4_horizontal_transposed_candidate_v6_detection_05bbaa/Fig4.presentation.json": "731af830f2fd21269b766add32a6746f76385b3f5bcaf5b5cd277ac3a3ba96c7",
+    "scripts/response_shape/fig4_horizontal_transposed_diagnostic_v4.py": "60fc8243bc89ed93d08dabcd95156ceec2e1af46ed77631f2b78bbdf049ca6ed"
+  },
+  "schema": "response-shape-figure4-fig3e-crossref-successor-v1",
+  "scientific_panels_or_data_changed": false,
+  "status": "COMPLETE_DIAGNOSTIC_ONLY_NOT_PROMOTED",
+  "verification": {
+    "audit_json": {
+      "filename": "independent_audit_v1.json",
+      "sha256": "b0f9eb28e77b8de5e0fd692789e3b8780330d1c932deea2a27984e73781a0217"
+    },
+    "audit_note": {
+      "filename": "AUDIT.md",
+      "sha256": "be646a435535fc494f7e31e244cc572b1ea18efdec2dff1e49e1058517f8aebc"
+    },
+    "canonical_unchanged": true,
+    "deterministic_replay_byte_identical": {
+      "Fig4.panel_f_source.tsv": true,
+      "Fig4.pdf": true,
+      "Fig4.png": true,
+      "Fig4.presentation.json": true
+    },
+    "only_changed_pdf_text_run": [
+      {
+        "candidate": [
+          "\u25c6",
+          425.592315,
+          245.021211,
+          429.821815,
+          251.428711
+        ],
+        "canonical": [
+          "\u25c6",
+          425.38919,
+          245.021211,
+          429.61869,
+          251.428711
+        ]
+      },
+      {
+        "candidate": [
+          "also",
+          431.747534,
+          245.021211,
+          444.417797,
+          251.428711
+        ],
+        "canonical": [
+          "also",
+          431.544409,
+          245.021211,
+          444.214672,
+          251.428711
+        ]
+      },
+      {
+        "candidate": [
+          "in",
+          446.341563,
+          245.021211,
+          452.149434,
+          251.428711
+        ],
+        "canonical": [
+          "in",
+          446.138438,
+          245.021211,
+          451.946309,
+          251.428711
+        ]
+      },
+      {
+        "candidate": [
+          "Fig.",
+          454.076862,
+          245.021211,
+          465.746641,
+          251.428711
+        ],
+        "canonical": [
+          "Fig.",
+          453.873737,
+          245.021211,
+          465.543516,
+          251.428711
+        ]
+      },
+      {
+        "candidate": [
+          "3e",
+          467.672116,
+          245.021211,
+          475.230336,
+          251.428711
+        ],
+        "canonical": [
+          "3d",
+          467.468991,
+          245.021211,
+          475.236211,
+          251.428711
+        ]
+      },
+      {
+        "candidate": [
+          "trio",
+          477.155567,
+          245.021211,
+          488.168635,
+          251.428711
+        ],
+        "canonical": [
+          "trio",
+          477.15778,
+          245.021211,
+          488.170848,
+          251.428711
+        ]
+      }
+    ],
+    "png_changed_pixel_count": 135,
+    "png_difference_bbox_xyxy": [
+      1965,
+      1025,
+      1979,
+      1043
+    ],
+    "status": "PASS"
+  },
+  "verification_pending": null
+}

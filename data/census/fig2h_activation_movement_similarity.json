@@ -1,0 +1,109 @@
+{
+  "_what": "paired within-regulator comparison of activation-movement correlations for reversing versus stable target edges",
+  "_script": "scripts/fig2h_activation_movement_similarity.py",
+  "analysis_status": "CORRECTED_NEGATIVE_RESULT",
+  "design_provenance": "post-hoc paired-regulator comparison",
+  "claim_boundary": "No detectable difference was found between the reversing-edge and stable-edge correlations with the paired-22-donor TMM activation response. This is not an equivalence test, and the measured association does not establish mechanism.",
+  "invalidated_predecessor": {
+    "script": "scripts/fig2g_census_swing_vs_induction.py",
+    "reason": "se_Stim48-only residualisation induced the reported separation; it is not the primary analysis and is not used in Figure 2"
+  },
+  "inputs": {
+    "census_master_edges.csv.gz": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+    "gse140244_all_measured_gene_delta.tsv.gz": "e69dd6c56209b4928fe3115f6808677c4fdb024bb3920270d9988c05b00bd338",
+    "gse140244_all_measured_gene_delta.manifest.json": "bfe126cd315f741a2c8ac8cc83f70f9bc46d551297910d88b86d06adcc10d4fa"
+  },
+  "external_response": {
+    "paired_donors": 22,
+    "normalization": "edgeR TMM log2 CPM with prior.count=0.5",
+    "summary": "per-gene median paired 48-minus-0 h response"
+  },
+  "mapped_edge_coverage": {
+    "reversing_edges": 4344,
+    "stable_edges": 78520,
+    "reversing_regulators_with_raw_rho_at_floor_4": 155
+  },
+  "primary": {
+    "minimum_edges_per_kind_per_regulator": 4,
+    "estimand": "raw within-regulator Spearman rho: external activation response versus absolute Rest-to-48 h coefficient movement",
+    "n_paired_regulators": 154,
+    "median_reversing": 0.07692307692307693,
+    "median_stable": 0.054973022467358454,
+    "median_paired_difference": 0.02223706744412776,
+    "n_reversing_greater": 82,
+    "wilcoxon_two_sided_p": 0.5717292019676893
+  },
+  "raw_minimum_edge_floor_sweep": [
+    {
+      "minimum_edges_per_kind_per_regulator": 4,
+      "n_paired_regulators": 154,
+      "median_reversing": 0.07692307692307693,
+      "median_stable": 0.054973022467358454,
+      "median_paired_difference": 0.02223706744412776,
+      "n_reversing_greater": 82,
+      "wilcoxon_two_sided_p": 0.5717292019676893
+    },
+    {
+      "minimum_edges_per_kind_per_regulator": 5,
+      "n_paired_regulators": 139,
+      "median_reversing": 0.08131868131868132,
+      "median_stable": 0.054725242779615636,
+      "median_paired_difference": 0.03733116168772782,
+      "n_reversing_greater": 76,
+      "wilcoxon_two_sided_p": 0.4465984396473762
+    },
+    {
+      "minimum_edges_per_kind_per_regulator": 6,
+      "n_paired_regulators": 130,
+      "median_reversing": 0.08319128446283774,
+      "median_stable": 0.05566950771915048,
+      "median_paired_difference": 0.03888685666147308,
+      "n_reversing_greater": 73,
+      "wilcoxon_two_sided_p": 0.30166012574235634
+    },
+    {
+      "minimum_edges_per_kind_per_regulator": 8,
+      "n_paired_regulators": 109,
+      "median_reversing": 0.07252747252747253,
+      "median_stable": 0.054725242779615636,
+      "median_paired_difference": 0.029900267063613678,
+      "n_reversing_greater": 58,
+      "wilcoxon_two_sided_p": 0.9337407311305769
+    },
+    {
+      "minimum_edges_per_kind_per_regulator": 10,
+      "n_paired_regulators": 92,
+      "median_reversing": 0.06885725465352438,
+      "median_stable": 0.053513716244879106,
+      "median_paired_difference": 0.03784733389612381,
+      "n_reversing_greater": 50,
+      "wilcoxon_two_sided_p": 0.6855030887640923
+    },
+    {
+      "minimum_edges_per_kind_per_regulator": 12,
+      "n_paired_regulators": 69,
+      "median_reversing": 0.06524064171122994,
+      "median_stable": 0.055220802155101265,
+      "median_paired_difference": 0.03733116168772782,
+      "n_reversing_greater": 37,
+      "wilcoxon_two_sided_p": 0.8179445719569254
+    }
+  ],
+  "both_endpoint_se_sensitivity": {
+    "display_status": "persisted sensitivity; not printed in panel h",
+    "minimum_edges_per_kind_per_regulator": 8,
+    "estimand": "partial Spearman via rank residuals adjusted jointly for se_Rest and se_Stim48",
+    "n_paired_regulators": 109,
+    "median_reversing": 0.03191242996323648,
+    "median_stable": 0.028255271710698835,
+    "median_paired_difference": -0.024414129352164082,
+    "n_reversing_greater": 52,
+    "wilcoxon_two_sided_p": 0.8288612153781671
+  },
+  "caption_guidance": "Raw within-regulator correlations were compared at a minimum of four edges of each kind; two-sided paired Wilcoxon p=0.572. Raw minimum-edge floors from 4 to 12 gave no detectable separation. A secondary partial-Spearman sensitivity rank-residualised both Rest and 48 h standard errors and is retained in the source JSON, not panel h. Failure to detect a difference is not an equivalence test.",
+  "source_table": {
+    "path": "results_data/census/fig2h_activation_movement_similarity.tsv",
+    "rows": 154,
+    "sha256": "ba6625b391adb26389cab3c23e24f276f93173db0774d0895c3e59eddbb34a28"
+  }
+}

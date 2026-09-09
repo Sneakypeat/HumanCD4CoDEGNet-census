@@ -1,0 +1,24 @@
+{
+  "_what": "Tail-conditioned Poisson fit for regulator out-degree, Alam-2017 comparison set.",
+  "_why": "kept out of degree_distribution_test.py so the published six-comparison Vuong set and repository figure R6 are unchanged",
+  "_script": "scripts/degree_poisson_fit.py",
+  "edges_sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+  "xmin": 188,
+  "n_tail": 115,
+  "poisson_lambda": 531.7913126717863,
+  "log_likelihood": {
+    "power_law": -781.0675518809464,
+    "poisson": -17666.715171186082
+  },
+  "aicc": {
+    "power_law": 1564.1705019919814,
+    "poisson": 35335.46574060225
+  },
+  "power_law_vs_poisson": {
+    "R": 16885.64761930514,
+    "vuong_z": 4.8083091218031155,
+    "p": 1.5221226971732401e-06,
+    "favours": "power law"
+  },
+  "delta_aicc_poisson_minus_power_law": 33771.29523861027
+}

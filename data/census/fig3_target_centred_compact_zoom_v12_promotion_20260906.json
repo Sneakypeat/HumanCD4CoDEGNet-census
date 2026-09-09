@@ -1,0 +1,227 @@
+{
+  "active_guard": {
+    "bytes": 273901,
+    "path": "scripts/active_claim_guard.py",
+    "sha256": "08a2de4fa8b4c028cf118cbdcec4927e059368ebb6f3d30137a2d6bdb4167dda"
+  },
+  "active_text": {
+    "FIGURE_LEGENDS.md": {
+      "bytes": 56371,
+      "path": "FIGURE_LEGENDS.md",
+      "sha256": "f8aa12d20600a19366e6896385e03b0aefd4bbb2ed92568ac0c40c13849df626"
+    },
+    "MANUSCRIPT.md": {
+      "bytes": 71506,
+      "path": "MANUSCRIPT.md",
+      "sha256": "9f26ad182f18589ad001aaa99405c7999e077e944f376ce6918bb20815160d70"
+    },
+    "PAPER_FACTS.md": {
+      "bytes": 37155,
+      "path": "PAPER_FACTS.md",
+      "sha256": "c2033dda1cc4a906168c09e28d91bb27361be416fafdbc7394a321eb90a0d46b"
+    }
+  },
+  "archive": {
+    "inventory": {
+      "bytes": 2598,
+      "path": "figures_final/repository/superseded_figure3_candidates_2026-09-06/pre_compact_zoom_v12_20260906/inventory.json",
+      "sha256": "64cab2a9d5df776079fa0e23f1b969f7d3bea179a1b512a0d2ee11cddd6f9fdd"
+    },
+    "path": "figures_final/repository/superseded_figure3_candidates_2026-09-06/pre_compact_zoom_v12_20260906",
+    "permanent_deletion_performed": false,
+    "record_count": 14,
+    "recoverable": true,
+    "sha256sums": {
+      "bytes": 1711,
+      "path": "figures_final/repository/superseded_figure3_candidates_2026-09-06/pre_compact_zoom_v12_20260906/SHA256SUMS.txt",
+      "sha256": "69be01f7bedfd121f5ce7929d49569819b56774a94a7901afeb8edcade9fe3ec"
+    }
+  },
+  "build_integration": {
+    "logs": {
+      "docx_build": {
+        "bytes": 1709,
+        "path": "figures_final/diagnostics/fig3_target_centred_compact_zoom_v12_promotion/docx_build.guard.log",
+        "sha256": "e77ffa14266f4870a1a5f118fbb903d25f4a688c555dad21d712c52806113460"
+      },
+      "pdf_build": {
+        "bytes": 1708,
+        "path": "figures_final/diagnostics/fig3_target_centred_compact_zoom_v12_promotion/pdf_build.guard.log",
+        "sha256": "9899440b826871d21bf2be988a9e34f33d93f5606895b00bb0b21176f63815d4"
+      },
+      "source_guard": {
+        "bytes": 2609,
+        "path": "figures_final/diagnostics/fig3_target_centred_compact_zoom_v12_promotion/source_guard.guard.log",
+        "sha256": "b77eb85a39f93d7fbed7f57f7235ce383b3f42ea263b7d0d363f3ca67b38bc8c"
+      }
+    },
+    "outputs": {
+      "docx": {
+        "bytes": 8236101,
+        "path": "HumanCD4CoDEGNet_signflip.docx",
+        "sha256": "2bed558e9621e966fa769c62a52c2f7736a606f087e916ad825959b40d24a1eb"
+      },
+      "pdf": {
+        "bytes": 3153112,
+        "path": "HumanCD4CoDEGNet_signflip.pdf",
+        "sha256": "b9ed4b4ddd78b40b68d8386e6e7b787dd9af57a7501311712feab3bcac0bbb7a"
+      },
+      "supplementary_pdf_unchanged": {
+        "bytes": 1143610,
+        "path": "submission/supplementary/Supplementary_Information.pdf",
+        "sha256": "bfaf17b0ae3d0dcc6b169a6eda8ba690cbe7c9409059944608080c2c78f6fb44"
+      }
+    },
+    "sequence": [
+      "source_guard",
+      "docx_build",
+      "pdf_build"
+    ],
+    "status": "COMPLETE"
+  },
+  "canonical_outputs": {
+    "candidate_and_canonical_bytes_identical": true,
+    "pdf": {
+      "bytes": 523965,
+      "path": "figures_final/Fig3.pdf",
+      "sha256": "fc95044875a1f5c70a710ac6419564aa9b1b74d3e7ff7b6244f07233cd919c18"
+    },
+    "png": {
+      "bytes": 695770,
+      "path": "figures_final/Fig3.png",
+      "sha256": "744170046f5ab187ceb5807cb051b6de9e957b8a5ac113920aecffbed88234d4"
+    },
+    "promoted_by_byte_copy": true
+  },
+  "canonical_renderer": {
+    "bytes": 45460,
+    "path": "scripts/fig3_target_centred_compact_zoom_v12.py",
+    "sha256": "a02fd801fccf99aa8a36b3b283487d3a76a1867586b33b57e080a6ad776ba6aa"
+  },
+  "claim_boundary": "Panel d is a display-only filter of panel c's framed first-80 block and retains all 208 reversal cells; omission does not mean that a regulator or target lacks effects elsewhere. Panel e keeps the v11 all-target term identities, statistics, composition values and evidence tiers unchanged.",
+  "created_utc": "2026-09-06T11:18:03.360468+00:00",
+  "display_contract": {
+    "all_reversal_cells_retained": 208,
+    "axis_label_points": 5.0,
+    "cell_side_points": 5.0,
+    "display_shape": [
+      37,
+      77
+    ],
+    "gained": 71,
+    "lost": 137,
+    "omitted_comparable_nonreversals": 16,
+    "omitted_zero_reversal_columns": 3,
+    "omitted_zero_reversal_rows": 12,
+    "panel_e_bar_width_inches": 0.7,
+    "panel_e_heading_points": 7.0,
+    "panel_e_supporting_text_points": 5.5,
+    "panel_e_width_inches": 2.375139982502189,
+    "panels_retained": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h"
+    ],
+    "source_shape": [
+      49,
+      80
+    ]
+  },
+  "fig4_guard_helper": {
+    "bytes": 14997,
+    "path": "scripts/fig4_horizontal_transposed_cyan_guard_v2.py",
+    "sha256": "0fe7f23c3898b2d11d97437e72c678f68887eeb0571016d69f1cd4fe742eaf7c"
+  },
+  "guard_helper": {
+    "bytes": 19828,
+    "path": "scripts/fig3_compact_zoom_guard_v12.py",
+    "sha256": "4e9f9096b4686609b161d80014f3b9383e91fbe60d8fdb67d5129316fa22eedd"
+  },
+  "promotion_script": {
+    "bytes": 12856,
+    "path": "scripts/promote_fig3_compact_zoom_v12.py",
+    "sha256": "ab77a674387c92e79677e464254742e368e39f9ee758b367a53218afa8ee2803"
+  },
+  "schema_version": "fig3-target-centred-compact-zoom-v12-promotion-v1",
+  "sealed_utc": "2026-09-06T11:18:29.470935+00:00",
+  "selected_candidate": {
+    "manifest": {
+      "bytes": 56377,
+      "path": "figures_final/diagnostics/fig3_target_centred_compact_zoom_v12/manifest.json",
+      "sha256": "36a339e72a93f90c68df93f960e0c594424dbf1682358165d059f2b942ddc5cd"
+    },
+    "pdf": {
+      "bytes": 523965,
+      "path": "figures_final/diagnostics/fig3_target_centred_compact_zoom_v12/Fig3_target_centred_compact_zoom_v12.pdf",
+      "sha256": "fc95044875a1f5c70a710ac6419564aa9b1b74d3e7ff7b6244f07233cd919c18"
+    },
+    "png": {
+      "bytes": 695770,
+      "path": "figures_final/diagnostics/fig3_target_centred_compact_zoom_v12/Fig3_target_centred_compact_zoom_v12.png",
+      "sha256": "744170046f5ab187ceb5807cb051b6de9e957b8a5ac113920aecffbed88234d4"
+    },
+    "renderer": {
+      "bytes": 45460,
+      "path": "figures_final/diagnostics/fig3_target_centred_compact_zoom_v12/renderer_fig3_target_centred_compact_zoom_v12.py",
+      "sha256": "a02fd801fccf99aa8a36b3b283487d3a76a1867586b33b57e080a6ad776ba6aa"
+    }
+  },
+  "status": "PROMOTED_AND_POSTBUILD_GUARDED",
+  "successor_closure_amendment_2026_09_06": {
+    "change": "Rebound only the live Figure 4 guard-helper record after the active Figure 2 v11 promotion added fail-closed successor recognition; no Figure 3 figure, analysis, text or layout changed.",
+    "predecessor_fig4_guard_helper": {
+      "bytes": 13368,
+      "path": "scripts/fig4_horizontal_transposed_cyan_guard_v2.py",
+      "sha256": "451aac91dce70d54ebfb610afc51fee75640bfe1875a36c63cf66409346465c9"
+    },
+    "predecessor_manifest": {
+      "bytes": 6734,
+      "path": "results_data/census/fig3_target_centred_compact_zoom_v12_promotion_20260906.pre_fig2_v11_cross_helper.json",
+      "sha256": "575c34e0997ff78efa054a5954a8fab4d566ca28a810b8298b6fb21c83f1200f"
+    },
+    "successor_figure2_promotion": {
+      "path": "results_data/census/fig2_signed_kegg_v11_promotion_20260906.json",
+      "sha256": "9d62a8649ebe9dd62b66f8d637afb505cf5814a14dbd2d6eea1754d748351ad9"
+    }
+  },
+  "successor_closure_amendment_2026_09_06_fig2_overlap_clearance": {
+    "change": "Rebound only the live manuscript, legend, facts and guard records needed by the active Figure 2 overlap-clearance promotion; no Figure 3 figure, analysis, text or layout changed.",
+    "predecessor_manifest": {
+      "bytes": 7681,
+      "path": "results_data/census/fig3_target_centred_compact_zoom_v12_promotion_20260906.pre_fig2_v11_overlap_clearance.json",
+      "sha256": "ac6ef69b8c0b1a4d4fe77a20b2ae6e305efe6ca17f297a7ea512f3159035f751"
+    },
+    "successor_figure2_promotion_at_amendment": {
+      "bytes": 25731,
+      "path": "results_data/census/fig2_signed_kegg_v11_overlap_clearance_promotion_20260906.json",
+      "sha256": "fbd79722d42a2cec8dcbfb790ed0a23c999503dda84bfe7ab311c56d1ca28357",
+      "status": "PROMOTED_SOURCE_POSTBUILD_PENDING"
+    }
+  },
+  "successor_closure_amendment_2026_09_06_fig2_overlap_clearance_postbuild": {
+    "change": "Rebound only the historical Figure 3 manifest's derived-document records after the active Figure 2 overlap-clearance build; no Figure 3 figure, analysis, text or layout changed.",
+    "predecessor_manifest": {
+      "bytes": 8535,
+      "path": "results_data/census/fig3_target_centred_compact_zoom_v12_promotion_20260906.pre_fig2_v11_overlap_clearance_postbuild.json",
+      "sha256": "29b1ee3c74997ac30f5939b6e21195e8d9da7511a0f75ecd0a828fec9b87d1b3"
+    },
+    "successor_figure2_promotion": {
+      "bytes": 29331,
+      "path": "results_data/census/fig2_signed_kegg_v11_overlap_clearance_promotion_20260906.json",
+      "sha256": "38190202181dcf6bf4ddd2e69d34bb07331c5c2e8e5ea50f2afff59cff3ad55f",
+      "status": "PROMOTED_AND_POSTBUILD_GUARDED"
+    }
+  },
+  "supersedes": {
+    "bytes": 42169,
+    "historical_without_rewrite": true,
+    "path": "results_data/census/fig3_target_centred_alltarget_enrichment_v11_promotion_20260904.json",
+    "sha256": "34a6f1c01c45d637e0964533d15d696dea140dc93bc7cc8b0ec4076b84a2b787",
+    "status_at_supersession": "PROMOTED_AND_POSTBUILD_GUARDED"
+  }
+}

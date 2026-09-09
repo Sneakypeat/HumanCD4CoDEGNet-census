@@ -1,0 +1,726 @@
+{
+  "schema_version": "response-shape-metadata-feasibility-v5.1",
+  "status": "PASS_METADATA_AND_FIXED_CAL_MAP_TARGET_ACCESS_NOT_AUTHORIZED",
+  "methods_config": {
+    "path": "scripts/response_shape/methods_config_v5_1.json",
+    "sha256": "171992cf0c2a40eb19a4bb206ba84a5db0ef2780818561d5986199607ea37fe4"
+  },
+  "amendment": {
+    "path": "docs/response_shape/amendments/2026-08-14_PREOUTCOME_DONOR_LEVEL_TWO_PART_V5_1.md",
+    "sha256": "dde9b2fb0353bc60fcbd6bc2998b6e9e98bfb59409f59fc606a6acef4039b6f1"
+  },
+  "base_v5": {
+    "disposition": "SUPERSEDED_PREOUTCOME_NOT_LAUNCHABLE",
+    "config": {
+      "path": "scripts/response_shape/methods_config_v5.json",
+      "sha256": "d7122c1f31430fe0004a264aa2e2e00bd0db9e230c1a63afdf4abc459b0654e7"
+    },
+    "amendment": {
+      "path": "docs/response_shape/amendments/2026-08-14_PREOUTCOME_DONOR_LEVEL_TWO_PART_V5.md",
+      "sha256": "708a76df71265eda0fc0a2b332d6d8b95c0f0d333cb096d97bde91df8698e843"
+    },
+    "metadata_report": {
+      "path": "results_data/response_shape/metadata_feasibility_v5.json",
+      "sha256": "d6fe7bdfcdacbbf01e39c020240944a900a6465f8db4c6b5bd2ee81a8c15bb74"
+    }
+  },
+  "executable": {
+    "path": "scripts/response_shape/hpc/metadata_feasibility_v5_1.R",
+    "sha256": "da7cec6259f90b0c7088782b3d95fa3e677ef8dd7d896594bc08ca5f691c778b"
+  },
+  "input_sha256": {
+    "canonical_census": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+    "atlas_endpoint_identity": "eab94e006b391f8dc69db9416bb7367245ff3c5260d4cecb5cada14ee514f8e3",
+    "historical_edges": "3fcf9e9b8bfdd240978184465360bb10355ff0ba4fb8b4736dab9574db8e379a",
+    "guide_library": "00a1bec2afc2082fc79765531696d7e22672a8ba904ea54c035858f425a657a8",
+    "guide_efficacy_descriptive_only": "75929bef741f87a944838fe3638fe3eaeef881c14a6653bab96f4b5df899aee3",
+    "case_metadata_support": "1955afd3c66c0adbb8a6d8a73e9aebd2eba41ecfe9640ab5d612713cf6f6b8ab",
+    "ntc_metadata_support": "936b7a8579a900caeb1e7ece74ebaa019b3d4492e86a3107756dc8a049fb4588",
+    "metadata_preflight": "32445eebf902ed040e36b1ba08ebaf996b2649bed429c9c8fee17f30e75444d8",
+    "shard_metadata_manifest": "9d1c4b0681fdecac6b997f2fd17d3c8db662613835f5a4f602aee01c6aedd931",
+    "identity_reconciliation": "890be68cf027fc0142fc208a0ee75a6e175144a9fcee5604104b82e610944b93",
+    "ref_only_activation_model_descriptive_audit": "9ac4be687381714b0febbebf97d994fe358f0a4e829310c07ea484fe13787eec",
+    "ref_only_activation_report_descriptive_audit": "4bb3395340fd2e9f495661e94f1edb8f533a2015bbb2f38a1734ea8fddcc6883"
+  },
+  "stable_control_sha256": {
+    "stable_matches": "ce726b1a258e5e06c31a117185d566812c2e1ffb6e6c68b8c02873ee471016b3",
+    "stage_manifest": "309951b7f25b4701bad9272bf18c647fb357ffaa1fbc2579f90016033a1f445e",
+    "audit": "5b65c3a3c45003ae6fec4e4f095c67ddda4d2bc56437e8a9b2e881a811d57037"
+  },
+  "outcome_custody": {
+    "target_expression_values_read": 0,
+    "x_data_values_read": 0,
+    "x_indices_values_read": 0,
+    "regulator_expression_values_read": 0,
+    "target_access_authorized": false
+  },
+  "full_denominator": {
+    "frozen_reversal_edges": 4379,
+    "metadata_eligible_reversal_edges": 3000,
+    "unanalysable_metadata_support": 1379,
+    "metadata_eligible_regulators": 149,
+    "metadata_eligible_targets": 2037
+  },
+  "fixed_CAL_map": {
+    "path": "results_data/response_shape/cal_pseudo_pairs_v5_1.tsv",
+    "sha256": "e6186404ba3cda52db6dd3b151d88a50d6d520e12d4352ab6aa26bbf5cf7a3e5",
+    "regulators": 149,
+    "unique_CAL_guides_selected": 135,
+    "maximum_regulator_assignments_per_CAL_guide": 8,
+    "point_pipeline_pairs_per_regulator": 1,
+    "rematching_draws": 0,
+    "all_eligible_regulators_have_exactly_one_pair": true,
+    "target_or_expression_values_used": false
+  },
+  "CAL_donor_set_feasibility": [
+    {
+      "paired_donor_set": "D1,D2,D3,D4",
+      "eligible_CAL_guides": 155,
+      "eligible_unordered_CAL_pairs": 9958,
+      "eligible_ordered_CAL_pairs": 19916
+    },
+    {
+      "paired_donor_set": "D1,D2,D4",
+      "eligible_CAL_guides": 198,
+      "eligible_unordered_CAL_pairs": 17174,
+      "eligible_ordered_CAL_pairs": 34348
+    },
+    {
+      "paired_donor_set": "D1,D3,D4",
+      "eligible_CAL_guides": 187,
+      "eligible_unordered_CAL_pairs": 15589,
+      "eligible_ordered_CAL_pairs": 31178
+    },
+    {
+      "paired_donor_set": "D2,D3,D4",
+      "eligible_CAL_guides": 163,
+      "eligible_unordered_CAL_pairs": 11591,
+      "eligible_ordered_CAL_pairs": 23182
+    }
+  ],
+  "CAL_reuse": [
+    {
+      "cal_guide_id": "NTC-656",
+      "regulator_assignments": 8
+    },
+    {
+      "cal_guide_id": "NTC-083",
+      "regulator_assignments": 7
+    },
+    {
+      "cal_guide_id": "NTC-030",
+      "regulator_assignments": 6
+    },
+    {
+      "cal_guide_id": "NTC-138",
+      "regulator_assignments": 6
+    },
+    {
+      "cal_guide_id": "NTC-188",
+      "regulator_assignments": 6
+    },
+    {
+      "cal_guide_id": "NTC-720",
+      "regulator_assignments": 6
+    },
+    {
+      "cal_guide_id": "NTC-805",
+      "regulator_assignments": 6
+    },
+    {
+      "cal_guide_id": "NTC-203",
+      "regulator_assignments": 5
+    },
+    {
+      "cal_guide_id": "NTC-411",
+      "regulator_assignments": 5
+    },
+    {
+      "cal_guide_id": "NTC-444",
+      "regulator_assignments": 5
+    },
+    {
+      "cal_guide_id": "NTC-485",
+      "regulator_assignments": 5
+    },
+    {
+      "cal_guide_id": "NTC-831",
+      "regulator_assignments": 5
+    },
+    {
+      "cal_guide_id": "NTC-895",
+      "regulator_assignments": 5
+    },
+    {
+      "cal_guide_id": "NTC-249",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-290",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-367",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-401",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-447",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-471",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-669",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-768",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-847",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-882",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-964",
+      "regulator_assignments": 4
+    },
+    {
+      "cal_guide_id": "NTC-038",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-061",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-078",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-081",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-125",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-366",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-375",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-462",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-577",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-633",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-634",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-884",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-889",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-890",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-931",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-946",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-977",
+      "regulator_assignments": 3
+    },
+    {
+      "cal_guide_id": "NTC-022",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-029",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-039",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-079",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-112",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-118",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-273",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-278",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-302",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-322",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-334",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-346",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-393",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-426",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-435",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-526",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-530",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-540",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-553",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-575",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-584",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-661",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-708",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-725",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-785",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-793",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-846",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-876",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-891",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-894",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-944",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-955",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-956",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-989",
+      "regulator_assignments": 2
+    },
+    {
+      "cal_guide_id": "NTC-003",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-023",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-034",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-058",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-059",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-099",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-101",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-129",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-140",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-158",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-165",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-183",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-198",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-256",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-265",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-297",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-312",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-325",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-340",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-355",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-357",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-368",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-378",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-417",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-438",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-446",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-477",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-489",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-499",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-525",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-527",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-537",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-543",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-567",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-583",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-601",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-626",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-651",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-660",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-678",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-703",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-706",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-734",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-755",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-783",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-792",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-803",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-804",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-809",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-812",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-868",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-873",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-880",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-909",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-927",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-930",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-934",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-942",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-975",
+      "regulator_assignments": 1
+    },
+    {
+      "cal_guide_id": "NTC-982",
+      "regulator_assignments": 1
+    }
+  ],
+  "target_assignment": {
+    "metadata_eligible_reversal_parent_CAL_pseudo_edges": 3000,
+    "fixed_pair_reused_for_all_targets_donors_conditions": true,
+    "primary_envelopes_use_reversal_parent_CAL_only": true,
+    "stable_target_CAL_use": "DESCRIPTIVE_ONLY"
+  },
+  "post_target_contract": {
+    "evaluated_only_after_separate_target_launch_authorization": true,
+    "common_donor_identity_required_across_Rest_and_Stim48hr": true,
+    "minimum_common_donors": 3,
+    "minimum_detected_cells_per_physical_case_guide_in_each_donor_condition": 10,
+    "case_guides_A_and_B_each_pass_separately": true,
+    "minimum_pooled_raw_detections_per_A_weighted_REF_arm": 10,
+    "minimum_distinct_detecting_physical_REF_guides_per_A_weighted_REF_arm": 10,
+    "minimum_pooled_raw_detections_per_B_weighted_REF_arm": 10,
+    "minimum_distinct_detecting_physical_REF_guides_per_B_weighted_REF_arm": 10,
+    "minimum_detected_cells_per_individual_REF_guide": null,
+    "fractional_or_Kish_effective_detection_counts_forbidden": true,
+    "CAL_processed_identically_with_fixed_c_A_and_c_B": true,
+    "failure_status": "UNANALYSABLE_POSITIVE_INTENSITY",
+    "failure_may_be_forced_into_detection_label": false
+  },
+  "calibration_envelope_contract": {
+    "primary_source": "unique_supported_CAL_pseudo_edges_attached_to_metadata_eligible_reversal_parents_only",
+    "stable_target_CAL_use": "DESCRIPTIVE_ONLY_NEVER_IN_PRIMARY_ENVELOPE",
+    "metrics": ["total_effect", "detection_component", "positive_intensity_component", "raw_rate_log2_ratio"],
+    "conditions": ["Rest", "Stim48hr"],
+    "cross_condition_metric": "delta_x=x_Stim48hr-x_Rest",
+    "one_global_envelope_per_metric_condition_or_cross_condition": true,
+    "absolute_quantile": 0.94999999999999996,
+    "quantile_definition": "HYNDMAN_FAN_TYPE_7_EQUIVALENT_TO_NUMPY_LINEAR",
+    "edge_weights": "EQUAL",
+    "minimum_unique_supported_reversal_parent_CAL_pseudo_edges": 1000,
+    "per_target_percentiles_forbidden": true,
+    "expression_support_target_or_other_strata_forbidden": true,
+    "unavailable_action": "DO_NOT_DRAW_CORRESPONDING_DOMINANCE_REGION_OR_PROMOTE_PATTERN_SENTENCE"
+  },
+  "raw_rate_contract": {
+    "lane_target_count": "K=sum(target_raw_UMI)",
+    "lane_exposure": "E=sum(total_UMI-target_raw_UMI)",
+    "requirements": "finite_K>=0_and_finite_E>0_and_nonnegative_cell_exposures",
+    "lane_rate": "r=(K+0.5)/E",
+    "within_lane_REF_comparison": "separate_log2_rate_ratio_against_each_physical_REF_guide_then_equal_average",
+    "lane_aggregation": "case_guide_frozen_case_cell_lane_weights",
+    "guide_aggregation": "equal_average_A_and_B",
+    "donor_aggregation": "equal_mean_over_exact_primary_common_donor_IDs",
+    "CAL_processing": "IDENTICAL_WITH_FIXED_c_A_c_B",
+    "practical_absolute_log2_ratio_minimum": 0.14999999999999999,
+    "calibration": "corresponding_global_metric_by_condition_absolute_q95",
+    "opposite_requires": ["absolute_log2_ratio_at_least_0.15", "absolute_log2_ratio_above_global_CAL_q95", "sign_opposite_primary_marginal_target_excluded_CP10K_total_effect"],
+    "zero_sign_is_opposite": false,
+    "opposite_in_either_condition_status": "MIXED_OR_UNRESOLVED",
+    "may_rescue_primary": false
+  },
+  "stable_controls": {
+    "retained_family": "regulator_matched",
+    "rows": 8730,
+    "matched_reversal_parents": 4370,
+    "maximum_reuse": 5,
+    "maximum_absolute_SMD": 0.043633038706531249,
+    "balance_status": "PASS",
+    "parent_job_terminal_state": "CANCELLED_AFTER_REQUIRED_REUSABLE_ARTIFACTS_CLOSED",
+    "cancelled_parent_job_scientific_file_accepted": true,
+    "unfinished_bridge_forbidden": true,
+    "target_matched_family": "RETIRED_OUTCOME_BLIND_BALANCE_FAILURE"
+  },
+  "validation": {
+    "base_v5_files_unchanged_and_hash_matched": true,
+    "v5_marked_superseded_preoutcome": true,
+    "amendment_hash_matches": true,
+    "script_hash_matches": true,
+    "all_source_hashes_match": true,
+    "exact_expected_metadata_counts_match": true,
+    "exact_expected_CAL_donor_set_counts_match": true,
+    "all_149_eligible_regulators_have_one_fixed_CAL_pair": true,
+    "four_illustrative_regulators_have_fixed_CAL_pairs": true,
+    "all_190_lane_blocks_pass_REF_and_CAL": true,
+    "stable_control_hashes_and_audit_match": true,
+    "target_expression_reads": 0,
+    "regulator_expression_reads": 0,
+    "metadata_and_CAL_map_GO": true,
+    "target_launch_authorized": false
+  }
+}

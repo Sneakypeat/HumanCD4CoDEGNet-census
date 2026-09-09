@@ -1,0 +1,92 @@
+{
+  "analysis_id": "kinetics_8hr_sign_states",
+  "analysis_status": "POST_HOC_EXPLORATORY",
+  "claim_boundary": "This post-hoc sign-state description is conditional on reversals selected from Rest and Stim48. It does not define edges, estimate exact switch times, establish molecular mechanism, or validate regulator-target relationships.",
+  "classification": {
+    "Rest-sign-retaining": "padj_Stim8hr < 0.10 and the 8 h coefficient has the Rest sign",
+    "Stim48-sign-matching": "padj_Stim8hr < 0.10 and the 8 h coefficient has the Stim48 sign",
+    "Unresolved": "padj_Stim8hr is missing or at least 0.10"
+  },
+  "coverage": {
+    "n_Rest_sign_retaining": 824,
+    "n_Stim48_sign_matching": 455,
+    "n_endpoint_defined_reversals_in_8h_input": 4377,
+    "n_resolved": 1279,
+    "n_unresolved": 3098
+  },
+  "custody_manifest": "results_data/kinetics/kinetics_8hr_sign_states.manifest.json",
+  "direction_description": {
+    "gained_on_activation": {
+      "fraction_Rest_sign_retaining": 0.5130434782608696,
+      "n_Rest_sign_retaining": 295,
+      "n_resolved": 575,
+      "percentage_Rest_sign_retaining": 51.3
+    },
+    "lost_on_activation": {
+      "fraction_Rest_sign_retaining": 0.7514204545454546,
+      "n_Rest_sign_retaining": 529,
+      "n_resolved": 704,
+      "percentage_Rest_sign_retaining": 75.1
+    },
+    "p_value_unit": "paired regulator-level fractions, not pooled edges"
+  },
+  "fdr_threshold": 0.1,
+  "paired_regulator_result": {
+    "alternative": "two-sided",
+    "authoritative_persisted_test_input": "lost_minus_gained_exact_fraction in the paired-regulator TSV, parsed as fractions.Fraction and converted once to float; the decimal difference column is descriptive only",
+    "calculation_method": "normal approximation because zero differences are present",
+    "continuity_correction": false,
+    "estimand": "Within each regulator carrying resolved reversals in both directions, the Rest-sign-retaining fraction for lost effects minus that fraction for gained effects.",
+    "median_difference": 0.08928571428571429,
+    "median_difference_exact_fraction": "5/56",
+    "n_negative": 14,
+    "n_positive": 40,
+    "n_regulators_with_both_directions": 75,
+    "n_tied": 21,
+    "p_value": 0.0049970904,
+    "statistic": 417.0,
+    "test": "paired Wilcoxon signed-rank",
+    "zero_method": "wilcox"
+  },
+  "provenance": {
+    "input": {
+      "path": "results_data/kinetics/kinetics_8hr_edges.csv.gz",
+      "sha256": "5b7c0a46dfa14b5b597ad1210efecb0fedb3d9538a11f568c8e967135846ad8d",
+      "size_bytes": 10082319
+    },
+    "script": {
+      "path": "scripts/kinetics_8hr_sign_states.py",
+      "sha256": "68639d57de496a8039e120b77f9ad9e1d75850174a9f11a454095244a669b83e",
+      "size_bytes": 24526
+    },
+    "software": {
+      "numpy": "2.5.2",
+      "pandas": "3.0.5",
+      "python": "3.14.7",
+      "scipy": "1.18.0"
+    }
+  },
+  "question": "Among endpoint-defined reversals, does a resolvable 8 h coefficient retain the Rest sign or match the Stim48 sign?",
+  "schema_version": "kinetics-8hr-sign-states-v1",
+  "stable_calibration": {
+    "fraction_8h_sign_matching_shared_endpoint_sign": 0.9915634837355719,
+    "n_8h_sign_matching_shared_endpoint_sign": 47248,
+    "n_resolved_stable_edges": 47650,
+    "percentage_8h_sign_matching_shared_endpoint_sign": 99.1563,
+    "role": "measurement calibration, not a reversal-state comparison"
+  },
+  "tables": {
+    "paired_regulators": {
+      "path": "results_data/kinetics/kinetics_8hr_sign_states.paired_regulators.tsv",
+      "rows": 75,
+      "sha256": "a8bc41f6745335396fdd51726011533b558f3a7ced452b67fd878174c97ec3ba",
+      "size_bytes": 4930
+    },
+    "sign_states": {
+      "path": "results_data/kinetics/kinetics_8hr_sign_states.csv.gz",
+      "rows": 4377,
+      "sha256": "9d34bdb23acdc1a1556854bea0e148a8f1945fb5dfe14c41ad5162a4cd11c222",
+      "size_bytes": 278142
+    }
+  }
+}

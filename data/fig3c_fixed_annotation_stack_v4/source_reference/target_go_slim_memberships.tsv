@@ -1,0 +1,533 @@
+display_rank	target	target_ensg	orientation	go_id	go_term
+1	DDIT4	ENSG00000168209	lost_on_activation	GO:0048870	cell motility
+1	DDIT4	ENSG00000168209	lost_on_activation	GO:0012501	programmed cell death
+1	DDIT4	ENSG00000168209	lost_on_activation	GO:0023052	signaling
+2	IL2RA	ENSG00000134460	lost_on_activation	GO:0012501	programmed cell death
+2	IL2RA	ENSG00000134460	lost_on_activation	GO:0023052	signaling
+3	IL2RB	ENSG00000100385	lost_on_activation	GO:0022607	cellular component assembly
+3	IL2RB	ENSG00000100385	lost_on_activation	GO:0023052	signaling
+4	CHAC1	ENSG00000128965	lost_on_activation	GO:0008152	metabolic process
+4	CHAC1	ENSG00000128965	lost_on_activation	GO:0012501	programmed cell death
+4	CHAC1	ENSG00000128965	lost_on_activation	GO:0010468	regulation of gene expression
+4	CHAC1	ENSG00000128965	lost_on_activation	GO:0023052	signaling
+5	MTX3	ENSG00000177034	lost_on_activation	GO:0022607	cellular component assembly
+6	SLC38A2	ENSG00000134294	lost_on_activation	GO:0010468	regulation of gene expression
+6	SLC38A2	ENSG00000134294	lost_on_activation	GO:0055085	transmembrane transport
+7	MID1IP1	ENSG00000165175	lost_on_activation	GO:0022607	cellular component assembly
+9	RANBP9	ENSG00000010017	lost_on_activation	GO:0022607	cellular component assembly
+9	RANBP9	ENSG00000010017	lost_on_activation	GO:0044238	primary metabolic process
+10	DUSP6	ENSG00000139318	lost_on_activation	GO:0044238	primary metabolic process
+10	DUSP6	ENSG00000139318	lost_on_activation	GO:0023052	signaling
+13	SLC1A5	ENSG00000105281	lost_on_activation	GO:0022607	cellular component assembly
+13	SLC1A5	ENSG00000105281	lost_on_activation	GO:0019725	cellular homeostasis
+13	SLC1A5	ENSG00000105281	lost_on_activation	GO:0055085	transmembrane transport
+14	PTPN22	ENSG00000134242	lost_on_activation	GO:0008152	metabolic process
+14	PTPN22	ENSG00000134242	lost_on_activation	GO:0010468	regulation of gene expression
+14	PTPN22	ENSG00000134242	lost_on_activation	GO:0023052	signaling
+15	DDIT3	ENSG00000175197	lost_on_activation	GO:0048870	cell motility
+15	DDIT3	ENSG00000175197	lost_on_activation	GO:0019725	cellular homeostasis
+15	DDIT3	ENSG00000175197	lost_on_activation	GO:0044238	primary metabolic process
+15	DDIT3	ENSG00000175197	lost_on_activation	GO:0012501	programmed cell death
+15	DDIT3	ENSG00000175197	lost_on_activation	GO:0010468	regulation of gene expression
+15	DDIT3	ENSG00000175197	lost_on_activation	GO:0023052	signaling
+15	DDIT3	ENSG00000175197	lost_on_activation	GO:0055085	transmembrane transport
+16	TRAF3IP3	ENSG00000009790	lost_on_activation	GO:0010468	regulation of gene expression
+16	TRAF3IP3	ENSG00000009790	lost_on_activation	GO:0023052	signaling
+17	SLC7A11	ENSG00000151012	lost_on_activation	GO:0019725	cellular homeostasis
+17	SLC7A11	ENSG00000151012	lost_on_activation	GO:0055085	transmembrane transport
+18	SDCBP	ENSG00000137575	lost_on_activation	GO:0048870	cell motility
+18	SDCBP	ENSG00000137575	lost_on_activation	GO:0022607	cellular component assembly
+18	SDCBP	ENSG00000137575	lost_on_activation	GO:0010468	regulation of gene expression
+18	SDCBP	ENSG00000137575	lost_on_activation	GO:0023052	signaling
+19	MICAL2	ENSG00000133816	lost_on_activation	GO:0008152	metabolic process
+19	MICAL2	ENSG00000133816	lost_on_activation	GO:0010468	regulation of gene expression
+20	EDEM1	ENSG00000134109	lost_on_activation	GO:0044238	primary metabolic process
+22	RAB11FIP1	ENSG00000156675	lost_on_activation	GO:0016192	vesicle-mediated transport
+23	BCL2L1	ENSG00000171552	lost_on_activation	GO:0012501	programmed cell death
+23	BCL2L1	ENSG00000171552	lost_on_activation	GO:0023052	signaling
+23	BCL2L1	ENSG00000171552	lost_on_activation	GO:0055085	transmembrane transport
+24	IL1RAP	ENSG00000196083	lost_on_activation	GO:0007155	cell adhesion
+24	IL1RAP	ENSG00000196083	lost_on_activation	GO:0022607	cellular component assembly
+24	IL1RAP	ENSG00000196083	lost_on_activation	GO:0010468	regulation of gene expression
+24	IL1RAP	ENSG00000196083	lost_on_activation	GO:0023052	signaling
+25	WIPI1	ENSG00000070540	lost_on_activation	GO:0006914	autophagy
+25	WIPI1	ENSG00000070540	lost_on_activation	GO:0022607	cellular component assembly
+25	WIPI1	ENSG00000070540	lost_on_activation	GO:0006091	generation of precursor metabolites and energy
+25	WIPI1	ENSG00000070540	lost_on_activation	GO:0044238	primary metabolic process
+25	WIPI1	ENSG00000070540	lost_on_activation	GO:0016192	vesicle-mediated transport
+26	PMAIP1	ENSG00000141682	lost_on_activation	GO:0044238	primary metabolic process
+26	PMAIP1	ENSG00000141682	lost_on_activation	GO:0012501	programmed cell death
+26	PMAIP1	ENSG00000141682	lost_on_activation	GO:0023052	signaling
+27	CTLA4	ENSG00000163599	lost_on_activation	GO:0023052	signaling
+28	TRUB1	ENSG00000165832	lost_on_activation	GO:0010468	regulation of gene expression
+28	TRUB1	ENSG00000165832	lost_on_activation	GO:0016070	RNA metabolic process
+29	MAPRE2	ENSG00000166974	lost_on_activation	GO:0022402	cell cycle process
+29	MAPRE2	ENSG00000166974	lost_on_activation	GO:0022607	cellular component assembly
+30	MAP2K1	ENSG00000169032	lost_on_activation	GO:0010468	regulation of gene expression
+30	MAP2K1	ENSG00000169032	lost_on_activation	GO:0023052	signaling
+31	SESN2	ENSG00000130766	lost_on_activation	GO:0098754	detoxification
+31	SESN2	ENSG00000130766	lost_on_activation	GO:0008152	metabolic process
+31	SESN2	ENSG00000130766	lost_on_activation	GO:0010468	regulation of gene expression
+31	SESN2	ENSG00000130766	lost_on_activation	GO:0023052	signaling
+32	PSAT1	ENSG00000135069	lost_on_activation	GO:0044238	primary metabolic process
+33	TRIB3	ENSG00000101255	lost_on_activation	GO:0012501	programmed cell death
+33	TRIB3	ENSG00000101255	lost_on_activation	GO:0010468	regulation of gene expression
+33	TRIB3	ENSG00000101255	lost_on_activation	GO:0023052	signaling
+34	STAP1	ENSG00000035720	lost_on_activation	GO:0010468	regulation of gene expression
+34	STAP1	ENSG00000035720	lost_on_activation	GO:0023052	signaling
+35	CREM	ENSG00000095794	lost_on_activation	GO:0010468	regulation of gene expression
+35	CREM	ENSG00000095794	lost_on_activation	GO:0023052	signaling
+37	CPD	ENSG00000108582	lost_on_activation	GO:0044238	primary metabolic process
+38	GNPTAB	ENSG00000111670	lost_on_activation	GO:0044238	primary metabolic process
+39	NARS1	ENSG00000134440	lost_on_activation	GO:0048870	cell motility
+39	NARS1	ENSG00000134440	lost_on_activation	GO:0016070	RNA metabolic process
+39	NARS1	ENSG00000134440	lost_on_activation	GO:0006412	translation
+41	CREB3L2	ENSG00000182158	lost_on_activation	GO:0010468	regulation of gene expression
+41	CREB3L2	ENSG00000182158	lost_on_activation	GO:0016192	vesicle-mediated transport
+43	SLC7A5	ENSG00000103257	lost_on_activation	GO:0010468	regulation of gene expression
+43	SLC7A5	ENSG00000103257	lost_on_activation	GO:0055085	transmembrane transport
+44	TNFSF14	ENSG00000125735	lost_on_activation	GO:0012501	programmed cell death
+44	TNFSF14	ENSG00000125735	lost_on_activation	GO:0010468	regulation of gene expression
+44	TNFSF14	ENSG00000125735	lost_on_activation	GO:0023052	signaling
+45	ADORA2A	ENSG00000128271	lost_on_activation	GO:0012501	programmed cell death
+45	ADORA2A	ENSG00000128271	lost_on_activation	GO:0010468	regulation of gene expression
+45	ADORA2A	ENSG00000128271	lost_on_activation	GO:0023052	signaling
+46	CD68	ENSG00000129226	lost_on_activation	GO:0023052	signaling
+47	RHOB	ENSG00000143878	lost_on_activation	GO:0007155	cell adhesion
+47	RHOB	ENSG00000143878	lost_on_activation	GO:0022402	cell cycle process
+47	RHOB	ENSG00000143878	lost_on_activation	GO:0012501	programmed cell death
+47	RHOB	ENSG00000143878	lost_on_activation	GO:0023052	signaling
+47	RHOB	ENSG00000143878	lost_on_activation	GO:0016192	vesicle-mediated transport
+48	SYTL3	ENSG00000164674	lost_on_activation	GO:0016192	vesicle-mediated transport
+49	INSIG1	ENSG00000186480	lost_on_activation	GO:0006629	lipid metabolic process
+49	INSIG1	ENSG00000186480	lost_on_activation	GO:0010468	regulation of gene expression
+49	INSIG1	ENSG00000186480	lost_on_activation	GO:0023052	signaling
+50	FAM3C	ENSG00000196937	lost_on_activation	GO:0023052	signaling
+51	TXNRD1	ENSG00000198431	lost_on_activation	GO:0019725	cellular homeostasis
+51	TXNRD1	ENSG00000198431	lost_on_activation	GO:0098754	detoxification
+51	TXNRD1	ENSG00000198431	lost_on_activation	GO:0008152	metabolic process
+51	TXNRD1	ENSG00000198431	lost_on_activation	GO:0023052	signaling
+52	SPIN1	ENSG00000106723	lost_on_activation	GO:0022607	cellular component assembly
+52	SPIN1	ENSG00000106723	lost_on_activation	GO:0006351	DNA-templated transcription
+52	SPIN1	ENSG00000106723	lost_on_activation	GO:0010468	regulation of gene expression
+53	TLE5	ENSG00000104964	gained_on_activation	GO:0010468	regulation of gene expression
+54	RASSF3	ENSG00000153179	gained_on_activation	GO:0023052	signaling
+55	HAPLN3	ENSG00000140511	gained_on_activation	GO:0007155	cell adhesion
+56	TRIM22	ENSG00000132274	gained_on_activation	GO:0044238	primary metabolic process
+56	TRIM22	ENSG00000132274	gained_on_activation	GO:0010468	regulation of gene expression
+57	MPI	ENSG00000178802	gained_on_activation	GO:0044238	primary metabolic process
+58	FBXL8	ENSG00000135722	gained_on_activation	GO:0044238	primary metabolic process
+59	CALM3	ENSG00000160014	gained_on_activation	GO:0023052	signaling
+62	SPSB1	ENSG00000171621	gained_on_activation	GO:0044238	primary metabolic process
+63	CCR7	ENSG00000126353	gained_on_activation	GO:0048870	cell motility
+63	CCR7	ENSG00000126353	gained_on_activation	GO:0010468	regulation of gene expression
+63	CCR7	ENSG00000126353	gained_on_activation	GO:0023052	signaling
+63	CCR7	ENSG00000126353	gained_on_activation	GO:0055085	transmembrane transport
+64	TAP1	ENSG00000168394	gained_on_activation	GO:0055085	transmembrane transport
+65	AEN	ENSG00000181026	gained_on_activation	GO:0012501	programmed cell death
+65	AEN	ENSG00000181026	gained_on_activation	GO:0016070	RNA metabolic process
+65	AEN	ENSG00000181026	gained_on_activation	GO:0023052	signaling
+66	FAM111B	ENSG00000189057	gained_on_activation	GO:0006281	DNA repair
+66	FAM111B	ENSG00000189057	gained_on_activation	GO:0006260	DNA replication
+68	ARHGDIB	ENSG00000111348	gained_on_activation	GO:0023052	signaling
+69	NUSAP1	ENSG00000137804	gained_on_activation	GO:0022402	cell cycle process
+70	H2AX	ENSG00000188486	gained_on_activation	GO:0022607	cellular component assembly
+70	H2AX	ENSG00000188486	gained_on_activation	GO:0006281	DNA repair
+70	H2AX	ENSG00000188486	gained_on_activation	GO:0010468	regulation of gene expression
+70	H2AX	ENSG00000188486	gained_on_activation	GO:0023052	signaling
+71	CDC25B	ENSG00000101224	gained_on_activation	GO:0022402	cell cycle process
+71	CDC25B	ENSG00000101224	gained_on_activation	GO:0044238	primary metabolic process
+72	S100A10	ENSG00000197747	gained_on_activation	GO:0022607	cellular component assembly
+72	S100A10	ENSG00000197747	gained_on_activation	GO:0006351	DNA-templated transcription
+72	S100A10	ENSG00000197747	gained_on_activation	GO:0010468	regulation of gene expression
+72	S100A10	ENSG00000197747	gained_on_activation	GO:0016192	vesicle-mediated transport
+73	PSMB9	ENSG00000240065	gained_on_activation	GO:0044238	primary metabolic process
+73	PSMB9	ENSG00000240065	gained_on_activation	GO:0010468	regulation of gene expression
+74	BAX	ENSG00000087088	gained_on_activation	GO:0019725	cellular homeostasis
+74	BAX	ENSG00000087088	gained_on_activation	GO:0012501	programmed cell death
+74	BAX	ENSG00000087088	gained_on_activation	GO:0023052	signaling
+74	BAX	ENSG00000087088	gained_on_activation	GO:0055085	transmembrane transport
+75	SH3BP5	ENSG00000131370	gained_on_activation	GO:0023052	signaling
+76	HMGB2	ENSG00000164104	gained_on_activation	GO:0048870	cell motility
+76	HMGB2	ENSG00000164104	gained_on_activation	GO:0022607	cellular component assembly
+76	HMGB2	ENSG00000164104	gained_on_activation	GO:0006310	DNA recombination
+76	HMGB2	ENSG00000164104	gained_on_activation	GO:0006281	DNA repair
+76	HMGB2	ENSG00000164104	gained_on_activation	GO:0012501	programmed cell death
+76	HMGB2	ENSG00000164104	gained_on_activation	GO:0010468	regulation of gene expression
+76	HMGB2	ENSG00000164104	gained_on_activation	GO:0023052	signaling
+77	FANCI	ENSG00000140525	gained_on_activation	GO:0006281	DNA repair
+78	NCAPG2	ENSG00000146918	gained_on_activation	GO:0022402	cell cycle process
+79	NSMCE1	ENSG00000169189	gained_on_activation	GO:0006310	DNA recombination
+79	NSMCE1	ENSG00000169189	gained_on_activation	GO:0006281	DNA repair
+80	CD47	ENSG00000196776	gained_on_activation	GO:0007155	cell adhesion
+80	CD47	ENSG00000196776	gained_on_activation	GO:0048870	cell motility
+80	CD47	ENSG00000196776	gained_on_activation	GO:0010468	regulation of gene expression
+80	CD47	ENSG00000196776	gained_on_activation	GO:0023052	signaling
+81	HSPH1	ENSG00000120694	lost_on_activation	GO:0006457	protein folding
+82	SNRPB2	ENSG00000125870	lost_on_activation	GO:0022607	cellular component assembly
+82	SNRPB2	ENSG00000125870	lost_on_activation	GO:0016070	RNA metabolic process
+83	RBM38	ENSG00000132819	lost_on_activation	GO:0010468	regulation of gene expression
+83	RBM38	ENSG00000132819	lost_on_activation	GO:0023052	signaling
+84	OSM	ENSG00000099985	lost_on_activation	GO:0010468	regulation of gene expression
+84	OSM	ENSG00000099985	lost_on_activation	GO:0023052	signaling
+85	MAN1A1	ENSG00000111885	lost_on_activation	GO:0044238	primary metabolic process
+86	HMGCS1	ENSG00000112972	lost_on_activation	GO:0006629	lipid metabolic process
+87	GPR65	ENSG00000140030	lost_on_activation	GO:0010468	regulation of gene expression
+87	GPR65	ENSG00000140030	lost_on_activation	GO:0023052	signaling
+88	B3GALNT1	ENSG00000169255	lost_on_activation	GO:0006629	lipid metabolic process
+89	RBKS	ENSG00000171174	lost_on_activation	GO:0006091	generation of precursor metabolites and energy
+89	RBKS	ENSG00000171174	lost_on_activation	GO:0044238	primary metabolic process
+90	EIF4EBP1	ENSG00000187840	lost_on_activation	GO:0022402	cell cycle process
+90	EIF4EBP1	ENSG00000187840	lost_on_activation	GO:0010468	regulation of gene expression
+90	EIF4EBP1	ENSG00000187840	lost_on_activation	GO:0023052	signaling
+91	BIRC3	ENSG00000023445	lost_on_activation	GO:0012501	programmed cell death
+91	BIRC3	ENSG00000023445	lost_on_activation	GO:0023052	signaling
+92	PLPP1	ENSG00000067113	lost_on_activation	GO:0006629	lipid metabolic process
+92	PLPP1	ENSG00000067113	lost_on_activation	GO:0023052	signaling
+93	ERLEC1	ENSG00000068912	lost_on_activation	GO:0044238	primary metabolic process
+93	ERLEC1	ENSG00000068912	lost_on_activation	GO:0023052	signaling
+94	TUBE1	ENSG00000074935	lost_on_activation	GO:0022402	cell cycle process
+95	SNX10	ENSG00000086300	lost_on_activation	GO:0022607	cellular component assembly
+96	EIF5	ENSG00000100664	lost_on_activation	GO:0022607	cellular component assembly
+96	EIF5	ENSG00000100664	lost_on_activation	GO:0010468	regulation of gene expression
+96	EIF5	ENSG00000100664	lost_on_activation	GO:0006412	translation
+97	ERI1	ENSG00000104626	lost_on_activation	GO:0010468	regulation of gene expression
+97	ERI1	ENSG00000104626	lost_on_activation	GO:0016070	RNA metabolic process
+98	LPXN	ENSG00000110031	lost_on_activation	GO:0007155	cell adhesion
+98	LPXN	ENSG00000110031	lost_on_activation	GO:0022607	cellular component assembly
+98	LPXN	ENSG00000110031	lost_on_activation	GO:0023052	signaling
+99	TNFAIP3	ENSG00000118503	lost_on_activation	GO:0044238	primary metabolic process
+99	TNFAIP3	ENSG00000118503	lost_on_activation	GO:0010468	regulation of gene expression
+99	TNFAIP3	ENSG00000118503	lost_on_activation	GO:0023052	signaling
+102	CLSTN3	ENSG00000139182	lost_on_activation	GO:0007155	cell adhesion
+102	CLSTN3	ENSG00000139182	lost_on_activation	GO:0022607	cellular component assembly
+102	CLSTN3	ENSG00000139182	lost_on_activation	GO:0044238	primary metabolic process
+103	TMBIM6	ENSG00000139644	lost_on_activation	GO:0010468	regulation of gene expression
+103	TMBIM6	ENSG00000139644	lost_on_activation	GO:0055085	transmembrane transport
+104	CRIM1	ENSG00000150938	lost_on_activation	GO:0023052	signaling
+106	TGFBR2	ENSG00000163513	lost_on_activation	GO:0007155	cell adhesion
+106	TGFBR2	ENSG00000163513	lost_on_activation	GO:0012501	programmed cell death
+106	TGFBR2	ENSG00000163513	lost_on_activation	GO:0023052	signaling
+107	TLR6	ENSG00000174130	lost_on_activation	GO:0008152	metabolic process
+107	TLR6	ENSG00000174130	lost_on_activation	GO:0010468	regulation of gene expression
+107	TLR6	ENSG00000174130	lost_on_activation	GO:0023052	signaling
+109	LTN1	ENSG00000198862	lost_on_activation	GO:0006412	translation
+110	SMOX	ENSG00000088826	lost_on_activation	GO:0008152	metabolic process
+111	SNX9	ENSG00000130340	lost_on_activation	GO:0022402	cell cycle process
+111	SNX9	ENSG00000130340	lost_on_activation	GO:0022607	cellular component assembly
+111	SNX9	ENSG00000130340	lost_on_activation	GO:0016192	vesicle-mediated transport
+112	ITGB7	ENSG00000139626	lost_on_activation	GO:0007155	cell adhesion
+112	ITGB7	ENSG00000139626	lost_on_activation	GO:0048870	cell motility
+112	ITGB7	ENSG00000139626	lost_on_activation	GO:0023052	signaling
+113	PEX2	ENSG00000164751	lost_on_activation	GO:0006914	autophagy
+113	PEX2	ENSG00000164751	lost_on_activation	GO:0006629	lipid metabolic process
+113	PEX2	ENSG00000164751	lost_on_activation	GO:0055085	transmembrane transport
+115	IGF2R	ENSG00000197081	lost_on_activation	GO:0023052	signaling
+115	IGF2R	ENSG00000197081	lost_on_activation	GO:0016192	vesicle-mediated transport
+116	APOL6	ENSG00000221963	lost_on_activation	GO:0044238	primary metabolic process
+118	RNF19A	ENSG00000034677	lost_on_activation	GO:0044238	primary metabolic process
+119	ATP11B	ENSG00000058063	lost_on_activation	GO:0055085	transmembrane transport
+120	VDAC3	ENSG00000078668	lost_on_activation	GO:0048870	cell motility
+120	VDAC3	ENSG00000078668	lost_on_activation	GO:0022607	cellular component assembly
+120	VDAC3	ENSG00000078668	lost_on_activation	GO:0055085	transmembrane transport
+121	DDX1	ENSG00000079785	lost_on_activation	GO:0022607	cellular component assembly
+121	DDX1	ENSG00000079785	lost_on_activation	GO:0006281	DNA repair
+121	DDX1	ENSG00000079785	lost_on_activation	GO:0010468	regulation of gene expression
+121	DDX1	ENSG00000079785	lost_on_activation	GO:0016070	RNA metabolic process
+122	CORO1A	ENSG00000102879	lost_on_activation	GO:0007155	cell adhesion
+122	CORO1A	ENSG00000102879	lost_on_activation	GO:0048870	cell motility
+122	CORO1A	ENSG00000102879	lost_on_activation	GO:0022607	cellular component assembly
+122	CORO1A	ENSG00000102879	lost_on_activation	GO:0016192	vesicle-mediated transport
+123	EIF4G1	ENSG00000114867	lost_on_activation	GO:0010468	regulation of gene expression
+123	EIF4G1	ENSG00000114867	lost_on_activation	GO:0006412	translation
+124	TNFSF10	ENSG00000121858	lost_on_activation	GO:0012501	programmed cell death
+124	TNFSF10	ENSG00000121858	lost_on_activation	GO:0023052	signaling
+125	TOMM40	ENSG00000130204	lost_on_activation	GO:0055085	transmembrane transport
+126	PELO	ENSG00000152684	lost_on_activation	GO:0010468	regulation of gene expression
+126	PELO	ENSG00000152684	lost_on_activation	GO:0016070	RNA metabolic process
+126	PELO	ENSG00000152684	lost_on_activation	GO:0006412	translation
+127	CYRIB	ENSG00000153310	lost_on_activation	GO:0010468	regulation of gene expression
+128	ATP2A2	ENSG00000174437	lost_on_activation	GO:0006914	autophagy
+128	ATP2A2	ENSG00000174437	lost_on_activation	GO:0007155	cell adhesion
+128	ATP2A2	ENSG00000174437	lost_on_activation	GO:0022607	cellular component assembly
+128	ATP2A2	ENSG00000174437	lost_on_activation	GO:0019725	cellular homeostasis
+128	ATP2A2	ENSG00000174437	lost_on_activation	GO:0023052	signaling
+128	ATP2A2	ENSG00000174437	lost_on_activation	GO:0055085	transmembrane transport
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0022402	cell cycle process
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0022607	cellular component assembly
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0006310	DNA recombination
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0006281	DNA repair
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0012501	programmed cell death
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0010468	regulation of gene expression
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0016070	RNA metabolic process
+129	PRKDC	ENSG00000253729	lost_on_activation	GO:0023052	signaling
+130	RHBDD2	ENSG00000005486	lost_on_activation	GO:0044238	primary metabolic process
+130	RHBDD2	ENSG00000005486	lost_on_activation	GO:0023052	signaling
+132	SLC2A3	ENSG00000059804	lost_on_activation	GO:0044238	primary metabolic process
+132	SLC2A3	ENSG00000059804	lost_on_activation	GO:0055085	transmembrane transport
+133	DNAJC3	ENSG00000102580	lost_on_activation	GO:0006457	protein folding
+133	DNAJC3	ENSG00000102580	lost_on_activation	GO:0010468	regulation of gene expression
+133	DNAJC3	ENSG00000102580	lost_on_activation	GO:0023052	signaling
+134	MAP3K8	ENSG00000107968	lost_on_activation	GO:0044238	primary metabolic process
+134	MAP3K8	ENSG00000107968	lost_on_activation	GO:0023052	signaling
+136	SFPQ	ENSG00000116560	lost_on_activation	GO:0006310	DNA recombination
+136	SFPQ	ENSG00000116560	lost_on_activation	GO:0006281	DNA repair
+136	SFPQ	ENSG00000116560	lost_on_activation	GO:0010468	regulation of gene expression
+136	SFPQ	ENSG00000116560	lost_on_activation	GO:0016070	RNA metabolic process
+137	IVNS1ABP	ENSG00000116679	lost_on_activation	GO:0006351	DNA-templated transcription
+138	TMED5	ENSG00000117500	lost_on_activation	GO:0016192	vesicle-mediated transport
+139	NDUFB3	ENSG00000119013	lost_on_activation	GO:0006091	generation of precursor metabolites and energy
+139	NDUFB3	ENSG00000119013	lost_on_activation	GO:0044238	primary metabolic process
+139	NDUFB3	ENSG00000119013	lost_on_activation	GO:0055085	transmembrane transport
+140	SCPEP1	ENSG00000121064	lost_on_activation	GO:0006629	lipid metabolic process
+141	INSIG2	ENSG00000125629	lost_on_activation	GO:0006629	lipid metabolic process
+141	INSIG2	ENSG00000125629	lost_on_activation	GO:0010468	regulation of gene expression
+141	INSIG2	ENSG00000125629	lost_on_activation	GO:0023052	signaling
+144	SLC7A1	ENSG00000139514	lost_on_activation	GO:0055085	transmembrane transport
+145	JAZF1	ENSG00000153814	lost_on_activation	GO:0010468	regulation of gene expression
+146	PHF6	ENSG00000156531	lost_on_activation	GO:0010468	regulation of gene expression
+147	TBC1D31	ENSG00000156787	lost_on_activation	GO:0022607	cellular component assembly
+148	WDR26	ENSG00000162923	lost_on_activation	GO:0044238	primary metabolic process
+149	CCR1	ENSG00000163823	lost_on_activation	GO:0007155	cell adhesion
+149	CCR1	ENSG00000163823	lost_on_activation	GO:0048870	cell motility
+149	CCR1	ENSG00000163823	lost_on_activation	GO:0019725	cellular homeostasis
+149	CCR1	ENSG00000163823	lost_on_activation	GO:0010468	regulation of gene expression
+149	CCR1	ENSG00000163823	lost_on_activation	GO:0023052	signaling
+149	CCR1	ENSG00000163823	lost_on_activation	GO:0016192	vesicle-mediated transport
+150	INPP5D	ENSG00000168918	lost_on_activation	GO:0006629	lipid metabolic process
+150	INPP5D	ENSG00000168918	lost_on_activation	GO:0023052	signaling
+151	B3GNT2	ENSG00000170340	lost_on_activation	GO:0044238	primary metabolic process
+153	MAF	ENSG00000178573	lost_on_activation	GO:0006351	DNA-templated transcription
+153	MAF	ENSG00000178573	lost_on_activation	GO:0010468	regulation of gene expression
+153	MAF	ENSG00000178573	lost_on_activation	GO:0023052	signaling
+154	SLC6A9	ENSG00000196517	lost_on_activation	GO:0055085	transmembrane transport
+155	ZBTB32	ENSG00000011590	lost_on_activation	GO:0010468	regulation of gene expression
+156	AFF4	ENSG00000072364	lost_on_activation	GO:0006351	DNA-templated transcription
+156	AFF4	ENSG00000072364	lost_on_activation	GO:0010468	regulation of gene expression
+158	NFE2L1	ENSG00000082641	lost_on_activation	GO:0019725	cellular homeostasis
+158	NFE2L1	ENSG00000082641	lost_on_activation	GO:0008152	metabolic process
+158	NFE2L1	ENSG00000082641	lost_on_activation	GO:0010468	regulation of gene expression
+158	NFE2L1	ENSG00000082641	lost_on_activation	GO:0023052	signaling
+159	ABI3	ENSG00000108798	lost_on_activation	GO:0048870	cell motility
+161	FBXL5	ENSG00000118564	lost_on_activation	GO:0019725	cellular homeostasis
+161	FBXL5	ENSG00000118564	lost_on_activation	GO:0044238	primary metabolic process
+162	KLF9	ENSG00000119138	lost_on_activation	GO:0010468	regulation of gene expression
+163	UFM1	ENSG00000120686	lost_on_activation	GO:0006914	autophagy
+163	UFM1	ENSG00000120686	lost_on_activation	GO:0044238	primary metabolic process
+164	NCOA3	ENSG00000124151	lost_on_activation	GO:0010468	regulation of gene expression
+164	NCOA3	ENSG00000124151	lost_on_activation	GO:0023052	signaling
+165	MBOAT7	ENSG00000125505	lost_on_activation	GO:0048870	cell motility
+165	MBOAT7	ENSG00000125505	lost_on_activation	GO:0006629	lipid metabolic process
+166	HCST	ENSG00000126264	lost_on_activation	GO:0044238	primary metabolic process
+167	AP4B1	ENSG00000134262	lost_on_activation	GO:0016192	vesicle-mediated transport
+168	IER3	ENSG00000137331	lost_on_activation	GO:0022402	cell cycle process
+168	IER3	ENSG00000137331	lost_on_activation	GO:0012501	programmed cell death
+168	IER3	ENSG00000137331	lost_on_activation	GO:0023052	signaling
+169	PRPSAP2	ENSG00000141127	lost_on_activation	GO:0044238	primary metabolic process
+170	SURF4	ENSG00000148248	lost_on_activation	GO:0016192	vesicle-mediated transport
+171	PRSS23	ENSG00000150687	lost_on_activation	GO:0044238	primary metabolic process
+172	MED8	ENSG00000159479	lost_on_activation	GO:0022607	cellular component assembly
+172	MED8	ENSG00000159479	lost_on_activation	GO:0006351	DNA-templated transcription
+172	MED8	ENSG00000159479	lost_on_activation	GO:0010468	regulation of gene expression
+173	AIM2	ENSG00000163568	lost_on_activation	GO:0022607	cellular component assembly
+173	AIM2	ENSG00000163568	lost_on_activation	GO:0019725	cellular homeostasis
+173	AIM2	ENSG00000163568	lost_on_activation	GO:0010468	regulation of gene expression
+173	AIM2	ENSG00000163568	lost_on_activation	GO:0023052	signaling
+175	NAP1L5	ENSG00000177432	lost_on_activation	GO:0022607	cellular component assembly
+176	RNF41	ENSG00000181852	lost_on_activation	GO:0044238	primary metabolic process
+176	RNF41	ENSG00000181852	lost_on_activation	GO:0012501	programmed cell death
+176	RNF41	ENSG00000181852	lost_on_activation	GO:0023052	signaling
+178	RXRA	ENSG00000186350	lost_on_activation	GO:0006351	DNA-templated transcription
+178	RXRA	ENSG00000186350	lost_on_activation	GO:0010468	regulation of gene expression
+178	RXRA	ENSG00000186350	lost_on_activation	GO:0023052	signaling
+179	NHLRC3	ENSG00000188811	lost_on_activation	GO:0044238	primary metabolic process
+180	MDM4	ENSG00000198625	lost_on_activation	GO:0022607	cellular component assembly
+180	MDM4	ENSG00000198625	lost_on_activation	GO:0010468	regulation of gene expression
+180	MDM4	ENSG00000198625	lost_on_activation	GO:0023052	signaling
+181	TRAM1	ENSG00000067167	lost_on_activation	GO:0055085	transmembrane transport
+182	NFKBIA	ENSG00000100906	lost_on_activation	GO:0010468	regulation of gene expression
+182	NFKBIA	ENSG00000100906	lost_on_activation	GO:0023052	signaling
+183	IFNG	ENSG00000111537	lost_on_activation	GO:0012501	programmed cell death
+183	IFNG	ENSG00000111537	lost_on_activation	GO:0010468	regulation of gene expression
+183	IFNG	ENSG00000111537	lost_on_activation	GO:0023052	signaling
+184	IFT57	ENSG00000114446	lost_on_activation	GO:0022607	cellular component assembly
+184	IFT57	ENSG00000114446	lost_on_activation	GO:0012501	programmed cell death
+185	DUSP4	ENSG00000120875	lost_on_activation	GO:0008152	metabolic process
+185	DUSP4	ENSG00000120875	lost_on_activation	GO:0023052	signaling
+186	STAT4	ENSG00000138378	lost_on_activation	GO:0010468	regulation of gene expression
+186	STAT4	ENSG00000138378	lost_on_activation	GO:0023052	signaling
+187	WARS1	ENSG00000140105	lost_on_activation	GO:0016070	RNA metabolic process
+187	WARS1	ENSG00000140105	lost_on_activation	GO:0023052	signaling
+187	WARS1	ENSG00000140105	lost_on_activation	GO:0006412	translation
+188	GALM	ENSG00000143891	lost_on_activation	GO:0044238	primary metabolic process
+189	NFKBID	ENSG00000167604	lost_on_activation	GO:0010468	regulation of gene expression
+189	NFKBID	ENSG00000167604	lost_on_activation	GO:0023052	signaling
+190	CENPF	ENSG00000117724	gained_on_activation	GO:0022402	cell cycle process
+190	CENPF	ENSG00000117724	gained_on_activation	GO:0022607	cellular component assembly
+190	CENPF	ENSG00000117724	gained_on_activation	GO:0010468	regulation of gene expression
+190	CENPF	ENSG00000117724	gained_on_activation	GO:0023052	signaling
+193	GEMIN4	ENSG00000179409	gained_on_activation	GO:0022607	cellular component assembly
+193	GEMIN4	ENSG00000179409	gained_on_activation	GO:0016070	RNA metabolic process
+194	CPNE1	ENSG00000214078	gained_on_activation	GO:0006629	lipid metabolic process
+194	CPNE1	ENSG00000214078	gained_on_activation	GO:0010468	regulation of gene expression
+194	CPNE1	ENSG00000214078	gained_on_activation	GO:0016192	vesicle-mediated transport
+195	SPAG5	ENSG00000076382	gained_on_activation	GO:0022402	cell cycle process
+196	ARHGEF18	ENSG00000104880	gained_on_activation	GO:0023052	signaling
+197	BTN3A3	ENSG00000111801	gained_on_activation	GO:0010468	regulation of gene expression
+197	BTN3A3	ENSG00000111801	gained_on_activation	GO:0023052	signaling
+198	CCNG1	ENSG00000113328	gained_on_activation	GO:0022402	cell cycle process
+199	APOL3	ENSG00000128284	gained_on_activation	GO:0044238	primary metabolic process
+200	GLUL	ENSG00000135821	gained_on_activation	GO:0019725	cellular homeostasis
+200	GLUL	ENSG00000135821	gained_on_activation	GO:0044238	primary metabolic process
+201	ATP8B2	ENSG00000143515	gained_on_activation	GO:0055085	transmembrane transport
+202	ANXA5	ENSG00000164111	gained_on_activation	GO:0023052	signaling
+203	MAL	ENSG00000172005	gained_on_activation	GO:0012501	programmed cell death
+204	DEAF1	ENSG00000177030	gained_on_activation	GO:0006351	DNA-templated transcription
+204	DEAF1	ENSG00000177030	gained_on_activation	GO:0010468	regulation of gene expression
+205	LITAF	ENSG00000189067	gained_on_activation	GO:0010468	regulation of gene expression
+207	VCL	ENSG00000035403	gained_on_activation	GO:0007155	cell adhesion
+207	VCL	ENSG00000035403	gained_on_activation	GO:0022607	cellular component assembly
+208	GSDMD	ENSG00000104518	gained_on_activation	GO:0022607	cellular component assembly
+208	GSDMD	ENSG00000104518	gained_on_activation	GO:0012501	programmed cell death
+208	GSDMD	ENSG00000104518	gained_on_activation	GO:0010468	regulation of gene expression
+208	GSDMD	ENSG00000104518	gained_on_activation	GO:0055085	transmembrane transport
+209	TOP2A	ENSG00000131747	gained_on_activation	GO:0022402	cell cycle process
+209	TOP2A	ENSG00000131747	gained_on_activation	GO:0006310	DNA recombination
+209	TOP2A	ENSG00000131747	gained_on_activation	GO:0012501	programmed cell death
+210	TESPA1	ENSG00000135426	gained_on_activation	GO:0022607	cellular component assembly
+211	TIAM1	ENSG00000156299	gained_on_activation	GO:0007155	cell adhesion
+211	TIAM1	ENSG00000156299	gained_on_activation	GO:0048870	cell motility
+211	TIAM1	ENSG00000156299	gained_on_activation	GO:0022607	cellular component assembly
+211	TIAM1	ENSG00000156299	gained_on_activation	GO:0023052	signaling
+212	CCNB2	ENSG00000157456	gained_on_activation	GO:0022402	cell cycle process
+213	LY6E	ENSG00000160932	gained_on_activation	GO:0023052	signaling
+214	DTX3L	ENSG00000163840	gained_on_activation	GO:0006281	DNA repair
+214	DTX3L	ENSG00000163840	gained_on_activation	GO:0010468	regulation of gene expression
+214	DTX3L	ENSG00000163840	gained_on_activation	GO:0023052	signaling
+214	DTX3L	ENSG00000163840	gained_on_activation	GO:0016192	vesicle-mediated transport
+215	PLEC	ENSG00000178209	gained_on_activation	GO:0022402	cell cycle process
+215	PLEC	ENSG00000178209	gained_on_activation	GO:0048870	cell motility
+215	PLEC	ENSG00000178209	gained_on_activation	GO:0022607	cellular component assembly
+215	PLEC	ENSG00000178209	gained_on_activation	GO:0006091	generation of precursor metabolites and energy
+216	SH3BP1	ENSG00000100092	gained_on_activation	GO:0048870	cell motility
+216	SH3BP1	ENSG00000100092	gained_on_activation	GO:0022607	cellular component assembly
+216	SH3BP1	ENSG00000100092	gained_on_activation	GO:0023052	signaling
+217	UBR2	ENSG00000024048	gained_on_activation	GO:0022402	cell cycle process
+217	UBR2	ENSG00000024048	gained_on_activation	GO:0022607	cellular component assembly
+217	UBR2	ENSG00000024048	gained_on_activation	GO:0006310	DNA recombination
+217	UBR2	ENSG00000024048	gained_on_activation	GO:0010468	regulation of gene expression
+219	DNPH1	ENSG00000112667	gained_on_activation	GO:0044238	primary metabolic process
+220	IRF1	ENSG00000125347	gained_on_activation	GO:0012501	programmed cell death
+220	IRF1	ENSG00000125347	gained_on_activation	GO:0010468	regulation of gene expression
+220	IRF1	ENSG00000125347	gained_on_activation	GO:0023052	signaling
+221	FDXR	ENSG00000161513	gained_on_activation	GO:0006091	generation of precursor metabolites and energy
+221	FDXR	ENSG00000161513	gained_on_activation	GO:0006629	lipid metabolic process
+222	PCMTD1	ENSG00000168300	gained_on_activation	GO:0044238	primary metabolic process
+223	PCGF5	ENSG00000180628	gained_on_activation	GO:0022607	cellular component assembly
+223	PCGF5	ENSG00000180628	gained_on_activation	GO:0010468	regulation of gene expression
+224	MAP4K4	ENSG00000071054	gained_on_activation	GO:0044238	primary metabolic process
+224	MAP4K4	ENSG00000071054	gained_on_activation	GO:0023052	signaling
+225	CD59	ENSG00000085063	gained_on_activation	GO:0023052	signaling
+226	ICAM2	ENSG00000108622	gained_on_activation	GO:0007155	cell adhesion
+226	ICAM2	ENSG00000108622	gained_on_activation	GO:0048870	cell motility
+226	ICAM2	ENSG00000108622	gained_on_activation	GO:0023052	signaling
+227	GPSM2	ENSG00000121957	gained_on_activation	GO:0022402	cell cycle process
+227	GPSM2	ENSG00000121957	gained_on_activation	GO:0023052	signaling
+228	MKRN1	ENSG00000133606	gained_on_activation	GO:0044238	primary metabolic process
+229	CEP55	ENSG00000138180	gained_on_activation	GO:0022402	cell cycle process
+231	PLAC8	ENSG00000145287	gained_on_activation	GO:0010468	regulation of gene expression
+232	UBE2L6	ENSG00000156587	gained_on_activation	GO:0044238	primary metabolic process
+234	UBXN1	ENSG00000162191	gained_on_activation	GO:0044238	primary metabolic process
+235	LRRC45	ENSG00000169683	gained_on_activation	GO:0022607	cellular component assembly
+236	KLF13	ENSG00000169926	gained_on_activation	GO:0006351	DNA-templated transcription
+236	KLF13	ENSG00000169926	gained_on_activation	GO:0010468	regulation of gene expression
+237	NDUFA3	ENSG00000170906	gained_on_activation	GO:0006091	generation of precursor metabolites and energy
+237	NDUFA3	ENSG00000170906	gained_on_activation	GO:0044238	primary metabolic process
+237	NDUFA3	ENSG00000170906	gained_on_activation	GO:0055085	transmembrane transport
+238	HOPX	ENSG00000171476	gained_on_activation	GO:0022607	cellular component assembly
+238	HOPX	ENSG00000171476	gained_on_activation	GO:0010468	regulation of gene expression
+239	STAT5B	ENSG00000173757	gained_on_activation	GO:0008152	metabolic process
+239	STAT5B	ENSG00000173757	gained_on_activation	GO:0010468	regulation of gene expression
+239	STAT5B	ENSG00000173757	gained_on_activation	GO:0023052	signaling
+240	H1-5	ENSG00000184357	gained_on_activation	GO:0022607	cellular component assembly
+240	H1-5	ENSG00000184357	gained_on_activation	GO:0010468	regulation of gene expression
+242	CHURC1	ENSG00000258289	gained_on_activation	GO:0010468	regulation of gene expression
+242	CHURC1	ENSG00000258289	gained_on_activation	GO:0023052	signaling
+243	TPR	ENSG00000047410	gained_on_activation	GO:0022402	cell cycle process
+243	TPR	ENSG00000047410	gained_on_activation	GO:0008152	metabolic process
+243	TPR	ENSG00000047410	gained_on_activation	GO:0010468	regulation of gene expression
+243	TPR	ENSG00000047410	gained_on_activation	GO:0023052	signaling
+244	ASPM	ENSG00000066279	gained_on_activation	GO:0022402	cell cycle process
+245	HMMR	ENSG00000072571	gained_on_activation	GO:0008152	metabolic process
+245	HMMR	ENSG00000072571	gained_on_activation	GO:0016192	vesicle-mediated transport
+246	MAPK1	ENSG00000100030	gained_on_activation	GO:0044238	primary metabolic process
+246	MAPK1	ENSG00000100030	gained_on_activation	GO:0012501	programmed cell death
+246	MAPK1	ENSG00000100030	gained_on_activation	GO:0010468	regulation of gene expression
+246	MAPK1	ENSG00000100030	gained_on_activation	GO:0023052	signaling
+246	MAPK1	ENSG00000100030	gained_on_activation	GO:0016192	vesicle-mediated transport
+247	CENPM	ENSG00000100162	gained_on_activation	GO:0022402	cell cycle process
+249	KIF20A	ENSG00000112984	gained_on_activation	GO:0022402	cell cycle process
+251	KDM3A	ENSG00000115548	gained_on_activation	GO:0008152	metabolic process
+251	KDM3A	ENSG00000115548	gained_on_activation	GO:0010468	regulation of gene expression
+251	KDM3A	ENSG00000115548	gained_on_activation	GO:0023052	signaling
+252	ACAT2	ENSG00000120437	gained_on_activation	GO:0006629	lipid metabolic process
+253	NCAPH	ENSG00000121152	gained_on_activation	GO:0022402	cell cycle process
+253	NCAPH	ENSG00000121152	gained_on_activation	GO:0006310	DNA recombination
+255	PPT1	ENSG00000131238	gained_on_activation	GO:0019725	cellular homeostasis
+255	PPT1	ENSG00000131238	gained_on_activation	GO:0006629	lipid metabolic process
+255	PPT1	ENSG00000131238	gained_on_activation	GO:0016192	vesicle-mediated transport
+256	BTG1	ENSG00000133639	gained_on_activation	GO:0048870	cell motility
+256	BTG1	ENSG00000133639	gained_on_activation	GO:0010468	regulation of gene expression
+257	PAN2	ENSG00000135473	gained_on_activation	GO:0010468	regulation of gene expression
+257	PAN2	ENSG00000135473	gained_on_activation	GO:0016070	RNA metabolic process
+258	NIBAN1	ENSG00000135842	gained_on_activation	GO:0010468	regulation of gene expression
+259	TMBIM1	ENSG00000135926	gained_on_activation	GO:0055085	transmembrane transport
+260	TP53	ENSG00000141510	gained_on_activation	GO:0006914	autophagy
+260	TP53	ENSG00000141510	gained_on_activation	GO:0022402	cell cycle process
+260	TP53	ENSG00000141510	gained_on_activation	GO:0022607	cellular component assembly
+260	TP53	ENSG00000141510	gained_on_activation	GO:0006281	DNA repair
+260	TP53	ENSG00000141510	gained_on_activation	GO:0006351	DNA-templated transcription
+260	TP53	ENSG00000141510	gained_on_activation	GO:0012501	programmed cell death
+260	TP53	ENSG00000141510	gained_on_activation	GO:0010468	regulation of gene expression
+260	TP53	ENSG00000141510	gained_on_activation	GO:0023052	signaling
+261	ATM	ENSG00000149311	gained_on_activation	GO:0006914	autophagy
+261	ATM	ENSG00000149311	gained_on_activation	GO:0022402	cell cycle process
+261	ATM	ENSG00000149311	gained_on_activation	GO:0006310	DNA recombination
+261	ATM	ENSG00000149311	gained_on_activation	GO:0006281	DNA repair
+261	ATM	ENSG00000149311	gained_on_activation	GO:0006629	lipid metabolic process
+261	ATM	ENSG00000149311	gained_on_activation	GO:0012501	programmed cell death
+261	ATM	ENSG00000149311	gained_on_activation	GO:0010468	regulation of gene expression
+261	ATM	ENSG00000149311	gained_on_activation	GO:0016070	RNA metabolic process
+261	ATM	ENSG00000149311	gained_on_activation	GO:0023052	signaling
+262	SLC37A3	ENSG00000157800	gained_on_activation	GO:0055085	transmembrane transport
+263	SPC24	ENSG00000161888	gained_on_activation	GO:0022402	cell cycle process
+263	SPC24	ENSG00000161888	gained_on_activation	GO:0023052	signaling
+264	MED11	ENSG00000161920	gained_on_activation	GO:0022607	cellular component assembly
+264	MED11	ENSG00000161920	gained_on_activation	GO:0006351	DNA-templated transcription
+264	MED11	ENSG00000161920	gained_on_activation	GO:0010468	regulation of gene expression
+267	ENDOG	ENSG00000167136	gained_on_activation	GO:0019725	cellular homeostasis
+267	ENDOG	ENSG00000167136	gained_on_activation	GO:0006310	DNA recombination
+267	ENDOG	ENSG00000167136	gained_on_activation	GO:0012501	programmed cell death
+268	H1-2	ENSG00000187837	gained_on_activation	GO:0022607	cellular component assembly
+268	H1-2	ENSG00000187837	gained_on_activation	GO:0010468	regulation of gene expression
+270	PSMB10	ENSG00000205220	gained_on_activation	GO:0044238	primary metabolic process
+270	PSMB10	ENSG00000205220	gained_on_activation	GO:0010468	regulation of gene expression
+271	ENO1	ENSG00000074800	gained_on_activation	GO:0006091	generation of precursor metabolites and energy
+271	ENO1	ENSG00000074800	gained_on_activation	GO:0044238	primary metabolic process
+271	ENO1	ENSG00000074800	gained_on_activation	GO:0010468	regulation of gene expression
+272	RAB10	ENSG00000084733	gained_on_activation	GO:0007155	cell adhesion
+272	RAB10	ENSG00000084733	gained_on_activation	GO:0016192	vesicle-mediated transport
+273	OAS1	ENSG00000089127	gained_on_activation	GO:0022607	cellular component assembly
+273	OAS1	ENSG00000089127	gained_on_activation	GO:0044238	primary metabolic process
+273	OAS1	ENSG00000089127	gained_on_activation	GO:0010468	regulation of gene expression
+273	OAS1	ENSG00000089127	gained_on_activation	GO:0023052	signaling
+275	ENO2	ENSG00000111674	gained_on_activation	GO:0006091	generation of precursor metabolites and energy
+275	ENO2	ENSG00000111674	gained_on_activation	GO:0044238	primary metabolic process
+276	NEK2	ENSG00000117650	gained_on_activation	GO:0022402	cell cycle process
+276	NEK2	ENSG00000117650	gained_on_activation	GO:0022607	cellular component assembly
+277	KDSR	ENSG00000119537	gained_on_activation	GO:0006629	lipid metabolic process
+278	CCNA2	ENSG00000145386	gained_on_activation	GO:0022402	cell cycle process
+278	CCNA2	ENSG00000145386	gained_on_activation	GO:0044238	primary metabolic process
+278	CCNA2	ENSG00000145386	gained_on_activation	GO:0023052	signaling
+279	TALDO1	ENSG00000177156	gained_on_activation	GO:0006091	generation of precursor metabolites and energy
+279	TALDO1	ENSG00000177156	gained_on_activation	GO:0044238	primary metabolic process

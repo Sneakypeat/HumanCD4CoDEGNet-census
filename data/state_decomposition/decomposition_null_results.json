@@ -1,0 +1,219 @@
+{
+  "basemean_filter": 10,
+  "nperm": 4000,
+  "flip_retention_vs_null": {
+    "k2": {
+      "rev": {
+        "n_flips": 116,
+        "observed_retained": 114,
+        "observed_rate": 0.9828,
+        "null_retained_mean": 115.3,
+        "null_rate": 0.9944,
+        "null_rate_95": [
+          0.9828,
+          1.0
+        ]
+      },
+      "stable": {
+        "n_flips": 676,
+        "observed_retained": 637,
+        "observed_rate": 0.9423,
+        "null_retained_mean": 660.5,
+        "null_rate": 0.9771,
+        "null_rate_95": [
+          0.9657,
+          0.9867
+        ]
+      }
+    },
+    "k3": {
+      "rev": {
+        "n_flips": 116,
+        "observed_retained": 115,
+        "observed_rate": 0.9914,
+        "null_retained_mean": 115.0,
+        "null_rate": 0.9914,
+        "null_rate_95": [
+          0.9739,
+          1.0
+        ]
+      },
+      "stable": {
+        "n_flips": 676,
+        "observed_retained": 623,
+        "observed_rate": 0.9216,
+        "null_retained_mean": 654.7,
+        "null_rate": 0.9685,
+        "null_rate_95": [
+          0.9541,
+          0.9793
+        ]
+      }
+    },
+    "k4": {
+      "rev": {
+        "n_flips": 116,
+        "observed_retained": 114,
+        "observed_rate": 0.9828,
+        "null_retained_mean": 114.9,
+        "null_rate": 0.9905,
+        "null_rate_95": [
+          0.9741,
+          1.0
+        ]
+      },
+      "stable": {
+        "n_flips": 676,
+        "observed_retained": 628,
+        "observed_rate": 0.929,
+        "null_retained_mean": 650.9,
+        "null_rate": 0.9629,
+        "null_rate_95": [
+          0.9452,
+          0.9764
+        ]
+      }
+    },
+    "multidim": {
+      "rev": {
+        "n_flips": 116,
+        "observed_retained": 103,
+        "observed_rate": 0.8879,
+        "null_retained_mean": 113.8,
+        "null_rate": 0.9806,
+        "null_rate_95": [
+          0.9483,
+          1.0
+        ]
+      },
+      "stable": {
+        "n_flips": 676,
+        "observed_retained": 605,
+        "observed_rate": 0.895,
+        "null_retained_mean": 640.4,
+        "null_rate": 0.9473,
+        "null_rate_95": [
+          0.9289,
+          0.9661
+        ]
+      }
+    }
+  },
+  "flip_loss_specificity": {
+    "k3": {
+      "rev_retained": 115,
+      "rev_lost": 1,
+      "rev_rate": 0.9914,
+      "stable_retained": 623,
+      "stable_lost": 53,
+      "stable_rate": 0.9216,
+      "fisher_or": 9.783,
+      "fisher_p": 0.0024,
+      "eligible_for_removal": 10,
+      "n_rev_flips": 116,
+      "eligible_frac": 0.0862,
+      "median_weaker_endpoint": 0.0952,
+      "median_max_abs_composition": 0.0159
+    },
+    "multidim": {
+      "rev_retained": 103,
+      "rev_lost": 13,
+      "rev_rate": 0.8879,
+      "stable_retained": 605,
+      "stable_lost": 71,
+      "stable_rate": 0.895,
+      "fisher_or": 0.93,
+      "fisher_p": 0.8702,
+      "eligible_for_removal": 35,
+      "n_rev_flips": 116,
+      "eligible_frac": 0.3017,
+      "median_weaker_endpoint": 0.0952,
+      "median_max_abs_composition": 0.0412
+    }
+  },
+  "composition_fraction_vs_null": {
+    "k2": {
+      "rev": {
+        "observed_median": 0.0567,
+        "null_median": 0.0169,
+        "real_excess": 0.0399
+      },
+      "stable": {
+        "observed_median": 0.0436,
+        "null_median": 0.0144,
+        "real_excess": 0.0292
+      }
+    },
+    "k3": {
+      "rev": {
+        "observed_median": 0.0642,
+        "null_median": 0.0231,
+        "real_excess": 0.0411
+      },
+      "stable": {
+        "observed_median": 0.0498,
+        "null_median": 0.0202,
+        "real_excess": 0.0296
+      }
+    },
+    "k4": {
+      "rev": {
+        "observed_median": 0.0716,
+        "null_median": 0.0262,
+        "real_excess": 0.0454
+      },
+      "stable": {
+        "observed_median": 0.0557,
+        "null_median": 0.023,
+        "real_excess": 0.0327
+      }
+    },
+    "multidim": {
+      "rev": {
+        "observed_median": 0.1332,
+        "null_median": 0.0362,
+        "real_excess": 0.097
+      },
+      "stable": {
+        "observed_median": 0.0968,
+        "null_median": 0.0315,
+        "real_excess": 0.0652
+      }
+    }
+  },
+  "matched_estimator": {
+    "composition_fraction_skew": 2.979,
+    "composition_fraction_mean": 0.0814,
+    "composition_fraction_median": 0.0508,
+    "note": "the primary statistic is a MEDIAN of a right-skewed difference, so its permutation null centre is negative by construction; read the centred effect, or use the mean-based statistic whose null centre is ~0",
+    "median_stat_null_centre": -0.01048,
+    "median_stat_null_sd": 0.00799,
+    "median_stat_observed": -0.00456,
+    "median_stat_centred_effect": 0.00592,
+    "median_stat_p_one_sided": 0.2214,
+    "mean_stat_null_centre": -3e-05,
+    "mean_stat_observed": 0.00282,
+    "mean_stat_centred_effect": 0.00285,
+    "mean_stat_p_one_sided": 0.3612
+  },
+  "occupancy_donor_reproducibility": {
+    "Resting": {
+      "n_regulators": 28,
+      "spearman_rho": 0.749,
+      "p": 4.468214571482014e-06,
+      "boot95": [
+        0.468,
+        0.885
+      ]
+    },
+    "Stimulated": {
+      "n_regulators": 28,
+      "spearman_rho": 0.552,
+      "p": 0.0023098363443268045,
+      "boot95": [
+        0.172,
+        0.817
+      ]
+    }
+  }
+}

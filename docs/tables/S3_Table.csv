@@ -1,0 +1,17 @@
+tier,regulator,target,log2FC_Rest,log2FC_Stim48h,evidence,panel_role
+1 · Anchor,CBFB (RUNX cofactor),IL2RA / CD25 (flow),+2.68,-0.50,core · donor-repro · Arce ×3,known-answer calibrator
+2 · Confirmatory,STAT5B (TF),"GNLY (flow, perm)",-2.98,+2.21,core · Arce-recurrent,large-effect effector
+2 · Confirmatory,MED24 (Mediator),LTA (ELISA),-0.57,+0.85,core · Arce-recurrent,secreted cytokine
+2 · Confirmatory,MED12 (Mediator·CDK8),CD68 (flow),+1.19,-1.13,core · Arce-recurrent,MED12 baseline-rate check
+2 · Confirmatory,BATF (TF),AHR (qPCR),+0.55,-0.64,core · Arce-recurrent,immunoregulatory target
+3 · Co-activator (untested),CCNC (CDK8 cyclin),CCR5 (flow),+0.88,-1.37,core · top per-edge reverser,novel; CCR5 panel
+3 · Co-activator (untested),CCNC (CDK8 cyclin),CCR1 (flow),+1.52,-1.13,core,novel
+3 · Co-activator (untested),TADA2B (SAGA),CCR7 (flow),-1.23,+1.72,core · SAGA absent from Arce,novel; CCR7 panel
+3 · Co-activator (untested),TAF6L (SAGA),CCR7 (flow),-1.17,+1.61,core · SAGA absent from Arce,novel; CCR7 panel
+4 · TCR-proximal (untested),VAV1 (GEF),CCR5 (flow),-1.64,+2.23,core,state-gate
+4 · TCR-proximal (untested),ZAP70 (kinase),CCR5 (flow),-1.87,+3.62,core · dramatic flip,state-gate
+4 · TCR-proximal (untested),PNPT1 (exoribonuclease),IL2 (ELISA/ICS),+4.47,-3.96,core · largest flip,secreted IL-2
+5 · Stable control,MED24 (Mediator),CCR5 (flow),-1.09,-3.27,Arce-confirmed stable,control for CCR5 reversers
+5 · Stable control,MED24 (Mediator),CCR7 (flow),-1.11,-0.90,Arce-confirmed stable,control for CCR7 reversers
+5 · Stable control,MED12 (Mediator·CDK8),CD69 (flow),+1.50,+0.76,Arce-confirmed stable,activation-marker control
+5 · Stable control,CBFB (RUNX cofactor),STX3 (qPCR),-2.55,-3.10,Arce-confirmed stable,within-regulator control for anchor

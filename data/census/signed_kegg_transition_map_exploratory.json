@@ -1,0 +1,148 @@
+{
+  "audit_repairs": [
+    "Disclosed and asserted exact union coverage for the 113-term descriptive family and 60-term signed-test family.",
+    "Renamed robust and joint language to exploratory localisation under complementary target- and regulator-margin gates.",
+    "Constrained the antigen-processing result to gained-on-activation orientation overrepresentation and its signed-score leaders.",
+    "Repaired A4 panel collisions, clipping, subset labelling, marker-area encoding, global-driver labels, and bounded footer text."
+  ],
+  "census": {
+    "both_state_significant_trans_dyads": 83489,
+    "gained_dyads": 2081,
+    "gained_membership": 1412,
+    "gained_only": 1132,
+    "informative_gained_edges": 1898,
+    "informative_lost_edges": 2045,
+    "informative_reversal_edges": 3943,
+    "informative_targets": 2259,
+    "lost_dyads": 2298,
+    "lost_membership": 1445,
+    "lost_only": 1165,
+    "mixed": 280,
+    "noninformative_reversal_edges": 436,
+    "noninformative_reversal_targets": 318,
+    "reversal_dyads": 4379,
+    "sign_stable_dyads": 79110,
+    "union": 2577
+  },
+  "claim_boundary": "Conditional descriptive and exploratory pathway-orientation diagnostic. Passing both complementary single-margin gates is not a joint-conditioned null and does not establish pathway activity, suppression, Treg programming, mechanism, or whole-network rewiring.",
+  "created_utc": "2026-08-25T07:29:37.356712+00:00",
+  "exploratory_localisation": {
+    "claim_boundary": "Orientation overrepresentation only; not pathway activation, movement, or rewiring.",
+    "kegg_id": "hsa04612",
+    "leading_target_U": {
+      "PSME1": -5.157894736842105,
+      "TAP1": -3.9130434782608696
+    },
+    "leading_targets": [
+      "PSME1",
+      "TAP1"
+    ],
+    "leading_targets_share_of_signed_score": 0.7982464824640344,
+    "leading_targets_share_percent_rounded": 80,
+    "pathway": "Antigen processing and presentation",
+    "regulator_maxT_p": 4.999750012499375e-05,
+    "result": "Gained-on-activation orientation is overrepresented relative to both complementary single-margin nulls.",
+    "score_share_definition": "(U_PSME1 + U_TAP1) / sum pathway U_t; both numerator and denominator have gained-orientation sign",
+    "target_maxT_p": 0.0034498275086245686
+  },
+  "pathway_family": {
+    "descriptive_terms": 113,
+    "excluded_categories": [
+      "Drug Development",
+      "Human Diseases"
+    ],
+    "full_census_target_size": [
+      15,
+      200
+    ],
+    "library": "MSigDB C2:CP:KEGG_LEGACY v2026.1.Hs",
+    "minimum_informative_targets": 10,
+    "signed_test_terms": 60
+  },
+  "pathway_union_coverage": {
+    "descriptive_family_reversal_dyads_covered": 1443,
+    "descriptive_family_reversal_dyads_missing": 2936,
+    "descriptive_family_reversal_dyads_total": 4379,
+    "descriptive_family_reversal_targets_covered": 796,
+    "descriptive_family_reversal_targets_missing": 1781,
+    "descriptive_family_reversal_targets_total": 2577,
+    "signed_test_informative_reversal_dyads_covered": 1138,
+    "signed_test_informative_reversal_dyads_missing": 2805,
+    "signed_test_informative_reversal_dyads_total": 3943,
+    "signed_test_informative_targets_covered": 604,
+    "signed_test_informative_targets_missing": 1655,
+    "signed_test_informative_targets_total": 2259
+  },
+  "provenance": {
+    "design": {
+      "path": "docs/SIGNED_KEGG_TRANSITION_MAP_EXPLORATORY_DESIGN_2026-08-25.md",
+      "sha256": "049ef0cc4bcfde6b71331e6b2d8dbeeed55b0f3004370680dc2137c0d06db29f",
+      "size_bytes": 6318
+    },
+    "inputs": {
+      "/Users/sabih/CoDEG_Tcell/data/genesets/c2.cp.kegg_legacy.v2026.1.Hs.json": {
+        "sha256": "44d32fd800957f30f8089740fc99c056867d6ffa1862a5e726c37eb9d4b9819f",
+        "size_bytes": 172086
+      },
+      "/Users/sabih/CoDEG_Tcell/data/genesets/c2.cp.kegg_legacy.v2026.1.Hs.symbols.gmt": {
+        "sha256": "4a87c8d1260e637ec174f5960885519d46fa29da650e70d3a3641a4d41c4fa5e",
+        "size_bytes": 100274
+      },
+      "/Users/sabih/CoDEG_Tcell/data/genesets/kegg_br08901.txt": {
+        "sha256": "86f3c0037e72b96e78b6ea379fc57d234c73b9bfa65f64c191a8d70e8db2a406",
+        "size_bytes": 25860
+      },
+      "results_data/census/census_master_edges.csv.gz": {
+        "sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+        "size_bytes": 9488575
+      },
+      "results_data/census/unique_reversal_target_kegg_ora_filtered_exploratory.json": {
+        "sha256": "97b174a9b08386184dbc379c81026dc1865e6391335a9e7103576f1936fefc8e",
+        "size_bytes": 243247
+      }
+    },
+    "script": {
+      "path": "scripts/signed_kegg_transition_map_exploratory.py",
+      "sha256": "3cbdaf646d9e391f4804487f3c2325febad42b6977189bee7a048dd0aab37198",
+      "size_bytes": 38938
+    },
+    "software": {
+      "matplotlib": "3.11.1",
+      "numpy": "2.5.2",
+      "pandas": "3.0.5",
+      "python": "3.14.7",
+      "scipy": "1.18.0"
+    }
+  },
+  "schema_version": "signed-kegg-transition-map-exploratory-v1",
+  "signed_target_test": {
+    "both_global_gates_pass": true,
+    "both_single_margin_maxT_supported_terms": 1,
+    "conditioning_boundary": "The target-conditioned and regulator-margin gates are complementary single-margin tests. Their p-values are not combined, and passing both does not condition both margins simultaneously.",
+    "n_permutations": 20000,
+    "negative_direction": "excess gained-on-activation orientation",
+    "null_calibration": "separate centring and studentisation within each complementary single-margin null; two-sided maxT; the two nulls are not a joint-conditioned null",
+    "pathway_score": "Z_j = sum(U_t) / sqrt(sum(Var[L_t]))",
+    "positive_direction": "excess lost-on-activation orientation",
+    "regulator_margin": {
+      "global_exceedances": 0,
+      "global_p_plus_one": 4.999750012499375e-05,
+      "global_pass": true,
+      "null_max_abs_T_mean": 2.5040005967152474,
+      "null_max_abs_T_q95": 3.266295935834932,
+      "observed_max_abs_T": 5.196481445247774
+    },
+    "regulator_seed": 2026082502,
+    "target_conditioned": {
+      "global_exceedances": 0,
+      "global_p_plus_one": 4.999750012499375e-05,
+      "global_pass": true,
+      "null_max_abs_T_mean": 2.5071319583134035,
+      "null_max_abs_T_q95": 3.2691879415292737,
+      "observed_max_abs_T": 5.276379894164125
+    },
+    "target_score": "U_t = L_t - K_t P_t / N_t",
+    "target_seed": 2026082501
+  },
+  "status": "EXPLORATORY_LOCALISATION_PASSES_BOTH_SINGLE_MARGIN_GATES"
+}

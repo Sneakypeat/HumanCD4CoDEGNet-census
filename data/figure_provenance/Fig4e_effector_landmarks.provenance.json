@@ -1,0 +1,49 @@
+{
+  "_what": "Figure 4e candidate: Figure 3 modules against the fixed Figure 1a landmarks",
+  "_script": "scripts/response_shape/fig4_effector_landmark_panel.py",
+  "census_master_sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+  "panel_box_in": [
+    2.494,
+    5.321
+  ],
+  "regulators": [
+    "CCNC",
+    "TADA2B",
+    "SUPT7L",
+    "AHR",
+    "ARNT",
+    "TAF6L",
+    "CBFB"
+  ],
+  "landmarks": [
+    "GZMA",
+    "GZMB",
+    "GNLY",
+    "PRF1",
+    "IFNG",
+    "TNF",
+    "NKG7",
+    "CCL5",
+    "CCL4",
+    "CCL3",
+    "CCR5",
+    "CCR1",
+    "CCR7",
+    "CCR2",
+    "IL2",
+    "IL2RA",
+    "IL2RB",
+    "CD69",
+    "CTLA4",
+    "IL2RG",
+    "SELL",
+    "TBX21",
+    "KLRB1",
+    "XCL1",
+    "XCL2"
+  ],
+  "n_cells": 37,
+  "n_reversal_cells": 19,
+  "n_stable_cells": 18,
+  "caption": "Reversal links from the Figure 3 modules to all 25 fixed T-cell effector landmarks shown in Figure 1a. Filled tiles denote reversals lost (red, solid) or gained (teal, hatched) after stimulation; outlines denote comparable edges, significant in both states, that did not reverse. A blank cell is a pair that was never significant in both states and was therefore never eligible to reverse. Circles and triangles identify intensity- and detection-dominant response shapes; the star marks the external CBFB-IL2RA assay anchor, which is metadata-ineligible for the response-shape layer. Landmark names in grey carry no edge of either kind from these regulators. The panel is descriptive and does not test individual edges, enrichment, direct regulation or mediation."
+}
