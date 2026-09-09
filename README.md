@@ -37,6 +37,18 @@ The permutation, bootstrap and resampling analyses behind the census ran on the
 UAEU HPC cluster under Slurm. Their outputs are committed, so the figure scripts
 here run on a laptop.
 
+## Citation
+
+If you use this code or the released census, please cite:
+
+> Rehman SS, Muhammad K, Alam MT. Direction of trans-regulatory effects reverses
+> genome-wide during human CD4+ T-cell activation. *Manuscript in preparation*.
+
+The networks are also deposited in NDEx: the full trans-regulatory census
+([9c91cf3e-ac18-11f1-a428-005056ae3c32](https://www.ndexbio.org/viewer/networks/9c91cf3e-ac18-11f1-a428-005056ae3c32))
+and the sign-reversal subnetwork
+([9982abce-9586-11f1-bdc8-005056ae3c32](https://www.ndexbio.org/viewer/networks/9982abce-9586-11f1-bdc8-005056ae3c32)).
+
 ## Licence
 
-See `LICENSE`.
+Released under the MIT Licence. See [LICENSE](LICENSE) for the full text.
