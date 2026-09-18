@@ -17,6 +17,8 @@ The compact outputs for the full-atlas RNA-content normalisation audit are
 total-UMI table is derived from the source atlas and is not redistributed here;
 [`scripts/analysis/rna_content_full_atlas.py`](scripts/analysis/rna_content_full_atlas.py)
 accepts that table explicitly via `--percell`.
+The post-hoc status, estimand and claim boundary are preserved in the
+[`RNA-content confound record`](docs/RNA_CONTENT_CONFOUND_2026-09-11.md).
 
 *   **Source atlas:** genome-scale CRISPRi Perturb-seq of primary human CD4+ T cells,
     Zhu et al., *Cell* (2026), [doi:10.1016/j.cell.2026.08.002](https://doi.org/10.1016/j.cell.2026.08.002).
