@@ -1,0 +1,35 @@
+{
+  "_script": "scripts/analysis/rna_content_direction_coherence.py",
+  "_source": "data/census/census_master_edges.csv.gz",
+  "_motivation": "test whether per-regulator global RNA-content shifts can explain the target-level organisation of reversal directions",
+  "_claim_boundary": "rules out a per-regulator global RNA-content artifact as the source of reversal organisation; it does not measure the mu-parallel response itself",
+  "census": {
+    "trans_edges": 83489,
+    "reversals": 4379,
+    "regulators": 617,
+    "targets": 9554
+  },
+  "direction_coherence": {
+    "_what": "reversal direction is coherent within targets more than expected after preserving each regulator's direction mix",
+    "min_reversals_per_group": 2,
+    "targets": {
+      "n_groups": 913,
+      "single_orientation": 633,
+      "fraction": 0.6933187294633077
+    },
+    "regulators": {
+      "n_groups": 227,
+      "single_orientation": 58,
+      "fraction": 0.2555066079295154
+    },
+    "within_regulator_permutation_null": {
+      "_design": "direction shuffled within each regulator while holding its lost/gained counts fixed",
+      "n_draws": 20000,
+      "seed": 20260911,
+      "null_mean": 0.37028154435925514,
+      "null_sd": 0.014538225907773346,
+      "observed": 0.6933187294633077,
+      "plus_one_p": 4.999750012499375e-05
+    }
+  }
+}

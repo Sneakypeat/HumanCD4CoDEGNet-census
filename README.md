@@ -7,6 +7,17 @@ A regulator can raise a target's expression in one cellular state and lower it i
 ## Data Availability
 The released census is provided as a signed, directed graph in `data/census/census_master_edges.csv.gz`. It carries the per-state log2 fold change, standard error and adjusted p-value of every edge.
 
+The extended methods are provided in
+[`docs/Extended_Protocol_M1-M21.pdf`](docs/Extended_Protocol_M1-M21.pdf), and the
+extended results in [`docs/Extended_Analysis_R1-R7.pdf`](docs/Extended_Analysis_R1-R7.pdf).
+The compact outputs for the full-atlas RNA-content normalisation audit are
+`data/census/rna_content_umi_shift_full_atlas.json`,
+`data/census/rna_content_per_regulator.tsv` and
+`data/census/rna_content_confound.json`. The underlying 14.85-million-cell
+total-UMI table is derived from the source atlas and is not redistributed here;
+[`scripts/analysis/rna_content_full_atlas.py`](scripts/analysis/rna_content_full_atlas.py)
+accepts that table explicitly via `--percell`.
+
 *   **Source atlas:** genome-scale CRISPRi Perturb-seq of primary human CD4+ T cells,
     Zhu et al., *Cell* (2026), [doi:10.1016/j.cell.2026.08.002](https://doi.org/10.1016/j.cell.2026.08.002).
     The processed differential-expression statistics this work reads are distributed
@@ -40,7 +51,7 @@ pip install -r requirements.txt
 **Run Figures:**
 Execute the polished figure scripts to reproduce the manuscript's figures:
 ```bash
-python scripts/01_process_census.py
+python scripts/census.py
 python scripts/figure1.py
 python scripts/figure2.py
 python scripts/figure3.py
@@ -48,7 +59,13 @@ python scripts/figure4.py
 python scripts/figureS1.py
 python scripts/figureS2.py
 python scripts/figureS3.py
+python scripts/figureS5.py
 ```
+
+Supplementary Figure S4 is the committed output of the network-adjusted
+enrichment job and has no separate renderer. The cluster command for the
+full-atlas audit and its 20,000-permutation coherence test is documented in
+`scripts/hpc/rna_content_normalisation.sbatch`.
 
 ## Compute
 

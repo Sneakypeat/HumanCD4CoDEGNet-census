@@ -1,0 +1,125 @@
+{
+  "percell_table": "$HOME/projects/codeg_atlas/work/rna_content/atlas_percell_umi_full.csv.gz",
+  "label": "full_atlas",
+  "min_cells_per_state": 25,
+  "n_cells": 14853023,
+  "ntc_median_umi": {
+    "Rest": 7674.0,
+    "Stim48hr": 11105.0
+  },
+  "ntc_umi_fold_stim_over_rest": 1.447094083919729,
+  "n_perturbations_tested": 12585,
+  "n_perturbations_passing_cell_floor": 11818,
+  "n_regulators_matched_to_census": 616,
+  "analysis_status": "RAN",
+  "opposite_sign": {
+    "n": 209,
+    "median_reversal_rate": 0.0
+  },
+  "same_sign": {
+    "n": 407,
+    "median_reversal_rate": 0.014492753623188406
+  },
+  "mannwhitney": {
+    "U": 36900.0,
+    "p": 0.004368084809295549,
+    "cliffs_delta": -0.13240774484793627
+  },
+  "carrier_fisher": {
+    "table_opp_carrier_noncarrier_same_carrier_noncarrier": [
+      92,
+      117,
+      231,
+      176
+    ],
+    "odds_ratio": 0.5991045991045991,
+    "p": 0.0028935936667076837
+  },
+  "spearman_shiftgap_vs_revrate": {
+    "rho": 0.18154634273961884,
+    "p": 5.7755606542828785e-06,
+    "n": 616
+  },
+  "partial_spearman": {
+    "n_edges": {
+      "rho": 0.1606606134343966,
+      "p": 6.276296691404302e-05,
+      "n": 616
+    },
+    "n_cells": {
+      "rho": 0.1762260899891219,
+      "p": 1.1035445974019059e-05,
+      "n": 616
+    },
+    "n_edges+n_cells": {
+      "rho": 0.14625737306285008,
+      "p": 0.00027658059683806043,
+      "n": 616
+    }
+  },
+  "shiftgap_vs_covariate": {
+    "n_edges": {
+      "rho": 0.09060424773841619,
+      "p": 0.024525367681965005
+    },
+    "n_cells": {
+      "rho": -0.047308643827343046,
+      "p": 0.24101992062787803
+    }
+  },
+  "carrier_cmh_by_edge_quartile": {
+    "odds_ratio": 0.601126785199389,
+    "strata": [
+      {
+        "edge_quartile": 0,
+        "opp_carrier": 7,
+        "opp_noncarrier": 46,
+        "same_carrier": 30,
+        "same_noncarrier": 78
+      },
+      {
+        "edge_quartile": 1,
+        "opp_carrier": 20,
+        "opp_noncarrier": 36,
+        "same_carrier": 39,
+        "same_noncarrier": 55
+      },
+      {
+        "edge_quartile": 2,
+        "opp_carrier": 35,
+        "opp_noncarrier": 25,
+        "same_carrier": 55,
+        "same_noncarrier": 37
+      },
+      {
+        "edge_quartile": 3,
+        "opp_carrier": 30,
+        "opp_noncarrier": 10,
+        "same_carrier": 107,
+        "same_noncarrier": 6
+      }
+    ]
+  },
+  "direction_vs_rna_shift": {
+    "n_reversal_edges_scored": 4376,
+    "n_regulators_scored": 323,
+    "regulator_level_spearman": {
+      "rho": 0.046080863113761306,
+      "p": 0.5311484159036717,
+      "n": 187,
+      "min_reversals_per_regulator": 3
+    },
+    "edge_level_mannwhitney": {
+      "median_delta_gained": -0.11506625001226164,
+      "median_delta_lost": -0.130188522551369,
+      "p": 0.0022621067963072543,
+      "cliffs_delta": 0.05335120048315867,
+      "caveat": "edges are clustered within regulators; not independent"
+    }
+  },
+  "target_direction_coherence": {
+    "n_targets_with_ge2_reversals": 913,
+    "single_orientation": 633,
+    "fraction": 0.6933187294633077
+  }
+}

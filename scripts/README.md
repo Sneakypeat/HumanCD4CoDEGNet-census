@@ -2,7 +2,7 @@
 
 ## What to run
 
-Nine entry points. Each is self-documenting; read its header for the analysis
+Ten entry points. Each is self-documenting; read its header for the analysis
 it performs, its inputs, and any cost warning.
 
 ```bash
@@ -16,14 +16,18 @@ python scripts/figure4.py          # Figure 4
 python scripts/figureS1.py         # Supplementary Figure S1
 python scripts/figureS2.py         # Supplementary Figure S2
 python scripts/figureS3.py         # Supplementary Figure S3
+python scripts/figureS5.py         # Supplementary Figure S5
 ```
 
 Supplementary Figure S4 has no renderer of its own: it is the published output
 of the enrichment job in `hpc/`, whose result is committed under
-`results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/`.
+`data/census/broad_alltarget_kegg_go_rank_enrichment_v2/`.
 
-`hpc/` documents the three analyses that ran on a cluster. Their outputs are
-committed, so nothing here needs one.
+`hpc/` documents the analyses that ran on a cluster. Their compact outputs are
+committed, so the figure renderers do not require cluster access. Re-running
+the M21 direct test requires the source-derived full-atlas per-cell total-UMI
+table and `hpc/rna_content_normalisation.sbatch`; its 20,000-permutation
+coherence test is also intentionally cluster-only.
 
 ## Everything else in this directory
 
