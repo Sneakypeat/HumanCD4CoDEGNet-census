@@ -1,0 +1,117 @@
+{
+  "analysis_status": "POSTHOC_EXPLORATORY_METHOD_CORRECTION",
+  "configuration": {
+    "bank_seeds": {
+      "A": 2026090221,
+      "B": 2026090222
+    },
+    "draws_per_bank": 10000,
+    "leading_edge_display": "strict peak and peak-score tie-expanded versions retained",
+    "libraries": [
+      "KEGG_Legacy_v2026.1",
+      "GO_Biological_Process_2023"
+    ],
+    "mode": "production",
+    "null": "without-replacement sampling within regulator-by-Rest-sign strata",
+    "ordinary_gsea_phenotype_permutation": false,
+    "ordinary_hypergeometric": false,
+    "statement_rule": "pooled and both bank-specific within-library BH q < 0.10",
+    "strict_rule": "one-sided synchronized maxT across all 2,593 terms at p < 0.05",
+    "target_score": "(observed pooled reversals - exact conditional mean) / exact conditional SD",
+    "term_size_filter_in_universe": [
+      10,
+      300
+    ],
+    "term_statistic": "one-sided positive weighted-p=1 running-sum ES",
+    "tie_break": "descending score, then frozen target index",
+    "universe": "all 9,554 eligible trans-census targets, including zero-reversal targets",
+    "zero_variance_score": 0
+  },
+  "created_at": "2026-09-04T19:25:39.285735+04:00",
+  "null_matrix_contract": {
+    "column_order": "01_terms.tsv term_index 0..2592",
+    "dtype": "float64",
+    "row_order": "draw 1..N within named bank",
+    "shape_each_bank": [
+      10000,
+      2593
+    ]
+  },
+  "provenance": {
+    "analysis_script": {
+      "path": "paper/scripts/broad_alltarget_kegg_go_rank_enrichment_v2.py",
+      "sha256": "e709551a1e46701b8ea927856de45afb1c4a9fe356f16b700aca0f175adbd851",
+      "size_bytes": 55596
+    },
+    "inputs": {
+      "data/genesets/GO_Biological_Process_2023.gmt": {
+        "path": "data/genesets/GO_Biological_Process_2023.gmt",
+        "sha256": "4be7e1b5ed62ab3a8a4837743fa8c9520fc572c5d28dcad8478ed136189908b9",
+        "size_bytes": 1374880
+      },
+      "data/genesets/c2.cp.kegg_legacy.v2026.1.Hs.json": {
+        "path": "data/genesets/c2.cp.kegg_legacy.v2026.1.Hs.json",
+        "sha256": "44d32fd800957f30f8089740fc99c056867d6ffa1862a5e726c37eb9d4b9819f",
+        "size_bytes": 172086
+      },
+      "data/genesets/c2.cp.kegg_legacy.v2026.1.Hs.symbols.gmt": {
+        "path": "data/genesets/c2.cp.kegg_legacy.v2026.1.Hs.symbols.gmt",
+        "sha256": "4a87c8d1260e637ec174f5960885519d46fa29da650e70d3a3641a4d41c4fa5e",
+        "size_bytes": 100274
+      },
+      "paper/results_data/census/census_master_edges.csv.gz": {
+        "path": "paper/results_data/census/census_master_edges.csv.gz",
+        "sha256": "0d753121d0e6e69313acd20b29e3431f01ad083a9f3515598f8e2d83775298ad",
+        "size_bytes": 9488575
+      },
+      "paper/results_data/census/census_master_manifest.json": {
+        "path": "paper/results_data/census/census_master_manifest.json",
+        "sha256": "1b4b6b7a74c255faf3ba3184b9f7fadf9171dc57167dfde4d9dd539b51dd0af5",
+        "size_bytes": 2591
+      },
+      "paper/results_data/census/fig3b_compound_target_pathway_randomization_freeze/production_v1/04_null_term_counts.tsv.gz": {
+        "path": "paper/results_data/census/fig3b_compound_target_pathway_randomization_freeze/production_v1/04_null_term_counts.tsv.gz",
+        "sha256": "28bb1388cf1de70bce8e4e58ee16b4be593560affd938349a9d9dde5ecc23bc7",
+        "size_bytes": 850688
+      },
+      "paper/scripts/fig3b_compound_target_pathway_randomization_v1.py": {
+        "path": "paper/scripts/fig3b_compound_target_pathway_randomization_v1.py",
+        "sha256": "4a2f5710f4763f6bc6b7b3b8dcd14309bed56a65c8c0dff9652cdc661688c297",
+        "size_bytes": 54710
+      },
+      "paper/scripts/fig3e_alltarget_rank_enrichment_v1.py": {
+        "path": "paper/scripts/fig3e_alltarget_rank_enrichment_v1.py",
+        "sha256": "bebc048e8a33c3dd8ef6ccc2df7af4a3f6f6896a7a60f2b620594581254fc0fe",
+        "size_bytes": 62346
+      }
+    },
+    "preexecution_design": {
+      "paper/docs/BROAD_ALLTARGET_KEGG_GO_RANK_ENRICHMENT_PREEXECUTION_V2_2026-09-04.md": {
+        "path": "paper/docs/BROAD_ALLTARGET_KEGG_GO_RANK_ENRICHMENT_PREEXECUTION_V2_2026-09-04.md",
+        "sha256": "3456e8d0adbe165a585f0c2df05ad8b68edef923bf24f1cc2f88dc531c8723af",
+        "size_bytes": 4989
+      },
+      "paper/results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/preexecution_v2.json": {
+        "path": "paper/results_data/census/broad_alltarget_kegg_go_rank_enrichment_v2/preexecution_v2.json",
+        "sha256": "070bb493128d366865cca40662812de46aa6aebe1f2d01b081ba69ba19558972",
+        "size_bytes": 1110
+      }
+    }
+  },
+  "question": "Are genes in a KEGG Legacy or GO Biological Process term generally shifted toward unusually high standardized excess pooled reversal burden?",
+  "schema_version": "broad-alltarget-kegg-go-rank-enrichment-v2",
+  "slurm": {
+    "cpus_per_task": "1",
+    "job_id": "466541",
+    "job_name": "broad_gsea_v2",
+    "mem_per_node": "16384",
+    "wrapper_path": "$HOME/projects/codeg_atlas/work/broad_gsea_v2_20260904_1909_frozen/CoDEG_Tcell/paper/scripts/broad_alltarget_kegg_go_rank_enrichment_v2.sbatch",
+    "wrapper_sha256": "abf244382b680538418a9b63ac50faaffdd0e09d7d2c54bd2c5cf687fd276f83"
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "python": "3.12.2",
+    "scipy": "1.13.1"
+  }
+}

@@ -1,5 +1,8 @@
 """Shared publication style + palette for the sign-reversal paper figures."""
-import os, matplotlib as mpl, matplotlib.pyplot as plt
+import os
+from pathlib import Path
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 
 PAL = dict(
     REST="#2c6fbb", STIM="#e07b39",
@@ -36,7 +39,9 @@ def setup(scale=1.0):
 # written with bbox_inches="tight" (that crops to content and silently discards the page size).
 A4_PORTRAIT = (8.27, 11.69)
 
-OUT = ("/Users/sabih/CoDEG_Tcell/paper/figures_final")
+# Figures are written inside the repository, so a clone renders without editing paths.
+OUT = os.environ.get("CODEG_FIGURE_DIR",
+                     str(Path(__file__).resolve().parents[1] / "figures"))
 os.makedirs(OUT, exist_ok=True)
 
 def panel_tag(ax, s, dx=-0.04, dy=1.06):

@@ -64,10 +64,23 @@ python scripts/figureS3.py
 python scripts/figureS5.py
 ```
 
-Supplementary Figure S4 is the committed output of the network-adjusted
-enrichment job and has no separate renderer. The cluster command for the
-full-atlas audit and its 20,000-permutation coherence test is documented in
+Supplementary Figure S4 is rendered by [`scripts/figureS4.py`](scripts/figureS4.py)
+from the network-adjusted enrichment run in
+`data/census/broad_alltarget_kegg_go_rank_enrichment_v2/production_v2`. Every file of
+that run is committed except the two permutation null banks, which are 198 MB each and
+are regenerated with their checksum ledger by
+[`scripts/hpc/enrichment_permutation_banks.sbatch`](scripts/hpc/enrichment_permutation_banks.sbatch).
+Point the renderer at a completed run with `CODEG_ENRICHMENT_DIR`. The cluster command for
+the full-atlas audit and its 20,000-permutation coherence test is documented in
 `scripts/hpc/rna_content_normalisation.sbatch`.
+
+## Pre-registration
+
+Each analysis whose design had to be fixed before the outcome data were joined has its
+pre-registration committed under [`docs/prereg/`](docs/prereg/), covering the cell-cycle
+axis test, the reversal-burden GSEA, the co-target module structure, the
+orientation-versus-function matching and the pathway-coherence test. The extended
+protocol (M1-M21) and extended results (R1-R7) are in [`docs/`](docs/).
 
 ## Compute
 

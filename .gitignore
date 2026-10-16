@@ -83,3 +83,7 @@ results/ndex/
 
 # figure3 renderer bundle: panel source tables, rebuilt by scripts/figure3.py
 data/figure3_bundle/
+
+# Python bytecode caches
+__pycache__/
+*.pyc

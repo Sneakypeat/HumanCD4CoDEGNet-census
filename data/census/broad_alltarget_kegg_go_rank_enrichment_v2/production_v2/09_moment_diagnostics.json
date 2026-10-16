@@ -1,0 +1,24 @@
+{
+  "banks": {
+    "A": {
+      "diagnostic_only": true,
+      "draws": 10000,
+      "empirical_count_sum": 4379.0,
+      "expected_count_sum": 4379.0,
+      "mean_rmse_variable_targets": 0.006384577532217544,
+      "variance_rmse_variable_targets": 0.008939676301830011,
+      "zero_weight_term_draws_total": 0
+    },
+    "B": {
+      "diagnostic_only": true,
+      "draws": 10000,
+      "empirical_count_sum": 4379.0,
+      "expected_count_sum": 4379.0,
+      "mean_rmse_variable_targets": 0.006366680471951915,
+      "variance_rmse_variable_targets": 0.009052964337743169,
+      "zero_weight_term_draws_total": 0
+    }
+  },
+  "exact_target_moments": "sum of Bernoulli p and p(1-p) contributions across fixed regulator-by-Rest-sign strata",
+  "schema_version": "broad-alltarget-kegg-go-rank-enrichment-v2-moment-diagnostics"
+}

@@ -1,0 +1,26 @@
+{
+  "analysis_status": "POSTHOC_EXPLORATORY_METHOD_CORRECTION",
+  "claim_boundary": "This is a competitive all-target shift toward high standardized excess pooled reversal burden. It is not pathway activity, direction of reversal, mechanism, validation of individual edges, or enrichment among the selected 279 targets.",
+  "families": {
+    "GO_Biological_Process_2023": {
+      "global_familywise_supported": 12,
+      "statement_eligible": 161,
+      "terms_tested": 2425
+    },
+    "KEGG_Legacy_v2026.1": {
+      "global_familywise_supported": 0,
+      "statement_eligible": 9,
+      "terms_tested": 168
+    }
+  },
+  "schema_version": "broad-alltarget-kegg-go-rank-enrichment-v2-summary",
+  "total_global_familywise_stable": 10,
+  "total_global_familywise_supported": 12,
+  "total_statement_eligible": 170,
+  "universe": {
+    "observed_reversal_edges": 4379,
+    "targets": 9554,
+    "targets_with_zero_observed_reversals": 6977,
+    "trans_edges": 83489
+  }
+}
